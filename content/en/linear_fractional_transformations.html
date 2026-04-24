@@ -32,92 +32,94 @@
           \begin{eqnarray}\label{mobius}
           T(z) = \frac{az+b}{cz+d}
           \end{eqnarray}
-          is called <em>linear fractional transformation</em>, or <em>Möbius transformation</em>. 
+          is called <em>linear fractional transformation</em>, or <em>Möbius transformation</em>.
           Observe that we can also write (\ref{mobius}) in the form
-          <div class="scroll-wrapper">
-            \begin{eqnarray}\label{bilinear}
+        <div class="scroll-wrapper">
+          \begin{eqnarray}\label{bilinear}
           Azw + Bz+Cw+D = 0 \qquad (AD-BC\neq 0);
           \end{eqnarray}
-          </div>
-          with $w = T(z).$ Since this alternative form is linear in $z$ and linear in $w,$
-          another name for linear fractional transformation is 
-          <em>bilinear transformation</em>.
+        </div>
+        with $w = T(z).$ Since this alternative form is linear in $z$ and linear in $w,$
+        another name for linear fractional transformation is
+        <em>bilinear transformation</em>.
         </p>
 
 
         <p>
           If $c=0,$ then the condition $ad-bc\neq 0$ with equation (\ref{mobius})
           becomes $ad\neq 0.$ So the transformation $T$ reduces to a nonconstant linear function
-          $az+b.$ When $c\neq 0,$ then we can write equation (\ref{mobius}) as 
-          <div class="scroll-wrapper">
+          $az+b.$ When $c\neq 0,$ then we can write equation (\ref{mobius}) as
+        <div class="scroll-wrapper">
           \begin{eqnarray}\label{mobius-composition}
-          T(z) =  \frac{bc-ad}{c}\cdot \frac{1}{cz+d}+ \frac{a}{c}  \qquad (ad-bc\neq 0)
+          T(z) = \frac{bc-ad}{c}\cdot \frac{1}{cz+d}+ \frac{a}{c} \qquad (ad-bc\neq 0)
           \end{eqnarray}
-          </div>
+        </div>
         </p>
         <p>Again, the condition $ad-bc\neq 0$ ensures that we do not have a constant function.
-          The transformation $T(z)=1/z$ us obviously a special case of (\ref{mobius})
-          when $c\neq 0.$ (We already covered this function in 
-          <a href="mapping_1overz.html" target="_blank">Chapter 3</a>)</p>
+          The transformation $T(z)=1/z$ is obviously a special case of (\ref{mobius})
+          when $c\neq 0.$ (We already covered this function in
+          <a href="mapping_1overz.html" target="_blank">Chapter 3</a>)
+        </p>
 
         <p>
-          Equation (\ref{mobius-composition}) reveals that a linear transformation 
+          Equation (\ref{mobius-composition}) reveals that a linear transformation
           is a composition of the mappings:
-          <div class="scroll-wrapper">
-            \[
-          f(z)=  \frac{bc-ad}{c}z+\frac{a}{c},\quad g(z) = \frac{1}{z}, \quad h(z) = cz+d.
+        <div class="scroll-wrapper">
+          \[
+          f(z)= \frac{bc-ad}{c}z+\frac{a}{c},\quad g(z) = \frac{1}{z}, \quad h(z) = cz+d.
           \]
-          </div>
+        </div>
         </p>
-        <p>That is, $T(z) = f\circ g \circ h(z) =  f\left( g\left( h(z)\right)\right).$
+        <p>That is, $T(z) = f\circ g \circ h(z) = f\left( g\left( h(z)\right)\right).$
           Thus it follows that, regardless of whether $c$ is zero or nonzero,
-          any linear fractional transformation 
-          <em>maps circles and lines into circles and lines</em>. 
-          You can easily verify this for the functions $f$ and $h.$ 
-          The function $g$ was already explored in 
-          the section: <a href="mapping_1overz.html" target="_blank">The Transformation $1/z$</a>. </p>
+          any linear fractional transformation
+          <em>maps circles and lines into circles and lines</em>.
+          You can easily verify this for the functions $f$ and $h.$
+          The function $g$ was already explored in
+          the section: <a href="mapping_1overz.html" target="_blank">The Transformation $1/z$</a>.
+        </p>
 
         <p>
           The domain of a linear fractional transformation $T$ given in (\ref{mobius})
-          is the set of all complex $z$ such that $z\neq d/c.$ Moreover, since 
+          is the set of all complex $z$ such that $z\neq d/c.$ Moreover, since
           \[
           T'(z) = \frac{ad-bc}{\left(cz+d\right)^2},
           \]
-          with $ad-bc \neq 0,$ then 
+          with $ad-bc \neq 0,$ then
           <em>linear fractional transformations are conformal on their domains</em>.
         </p>
 
         <p>
-          When $c\neq 0,$ that is, when $T$ is not a linear function, it is often 
+          When $c\neq 0,$ that is, when $T$ is not a linear function, it is often
           useful to view $T$ as a mapping of the extended complex plane:
-          <div class="scroll-wrapper">
-            \begin{eqnarray}\label{mobius-extended}
-            T(z) = \left\{
-              \begin{array}{ll}
-              \dfrac{az+b}{cz+d}, & z\neq -\dfrac{d}{c}, z\neq \infty\\
-              \infty, & z=-\dfrac{d}{c}\\
-              \dfrac{a}{c}, & z=\infty.
-              \end{array}
-              \right.
-            \end{eqnarray}
-            </div>
+        <div class="scroll-wrapper">
+          \begin{eqnarray}\label{mobius-extended}
+          T(z) = \left\{
+          \begin{array}{ll}
+          \dfrac{az+b}{cz+d}, & z\neq -\dfrac{d}{c}, z\neq \infty\\
+          \infty, & z=-\dfrac{d}{c}\\
+          \dfrac{a}{c}, & z=\infty.
+          \end{array}
+          \right.
+          \end{eqnarray}
+        </div>
         </p>
 
         <p>
-          In this case, $T$ is a one-to-one mapping of the extended 
-            complex plane. So there exists $T^{-1}$ such that 
-            $T^{-1}\left(T(z)\right) = z =T\left(T^{-1}(z)\right).$ In this case
-            $T^{-1}$ is also a linear fractional transformation and is defined as
-            \[
-            T^{-1}(w) = \frac{-dw + b}{cw -a} \qquad (ad-bc\neq 0).
-            \]
+          In this case, $T$ is a one-to-one mapping of the extended
+          complex plane. So there exists $T^{-1}$ such that
+          $T^{-1}\left(T(z)\right) = z =T\left(T^{-1}(z)\right).$ In this case
+          $T^{-1}$ is also a linear fractional transformation and is defined as
+          \[
+          T^{-1}(w) = \frac{-dw + b}{cw -a} \qquad (ad-bc\neq 0).
+          \]
         </p>
 
         <p>
-          In applications we often need to find a conformal mapping from a domain $D$ 
-          that is bounded by circles onto a domain $D'$ that is bounded by lines. 
-          Linear fractional transformations are, in particular, well-suited for 
-          such applications. 
+          In applications we often need to find a conformal mapping from a domain $D$
+          that is bounded by circles onto a domain $D'$ that is bounded by lines.
+          Linear fractional transformations are, in particular, well-suited for
+          such applications.
         </p>
 
       </div>
@@ -128,58 +130,60 @@
 
         <h2>Cross Ratios</h2>
 
-        
+
 
         <p>
           Consider the following equation
-          <div class="scroll-wrapper">
-            \begin{eqnarray}\label{cross}
-            \frac{\left(w- w_1\right)\left(w_2- w_3\right)}{\left(w- w_3\right)\left(w_2- w_1\right)} = \frac{\left(z- z_1\right)\left(z_2- z_3\right)}{\left(z- z_3\right)\left(z_2- z_1\right)}.
-            \end{eqnarray}
-            </div>
-            The two sides of this equation are known as <em>cross ratios</em>. 
-         
+        <div class="scroll-wrapper">
+          \begin{eqnarray}\label{cross}
+          \frac{\left(w- w_1\right)\left(w_2- w_3\right)}{\left(w- w_3\right)\left(w_2- w_1\right)} = \frac{\left(z-
+          z_1\right)\left(z_2- z_3\right)}{\left(z- z_3\right)\left(z_2- z_1\right)}.
+          \end{eqnarray}
+        </div>
+        The two sides of this equation are known as <em>cross ratios</em>.
+
         </p>
 
         <p>
           Equation (\ref{cross}) defines (implicitly) a linear fractional transformation that maps
-          distinct three points $z_1,$ $z_2,$ and $z_3$ in the finite $z$ plane 
-          onto three distinct points  $w_1,$ $w_2,$ and $w_3,$ respectively, in the finite $w$ plane.
+          distinct three points $z_1,$ $z_2,$ and $z_3$ in the finite $z$ plane
+          onto three distinct points $w_1,$ $w_2,$ and $w_3,$ respectively, in the finite $w$ plane.
           We can easily verify this by writing equation (\ref{cross}) as
-          <div class="scroll-wrapper">
-            \begin{eqnarray}\label{cross-02}
-            \left(z- z_3\right)\left(w- w_1\right)\left(z_2- z_1\right)\left(w_2- w_3\right) = \left(z- z_1\right)\left(w- w_3\right)\left(z_2- z_3\right)\left(w_2- w_1\right)  
-            \end{eqnarray}
+        <div class="scroll-wrapper">
+          \begin{eqnarray}\label{cross-02}
+          \left(z- z_3\right)\left(w- w_1\right)\left(z_2- z_1\right)\left(w_2- w_3\right) = \left(z- z_1\right)\left(w-
+          w_3\right)\left(z_2- z_3\right)\left(w_2- w_1\right)
+          \end{eqnarray}
+        </div>
+        <ul>
+          <li>
+            If $z=z_1,$ then the right-hand side of (\ref{cross-02}) is zero. So $w=w_1.$
+          </li>
+          <li>
+            If $z=z_2,$ then we have the linear equation
+            <div class="scroll-wrapper">
+              \[
+              \left(w- w_1\right)\left(w_2- w_3\right)=\left(w- w_3\right)\left(w_2- w_1\right)
+              \]
             </div>
-            <ul>
-              <li>
-                If $z=z_1,$ then the right-hand side of (\ref{cross-02}) is zero. So $w=w_1.$
-              </li>
-              <li>
-                If $z=z_2,$ then we have the linear equation
-                <div class="scroll-wrapper">
-                  \[
-                \left(w- w_1\right)\left(w_2- w_3\right)=\left(w- w_3\right)\left(w_2- w_1\right)
-                \]
-                </div>
-                whose unique solution is $w=w_2.$
-              </li>
-              <li>
-                If $z=z_3,$ then the left-hand side of (\ref{cross-02}) is zero; and consequently,
-                $w=w_3.$
-              </li>
-            </ul>
+            whose unique solution is $w=w_2.$
+          </li>
+          <li>
+            If $z=z_3,$ then the left-hand side of (\ref{cross-02}) is zero; and consequently,
+            $w=w_3.$
+          </li>
+        </ul>
         </p>
 
         <p>
-          It can be proved that equation (\ref{cross}) defines linear fractional transformation 
+          It can be proved that equation (\ref{cross}) defines linear fractional transformation
           by expanding the products of (\ref{cross-02}) and writing the result in the form
           \[
           Azw+Bz+Cw+D=0 \qquad (AD-BC\neq 0).
           \]
           As an exercise, prove that equation (\ref{cross}) actually defines the <em>only</em>
           linear mapping the points $z_1,$ $z_2,$ and $z_3$
-          onto  $w_1,$ $w_2,$ and $w_3,$ respectively.
+          onto $w_1,$ $w_2,$ and $w_3,$ respectively.
         </p>
 
         <div class="practice">
@@ -187,43 +191,47 @@
             <strong>
               Example 1:
             </strong>
-            To find a linear fractional transformation that maps 
+            To find a linear fractional transformation that maps
             $z_1=1,$ $z_2=i,$ and $z_3=-1$ onto $w_1=-1,$ $w_2=0,$ and $w_3=1,$
-            we use equation (\ref{cross}) to write 
-             <div class="scroll-wrapper">
-              \begin{eqnarray*}
-              \frac{\left(w+1\right)\left(0-1\right)}{\left(w- 1\right)\left(0+ 1\right)} = \frac{\left(z- 1\right)\left(i + 1\right)}{\left(z+1\right)\left(i- 1\right)}.
-              \end{eqnarray*}
-              </div>
-              Solving for $w$ in terms of $z$ we obtain 
-              \[
-              w = T(z) = \frac{z-i}{iz-1}.
-              \]
+            we use equation (\ref{cross}) to write
+          <div class="scroll-wrapper">
+            \begin{eqnarray*}
+            \frac{\left(w+1\right)\left(0-1\right)}{\left(w- 1\right)\left(0+ 1\right)} = \frac{\left(z- 1\right)\left(i
+            + 1\right)}{\left(z+1\right)\left(i- 1\right)}.
+            \end{eqnarray*}
+          </div>
+          Solving for $w$ in terms of $z$ we obtain
+          \[
+          w = T(z) = \frac{z-i}{iz-1}.
+          \]
           </p>
         </div>
 
         <p>
-          If equation (\ref{cross}) is modified properly, it can also be used when the point 
-          at infinity is one of the prescribed points in either the (extended) $z$ or 
+          If equation (\ref{cross}) is modified properly, it can also be used when the point
+          at infinity is one of the prescribed points in either the (extended) $z$ or
           $w$ plane. Suppose, for example, that $z_1=\infty.$ Since any linear fractional
-           transformation is continuous on the extended plane, we need only replace 
-           $z_1$ on the right-hand side of equation (\ref{cross}) 
-           by $1/z_1,$ clear fractions, and 
-            let $z_1$ tend to zero. That is
-            <div class="scroll-wrapper">
-              \begin{eqnarray*}
-              \lim_{z_1\to 0}  \frac{\left(z- 1/z_1\right)\left(z_2 -z_3\right)}{\left(z-z_3\right)\left(z_2- 1/z_1\right)}\cdot \frac{z_1}{z_1} =  \lim_{z_1\to 0}  \frac{\left(z_1z- 1/z\right)\left(z_2 -z_3\right)}{\left(z-z_3\right)\left(z_1z_2- 1\right)} =  \frac{z_2 -z_2}{z-z_3} .
-              \end{eqnarray*}
-             </div>
-          Thus we obtain the desired modification of equation (\ref{cross}) 
-          <div class="scroll-wrapper">
-            \begin{eqnarray*}
-            \frac{\left(w- w_1\right)\left(w_2- w_3\right)}{\left(w- w_3\right)\left(w_2- w_1\right)} = \frac{\left(z_2- z_3\right)}{\left(z- z_3\right)}.
-            \end{eqnarray*}
-            </div>
-           This modification is obtained by simply deleting the factors involving 
-           $z_1$ in equation (\ref{cross}). It is easy to check that the same  approach 
-           applies when any of the other prescribed points is $\infty.$
+          transformation is continuous on the extended plane, we need only replace
+          $z_1$ on the right-hand side of equation (\ref{cross})
+          by $1/z_1,$ clear fractions, and
+          let $z_1$ tend to zero. That is
+        <div class="scroll-wrapper">
+          \begin{eqnarray*}
+          \lim_{z_1\to 0} \frac{\left(z- 1/z_1\right)\left(z_2 -z_3\right)}{\left(z-z_3\right)\left(z_2-
+          1/z_1\right)}\cdot \frac{z_1}{z_1} = \lim_{z_1\to 0} \frac{\left(z_1z- 1/z\right)\left(z_2
+          -z_3\right)}{\left(z-z_3\right)\left(z_1z_2- 1\right)} = \frac{z_2 -z_2}{z-z_3} .
+          \end{eqnarray*}
+        </div>
+        Thus we obtain the desired modification of equation (\ref{cross})
+        <div class="scroll-wrapper">
+          \begin{eqnarray*}
+          \frac{\left(w- w_1\right)\left(w_2- w_3\right)}{\left(w- w_3\right)\left(w_2- w_1\right)} = \frac{\left(z_2-
+          z_3\right)}{\left(z- z_3\right)}.
+          \end{eqnarray*}
+        </div>
+        This modification is obtained by simply deleting the factors involving
+        $z_1$ in equation (\ref{cross}). It is easy to check that the same approach
+        applies when any of the other prescribed points is $\infty.$
         </p>
 
         <div class="practice">
@@ -231,31 +239,33 @@
             <strong>
               Example 2:
             </strong>
-            To find a linear fractional transformation that maps 
+            To find a linear fractional transformation that maps
             $z_1=1,$ $z_2=0,$ and $z_3=-1$ onto $w_1=i,$ $w_2=\infty,$ and $w_3=1,$
             we use the modification
-             <div class="scroll-wrapper">
-              \begin{eqnarray*}
-            \frac{\left(w- w_1\right)}{\left(w- w_3\right)} = \frac{\left(z- z_1\right)\left(z_2- z_3\right)}{\left(z- z_3\right)\left(z_2- z_1\right)}.
+          <div class="scroll-wrapper">
+            \begin{eqnarray*}
+            \frac{\left(w- w_1\right)}{\left(w- w_3\right)} = \frac{\left(z- z_1\right)\left(z_2- z_3\right)}{\left(z-
+            z_3\right)\left(z_2- z_1\right)}.
             \end{eqnarray*}
-              </div>
-              of equation (\ref{cross}). 
-              Thus 
-              <div class="scroll-wrapper">
-                \begin{eqnarray*}
-              \frac{\left(w- i\right)}{\left(w- 1\right)} = \frac{\left(z- 1\right)\left(0+1\right)}{\left(z+1\right)\left(0- 1\right)}.
-              \end{eqnarray*}
-                </div>
+          </div>
+          of equation (\ref{cross}).
+          Thus
+          <div class="scroll-wrapper">
+            \begin{eqnarray*}
+            \frac{\left(w- i\right)}{\left(w- 1\right)} = \frac{\left(z-
+            1\right)\left(0+1\right)}{\left(z+1\right)\left(0- 1\right)}.
+            \end{eqnarray*}
+          </div>
           </p>
           <p>
-            Solving for $w$ we obtain 
+            Solving for $w$ we obtain
             \[
             w = T(z) = \frac{(i+1)z+(i-1)}{2z}.
             \]
           </p>
         </div>
 
-       
+
       </div>
 
       <hr>
@@ -269,48 +279,210 @@
           \begin{eqnarray}\label{upper}
           T(z) = e^{i\alpha} \frac{z- z_0}{z-\conj{z}},
           \end{eqnarray}
-          with $\alpha\in \R$ and $\Im(z_0)\gt 0,$ defines all 
-          linear fractional transformations  that map 
+          with $\alpha\in \R$ and $\Im(z_0)\gt 0,$ defines all
+          linear fractional transformations that map
           the upper half plane $\Im(z)$ onto the open disk $|w| \lt 1 $
-          and the boundary $\Im(z)=0$ of the half plane onto the boundary 
+          and the boundary $\Im(z)=0$ of the half plane onto the boundary
           $|w| = 1$ of the disk.
         </p>
 
-        
+
 
         <p>
           Use the applet below to explore the transformation defined in (\ref{upper}).
-          Here we start in the disk $|w| \leq 1.$ Drag the slider to apply the 
+          Here we start in the disk $|w| \leq 1.$ Drag the slider to apply the
           transformation. Then
           drag around the point $z_0$ and observe what happens.
           You can also modify the value of $\alpha.$
           What do you notice? What do you wonder?
         </p>
-        <br/>
+        <br />
 
-        <div  class="ggbElement" id="ggb-element-1"></div>
+        <div class="ggbElement" id="ggb-element-1"></div>
 
         <div class="practice">
 
           <p>
             <strong>Exercise 1:</strong>
             Based on your observations from the previous applet,
-            what can you say about the transformation when 
-            $\Im(z_0) = 0$  or $\Im(z_0) \lt 0$? 
+            what can you say about the transformation when
+            $\Im(z_0) = 0$ or $\Im(z_0) \lt 0$?
             What happens when you modify the value of $\alpha$?
           </p>
-          
-           
-            <p>
-              <strong>Exercise 2:</strong>
-              Prove that the transformation defined in (\ref{upper}) 
-              maps the half plane $\Im (z) \gt 0$ onto the disk 
-              $|w| \lt 1$ and the boundary of the half 
-              plane onto the boundary of the disk.
-            </p>
-         
+
+
+          <p>
+            <strong>Exercise 2:</strong>
+            Prove that the transformation defined in (\ref{upper})
+            maps the half plane $\Im (z) \gt 0$ onto the disk
+            $|w| \lt 1$ and the boundary of the half
+            plane onto the boundary of the disk.
+          </p>
+
         </div>
-        <br/>
+        <br />
+      </div>
+
+      <hr>
+
+      <div id="section4">
+
+        <h2>Classification of Möbius Transformations</h2>
+
+        <p>
+          A fundamental way to understand linear fractional (Möbius) transformations
+          is through their fixed points. A point $z_0$ is called a <em>fixed point</em>
+          of a transformation $T$ if
+          \[
+          T(z_0) = z_0.
+          \]
+          For a transformation
+          \[
+          T(z) = \frac{az+b}{cz+d}, \qquad (ad-bc \neq 0),
+          \]
+          the fixed points are obtained by solving
+          \[
+          \frac{az+b}{cz+d} = z,
+          \]
+          which leads to the quadratic equation
+          \[
+          cz^2 + (d-a)z - b = 0.
+          \]
+        </p>
+
+        <p>
+          Thus, a Möbius transformation has either one or two fixed points
+          in the extended complex plane. This observation leads to a natural classification.
+        </p>
+
+        <h3>1. Transformations with two distinct fixed points</h3>
+
+        <p>
+          If the quadratic equation has two distinct solutions, then the transformation
+          has two distinct fixed points. In this case, the transformation is conjugate
+          to a simple dilation or rotation of the form
+          \[
+          S(z) = kz, \qquad k \neq 0,1.
+          \]
+        </p>
+
+        <ul>
+          <li>
+            If $|k| \neq 1$, the transformation is called a <em>hyperbolic transformation</em>.
+          </li>
+          <li>
+            If $|k| = 1$ (but $k \neq 1$ to avoid the identity), the transformation is called an <em>elliptic
+              transformation</em>.
+          </li>
+        </ul>
+
+        <p>
+          Geometrically, these transformations preserve the set of circles and lines
+          and act as scalings or rotations after a suitable change of coordinates.
+        </p>
+
+        <h3>2. Transformations with one (double) fixed point</h3>
+
+        <p>
+          If the quadratic equation has a repeated root, then the transformation has
+          exactly one fixed point in the extended complex plane. In this case, the
+          transformation is conjugate to a translation
+          \[
+          S(z) = z + c, \qquad c \neq 0.
+          \]
+        </p>
+
+        <p>
+          Such transformations are called <em>parabolic transformations</em>.
+        </p>
+
+        <h3>3. Classification using the trace</h3>
+
+        <p>
+          Another useful classification arises by associating the transformation
+          with the matrix
+          \[
+          \begin{pmatrix}
+          a & b \\
+          c & d
+          \end{pmatrix},
+          \qquad ad - bc \neq 0.
+          \]
+        </p>
+
+        <p>
+          After normalizing so that $ad-bc = 1$, the classification depends on the trace:
+          \[
+          \tau = a + d.
+          \]
+        </p>
+
+        <ul>
+          <li>
+            <strong>Elliptic:</strong> $|\tau| < 2$ </li>
+          <li>
+            <strong>Parabolic:</strong> $|\tau| = 2$
+          </li>
+          <li>
+            <strong>Hyperbolic:</strong> $|\tau| > 2$
+          </li>
+        </ul>
+
+        <p>
+          This classification is particularly important in geometry and dynamical systems,
+          where it describes the qualitative behavior of iterates of the transformation.
+        </p>
+
+        <p>
+          The following animation provides a visual illustration
+          of the classification of Möbius transformations.
+          Select the graphic view with mouse
+          and then press the keys:
+
+        </p>
+
+        <p style="text-align: center; margin-top: -5px;">
+          <tt style="font-size: 80%;">
+            1. Elliptic, 2. Hyperbolic, 3. Loxodromic, 4. Parabolic,
+            5. Show/Hide Sphere.
+          </tt>
+        </p>
+
+        <iframe style="width: 100%; height: 450px; border: none;"
+          src="https://geometria-hiperbolica.github.io/sketches/mobius/showcase.html"></iframe>
+        <div style="margin-top: -30px;">
+          <p style="text-align: center;">
+
+            <a href="https://geometria-hiperbolica.github.io/sketches/mobius/showcase.html" target="_blank">
+              Full screen
+              <i class="fa fa-external-link-alt"></i></a>
+          </p>
+        </div>
+
+        <div class="practice">
+          <p>
+            <strong>Exercise 3:</strong>
+            Find and classify the fixed points of the transformation
+            \[
+            T(z) = \frac{2z+1}{z+1}.
+            \]
+            Determine whether it is elliptic, parabolic, or hyperbolic.
+          </p>
+
+          <details>
+            <summary><strong>Solution</strong></summary>
+            <p>
+            <ul>
+              <li>Fixed points: $\dfrac{1\pm\sqrt{5}}{2}$</li>
+              <li>
+                Classification: <b>Hyperbolic</b>, since $|\tau| = 3 \gt 2,$
+              </li>
+            </ul>
+            </p>
+          </details>
+
+        </div>
+
       </div>
 
     </article>
@@ -330,7 +502,7 @@
       "enableShiftDragZoom": false,
       "showResetIcon": true
     };
-    
+
     /*
     let params2 = {
         "width": 675,
@@ -343,7 +515,7 @@
         "showResetIcon": true
     };
     */
-    
+
     let ggbApplet1 = new GGBApplet(params1, true);
     //let ggbApplet2 = new GGBApplet(params2, true);
     window.addEventListener("load", () => {

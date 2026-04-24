@@ -10,6 +10,7 @@
       <li><a href="#section1">Transformaciones lineales...</a></li>
       <li><a href="#section2">Razones Cruzadas</a></li>
       <li><a href="#section3">Mapeos del plano...</a></li>
+      <li><a href="#section4">Clasificación</a></li>
       <!-- Add more sections as needed -->
     </ul>
   </div>
@@ -285,7 +286,7 @@
           con $\alpha\in \R$ y $\Im(z_0)\gt 0,$ define todas las
           transformaciones lineales fraccionales que mapean
           el semiplano superior $\Im(z)$ en el disco abierto $|w| \lt 1 $
-          y la frontera $\Im(z)=0$ del semiplano en la frontera 
+          y la frontera $\Im(z)=0$ del semiplano en la frontera
           $|w| = 1$ del disco.
         </p>
 
@@ -316,13 +317,172 @@
 
           <p>
             <strong>Ejercicio 2:</strong>
-            Desmuestra que la transformación definida en  (\ref{upper})
-            mapea el  semiplano superior  $\Im (z) \gt 0$ en el disco
+            Desmuestra que la transformación definida en (\ref{upper})
+            mapea el semiplano superior $\Im (z) \gt 0$ en el disco
             $|w| \lt 1$ y la frontera del semiplano en la frontera del disco.
           </p>
 
         </div>
         <br />
+      </div>
+
+      <div id="section4">
+
+        <h2>Clasificación de las transformaciones de Möbius</h2>
+
+        <p>
+          Una forma fundamental de entender las transformaciones lineales fraccionarias (de Möbius)
+          es a través de sus puntos fijos. Un punto $z_0$ se llama <em>punto fijo</em>
+          de una transformación $T$ si
+          \[
+          T(z_0) = z_0.
+          \]
+          Para una transformación
+          \[
+          T(z) = \frac{az+b}{cz+d}, \qquad (ad-bc \neq 0),
+          \]
+          los puntos fijos se obtienen resolviendo
+          \[
+          \frac{az+b}{cz+d} = z,
+          \]
+          lo que conduce a la ecuación cuadrática
+          \[
+          cz^2 + (d-a)z - b = 0.
+          \]
+        </p>
+
+        <p>
+          Así, una transformación de Möbius tiene ya sea uno o dos puntos fijos
+          en el plano complejo extendido. Esta observación conduce a una clasificación natural.
+        </p>
+
+        <h3>1. Transformaciones con dos puntos fijos distintos</h3>
+
+        <p>
+          Si la ecuación cuadrática tiene dos soluciones distintas, entonces la transformación
+          tiene dos puntos fijos distintos. En este caso, la transformación es conjugada
+          a una simple dilatación o rotación de la forma
+          \[
+          S(z) = kz, \qquad k \neq 0,1.
+          \]
+        </p>
+
+        <ul>
+          <li>
+            Si $|k| \neq 1$, la transformación se llama <em>transformación hiperbólica</em>.
+          </li>
+          <li>
+            Si $|k| = 1$ (pero $k \neq 1$ para evitar la identidad), la transformación se llama <em>transformación
+              elíptica</em>.
+          </li>
+        </ul>
+
+        <p>
+          Geométricamente, estas transformaciones preservan el conjunto de círculos y rectas
+          y actúan como escalamientos o rotaciones después de un cambio de coordenadas adecuado.
+        </p>
+
+        <h3>2. Transformaciones con un punto fijo (doble)</h3>
+
+        <p>
+          Si la ecuación cuadrática tiene una raíz repetida, entonces la transformación tiene
+          exactamente un punto fijo en el plano complejo extendido. En este caso, la
+          transformación es conjugada a una traslación
+          \[
+          S(z) = z + c, \qquad c \neq 0.
+          \]
+        </p>
+
+        <p>
+          Tales transformaciones se llaman <em>transformaciones parabólicas</em>.
+        </p>
+
+        <h3>3. Clasificación mediante la traza</h3>
+
+        <p>
+          Otra clasificación útil surge al asociar la transformación
+          con la matriz
+          \[
+          \begin{pmatrix}
+          a & b \\
+          c & d
+          \end{pmatrix},
+          \qquad ad - bc \neq 0.
+          \]
+        </p>
+
+        <p>
+          Después de normalizar para que $ad-bc = 1$, la clasificación depende de la traza:
+          \[
+          \tau = a + d.
+          \]
+        </p>
+
+        <ul>
+          <li>
+            <strong>Elíptica:</strong> $|\tau| < 2$ </li>
+          <li>
+            <strong>Parabólica:</strong> $|\tau| = 2$
+          </li>
+          <li>
+            <strong>Hiperbólica:</strong> $|\tau| > 2$
+          </li>
+        </ul>
+
+        <p>
+          Esta clasificación es particularmente importante en geometría y sistemas dinámicos,
+          donde describe el comportamiento cualitativo de las iteraciones de la transformación.
+        </p>
+
+        <p>
+          En la siguiente animación se puede apreciar visualmente la clasificación
+          de las transformaciones de Möbius.
+          Seleccione la vista gráfica con el mouse
+          y luego presione las teclas:
+        </p>
+
+        <p style="text-align: center; margin-top: -5px;">
+          <tt style="font-size: 80%;">
+            1. Elíptica, 2. Hiperbólica, 3. Loxodrómica, 4. Parabólica,
+            5. Mostrar/Ocultar Esfera.
+          </tt>
+        </p>
+
+        <iframe style="width: 100%; height: 450px; border: none;"
+          src="https://geometria-hiperbolica.github.io/sketches/mobius/showcase.html"></iframe>
+        <div style="margin-top: -30px;">
+          <p style="text-align: center;">
+            <a href="https://geometria-hiperbolica.github.io/sketches/mobius/showcase.html" target="_blank">
+              Pantalla completa
+              <i class="fa fa-external-link-alt"></i>
+            </a>
+          </p>
+        </div>
+
+        <div class="practice">
+          <p>
+            <strong>Ejercicio 3:</strong>
+            Encuentre y clasifique los puntos fijos de la transformación
+            \[
+            T(z) = \frac{2z+1}{z+1}.
+            \]
+            Determine si es elíptica, parabólica o hiperbólica.
+          </p>
+
+          <details>
+            <summary><strong>Solución</strong></summary>
+            <p>
+            <ul>
+              <li>Puntos fijos: $\dfrac{1\pm\sqrt{5}}{2}$</li>
+              <li>
+                Clasificación: <b>Hiperbólica</b>, ya que $|\tau| = 3 \gt 2$.
+              </li>
+            </ul>
+            </p>
+          </details>
+
+        </div>
+
       </div>
 
     </article>
