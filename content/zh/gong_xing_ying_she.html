@@ -1,0 +1,635 @@
+<section data-type="chapter" id="conformal-mappings">
+
+  <!-- Starts main content -->
+
+  <div w3-include-html="small_screen_message.html"></div>
+
+  <div class="toc-chapter" id="toc-chapter">
+    <p><i class="fa-solid fa-list"></i>目录</p>
+    <ul>
+      <li><a href="#section1">共形映射</a></li>
+      <li><a href="#section2">解析函数</a></li>
+      <li><a href="#section3">例子</a></li>
+      <li><a href="#section4">局部逆</a></li>
+      <li><a href="#section5">黎曼映射定理</a></li>
+      <!-- Add more sections as needed -->
+    </ul>
+  </div>
+
+  <br>
+
+
+  <main>
+    <article>
+
+      <div id="section1">
+
+        <h1>共形映射</h1>
+        <hr>
+
+
+
+        <p>
+          设 $w=f(z)$ 是定义在区域 $A$ 上的复映射。
+          考虑 $A$ 中的两条光滑曲线 $C_1$ 和 $C_2$，
+          它们在 $z_2(t)$ 处相交。
+        </p>
+
+        <div class="practice">
+          <p>
+            <strong>注 1：</strong> 这里我们只考虑 $\text{arg}\left(z\right).$ 的一个单值。
+            更多细节请参阅 <a href="fu_jiao_zhu_zhi.html" target="_blank">辐角主值</a>。
+          </p>
+        </div>
+
+        <figure>
+          <table style="width: 100%;border:none">
+            <tbody>
+              <tr style="border: none;">
+                <td style="width: 50%; border:none;">
+                  <img src="../images/chp06/define-angle-z1-x-axis.svg" alt="arg(z_1) 的表示"
+                    title="arg(z_1) 的表示" style="width:100%;">
+                </td>
+                <td style="width: 50%; border:none;">
+                  <img src="../images/chp06/define-angle-z2-x-axis.svg" alt="arg(z_2) 的表示"
+                    title="arg(z_2) 的表示" style="width:100%;">
+
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <figcaption>
+            $\text{arg}\left(z_1'\right)$ 和 $\text{arg}\left(z_2'\right).$ 的几何表示
+          </figcaption>
+        </figure>
+
+
+
+        <p>
+          我们定义在 $z_0$ 处 $C_1$ 和 $C_2$ 之间的角度 $\theta$
+          为所选分支满足 $z_0.$ 的
+          \begin{eqnarray}\label{theta-angle}
+          \text{arg}\left(z_2'\right)-\text{arg}\left(z_1'\right)
+          \end{eqnarray}
+          的值。
+        </p>
+
+        <figure>
+          <img src="../images/chp06/define-angle-z1-z2.svg" alt="Angle between C_1 and C_2"
+            title="Angle $\theta$ between C_1 and C_2" width="50%">
+          <figcaption>
+            在 $C_1$ 和 $C_2.$ 之间定义的角度
+          </figcaption>
+        </figure>
+
+
+
+
+        <p>
+          现在假设在映射 $w = f(z)$ 下，
+          $z$ 平面中的曲线 $C_1$ 和 $C_2$
+          被映射到 $w$ 平面中的曲线 $\Gamma_1$ 和 $\Gamma_2$。
+        </p>
+
+
+        <figure>
+
+          <table style="width: 100%;border:none">
+            <tbody>
+              <tr style="border: none;">
+                <td style="width: 50%; border:none;">
+                  <img src="../images/chp06/define-angle-z.svg" alt="z 平面上的 C_1 和 C_2"
+                    title="z 平面上的 C_1 和 C_2" style="width:100%;">
+                </td>
+                <td style="width: 50%; border:none;">
+                  <img src="../images/chp06/define-angle-w.svg" alt="w 平面上的 Gamma_1 和 Gamma_2"
+                    title="w 平面上的 Gamma_1 和 Gamma_2" style="width:100%;">
+
+         </td>
+              </tr>
+            </tbody>
+          </table>
+          <figcaption>
+            角度 $\theta$ 和 $\phi$ 大小相等。
+          </figcaption>
+        </figure>
+
+
+
+
+        <p>
+          在 $z$ 平面中，起点为 $z_0,$ 的向量 $z_1',$
+          可以通过角度 $\theta$ 旋转到向量 $z_2'.$ 上。
+        </p>
+
+
+
+        <div class="figure-container">
+          <figure>
+            <img src="../images/chp06/anti-clockwise.gif" alt="Counterclockwise rotation of z_1'."
+              title="Counterclockwise rotation of z_1'." style="width:90%;">
+            <figcaption>
+              $z_1'.$ 的逆时针旋转
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="../images/chp06/clockwise.gif" alt=" Clockwise rotation of z_1'."
+              title=" Clockwise rotation of z_1'." style="width:90%;">
+            <figcaption>
+              $z_1'.$ 的顺时针旋转
+            </figcaption>
+          </figure>
+
+        </div>
+
+
+
+        <p>
+          类似地，在 $w$ 平面中，
+          起点为 $f(z_0),$ 的向量 $w_1'$ 可以
+          逆时针或顺时针旋转到 $z$ 上。
+        </p>
+
+        <p>
+          现在我们已经建立了关于角度的大小和方向的术语，
+          可以引入<em>共形映射</em>的概念。
+        </p>
+
+        <br>
+
+
+
+        <figure>
+          <div class="ggbElement" id="ggb-element-1"></div>
+          <figcaption>
+            应用映射后，角度 $\theta$ 和 $\phi$
+            大小和方向都相等。
+          </figcaption>
+        </figure>
+
+        <p>
+          我们也将使用术语<em>共形映射</em>来指代
+          在 $z_0.$ 处共形的复映射 $w = f(z)$。此外，如果 $w = f(z)$ 在区域 $A$ 的每一点都共形，
+          我们说 $B$ 在 $w=f(z)$ 上是共形映射。
+        </p>
+
+
+
+
+
+      </div>
+
+      <hr>
+
+
+      <div id="section2">
+
+        <h2>解析函数</h2>
+
+        <p>
+          所有复解析函数的一个显著几何性质是，
+          在非临界点处，它们保持角度，因此定义了共形映射。
+        </p>
+
+        <div class="theorem">
+          If $f$ is analytic in a domain $D$ containing $z_0,$ and if
+          $f'(z_0)\neq 0,$ then $w=f(z)$ is conformal at $z_0.$
+        </div>
+
+        <div class="proof">
+          Suppose $f$ is analytic in a domain $D$ containing $z_0,$ and that
+          $f'(z_0)\neq 0.$ Let $C_1$ and $C_2$ be two smooth curves in $D$
+          parametrized by $z_1(t)$ and $z_2(t),$ respectively, with
+          $z_1(t_0)= z_2(t_0)= z_0.$ Also, assume that $w=f(z)$ maps the
+          curves $C_1$ and $C_2$ onto the curves $\Gamma_1$ and $\Gamma_2.$
+          Here $\Gamma_1$ and $\Gamma_2$ are
+          parametrized by $w_1(t)=f(z_1(t))$ and $w_2(t)=f(z_2(t)),$ respectively.
+
+          <p>
+            我们希望证明在 $z_0$ 处 $C_1$ 和 $C_2$ 之间的角度 $\theta$
+            等于在 $f(z_0)$ 处 $\Gamma_1$ 和 $\Gamma_2$ 之间的角度 $\phi$。
+          </p>
+
+          <p>
+            如有必要，我们可以通过重新编号 $C_1$ 和 $C_2$ 来假设
+            $z_1'=z_1'(t_0)$ 可以通过角度 $\theta$ 绕 $z_0$ 逆时针旋转到 $z_2'=z_2'(t_0).$ 上。
+          </p>
+
+          <p>
+            使用链式法则我们有
+            \begin{eqnarray*}
+            w_1' = w_1'(t_0)= f'\left(z_1\left(t_0\right)\right)\cdot z_1'\left(t_0\right)= f'\left(z_0\right)\cdot z_1'
+            \end{eqnarray*}
+            和
+            \begin{eqnarray*}
+            w_2' = w_2'(t_0)= f'\left(z_2\left(t_0\right)\right)\cdot z_2'\left(t_0\right)= f'\left(z_0\right)\cdot
+            z_2'.
+            \end{eqnarray*}
+          </p>
+
+          <p>
+            由于 $C_1$ 和 $C_2$ 是光滑的，$z_1'$ 和 $z_2'$ 都不为零。
+            此外，我们有 $f'\left(z_0\right)\neq 0,$，因此
+          </p>
+
+
+        </div>
+
+        <div class="practice">
+          <p>
+            <strong>注 2：</strong>
+            前面的定理表明，
+            如果 $z_0$ 在该点解析且 $f$，
+            则映射在 $z_0$ 处共形。
+          </p>
+        </div>
+
+
+
+      </div>
+
+      <hr>
+
+      <div id="section3">
+        <h2>例子</h2>
+
+
+
+        <p>
+          现在，借助定理 1，我们可以相对容易地确定
+          一个解析函数在何处是共形映射。
+        </p>
+
+
+
+
+        <div class="practice">
+
+          <p>
+            <strong>例 1：</strong>
+            映射 $w = e^z$ 在整个 $z$ 平面上是共形的，
+            因为对每个 $y = c_2$ 都有 $(e^z)'= e^z \neq 0$。
+          </p>
+          <figure>
+            <img src="../images/chp06/example-exp.svg" alt="Conformal mapping w=e^z" title="Conformal mapping w=e^z"
+              width="100%">
+            <figcaption>
+              共形映射 $w=e^z.$
+            </figcaption>
+          </figure>
+        </div>
+
+
+
+        <div class="practice">
+          <p>
+            <strong>例 2：</strong>
+            整函数 $f(z)=z^2$ 在 $z_0=0.$ 处不共形。
+            解释当然是 $z_0=0$。
+          </p>
+
+          <figure>
+
+            <table style="width: 100%;border:none">
+              <tbody>
+                <tr style="border: none;">
+                  <td style="width: 50%; border:none;">
+                    <img src="../images/chp06/example-z-squared.svg" alt="z 平面上的 C_1 和 C_2"
+                      title="z 平面上的 C_1 和 C_2" style="width:100%;">
+                  </td>
+                  <td style="width: 50%; border:none;">
+                    <img src="../images/chp06/example-z-squared-mapped.svg" alt="w 平面上的 Gamma_1 和 Gamma_2"
+                      title="w 平面上的 Gamma_1 和 Gamma_2" style="width:100%">
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <figcaption>
+              区域 $\{\textbf{Re}(z)&gt;0\}$ 通过 $w=z^2$
+              映射到割缝平面 $\mathbb C \setminus (-\infty,0].$ 上。
+            </figcaption>
+          </figure>
+        </div>
+
+        <p>
+          一个保持两条光滑曲线之间角度大小
+          但不一定保持方向的映射称为<em>等角映射</em>。
+        </p>
+
+        <div class="practice">
+          <p>
+            <strong>例 3：</strong>
+            映射 $w = \conj{z}$ 是关于实轴的反射。
+            这个映射是等角但不是共形的。
+          </p>
+
+          <p>
+            例如考虑由下式给出的曲线 $C_1$ 和 $C_2$
+          <div class="scroll-wrapper">
+            \begin{eqnarray*}
+            z_1 (t) = t+(2t-t^2)i \quad\text{and}\quad z_2(t) = t+\frac{1}{2}\left(t^2+1\right)\quad \text{with}\quad
+            0\leq t\leq 2,
+            \end{eqnarray*}
+          </div>
+          分别以 $C_1$。
+        </p>
+
+
+
+          <figure>
+
+            <table style="width: 100%;border:none">
+              <tbody>
+                <tr style="border: none;">
+                  <td style="width: 50%; border:none;">
+                    <img src="../images/chp06/example-conj-z.svg" alt="z 平面上的 C_1 和 C_2"
+                      title="z 平面上的 C_1 和 C_2" style="width:100%;">
+                  </td>
+                  <td style="width: 50%; border:none;">
+                    <img src="../images/chp06/example-conj-z-mapped.svg" alt="w 平面上的 Gamma_1 和 Gamma_2"
+                      title="w 平面上的 Gamma_1 和 Gamma_2" style="width:100%;">
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <figcaption>
+              $C_1$ 和 $C_2$ 在 $z$ 平面中（左）。
+              $\Gamma_1$ 和 $\Gamma_2$ 在 $w$ 平面中（右）。
+
+          </figcaption>
+          </figure>
+
+          <p>
+            像曲线参数化为
+          <div class="scroll-wrapper">
+            \begin{eqnarray*}
+            w_1 (t) = t-(2t-t^2)i \quad\text{and}\quad z_2(t) = t-\frac{1}{2}\left(t^2+1\right)
+            \end{eqnarray*}
+          </div>
+          其中 $0\leq t\leq 2;$，
+          并在 $\Gamma_2,$ 处相交。
+        </p>
+          <p>
+            在 $w_0$ 处 $\Gamma_1$ 和 $\Gamma_2$ 之间的角度为 $\phi=\pi/4.$。
+            因此，角度 $\theta$ 和 $\phi$ 大小相等但方向相反。
+        </p>
+
+          <p>
+            因此，$w=\conj{z}$ 不是共形的。
+          </p>
+        </div>
+
+        <p>
+          在下面的小程序中，您可以探索某些映射在区域上的效果。
+          特别是，小程序从 $S=[-0.5,0.5]\times[-0.5,-1.5].$ 开始。
+          您还可以更改 $S$ 的值。
+        </p>
+
+        <div class="ggbElement" id="ggb-element-2"></div>
+
+
+        <br />
+
+        <div class="practice">
+          <strong>Exercise 1:</strong>
+          Based on your observations from the previous applet,
+          can you determine which mappings are not conformal in
+          $S=[-0.5,0.5]\times[-0.5,-1.5]$?
+        </div>
+
+
+        <div class="practice">
+          <strong>Exercise 2:</strong>
+          Use Theorem 1 to show that $f(z)=\sin z$ is a conformal
+          mapping for every $z\in\C$ such that $z\neq (2n+1)\pi/2$ with
+          $n=0,\pm 1, \pm 2,\ldots.$ You can use the previous applet
+          to explore the behaviour of this function on these points.
+        </div>
+
+      </div>
+
+      <hr>
+
+
+      <div id="section4">
+
+        <h2>局部逆</h2>
+
+        <p>
+          在点 $z_0$ 处共形的变换 $w = f (z)$ 在那里有一个局部逆。
+          也就是说，如果 $w_0 = f (z_0),$，则存在唯一的解析函数 $z = f^{-1}(w),$
+        </p>
+
+        <p>
+          这种逆的存在性可以通过实分析中的<em>反函数定理</em>
+          在二维中验证：
+        </p>
+
+        <div class="theorem">
+          If $f:A \subset \R^2 \to \R^2$ is continuously differentiable and
+          $J_f(x_0, y_0)$, the Jacobian of $f$ at $(x_0,y_0)$, has a nonzero
+          determinant, then there are neighborhoods $U$ of $(x_0,y_0)$ and
+          $V$ of $f(x_0,y_0)$ such that $f:U\to V$ is a bijection,
+          $f^{-1}:V\to U$ is differentiable, and
+          \[
+          \frac{d}{dz} f^{-1}(z) = \frac{1}{f'(x,y)}\quad \text{where}\quad z=f(x,y).
+          \]
+        </div>
+
+        <p>
+          如果 $w = f (z)$ 在 $z_0 = x_0+iy_0,$ 处共形，
+          则存在 $z_0$ 的某个邻域 $U$，
+          在其中 $f$ 是一一的。
+        </p>
+
+        <p>
+          (\ref{trans01}) 中定义的函数
+          表示从邻域 $U$ 到 $uv$ 平面的变换。此外，行列式
+        </p>
+        <div class="scroll-wrapper">
+          \[
+          J_f = \left|\begin{array}{cc}
+          u_x & u_y \\
+          v_x & v_y
+          \end{array} \right|= u_x v_y - v_x u_y,
+          \]
+        </div>
+        <p>
+          这被称为<em>变换的 Jacobian 行列式</em> $f$，
+          在点 $(x_0,y_0).$ 处不为零。通过考虑
+        </p>
+
+        <p>
+          上述关于函数 $u(x,y) $ 和 $v(x,y)$
+          及其导数的连续性条件，加上 Jacobian 行列式不为零的条件，
+        </p>
+
+
+        <p>
+          换句话说，如果 $u_0 = u(x_0,y_0)$ 且 $v_0=v(x_0,y_0),$，
+          则存在唯一的连续变换
+          \begin{eqnarray}\label{trans02}
+          f^{-1}(w) = x(u,v)+ i y(u,v)
+          \end{eqnarray}
+          定义在 $(u_0,v_0)$ 的邻域 $V$ 上。
+        </p>
+
+        <p>除了连续性之外，
+          函数 (\ref{trans02}) 的实部和虚部
+          具有连续的一阶偏导数，满足方程
+        </p>
+        <div class="scroll-wrapper">
+          \begin{eqnarray}\label{eqls}
+          x_u = \frac{1}{J_f}v_y,\;\;x_v = -\frac{1}{J_f}u_y,\;\;y_u = -\frac{1}{J_f}v_x,\;\;y_v = \frac{1}{J_f}u_x
+          \end{eqnarray}
+        </div>
+        <p>
+          在整个 $V.$ 上。
+          由于 Cauchy-Riemann 方程对 $u$ 和 $v,$ 成立，
+          它们对 $x$ 和 $y,$ 也成立。
+        </p>
+        <div class="scroll-wrapper">
+          \begin{eqnarray*}
+          \frac{d}{dw}f^{-1}(w) &= & x_u+ i y_u = \frac{1}{J_f} v_y + i \left( -\frac{1}{J_f} v_x \right) \\
+          & = & \frac{1}{J_f} \left(v_y - i v_x \right) = \frac{1}{J_f} \left(u_x - i v_x \right) \\
+          & = & \frac{\conj{f'(z)}}{\abs{f'(z)}^2} = \frac{1}{f'(z)}.
+          \end{eqnarray*}
+        </div>
+
+        <p>
+          因此，我们刚刚证明了以下结论：
+        </p>
+
+        <div class="theorem">
+          <strong><span style="font-style: normal !important;">(Inverse Function Theorem)</span></strong>
+          Let $f:A \to \C$ be analytic and assume that
+          $f'(z_0)\neq 0.$ Then there exists a
+          neighborhood $U$ of $z_0$ and a neighborhood $V$ of $w_0=f(z_0)$
+          such that $f:U\to V$ is a bijection (one-to-one and onto)
+          and its inverse function $f^{-1}$ is analytic with derivative
+          given by
+          \[
+          \frac{d}{dw}f^{-1}(w) = \frac{1}{f'(z)}\quad \textit{where}\quad w = f(z).
+          \]
+        </div>
+
+
+        <p>
+
+          <em>反函数定理</em>只说明了 $f.$ 的<em>局部</em>逆的存在性。
+          例如，考虑函数 $f(z)=z^2$。
+        </p>
+
+
+
+      </div>
+
+
+      <hr>
+
+      <div id="section5">
+
+        <h2>黎曼映射定理</h2>
+
+        <p>
+          在许多应用中，常见的是找一个共形映射，
+          将区域 $A$ 映射到更简单的区域 $B.$。
+          一个自然的问题是
+        </p>
+
+        <p>
+          伯恩哈德·黎曼在 1851 年对这个问题的回答。
+          尽管黎曼的原始证明中有一个漏洞（后来被填补），这个惊人的
+        </p>
+
+        <div class="theorem">
+          <strong><span style="font-style: normal !important;">(The Riemann Mapping Theorem)</span></strong>
+          Let $A$ be a simply connected domain such that
+          $A$ is not all of $\C.$ Then there exists a bijective conformal map
+          $f:A\to D$ where $D = \left\{z : |z|\lt 1\right\}.$
+        </div>
+
+        <p>
+          从这个结果我们看到，如果 $A$ 和 $B$ 是任意两个单连通区域，
+          且 $A\neq \C,$、$B\neq \C,$，则存在一个一一共形映射
+          $f:A\to D$。
+        </p>
+
+
+        <figure>
+          <img src="../images/chp06/riemann-mapping-theorem.gif" alt="Two conformally equivalent domains"
+            title="Two conformally equivalent domains" width="85%">
+          <figcaption>
+            要将 $A$ 变换为 $B$，我们将 $g^{-1}$ 与 $f.$ 复合。
+          </figcaption>
+        </figure>
+
+        <p>
+          黎曼定理具有决定性的理论重要性，但其证明不是构造性的。
+          这意味着该定理建立了映射 $f$ 的存在性，
+          但没有提供找到它的公式。
+        </p>
+
+        <ul>
+          <li>
+            <em>《复分析》</em>
+            作者：Lars V. Alfors，McGraw-Hill，1979 年；和
+          </li>
+          <li>
+            <em>《基础复分析》</em>
+            作者：Jerrold. E. Marsden &amp; Michael J. Hoffman，W. H. Freeman and Company，1999 年。
+          </li>
+        </ul>
+
+      </div>
+
+
+
+
+
+
+
+    </article>
+  </main>
+
+  <!--GeoGebra embedding-->
+  <script src="https://www.geogebra.org/apps/deployggb.js"></script>
+
+  <script>
+    let params1 = {
+      "width": 725,
+      "height": 410,
+      "material_id": "pptj3gaw",
+      "borderColor": "888888",
+      "playButton": false,
+      "showFullscreenButton": true,
+      "enableShiftDragZoom": false,
+      "showResetIcon": true
+    };
+
+    let params2 = {
+      "width": 675,
+      "height": 473,
+      "material_id": "tmnebrfq",
+      "borderColor": "888888",
+      "playButton": true,
+      "showFullscreenButton": true,
+      "enableShiftDragZoom": true,
+      "showResetIcon": true
+    };
+
+    let ggbApplet1 = new GGBApplet(params1, true);
+    let ggbApplet2 = new GGBApplet(params2, true);
+    window.addEventListener("load", () => {
+      ggbApplet1.inject('ggb-element-1');
+      ggbApplet2.inject('ggb-element-2');
+    });
+  </script>
+  <!--GeoGebra embedding ends-->
+
+  <a href="xian_xing_fen_shi_bian_huan.html" style="text-decoration: none;">
+    <p class="nextPage">线性分式变换<i class="fa-solid fa-angles-right"></i></p>
+  </a>
+  <!-- Ends main content -->
+
+</section>

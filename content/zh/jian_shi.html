@@ -1,0 +1,585 @@
+<section data-type="chapter" id="brief-history">
+
+    <!-- Starts main content -->
+
+    <div w3-include-html="small_screen_message.html"></div>
+
+    <div class="toc-chapter" id="toc-chapter">
+        <p><i class="fa-solid fa-list"></i>目录</p>
+        <ul>
+            <li><a href="#section1">几何解释</a></li>
+            <li><a href="#section2">三次方程的求解</a></li>
+            <li><a href="#section3">虚数的诞生</a></li>
+            <li><a href="#section4">复数的成熟</a></li>
+            <li><a href="#section5">结语</a></li>
+            <li><a href="#section6">参考文献</a></li>
+            <!-- Add more sections as needed -->
+        </ul>
+    </div>
+
+    <br><br>
+
+    <main>
+        <article>
+
+            <h1>简史</h1>
+
+            <div id="section1">
+
+                <hr>
+
+                <h2>二次与三次方程的几何解释</h2>
+
+
+                <p>考虑二次方程
+                    \begin{eqnarray}\label{quad001}
+                    x^2 = mx + n.
+                    \end{eqnarray}
+                    从小学我们就学会了求它所有的解，
+                    即满足方程 (\ref{quad001}) 的所有 $x$ 值。
+                    为此，我们只需使用广为人知的
+                    <em>二次公式</em>
+                <div class="scroll-wrapper">
+                    \begin{eqnarray}\label{quad002}
+                    x = \frac{-b\pm \sqrt{b^2-4ac}}{2a}
+                    \end{eqnarray}
+                </div>
+                该公式适用于<em>一般二次方程</em>
+                \begin{eqnarray}\label{quad003}
+                ax^2+ bx+c = 0 .
+                \end{eqnarray}
+                将方程 (\ref{quad001}) 改写为 $x^2-mx-n = 0,$，我们可以
+                利用 (\ref{quad002}) 得到
+                <div class="scroll-wrapper">
+                    \begin{eqnarray}\label{quad004}
+                    x = \frac{ m \pm \sqrt{m^2 + 4n } }{2} = \frac{m}{2} \pm \sqrt{\frac{m^2}{4} + n}
+                    \end{eqnarray}
+                </div>
+
+                </p>
+
+
+                <p>
+                    如果我们绘制方程 (\ref{quad001})，可以从几何上观察到
+                    它表示抛物线 $y=x^2$ 与直线 $y = mx+n.$ 的交点。
+                    这可以在下面的小程序中观察。拖动下方的滑块，
+                    观察交点 $x_0$ 和 $x_1.$ 的变化。
+                </p>
+                <div>
+                    <div style="display:block;" class="ggbElement" id="ggb-element-01"></div>
+                </div>
+
+
+                <p>
+                    正如你已经注意到的，我们有三种情况：
+                <ol>
+                    <li>有两个交点</li>
+                    <li>有一个交点</li>
+                    <li>没有（实）交点</li>
+                </ol>
+            </p>
+
+                <p>
+                    令人惊讶的是，这自古代以来就已为人所知，
+                    即使没有使用数学符号或计算机。
+                </p>
+
+                <p>
+                    现在让我们回到二次方程 $x^2= mx+ n.$。
+                    考虑值 $m=0$、$n=-1.$ 和 $x = \pm\sqrt{-1}$。我们可以轻松检查
+                    $y = x^2$ 及 $y=-1$ 是否有实根。
+                </p>
+
+
+                <figure>
+                    <img src="../images/chp01/quadraticminus1.svg" alt="x^2=-1" title="x^2=-1" style="width:75%;">
+                    <figcaption>$x^2=-1.$</figcaption>
+                </figure>
+
+
+                <p>
+                    有人认为这导致了一个新数的发明，记作 $i,$，
+                    并且复数最终被接受。但这不是实际情况。它发生得更早，是在对三次方程的研究中。
+                </p>
+
+                <p>
+                    在数学课程中通常也会指出
+                    <em>复数</em>，记作 $a + b\sqrt{-1},$，
+                    在求解某些二次方程如 $x^2+1=0.$ 时是必需的。
+                    然而，复数实际上产生于求解三次方程的需要。
+                    此外，当二次和三次方程最初出现时，
+                    在当时并没有为所有方程都求到解的需要。
+                </p>
+
+                <p>
+                    那么复数究竟在哪里真正变得重要？为了回答这个问题，让我们
+                    考虑关于三次方程 $i,$ 的以下历史发展。
+                </p>
+
+
+                <div class="ggbElement" style="display:block;width:798;height:516;" id="ggb-element-02"></div>
+                
+
+                <p>
+                    正如你可以观察到的，无论由参数 $p$ 和 $q,$ 定义的直线如何，它总是与抛物线相交。因此，解总是存在的。
+                </p>
+
+                <hr>
+
+            </div>
+
+            <div id="section2">
+
+                <h2>三次方程的求解</h2>
+
+
+                <p>
+                    众所周知，三次方程 $x^3 = px + q$ 的求解
+                    是由意大利数学家 Scipione del Ferro 和 Niccolò Fontana（绰号 Tartaglia）
+                    在 16 世纪上半叶发展出来的。该公式于 1545 年由 Girolamo Cardano 发表
+                    在他颇具影响力的著作<em>Ars Magna</em>（伟大的艺术）中。
+                </p>
+
+                <div class="figure-container">
+                    <figure>
+                        <img src="../images/chp01/tartaglia.jpg" alt="Niccolò Fontana Tartaglia"
+                            title="Niccolò Fontana Tartaglia" style="width:220px;">
+                        <figcaption>
+                            Tartaglia。
+                        </figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="../images/chp01/cardano.jpg" alt="Gerolamo Cardano" title="Gerolamo Cardano"
+                            style="width:250px;">
+                        <figcaption>
+                            Cardano。
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <p>
+                    为了解这是如何工作的，考虑
+                    方程 $x^3 = -6 x+ 20.$。这里 $p=-6$、$q=20.$ 和 $$x = \displaystyle \sqrt[3]{10 + \sqrt{108}} -
+                    \sqrt[3]{- 10 + \sqrt{108}}.$$。
+                    通过对 $x=2,$ 进行代换，我们得到 $$8=(2)^3 = -6(2)+ 20 = -12+20=8.$$。
+                </p>
+
+                <div class="practice">
+                    <p><strong>练习：</strong> 尝试使用 Cardano 公式求解 $x^3=6x+6$。</p>
+                </div>
+
+                <hr>
+
+            </div>
+
+            <div id="section3">
+
+                <h2>虚数的诞生</h2>
+
+                <p>
+                    在发现 Cardano 公式几年后，
+                    意大利工程师-建筑师 Rafael Bombelli（约 1526–1572 年）认识到，
+                    有些东西是奇妙的。例如，将其应用到方程 $x = 4$ 上
+                </p>
+
+                <figure>
+                    <img src="../images/chp01/cubic-line.svg" alt="x^3=15x+4" title="x^3=15x+4" style="width:70%;">
+                    <figcaption>
+                        $x^3=15x+4.$
+                    </figcaption>
+                </figure>
+
+                <div class="w3-responsive">
+                    <p>
+                        然后 Bombelli 使用 Cardano 公式来求解 $x^3= 15 x+ 4.$。
+                        因此，考虑 $p = 15$ 和 $q=4,$，
+                        他得到了
+                    <div class="scroll-wrapper">
+                        \begin{eqnarray}\label{cubic004}
+                        x = \displaystyle \sqrt[3]{2 + \sqrt{-121}} + \sqrt[3]{2 - \sqrt{-121}}.
+                        \end{eqnarray}
+                    </div>
+
+                    在这里他遇到了一个非常不寻常的值。如果 Cardano 公式
+                    是正确的，那么这个数必须等于 4。
+                    但这必定是无稽之谈，这个值不可能是实数，
+                    因为在立方根号下我们正在对一个负数开平方，
+                    这在当时（以及现在）是绝对不可能的。
+                    Cardano 也遇到了这个困难，但他没有正视它。
+                    他确实曾提到过虚数，但是联系到
+                    二次方程，并评论说
+                    这些数"既精妙又无用"
+                    [<a href="#cardano" alt="Cardano" title="Cardano">2</a>, Ch.
+                    37, Rule II]。
+                    </p>
+                </div>
+
+                <p>
+                    然而，Bombelli 通过看到奇怪的表达式 (\ref{cubic})（即如果
+                    我们形式地运算，我们将有 $x$ 的平方根）
+                    克服了这个困难。
+                </p>
+
+                <div>
+                    <p>
+                        Bombelli 的深刻见解就是简单地将 $\sqrt{-1}$ 视为一个数，并按照通常的代数规则对它进行运算。
+                        事实上，他通过若干例子展示了这些数与实数的结合如何最终产生只有实数的结果。
+                    </p>
+                </div>
+
+
+
+                <div class="figure-container">
+
+
+                    <figure>
+                        <img src="../images/chp01/bombelli-solution.jpg" alt="Bombelli's solution"
+                            title="Bombelli's solution" style="width:100%;">
+
+                        <figcaption>
+                            Bombelli 的原始解答。
+                        </figcaption>
+                    </figure>
+
+                    <figure>
+                        <p>
+                            \begin{eqnarray*}
+                            x^3 &=& 15x + 4\\
+                            [x^3 &=& px + p]
+                            \end{eqnarray*}
+                            \begin{eqnarray*}
+                            (4/2)^2-(15/3)^3 &=& -121\\
+                            [\left(q/2\right)^2 -\left(p/2\right)^3]&=&-121
+                            \end{eqnarray*}
+                            \begin{eqnarray*}
+                            x &=& \sqrt[3]{2+ \sqrt{-121}} + \sqrt[3]{2- \sqrt{-121}}\\
+                            x &=& \sqrt[3]{2+ 11\sqrt{-1}} + \sqrt[3]{2- 11\sqrt{-1}} \\
+                            x &=& 2 + \sqrt{-1} + 2 - \sqrt{-1} = 4
+                            \end{eqnarray*}
+                        </p>
+                        <figcaption>
+                            现代代数的解答。
+                        </figcaption>
+                    </figure>
+
+
+
+
+                </div>
+
+
+
+                <p>
+                    当然，正如你在图 6 中看到的，
+                    Bombelli 当时没有现代代数的力量可供使用。
+                </p>
+
+                <p>
+                    Cardano 公式迫使数学家们
+                    面对负数的平方根。
+
+                    这可能更好地说明了为什么虚数最初是在公式中发现的。
+                </p>
+
+                <div class="practice">
+                    <p><strong>练习：</strong> 验证 $\sqrt[3]{2 \pm \sqrt{-121}} = 2 \pm \sqrt{-1}.$</p>
+                </div>
+
+                <hr>
+
+
+            </div>
+
+            <div id="section4">
+
+
+                <h2>复数的成熟</h2>
+
+                <p>
+                    在 Cardano 和 Bombelli 之后，许多数学家对虚数（或者说复数）
+                    做出了重要贡献。例如，我们上一节提到的那些名字。
+                </p>
+
+                <div style="margin-left: 30px;margin-right: 30px;">
+                    <p>真根或假根（负数）并不总是实的；有时它们只是虚的。 [<a href="https://archive.org/details/lageom2013desc00desc/page/n77/mode/2up">La Géométrie, p. 76</a>]</p>
+                </div>
+
+                <p>
+                    John Wallis（1616–1703 年）展示了如何用几何方式表示二次方程的复根，
+                    尽管他工作的真正含义直到 19 世纪才出现。
+                </p>
+
+
+
+
+                <figure>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Leonhard_Euler.jpg" alt="Euler"
+                        title="Euler" style="width:30%;">
+                    <figcaption>
+                        Euler。
+                    </figcaption>
+                </figure>
+
+                <p>
+                    Leonard Euler（1707–1783 年）标准化了记号"$i=\sqrt{-1}$"
+                    [<a href=#euleri>6</a>, p. 184]，并使用虚数来求解
+                    二次和三次方程，尽管他
+                    仍然对这些数持怀疑态度。
+                    例如，在他的<em>代数</em>中，他提到：
+                </p>
+
+                <div style="margin-left: 30px;margin-right: 30px;">
+                    <p>[...] 因为所有可以想象的数要么大于 0，要么小于 0，要么等于 0 本身，所以负数的平方根不能包含在可能的数之中 [...]
+                    因此虚数是不可能的数，因为它们是不可能的，
+                    它们通常被称为虚数，因为它们只存在于想象之中。 [[[a href=∑](2)[[/a]]]</p>
+                </div>
+
+                <p>
+                    为了避免有人将此视为谴责，他继续说道：
+                </p>
+
+                <div style="margin-left: 30px;margin-right: 30px;">
+                    <p>尽管如此，这些数仍然呈现在心灵面前；它们存在于我们的想象中，
+                    只要我们能够把握它们，我们就有足够的概念来形成它们。 [[[a href=∑](2)[[/a]]]</p>
+                </div>
+
+                <p>
+                    后来 Carl Friedrich Gauss（1777–1855 年）引入了术语“复数”
+                    来指代形式为 $n$ 的数 [[[a href=#gauss-quote](3)[[/a]]]。他还给出了复数及其运算的几何解释。
+                </p>
+
+
+                <p>
+                    复数的第一个严格定义是由
+                    William Rowan Hamilton（1805–1865 年）给出的。1833 年他向爱尔兰学院
+                    提出复数 $a+ ib$ 可以被视为一个<em>对</em> $(a, b),$，
+                    其中 $a,b$ 是实数
+                    <span style="white-space: nowrap;">[<a href="#gonzalez-velasco" alt="González-Velasco"
+                            title="González-Velasco">7</a>, pp. 192-193].</span>
+                    然后他定义了<em>对</em>的加法和乘法如下：
+                <div class="scroll-wrapper">
+                    $$(a, b)+(c, d) =(a + c, b + d)$$
+                </div>
+                以及
+                <div class="scroll-wrapper">
+                    $$(a, b)(c, d) = (ac - bd, bc + ad).$$
+                </div>
+                </p>
+                <p>
+                    这实际上是复数的代数定义。
+
+                    从教学法和启发式角度来看，通过几何解释引入
+                    复数是更好的选择。但从逻辑角度来看，<em>对</em>的理论
+                    更加令人满意，因为它展示了
+                    复数理论的一致性，而这始于
+                    实数的一致性 [<a href="#carrucio" alt="Carrucio" title="Carrucio">3</a>, pág. 175]。
+                </p>
+
+
+
+                <div class="figure-container">
+                    <figure>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/f/f6/William_Rowan_Hamilton_portrait_oval_combined.png"
+                            alt="William Rowan Hamilton" title="William Rowan Hamilton" style="width:50%;">
+                        <figcaption>
+                            Hamilton。
+                        </figcaption>
+                    </figure>
+
+
+                    <figure>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Augustin-Louis_Cauchy_1901.jpg"
+                            alt="Augustin-Louis Cauchy" title="Augustin-Louis Cauchy" style="width:50%;">
+                        <figcaption>
+                            Cauchy。
+                        </figcaption>
+                    </figure>
+                </div>
+
+
+
+                <p>
+                    在众多做出贡献的数学家和科学家中，
+                    有三位作为复分析理论基础的奠基人脱颖而出。
+                    第一位是 Augustin-Louis Cauchy（1789–1857 年），他发展了复函数积分理论。
+                </p>
+
+
+
+                <div class="figure-container">
+                    <figure>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Karl_Weierstrass.jpg"
+                            alt="Karl Weierstrass" title="Karl Weierstrass" style="width:50%;">
+                        <figcaption>
+                            Weierstrass。
+                        </figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Georg_Friedrich_Bernhard_Riemann.jpeg"
+                            alt="Georg Friedrich Bernhard Riemann" title="Georg Friedrich Bernhard Riemann"
+                            style="width:65%;">
+                        <figcaption>
+                            Riemann。
+                        </figcaption>
+                    </figure>
+                </div>
+
+
+
+
+                <p>
+                    最后，另外两位重要的数学家是 Karl Weierstrass
+                    （1815–1897 年）和 Bernhard Riemann（1826–1866 年），
+                    他们分别致力于复函数的级数方法和几何方法。
+                </p>
+
+
+                <hr>
+
+
+            </div>
+
+            <div id="section5">
+
+                <h2>结语</h2>
+
+                <p>
+                    上述对复数的描述并不是故事的终结。
+                    自 Hamilton 时代以来，各种发展扩展了复数的概念。
+                    例如，复数构成了超复数的起点，后者是复数以外的推广。
+                </p>
+
+                <!--
+                     <p>
+                    Do they really exist or are they simply
+                     phantoms of our "imagination", and thus truly "imaginary"?
+                    </p>
+                     -->
+
+
+                <hr>
+
+
+            </div>
+
+            <div id="section6">
+
+                <h2>参考文献</h2>
+
+                <ol class="bbtex-list">
+                    <li id="bombelli">Bombelli, R. (1579). <em>L'Algebra.</em> Bologna. <a
+                            href="https://archive.org/details/lalgebra00bomb/page/n6/mode/1up">https://archive.org/details/lalgebra00bomb</a>.</li>
+
+                    <li id="cardano">Cardano, H. (1545). <em>Artis magnae, sive de regulis algebraicis, liber
+                            unus.</em> (n.p.): Joh.
+                        Petreium.</li>
+                    <li id="carrucio">Carrucio, E. (2009). <em>Mathematics and Logic in History and Contemporary
+                            Thought</em>.
+                        (Trans. Quigly, I.). USA: Aldine Transaction.</li>
+                    <li id="descartes">Descartes, R. (1637). <em>La Géométrie.</em> Paris: A. Herman, Librairie
+                        Scientifique. <a
+                            href="https://archive.org/details/geometryofrene00desc">
+                            https://archive.org/details/geometryofrene00desc</a>.</li>
+                    <li id="euler-algebra">Euler, L. (1972). <em>Elements of Algebra.</em> (Rev. John Hewlett, B.D.
+                        F.A.S. &c,
+                        Trans.). New York: Springer-Verlag.</li>
+                    <li id="euleri">Euleri, L. (1845). <em>Instituitionum Calculi Integralis.</em> Volumen Quartum.
+                        Petropoli. Impensis Academia Imperialis Scientiarum.</li>
+                    <li id="gonzalez-velasco">González-Velasco, A. E. (2011) <em>Journey through Mathematics.</em>
+                        Springer Science+Business Media. <a
+                            href="https://doi.org/10.1007/978-0-387-92154-9">https://doi.org/10.1007/978-0-387-92154-9</a>.</li>
+                    <li id="kline">Kline, M. (1972). <em>Mathematical Thought from Ancient to Modern Times.</em> Vols.
+                        1-3. New York:
+                        Oxford University Press.</li>
+                    <li id="merzbach-boyer">Merzbach, U. C & Boyer, C. B. (2011). <em>A history of mathematics.</em> 3rd
+                        ed.
+                        USA: John Wiley & Sons, Inc.</li>
+                    <li id="oconnor-robertson">O'Connor, J. J. & Robertson, E. F. (2000). <em>Rafael Bombelli.</em>
+                        <a href="https://mathshistory.st-andrews.ac.uk/Biographies/Bombelli/">
+                            https://mathshistory.st-andrews.ac.uk/Biographies/Bombelli/</a>.</li>
+                </ol>
+
+                <p class="w3-center" style="font-size:24px">
+                    <strong>进一步阅读</strong>
+                </p>
+
+                <ul style="line-height:28px">
+                    <li id="bagni">Bagni, G. T. (2009). Bombelli's Algebra (1572) and a New Mathematical Object.
+                        <em>For the Learning of Mathematics</em>, 29, 2, pp. 29-31.</li>
+                    <li id="buehler">Buehler, D. (2014). Incomplete understanding of complex numbers
+                        Girolamo Cardano: a case study in the acquisition of mathematical concepts.
+                        <em>Synthese</em>, 191, pp. 4231-4253.</li>
+                    <li id="burton">Burton, D. M. (1995). <em>The history of mathematics: An introduction</em> (6th ed.)
+                        (2005). New York:
+                        McGraw-Hill.</li>
+
+                    <li>Gindikin, S. (2007). <em>Tales of Mathematicians and Physicists</em>. Second English edition
+                        Springer Science
+                        & Business Media.</li>
+                    <li id="nahim">Nahim, P. J. (1998). <em>An imaginary tale: The story of $\sqrt{-1}$</em>. USA:
+                        Princeton
+                        University Press.</li>
+                    <li id="huffman">Huffman, C. J. (2019). Mathematical Treasure: Raphael Bombelli's L'algebra.
+                        <em>Convergence.</em>
+                        <a href="https://www.maa.org/press/periodicals/convergence">
+                            https://www.maa.org/press/periodicals/convergence</a>.</li>
+                    <li id="marsden-tromba">Marsden, J. E. & Tromba, A. J. (2003). <em>Vector Calculus.</em> USA: W. H.
+                        Freeman and
+                        Company.</li>
+                    <li id="merino">Merino, O. (2006). <em>A Short History of Complex Numbers.</em>
+                        <a href="http://www.math.uri.edu/~merino/spring06/mth562/ShortHistoryComplexNumbers2006.pdf">
+                            http://www.math.uri.edu/~merino/spring06/mth562/</a>.</li>
+                    <li id="stillwell">Stillwell, J. (2010). <em>Mathematics and Its History.</em> Springer Science.
+
+                        <a href="https://www.springer.com/gp/book/9781441960528">https://www.springer.com/gp/book/9781441960528</a>.</li>
+
+                </ul>
+
+            </div>
+
+
+            <br />
+
+
+        </article>
+    </main>
+
+    <!-- GeoGebra -->
+    <script src="https://www.geogebra.org/apps/deployggb.js"></script>
+    <script>
+        let params01 = {
+            "width": 696,
+            "height": 436,
+            "material_id": "mqdbedcd",
+            "borderColor": "888888",
+            "playButton": true,
+            "showFullscreenButton": true,
+            "enableShiftDragZoom": true,
+            "showResetIcon": true
+        };
+        let params02 = {
+            "width": 670,
+            "height": 430,
+            "material_id": "ntehbavr",
+            "borderColor": "888888",
+            "playButton": true,
+            "showFullscreenButton": true,
+            "enableShiftDragZoom": true,
+            "showResetIcon": true
+        };
+        let ggbApplet01 = new GGBApplet(params01, true);
+        let ggbApplet02 = new GGBApplet(params02, true);
+        window.addEventListener("load", () => {
+            ggbApplet01.inject('ggb-element-01');
+            ggbApplet02.inject('ggb-element-02');
+        });
+    </script>
+
+    <a href="shu_yu_ji_hao.html" style="text-decoration: none;">
+        <p class="nextPage">术语与记号 <i class="fa-solid fa-angles-right"></i></p>
+    </a>
+    <!-- Ends main content -->
+
+</section>

@@ -1,0 +1,261 @@
+<section data-type="chapter" id="series">
+
+    <!-- Starts main content -->
+
+    <div class="toc-chapter" id="toc-chapter">
+        <p><p>: <i class="fa-solid fa-list"></i>目录</p>
+        <ul>
+            <li><li>: <a href="#section1">序列的收敛性</a></li>
+            <li><li>: <a href="#section2">级数的收敛性</a></li>
+            <li><li>: <a href="#section3">几何级数探索</a></li>
+            <!-- Add more sections as needed -->
+        </ul>
+    </div>
+
+    <br/>
+
+    <div class="hide-small hide-medium">
+        <iframe src="../applets/p5js/series-exp/" width="800px" height="400px" style="border:none;"
+            style="overflow:hidden;"></iframe>
+    </div>
+
+    <div class="hide-large" style=" display: block;margin-left: auto; margin-right: auto;width: 80%;">
+        <img width="100%" src="../images/chp05/spiral.jpg" alt="partial sums" title="Spiral">
+    </div>
+
+    <main>
+        <article>
+
+            <h1><h1>: 级数</h1>
+            <hr>
+
+            <div id="section1">
+
+                <h2><h2>: 序列的收敛性</h2>
+
+
+                <p><p>: 复数的无穷序列 $\left\{z_1,z_2,z_3 \ldots\right\}$ 有极限 $z$，如果对每个正数 $\varepsilon$，存在正整数 $n_0$ 使得 \begin{eqnarray}\label{seq}
+                    \left|z_n-z\right|&lt; \varepsilon \quad \text{whenever}\quad n &gt; n_0.
+                    \end{eqnarray}</p>
+
+
+                <p><p>: 从几何上看，这意味着对足够大的 $n$ 值，点 $z_n$ 落在 $z$ 的任意给定 $z$ 邻域内（图 1）。由于 $\varepsilon$ 可以任意选取，因此点 $z_n$ 随着下标增大而无限接近 $z$ 注意所需的 $n_0$ 值通常依赖于 $\varepsilon$ 的值。</p>
+
+
+                <figure>
+                    <img src="../images/chp05/sequence.gif" alt="Geometric interpretation"
+                        title="Geometric interpretation" style="width:70%;">
+                    <figcaption><figcaption>: 几何解释。</figcaption>
+                </figure>
+
+                <p><p>: 序列 $\left\{z_n\right\}_{n=1}^{\infty}$ 至多有一个极限。即极限 $z$ 如果存在则是唯一的。当该极限存在时，称序列<em>收敛</em>到 $z$；并记为 \begin{eqnarray*}
+                    \lim_{n\rightarrow \infty} z_n=z
+                    \end{eqnarray*} 如果序列没有极限，则它<em>发散</em>。</p>
+
+                <div class="theorem">
+                    Suppose that $z_n=x_n+iy_n$ ($n=1,2,3,\ldots $)
+                    and
+                    $z=x+iy$. Then
+                    \begin{eqnarray}\label{teoseq01}
+                    \lim_{n\rightarrow \infty} z_n=z
+                    \end{eqnarray}
+                    if and only if
+                    \begin{eqnarray}\label{teoseq02}
+                    \lim_{n\rightarrow \infty} x_n=x\quad \text{and}\quad \lim_{n\rightarrow \infty} y_n=y.
+                    \end{eqnarray}
+                </div>
+
+
+                <details>
+                    <summary><b>Proof</b>
+                    </summary>
+
+                    <p><p>: 为证明此定理，首先假设条件 (\\ref{teoseq02}) 成立。即对每个 $\varepsilon>0$，存在正整数 $n_1$ 和 $n_2$ 使得 \[
+                        |x_n-x|&lt;\frac{\varepsilon}{2}\quad \text{whenever} \quad n&gt;n_1
+                        \] 且 \[
+                        |y_n-y|&lt;\frac{\varepsilon}{2}\quad \text{whenever} \quad n&gt;n_2.
+                        \] 因此若 $n_0$ 是 $n_1$ 和 $n_2$ 中较大者，则 \[
+                        |x_n-x|&lt;\frac{\varepsilon}{2}\quad \text{and} \quad |y_n-y|&lt;\frac{\varepsilon}{2}
+                        \quad
+                        \text{whenever} \quad n &gt; n_0.
+                        \] 由于 \[
+                        |(x_n+iy_n)-(x+iy)|=|(x_n-x)+(y_n-y)|\leq |x_n-x|+|y_n-y|,
+                        \] 故 \[
+                        |z_n-z|&lt; \frac{\varepsilon}{2}+\frac{\varepsilon}{2} \quad \text{whenever} \quad n &gt;
+                        n_0.
+                        \] 因此条件 (\\ref{teoseq01}) 成立。</p>
+
+                    <p><p>: 反之，若从条件 (\\ref{teoseq01}) 出发，则对每个正数 $\varepsilon$，存在正整数 $n_0$ 使得 \[
+                        |(x_n+iy_n)-(x+iy)|&lt;\varepsilon \quad \text{whenever} \quad n&gt;n_0.
+                        \] 然而 \[
+                        |x_n-x|\leq |(x_n-x)+(y_n-y)|=|(x_n+iy_n)-(x+iy)|
+                        \] 且 \[
+                        |y_n-y|\leq |(x_n-x)+(y_n-y)|=|(x_n+iy_n)-(x+iy)|.
+                        \] 因此 \[
+                        |x_n-x|&lt;\varepsilon \quad \text{and} \quad |y_n-y|&lt;\varepsilon \quad \text{whenever}
+                        \quad n
+                        &gt; n_0.
+                        \] 故条件 (\\ref{teoseq02}) 满足。$\blacksquare$</p>
+                </details>
+
+
+            </div>
+
+            <hr>
+
+            <div id="section2">
+
+                <h2><h2>: 级数的收敛性</h2>
+
+                
+                    <p><p>: 复数的无穷级数 \begin{eqnarray}\label{series01}
+                        \sum_{n=1}^{\infty}z_n=z_1+z_2+z_3+\cdots
+                        \end{eqnarray} 收敛到和 $S$，如果部分和序列 <div class="scroll-wrapper"> \begin{eqnarray}\label{partialsum}
+                        \sum_{n=1}^{N}z_n=z_1+z_2+z_3+\cdots +z_N\quad(N=1,2,3,\ldots)
+                        \end{eqnarray} </div> 收敛到 $S$；此时记为 $$\sum_{n=1}^{\infty}z_n=S.$$ 注意，由于序列至多有一个极限，级数也至多有一个和。当级数不收敛时，称它发散。</p>
+                
+
+                <div class="theorem">
+                    Suppose that $z_n=x_n+iy_n$ ($n=1,2,3,\ldots $)
+                    and
+                    $S=X+iY$. Then
+                    \begin{eqnarray}\label{teo01}
+                    \sum_{n=1}^{\infty} z_n=S
+                    \end{eqnarray}
+                    if and only if
+                    \begin{eqnarray}\label{teo02}
+                    \sum_{n=1}^{\infty} x_n=X\quad \text{and}\quad \sum_{n=1}^{\infty} y_n=Y.
+                    \end{eqnarray}
+                </div>
+
+
+                
+                    <details>
+                        <summary><b>Proof</b>
+                        </summary>
+
+                        <br>
+
+                        <p><p>: 为证明此定理，首先将部分和 (\\ref{partialsum}) 写为 \begin{eqnarray}\label{teo03}
+                            S_N = X_N+iY_N,
+                            \end{eqnarray} 其中 \[
+                            X_N = \sum_{n=1}^{N}x_n \quad \text{and}\quad Y_N = \sum_{n=1}^{N}y_n.
+                            \] 现在，命题 (\\ref{teo01}) 为真当且仅当 \begin{eqnarray}\label{teo04}
+                            \lim_{N\rightarrow \infty} S_N = S;
+                            \end{eqnarray} 而由关系 (\\ref{teo03}) 和关于序列的定理 1，极限 (\\ref{teo04}) 成立当且仅当 \begin{eqnarray}\label{teo05}
+                            \lim_{N\rightarrow \infty} X_N=X\quad \text{and}\quad \lim_{N\rightarrow \infty} Y_N=Y.
+                            \end{eqnarray} 因此极限 (\\ref{teo05}) 蕴含命题 (\\ref{teo01})，反之亦然。由于 $X_N=X$ 和 $Y_N=Y$ 是级数 (\\ref{teo02}) 的部分和，定理得证。$\blacksquare$</p>
+                    </details>
+                
+
+
+                <br>
+
+                <p><p>: 此定理在证明微积分中级数的许多熟知性质可以推广到以复数为项的级数时非常有用。</p>
+
+                <p><p>: <strong>性质 1:</strong> 若复数级数收敛，则第 $n$ 项在 $n$ 趋于无穷时收敛到零。</p>
+
+                It follows from <strong>Property 1</strong> that the terms of convergent series are bounded.
+                That is, when series (\ref{series01}) converges, there exists a positive constant $M$ such that
+                $$|z_n| \leq M \; \text{ for each positive integer } n.$$
+
+                <p><p>: 由微积分中相应性质导出的复数级数的另一个重要性质如下。</p>
+
+                <p><p>: <strong>性质 2:</strong> 复数级数的绝对收敛蕴含该级数的收敛。</p>
+
+
+                <p><p>: 回顾级数 (\\ref{series01}) 称为<em>绝对收敛</em>，如果实数 $\sqrt{x^2_n+y^2_n}$ 的级数 $\sqrt{x^2_n+y^2_n}$ 收敛。</p>
+
+
+                <p><p>: 为确立级数的和为给定数 $S$ 这一事实，通常利用部分和定义 $N$ 项后的<em>余项</em> $N$：\begin{eqnarray*}\label{series03}
+                    \rho_N=S-S_N
+                    \end{eqnarray*} 从而 $S=S_N+\rho_N$ 现在，由于 $|S_N-S|=|\rho_N-0|$，<em>级数收敛到数 $S$ 当且仅当余项序列趋于零</em>。<!-- We will make  use of this observation later in our treatment of <em>power series</em>, which are of the form
+$$\sum_{n=1}^{\infty}a_n(z-z_0)^n$$
+where $z_0$ and the coefficients $a_n$ are complex constants and $z$ is any point in a stated region containing $z_0$. In such series, involving a variable $z$, we denote <em>sums</em>, <em>partial sums</em>, and <em>remainders</em> by $S(z)$, $S_N(z)$ and $\rho_N(z)$, respectively. --></p>
+
+                <div class="practice">
+                    <p><p>: <strong>例:</strong> 借助余项，容易验证 \begin{eqnarray*}
+                        \sum_{n=0}^{\infty}z^n=\frac{1}{1-z}\quad\text{whenever}\quad |z|&lt; 1
+                        \end{eqnarray*} 只需回忆恒等式 $$1+z+z^2+\cdots+z^n=\frac{1-z^{n+1}}{1-z}$$ 即可将部分和 <div class="scroll-wrapper"> \begin{eqnarray}
+                        S_N(z)=\sum_{n=0}^{\infty}z^n=1+z+z^2+\cdots+z^{N-1}\quad\quad(z\neq 1)
+                        \end{eqnarray} </div> 写为 $$S_N(z)=\frac{1-z^N}{1-z}.$$ 若 $$S(z)=\frac{1}{1-z}$$ 则 $$\rho_N(z)=S(z)-S_N(z)=\frac{z^N}{1-z}\quad\quad(z\neq 1).$$ 从而 $$\left|\rho_N\right|=\frac{|z|^N}{|1-z|}\rightarrow 0\quad\text{only when}\quad |z|&lt;1.$$ 此时显然余项 $\rho_N$ 在 $|z|&lt;1$ 时趋于零，但在 $|z|\geq 1$ 时不趋于零。</p>
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div id="section3">
+
+                <h2><h2>: 几何级数探索</h2>
+
+                <p><p>: 前例中引入的级数 \begin{eqnarray*}
+                    \sum_{n=0}^{\infty}z^n=\frac{1}{1-z}\quad\text{whenever}\quad |z|&lt; 1
+                    \end{eqnarray*} 称为<em>几何级数</em>。</p>
+
+                <p><p>: 使用以下小程序探索此级数。拖动点 $z$ 观察它在单位圆内部、外部或边界上时的情况。拖动滑块显示部分和。</p>
+
+
+                <div class="ggbElement" id="ggb-element"></div>
+                
+                <details>
+                    <summary><strong>Code</strong></summary>
+
+                    <p><p>: 在 <a href="https://www.geogebra.org/classic" target="_blank">GeoGebra</a> 中输入以下脚本自行探索并制作你自己的版本。符号 <code>#</code> 表示注释。</p>
+
+                    <pre><code>#Complex number
+Z = 0.72 + ί * 0.61
+
+#Circle of radius 1
+c = Circle((0,0), 1)
+
+#Number of terms of the partial series
+n = Slider(0, 250, 1, 1, 150, false, true, false, false)
+SetValue(n, 250)
+
+#Define the sequence z^n
+S = Join({0 + ί * 0, 1 + ί * 0}, Sequence(Z^j, j, 1, n))
+
+#Define partial sum
+SP = Sequence(Sum(S, j), j, 1, n + 2)
+
+#Finally join the points of the partial sum
+L = Sequence(Segment(Element(SP, j), Element(SP, j + 1)), j, 1, n + 1)
+</code></pre>
+                </details>
+
+
+            </div>
+
+
+
+        </article>
+    </main>
+
+    <!--GeoGebra embedding-->
+    <script src="https://www.geogebra.org/apps/deployggb.js"></script>
+
+    <script>
+        let params = {
+            "width": 776,
+            "height": 548,
+            "material_id": "e9zzzqnu",
+            "borderColor": "888888",
+            "playButton": true,
+            "showFullscreenButton": true,
+            "enableShiftDragZoom": false,
+            "showResetIcon": true
+        };
+        let ggbApplet = new GGBApplet(params, true);
+        window.addEventListener("load", () => {
+            ggbApplet.inject('ggb-element');
+        });
+    </script>
+    <!--GeoGebra embedding ends-->
+
+    <a href="tai_le_ji_shu.html" style="text-decoration: none;">
+        <p class="nextPage"><p>: 泰勒级数 <i class="fa-solid fa-angles-right"></i></p>
+    </a>
+    <!-- Ends main content -->
+
+</section>

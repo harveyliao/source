@@ -1,0 +1,171 @@
+<section data-type="chapter" id="roots-complex-numbers">
+
+    <!-- Starts main content -->
+
+    <div w3-include-html="small_screen_message.html"></div>
+
+    <br><br/>
+
+    <main>
+        <article>
+
+            <h1>复数的根</h1>
+
+            <hr>
+
+            <p>回忆一下，如果 $z=x+iy$ 是一个<em>非零</em>复数，那么它可以写成极坐标形式
+                \[z=r(\cos \theta +i \sin \theta)\]
+                其中 $r=\sqrt{x^2+y^2}$，$\theta$ 是从正 $x$ 轴到连接原点与点 $z.$ 的射线的角度（以弧度计）。
+            </p>
+
+
+            <p>现在，<em>棣莫弗公式</em>表明，如果 $z=r(\cos \theta +i\sin \theta)$
+                且 $n$ 是正整数，则
+                \begin{eqnarray*}
+                z^n=r^n(\cos n\theta+i\sin n\theta).
+                \end{eqnarray*}
+            </p>
+
+
+            <p>设 $z$ 是一个非零复数。利用棣莫弗公式将帮助我们求解方程 $$w^n=z$$
+                关于 $w$，其中 $z$ 已给定。
+            </p>
+
+            <p>假设 $z=r(\cos \theta +i\sin \theta)$ 且 $w=\rho (\cos \psi +i\sin \psi).$，
+                那么棣莫弗公式给出
+                $$w^n=\rho^n(\cos n\psi+i\sin n\psi).$$
+                由于 $w^n=z,$，由极坐标表示的唯一性可得
+                $$\rho^n=r=|z|$$
+                以及
+                $$n\psi = \theta +k(2\pi),$$
+                其中 $k$ 是某个整数。因此，
+                非零复数 $z$ 的 $n$ 次<em>根</em>由下式给出
+            <div class="scroll-wrapper">
+                \begin{eqnarray}\label{n-roots}
+                w_k=z^{1/n}=\sqrt[n]{r}\left[\cos\left(\frac{\theta}{n}+\frac{2k\pi}{n}\right)+i\sin\left(\frac{\theta}{n}+\frac{2k\pi}{n}\right)
+                \right].
+                \end{eqnarray}
+            </div>
+            $k=0,1,2,\ldots ,n-1$ 的每个值给出 $w_k.$ 的一个不同值。$k$ 的任何其他值仅仅重复
+            $w_k$ 对应于 $k=0,1,2,\ldots ,n-1.$ 的值之一。因此，非零复数恰好有 $n$ 个 $n$ 次根。
+            </p>
+
+            <p>利用<em>欧拉公式</em>：
+                $$e^{i\theta}=\cos \theta +i \sin \theta,$$
+                复数 $z=r(\cos \theta +i\sin \theta)$ 也可以写成指数形式
+                $$z=re^{i\theta} = r \,\mbox{exp}(i \theta).$$
+            </p>
+
+
+            <p>因此，复数 $z\neq 0$ 的 $z\neq 0$ 次根也可以表示为
+            <div class="scroll-wrapper">
+                \begin{eqnarray}\label{expform}
+                w_k=z^{1/n}=\sqrt[n]{r}\;\mbox{exp}\left[i\left(\frac{\theta}{n}+\frac{2k\pi}{n}\right)\right]
+                \end{eqnarray}
+            </div>
+            其中 $k=0, 1, 2, \ldots , n-1.$
+            </p>
+
+            <div class="practice">
+                <p>
+                    <strong>例：</strong>
+                    复数 $z=i$ 有三个立方根。此时
+                    $r=1,$ 且 $\theta = \arg(z) = \pi/2.$。因此给定数的极坐标形式为
+                    \[
+                    z = \cos \frac{\pi}{2} + i \sin\frac{\pi}{2}.
+                    \]
+                    利用 (\ref{n-roots}) 我们得到
+                    <div class="scroll-wrapper">
+                        \[
+                        w_k = \sqrt[3]{1}\left[\cos\left(\frac{\pi/2}{3}+\frac{2k\pi}{3}\right)+i\sin\left(\frac{\pi/2}{3}+\frac{2k\pi}{3}\right)\right]
+                        \]
+                    </div>
+                    其中 $k=0,1,2.$。因此三个根为
+                    \begin{eqnarray*}
+                    k=0,\quad w_0 &=& \cos\frac{\pi}{6} + i \sin\frac{\pi}{6}  = \frac{\sqrt{3}}{2}+\frac{1}{2}i\\
+                    k=1,\quad w_1 &=& \cos\frac{5\pi}{6} + i \sin\frac{5\pi}{6}  = -\frac{\sqrt{3}}{2}+\frac{1}{2} i \\
+                    k=2,\quad w_2 &=& \cos\frac{3\pi}{2} + i \sin\frac{3\pi}{2}  = -i .
+                    \end{eqnarray*}
+                </p>
+            </div>
+
+            <p>下面的小程序展示了复数 $n$ 次根的几何和数值表示，最多到 $n=10.$。
+                拖动红点来改变 $z$ 的值，或激活 <code>指定值</code> 复选框来拖动滑块。
+                您可以验证前面例子中的根。
+            </p>
+
+            <!-- ctl=play button; sfsb=fullscreen button-->
+            <div  class="ggbElement"  style="display:block;" id="ggb-element"></div>
+            
+
+
+
+
+            <details>
+                <summary><strong>Code</strong></summary>
+
+                <p>在 <a href="https://www.geogebra.org/classic" target="_blank">GeoGebra</a> 中输入以下脚本来自行探索并制作您自己的版本。
+                    符号 <code>#</code> 表示注释。</p>
+
+                <pre><code>#Complex number
+Z = 1 + ί
+
+#Modulus of Z
+r = abs(Z)
+
+#Angle of Z
+theta = arg(Z)
+
+#Number of roots
+n = Slider(2, 10, 1, 1, 150, false, true, false, false)
+
+#Plot n-roots
+nRoots = Sequence(r^(1/n) * exp( ί * ( theta/n + 2 * pi * k/n ) ), k, 0, n-1)
+</code></pre>
+            </details>
+
+
+            <hr>
+
+            <div class="practice">
+                <p><strong>练习 1：</strong> 由根的指数形式 (\ref{expform})，
+                    证明所有 $n$ 次根都位于以原点为圆心、半径为 $|z|=\sqrt[n]{r}$ 的圆上，且
+                    从辐角 $\theta/n.$ 开始，每隔 $\theta/n.$ 弧度均匀分布。
+            </p>
+
+                <p>
+                    <strong>练习 2：</strong>
+                    求 $z=1+i.$ 的四次根。您可以在前面的小程序中验证您的结果。
+                </p>
+            </div>
+            <br />
+
+        </article>
+    </main>
+
+    <!--GeoGebra embedding-->
+    <script src="https://www.geogebra.org/apps/deployggb.js"></script>
+    <script>
+        let params = {
+            "width": 791,
+            "height": 439,
+            "material_id": "egcv9rkx",
+            "borderColor": "888888",
+            "playButton": false,
+            "showFullscreenButton": true,
+            "enableShiftDragZoom": true,
+            "showResetIcon": true
+        };
+        var ggbApplet = new GGBApplet(params, true);
+        window.addEventListener("load", () => {
+            ggbApplet.inject('ggb-element');
+        });
+    </script>
+    <!--GeoGebra embedding ends-->
+
+    <a href="fu_ping_mian_tuo_pu.html" style="text-decoration: none;">
+        <p class="nextPage">复平面的拓扑 <i class="fa-solid fa-angles-right"></i></p>
+    </a>
+    <!-- Ends main content -->
+
+</section>

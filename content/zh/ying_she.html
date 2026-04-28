@@ -1,0 +1,104 @@
+<section data-type="chapter" id="mappings">
+
+    <!-- Starts main content -->
+
+    <div w3-include-html="small_screen_message.html"></div>
+
+    <br><br>
+
+    <main>
+        <article>
+
+            <h1>映射</h1>
+            <hr>
+
+            <p>
+                复变函数 $w = f (z)$ 可以视为将 $z = x + iy $ 平面上的点<em>映射</em>或<em>变换</em>到 $w = u + iv$ 平面上的点。在一维实变量
+                情况下，这个概念相当于理解图像 $y = f (x),$，即将点 $x$ 映射到 $y = f (x).$。
+            </p>
+
+            <p>
+                在复变量情形下，由于我们具有四个维度，情况更加困难。因此，像一维实情形那样的图形描述
+                是不可行的。相反，我们分别考虑两个复平面 $z$ 和 $w,$，并探究 $z$ 平面中的一个区域如何变换或
+                映射到 $w$ 平面中相应的区域或像。
+            </p>
+
+            <p>下面的小程序将复变函数的作用可视化为从 $z$ 平面的一个子集到 $w$ 平面的一个映射。
+                例如，浅紫色区域分别是定义域和函数的值域。定义域中的任意点 $z$
+                被映射到值域中相应的点 $f(z)=w$。当然，我们也可以选择一个不同的定义域（如三角形或正方形）来应用该映射。以这种方式，函数将定义域中的
+                彩色对象映射（变换）到值域中。拖动在 $z$ 平面上定义的三角形和正方形（或点），以观察
+                变换在 $w$ 平面中的效果。
+            </p>
+
+            <div class="ggbElement" id="ggb-element"></div>
+
+            <p><strong>注：</strong> 在复分析中，"区域"（domain）一词有两种不同的含义。第一种指的是函数的定义域，
+                而第二种指的是复平面或黎曼球面上任意开连通子集。本书中我们将遇到的大多数复变函数的
+                定义域在拓扑意义上确实是区域。
+            </p>
+
+            <hr />
+
+            <h2>动态探索</h2>
+
+            <p>
+                在下面的小程序中，您可以探索不同的复变函数
+                如何作为映射来考虑。
+                当您在 $xy$ 平面（左侧图形视图）上拖动正方形时，
+                您可以观察到 $uv$ 平面（右侧图形视图）上的变化。
+            </p>
+
+            <div class="ggbElement" id="ggb-element2"></div>
+
+            <p><strong>更多尝试：</strong></p>
+
+            <ul style="margin-top: -2px;">
+                <li>更改复变函数。</li>
+                <li>通过拖动正方形的边来改变区域，或激活 <code>更多</code> 复选框。</li>
+            </ul>
+
+
+            <br>
+
+
+        </article>
+    </main>
+
+    <!--GeoGebra embedding-->
+    <script src="https://www.geogebra.org/apps/deployggb.js"></script>
+    <script>
+        let params1 = {
+            "width": 800,
+            "height": 445,
+            "material_id": "jj4sef6w",
+            "borderColor": "888888",
+            "playButton": false,
+            "showFullscreenButton": true,
+            "enableShiftDragZoom": true,
+            "showResetIcon": true
+        };
+        let params2 = {
+            "width": 794,
+            "height": 448,
+            "material_id": "qCSzkRsP",
+            "borderColor": "888888",
+            "playButton": false,
+            "showFullscreenButton": true,
+            "enableShiftDragZoom": true,
+            "showResetIcon": true
+        };
+        let ggbApplet1 = new GGBApplet(params1, true);
+        let ggbApplet2 = new GGBApplet(params2, true);
+        window.addEventListener("load", () => {
+            ggbApplet1.inject('ggb-element1');
+            ggbApplet2.inject('ggb-element2');
+        });
+    </script>
+    <!--GeoGebra embedding ends-->
+
+    <a href="yi_chu_yi_z_ying_she.html" style="text-decoration: none;">
+        <p class="nextPage">变换 $1/z$ <i class="fa-solid fa-angles-right"></i></p>
+    </a>
+    <!-- Ends main content -->
+
+</section>

@@ -1,0 +1,214 @@
+<section data-type="chapter" id="fundamental-theorem-of-algebra">
+
+    <!-- Starts main content -->
+
+    <div w3-include-html="small_screen_message.html"></div>
+ 
+    <br><br>
+
+    <main>
+        <article>
+
+            
+
+            <h1>代数基本定理  [[br]]</h1>
+
+            <hr>
+
+           
+            
+            <p>              考虑多项式            </p>
+            <div class="scroll-wrapper">
+              \begin{eqnarray}\label{example-001}
+              p(z) = z^8-2z^7+2z^6-4z^5+2z^4-2z^3-5z^2+4z-4
+              \end{eqnarray}
+            </div>
+
+            <p>              <strong>代数基本定理</strong>指出：              <em>每个具有复系数的非常数多项式在复数中都有一个根。</em>            </p>
+
+            <figure>
+              <img src="../images/chp04/poly-001.jpg" alt="Polynomial of degree 8" title="Polynomial of degree 8" style="width:550px;">
+              <figcaption>                  $p(z),$ 的增强相位图及                  $\abs{p(z)}.$ 的等值线                  <a href="https://complex-analysis.com/applets/p5js/domain-coloring/?expression=el44LTJ6XjcrMnpeNi00el41KzJ6XjQtMnpeMy01el4yKzR6LTQ=" target="_blank"><i class="fas fa-external-link-alt"></i></a>              </figcaption>
+             </figure>
+
+            <p>              图 1 显示了 (\ref{example-001}) 中定义的多项式的 <a href="qu_yu_zhuo_se.html">增强相位图</a>，              以及模的等值线。              从这张图中首先注意到的是，代数基本定理确实对 $p(z).$ 成立。              回顾一下，使用增强相位图可以很容易地发现复变函数的根或零点。只需寻找所有颜色交汇的点。              在图 1 中可以清楚地看到有六个所有颜色交汇的点，这意味着              $p(z)$ 有 6 个根。              <strong>为什么 $p(z),$ 作为一个八次多项式只有六个根？</strong> 原因是其中两个根是<em>二重根</em>              （也称其<em>重数为二</em>），              这一事实在图像中也显而易见。<em>单根</em>              出现在颜色以简单的有序方式交汇的地方（如点 \[
+              -1, \;\; 2, \;\; \frac{-1\pm i \sqrt{7}}{2},
+              \]），而二重根出现在颜色以双重的、更复杂的方式交汇的地方（如点 \[
+              \frac{1\pm i \sqrt{3}}{2}.
+              \]）。            </p>
+
+            <div class="ggbElement" id="ggb-element-1" ></div>
+            
+            <br/>
+
+            <p>              多项式 \ref{example-001} 的另一个迷人性质是，如果沿一个非常大的圆（例如 $p(z)$）绘制其相位图，              那么颜色会绕着圆周交替变化八次，这正好对应于多项式的次数。            </p>
+
+
+            <div class="ggbElement" id="ggb-element-2" ></div>
+
+
+            <br/>
+           
+
+           <hr>
+
+           
+            <h2>证明与历史注记</h2>
+
+            <p>              <a href="ke_xi_ji_fen_gong_shi.html#cauchy-inequality">柯西不等式</a>可以用来证明 <em>Liouville 定理</em>：              如果一个函数在整个复平面上解析且有界，则它必为常数。            </p>
+
+            <div class="theorem">
+              <span  style="font-style: normal!important;font-weight: bold!important;">(Liouville's Theorem)</span>
+              The only bounded entire functions are constants.
+            </div>
+
+            <div class="proof">
+              Suppose $f$ is entire and bounded, that is, $\abs{f(z)}\lt M$ for all $z.$
+              Then for any point $z_0,$ Cauchy's inequality gives 
+              \[
+              \abs{f'(z)}\leq \frac{M_r}{r}.
+              \]
+              By making $r$ arbitrarily large, we can make $\abs{f'(z)}$
+              as small as we wish. This means that $f'(z_0)= 0$ for all points 
+              $z_0$ in the complex plane. Hence, by 
+              <a href="fu_wei_fen.html#derivative-zero" target="_blank">Theorem 3</a>
+              in the Complex Differentiation section, $f$ must be constant.
+            </div>
+
+            <p>现在借助 Liouville 定理，可以轻松证明代数基本定理。</p>
+            <div class="theorem">
+              <span  style="font-style: normal!important;font-weight: bold!important;">(Fundamental Theorem of Algebra)</span>
+              Any polynomial 
+              \[
+              p(z)= a_n z^n+ a_{n-1}z^{n-1}+\cdots + a_1z+ a_0\quad (a_n\neq 0)
+              \]
+              of degree $n\geq 1$ has at least one zero. 
+            </div>
+
+            <div class="proof">
+              We establish this statement by contradiction. 
+              Suppose that $p(z)$ is <em>not</em> zero for any value of $z,$
+              then
+              \[
+              f(z) = \frac{1}{p(z)}
+              \]
+              is an entire function. 
+              Since $\abs{p(z)}\to \infty$ as 
+              $\abs{z}\to \infty,$ there exists $M,$ $R\gt 0$ such that 
+              $\abs{p(z)}\gt M$ if $\abs{z}\gt R.$ 
+              This implies that for $\abs{z}\gt R,$ 
+              \[
+              \abs{f(z)}  =  \abs{\frac{1}{p(z)}} \lt \frac{1}{M}.
+              \]
+              Now, $f$ is continuous on the region $\abs{z}\leq R,$ which is closed and bounded.
+              By <a href="lian_xu_xing.html#bounded-function" target="_blank">Theorem 3</a>, in the Continuity section,
+              $f$ is also bounded for $\abs{z}\leq R.$ 
+              Hence $f(z)$ is bounded in the entire complex plane.
+              Liouville's Theorem then implies that $f(z)$ is a constant, 
+              and consequently $p(z)$ is a constant as well.   
+              But this is a contradiction. We conclude that there must 
+              exist at least one number $z$ for which $p(z) = 0.$
+              </p>
+            </div>
+
+            <p>              按照通常的方法可以推出，任何多项式 $p(z)$ 都可以分解为一次因式的乘积              $n,$              其中 $c$ 是 $\alpha_k$ 的零点，且这些零点不必互异。            </p>
+            
+
+            <p>              根据 B. Fine 和 G. Rosenberger              <a href="https://link.springer.com/book/10.1007/978-1-4612-1928-6" target="_blank"> <em>代数基本定理</em></a>，              代数基本定理的已知证明不少于 111 种。              其中第一个证明是由 Carl Friedrich Gauss 于 1799 年发表的，              当时他 22 岁。然而，Gauss 的原始证明假设了代数曲线的某些性质，              这些性质在 1799 年尚未被证明。后来，他发表了另外三种不同的证明，              最后一次是在 1849 年。            </p>
+
+            <div class="practice">
+              <p><strong>Gauss 原始证明的概要：</strong>              设 $(k=1,2,\ldots, n)$ 是一个多项式。将 $\alpha_k$ 的实部和虚部设为零，即              $p(z)$ 和 $n$              然后证明曲线 $p(z)$ 和 $z\in \C$ 至少有一个交点。            </p>
+            </div>
+
+            <p>例如，图 2 展示了曲线 $u(x,y)=0$ 和 $v(x,y)=0$</p>
+
+            <figure>
+              <img src="../images/chp04/fta-gauss.svg" alt="Real and imaginary components of a polynomial" title="Real and imaginary components of a polynomial" style="width:70%">
+              <figcaption>曲线 $u(x,y)=0$（红色）和 $v(x,y)=0$（蓝色）。</figcaption>
+            </figure>
+
+            <!--
+              <figure>
+              <img src="../images/chp04/gauss-original.jpg" alt="Real and imaginary components of a fifth degree polynomial" title="Real and imaginary components of a fifth degree polynomial" style="width:60%">
+              <figcaption>
+                  Gauss' original picture made for a special equation of 
+                  fifth degree.
+              </figcaption>
+            </figure>
+            -->
+            <p>              尽管有人认为 Gauss 对代数基本定理的第一个证明在拓扑基础上存在某些漏洞，              但他的论证中仍有一些相当深刻的思想。后来的证明由 Argand、Cauchy 等人完成。            </p>
+
+            <br/>
+
+
+            <hr>
+
+            <h2>参考文献</h2>
+
+            <ol class="bbtex-list">
+              <li>Abian, A. (1986). A new proof of the fundamental theorem of algebra. <em>Caribbean Journal of Mathematics</em>, 5(1), 1-6.</li>
+              <li>Bennish, J. (1992). Another proof of the fundamental theorem of algebra. <em>American Mathematical Monthly</em>, 99(5), 426-428.</li>
+              <li>Boas, Jr., R. P. (1935). A proof of the fundamental theorem of algebra. <em>American Mathematical Monthly</em>, 42(8), 501-502.</li>
+              <li>Boas, Jr., R. P. (1964). Yet another proof of the fundamental theorem of algebra. <em>American Mathematical Monthly</em>, 71(2), 180.</li>
+              <li>Byl, J. (1999). A simple proof of the fundamental theorem of algebra. <em>International Journal of Mathematical Education in Science and Technology</em>, 30(4), 602-603.</li>
+              <li>Fefferman, C. (1967). An easy proof of the fundamental theorem of algebra. <em>American Mathematical Monthly</em>, 74(7), 854-855.</li>
+              <li id="fine1997">Fine, B. &amp; Rosenberger. G. (1997). <em>The Fundamental Theorem of Algebra</em>. Springer.</li>
+              <li id="gauss1799">Gauss, C. F. (1799). <em>Demonstratio nova theorematis omnem functionem algebraicam rationalem integram unius variabilis in factores reales primi vel secundi gradus resolvi posse</em>. Helmstedt.</li>
+              <li id="gauss1850">Gauss, C. F. (1850). Beiträge zur Theorie der algebraischen Gleichungen. <em>Abhandlungen der Königlichen Gesellschaft der Wissenschaften zu Göttingen</em>, 4.</li>
+              <li>Redheffer, R. M. (1964). What! Another note just on the fundamental theorem of algebra? <em>American Mathematical Monthly</em>, 71(2), 180-185.</li>
+              <li>Sen, A. (2000). Fundamental theorem of algebra—yet another proof. <em>American Mathematical Monthly</em>, 107(9), 842-843.</li>
+              <li id="stillwell1989">Stillwell, J. (1989).  <em>Mathematics and its History</em>. Springer.</li>
+              <li>Velleman, D. J. (1997). Another proof of the fundamental theorem of algebra. <em>Mathematics Magazine</em>, 70(3), 201-203.</li>
+              <li id="velleman2015">Vellemen, D. J. (2015). The Fundamental Theorem of Algebra: A Visual Approach. <em>The College Mathematics Journal</em>, 46(1), 17-24.</li>
+            </ol>
+           
+
+
+            <br>
+
+
+
+
+        </article>
+    </main>
+
+    <!--GeoGebra embedding-->
+    <script src="https://www.geogebra.org/apps/deployggb.js"></script>
+
+    <script>
+        let params1 = {
+            "width": 770,
+            "height": 477,
+            "material_id": "wckedtxs",
+            "borderColor": "888888",
+            "playButton": false,
+            "showFullscreenButton": true,
+            "enableShiftDragZoom": false,
+            "showResetIcon": true
+        };
+        let params2 = {
+            "width": 782,
+            "height": 448,
+            "material_id": "r3jf9s8g",
+            "borderColor": "888888",
+            "playButton": false,
+            "showFullscreenButton": true,
+            "enableShiftDragZoom": false,
+            "showResetIcon": true
+        };
+       
+        let ggbApplet1 = new GGBApplet(params1, true);
+        let ggbApplet2 = new GGBApplet(params2, true);
+        window.addEventListener("load", () => {
+            ggbApplet1.inject('ggb-element-1');
+            ggbApplet2.inject('ggb-element-2');
+        });
+    </script>
+    <!--GeoGebra embedding ends-->
+
+    <a href="ji_shu.html" style="text-decoration: none;">
+        <p class="nextPage">级数<i class="fa-solid fa-angles-right"></i></p>
+    </a>
+    <!-- Ends main content -->
+
+</section>

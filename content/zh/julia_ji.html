@@ -1,0 +1,216 @@
+<section data-type="chapter" id="julia">
+
+    <!-- Starts main content -->
+
+    <div w3-include-html="small_screen_message.html"></div>
+
+    <div class="toc-chapter" id="toc-chapter">
+        <p><i class="fa-solid fa-list"></i>目录</p>
+        <ul>
+            <li><a href="#section1">Julia 集</a></li>
+            <li><a href="#section2">Mandelbrot 与 Julia 集的关系</a></li>
+            <li><a href="#section3">进一步阅读</a></li>
+            <!-- Add more sections as needed -->
+        </ul>
+    </div>
+
+    <br><br>
+
+    <main>
+        <article>
+
+            <div id="section1">
+
+                <h1>Julia 集</h1>
+                <hr>
+
+                <p>在上一节中，我们展示了如何使用表达式 \[z_{n+1}=z_{n}^2+z_0.\] 生成 Mandelbrot 集。
+                    这是二次递推方程 \begin{eqnarray}\label{julia}
+                    z_{n+1}=z_{n}^2+c
+                    \end{eqnarray} 的一个特例，
+                    其中 $c$ 是一个固定的复数。用这个方程得到的集合称为 Julia 集。
+                    事实上，几乎每个 $c.$ 都对应一个不同的 Julia 集。</p>
+
+                <p>与我们对 Mandelbrot 集所做的类似，我们得到一个复数序列 $z_n$，其中 $n=0,1,2,\ldots.$。
+                    同样，点 $z_n$ 被称为构成 $z_0,$ 的轨道，而 Julia 集定义如下：</p>
+
+                <div class="practice">
+                    <p>如果轨道 $z_n$ 未能逃逸到无穷远，则初始点 $z_0$ 称为属于<em>填充 Julia 集</em>。</p>
+                </div>
+
+                <p>Julia 集以法国数学家 <a
+                        href="https://en.wikipedia.org/wiki/Gaston_Julia" target="_blank">Gaston Julia</a> 命名，
+                    他于 1915 年研究了它们的性质，并在 1918 年发表了著名的论文：
+                    <a href="http://sites.mathdoc.fr/JMPA/PDF/JMPA_1918_8_1_A2_0.pdf" target="_blank"><em>Mémoire sur
+                            l'itération des fonctions rationnelles</em></a>。
+                    虽然 Julia 集现在与 (\ref{julia}) 中的二次多项式相关联，但 Julia 实际上对更一般表达式的迭代性质感兴趣，即
+                    \[z^4 + \frac{z^3}{z-1} + \frac{z^2}{z^3 + 4 z^2 + 5} + c.\]
+                    由方程 (\ref{julia}) 定义的 Julia 集可以呈现各种各样的形状，$c$ 的微小变化
+                    可以极大地改变 Julia 集。1979 年，借助计算机，B. B. Mandelbrot 研究了 Julia 集并尝试对所有可能的形状进行分类，
+                    从而产生了一个新的形状：Mandelbrot 集。
+                </p>
+
+                <p>在下面的小程序中探索 Julia 集。在不同区域放大或缩小。改变迭代次数并观察图形发生的变化。
+                    移动鼠标并观察依赖于 $c.$ 值的不同 Julia 集。
+                </p>
+
+                <div class="hide-small hide-medium" style="text-align: center;">
+
+                    <div id="iframeContainer1" class="iframeContainer">
+                        <iframe name="Julia" src="../applets/p5js/julia-content/index.html" width="770px" height="590px"
+                        style="border:none;" style="overflow:hidden;" scrolling="no"></iframe>
+                    </div>
+                    
+                    <div style="display: flex; justify-content: space-between; width: 800px;">
+                        <div><strong>Control keys:</strong></div>
+                        <div><strong>+ </strong> (Zoom In)</div>
+                        <div><strong>- </strong> (Zoom Out)</div>
+                        <div><strong>R</strong> (Reset view) </div>
+                        <div><strong>I</strong> (Info &amp; Frame)</div>
+
+                    </div> 
+                    
+                    <div style="text-align: center;margin-top: -20px;">
+                        <button onclick="var ifr=document.getElementsByName('Julia')[0]; ifr.src=ifr.src;"
+                            style="cursor: pointer;font-weight: bold;">Reset</button>
+                        &nbsp;&nbsp;
+                        <button>
+                            <a style="color: black;font-weight: bold;outline: none;text-decoration: none; "
+                                href="../applets/p5js/julia/" target="_blank">
+                                Fullscreen
+                            </a>
+                        </button>
+
+                    </div>
+                </div>
+
+
+                <div class="hide-large">
+                    <div w3-include-html="fixed_applets_message.html"></div>
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div id="section2">
+
+                <h2>Mandelbrot 与 Julia 集的联系</h2>
+
+                <p>由于 Mandelbrot 集的定义，Mandelbrot 集在给定点处的几何与对应 Julia 集的结构之间存在密切的对应关系。
+                    换句话说，Mandelbrot 集构成了 Julia 集的一种索引。
+                    Julia 集要么是连通的，要么是不连通的，从 Mandelbrot 集内部选取的 $c$ 值是连通的，
+                    而从 Mandelbrot 集外部选取的值是不连通的。
+                    不连通集通常称为<em>尘埃</em>，它们由孤立点组成，无论以何种分辨率查看都是如此。</p>
+
+                <p>在下面的小程序中探索 Mandelbrot 集与 Julia 集之间的关系。
+                    将鼠标移到 Mandelbrot 集上以观察不同的 Julia 集。在不同区域放大或缩小。
+                    打开控制菜单以更改迭代次数或选择特定的 $c.$ 值。</p>
+
+                <div class="hide-small hide-medium">
+
+                    
+                    <div id="iframeContainer2" class="iframeContainer">
+                        <iframe name="Julia-Mandelbrot" src="../applets/p5js/julia-mandelbrot-content/index.html"
+                        width="800px" height="400px" style="border:none;" style="overflow:hidden;"
+                        scrolling="no"></iframe>
+                    </div>
+                    
+
+                    <div class="w3-text-grey " style="display: flex; justify-content: space-between; width: 800px;">
+                        <div><strong>Control keys:</strong></div>
+                        <div><strong>+</strong> (Zoom In)</div>
+                        <div><strong>-</strong> (Zoom Out)</div>
+                        <div><strong>R</strong> (Reset view)</div>
+                        <div><strong>I</strong> (Info &amp; Frame)</div>
+                    </div>
+                    <!--
+            <p class="w3-text-grey w3-medium"><strong>+:</strong> Zoom In &nbsp; &nbsp;  <strong>-:</strong> Zoom Out &nbsp; &nbsp; <strong>R</strong>=Reset view &nbsp;  &nbsp;  <strong>I</strong>=Information &amp; Frame &nbsp;  &nbsp; Double click=fix c</p>-->
+
+
+                    <div style="text-align: center;margin-top: 10px;">
+                        <button onclick="var ifr=document.getElementsByName('Julia-Mandelbrot')[0]; ifr.src=ifr.src;"
+                            class="w3-btn w3-ripple w3-light-grey"
+                            style="cursor: pointer;font-weight: bold;">Reset</button>
+                        &nbsp;&nbsp;
+                        <button>
+                            <a style="color: black;font-weight: bold;outline: none;text-decoration: none; "
+                                href="../applets/p5js/julia-mandelbrot/" target="_blank">
+                                Fullscreen</a>
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="hide-large">
+                    <div w3-include-html="fixed_applets_message.html"></div>
+                </div>
+
+                <p><strong>注：</strong> 这个小程序最近被用于 <a href="https://www.quantamagazine.org/" target="_blank">Quanta Magazine</a> 的以下视频中的一些动画：
+                </p>
+
+                <div style="text-align: center;">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/u9GAnW8xFJY?si=Bl5y5qsAaNBD4qr3"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+
+                </div>
+
+                <p><strong>文章：</strong> <a
+                        href="https://www.quantamagazine.org/the-quest-to-decode-the-mandelbrot-set-maths-famed-fractal-20240126/"
+                        target="_blank">解码 Mandelbrot 集——数学著名分形的探索之旅 <i
+                            class="fas fa-external-link-alt"></i></a></p>
+
+
+
+            </div>
+
+            <hr>
+
+            <div id="section3">
+
+                <h2>进一步阅读</h2>
+
+                <p>这些小程序是用 <a href="https://p5js.org">p5.js</a> 制作的，源代码可以在以下位置找到：</p>
+                <ul>
+                    <li><a href="https://github.com/complex-analysis/complex-analysis.github.io/tree/master/applets/p5js/julia"
+                            target="_blank">Julia 集</a></li>
+                    <li><a href="https://github.com/complex-analysis/complex-analysis.github.io/tree/master/applets/p5js/julia-mandelbrot"
+                            target="_blank">Julia-Mandelbrot 关系</a></li>
+                </ul>
+
+                <p>如果您想学习如何自己编程，我推荐这个教程：</p>
+                <ul>
+                    <li><a href="https://thecodingtrain.com/CodingChallenges/022-juliaset.html" target="_blank">编程挑战：
+                            Julia 集</a>
+                    </li>
+                </ul>
+
+                <p>最后，我推荐两本关于 Mandelbrot 和 Julia 集的最广泛阅读的基础入门书：
+                <ul>
+                    <li>
+                        <a href="https://www.springer.com/gp/book/9783540158516" target="_blank">分形之美</a>，
+                        Heinz-Otto Peitgen 和 Peter H. Richter 著，慕尼黑：Springer-Verlag，1986 年。
+                    </li>
+                    <li>
+                        <a href="https://link.springer.com/book/10.1007/978-1-84996-486-9" target="_blank">无穷之色</a>，
+                        Nigel Lesmoir-Gordon（编），伦敦：Springer-Verlag，2010 年。
+                    </li>
+                </ul>
+                它们都涵盖了其他迷人的分形，并包含许多壮观的图片。
+                </p>
+
+            </div>
+
+
+        </article>
+    </main>
+
+    <a href="gong_xing_ying_she.html" style="text-decoration: none;">
+        <p class="nextPage">共形映射 <i class="fa-solid fa-angles-right"></i></p>
+    </a>
+    <!-- Ends main content -->
+
+</section>

@@ -1,0 +1,366 @@
+<section data-type="chapter" id="limits">
+
+    <!-- Starts main content -->
+
+    <br />
+    <img src="../images/chp02/limits.jpg" alt="f(z)=1/z" title="f(z)=1/z">
+    <br />
+
+
+    <main>
+        <article>
+
+            <h1>极限</h1>
+
+            <hr>
+
+            <p>
+                设函数 $f$ 在 $z_0.$ 的某个去心邻域内的所有点 $z_0.$ 处有定义。
+                $f (z)$ 当 $z$ 趋近于 $z_0$ 时的极限为数 $w_0,$，即
+                \begin{eqnarray}\label{limit001}
+                \lim_{z\rightarrow z_0}f(z)=w_0
+                \end{eqnarray}
+                这意味着如果选取点 $z$ 足够接近 $z_0$ 但不等于它，则点 $z$ 可以任意接近 $z_0$。
+            </p>
+
+            <p>
+                形式上，表达式 (\ref{limit001}) 意味着对于每个（充分小的）$\varepsilon>0,$，存在
+                $\delta>0$ 使得
+            <div class="scroll-wrapper">
+                \begin{eqnarray}\label{limitcondition}
+                \left|f (z) - w_0\right| \lt \varepsilon \quad \text{whenever}\quad 0 \lt \left|z - z_0\right| \lt
+                \delta
+                \end{eqnarray}
+            </div>
+
+            </p>
+
+            <p>
+                在映射 $w = f (z),$ 下，圆 $|z - z_0| = \delta$ 内所有去掉了 $z_0$ 的点都被映射到圆 $|w - w_0| = \varepsilon,$
+                内的点，见图 1。极限仅在 $z$ 以<strong>任意方向</strong>趋近于 $z_0$
+                （即 $z \rightarrow z_0$）时才存在；此时这意味着 $w \rightarrow w_0$。
+            </p>
+
+
+            <figure>
+                <img src="../images/chp02/limits-complex.svg" alt="Limit" title="Limit" style="width:80%;">
+                <figcaption>
+                    极限的几何解释。
+                </figcaption>
+            </figure>
+
+            <br />
+
+
+            <div class="theorem">
+                Limits are unique if they exist.
+
+            </div>
+            <div class="proof">
+
+                Suppose that $\lim_{z\rightarrow z_0}f(z)=w_0$ and $\lim_{z\rightarrow z_0}f(z)=w_1$ with
+                $w_0\neq w_1.$ Let $2\varepsilon =|w_0-w_1|,$ so that $\varepsilon >0.$
+                There is a $\delta>0$ such that $0\lt|z-z_0|\lt\delta$ implies that
+                $|f(z)-w_0|\lt\varepsilon$ and $|f(z)-w_1|\lt\varepsilon.$ Choose a point
+                $z$ different to $z_0$ (because $f$ is defined in a deleted
+                neighborhood of $z_0$). Then, using the triangle inequality, 
+                we have
+                <div class="scroll-wrapper">
+                    $$2 \epsilon =  |w_0-w_1| =  |w_0 - f(z) + f(z) - w_1| \leq |w_0-f(z)|+|f(z)-w_1|\lt2\varepsilon.$$
+                </div>
+                But this is a contradiction. Thus $w_0=w_1.$ 
+            </div>
+
+
+            <div class="practice">
+                 <p><strong>例 1：</strong> 证明
+                    $$\lim_{z\rightarrow z_0}z^2=z_0^2.$$
+                </p>
+                <p>
+                    <strong>讨论：</strong>
+                    考虑 $\delta \leq 1.$。所以 $0\lt\left| z-z_0\right|\lt\delta$ 意味着
+                </p><div class="scroll-wrapper">
+                    \begin{eqnarray*}
+                    \left| z^2-z_0^2\right|&amp;=&amp;\left| z-z_0\right|\left| z+z_0\right|\\
+                     &amp;\lt&amp; \delta \left| z+z_0\right|\\
+                     &amp;\lt&amp; \delta \left| z-z_0+2z_0\right|\\
+                    &amp;\lt&amp; \delta \big( \left| z-z_0\right|+2\left|z_0\right|\big) \\
+                    &amp;\lt&amp;\delta \big(1+2\left|z_0\right|\big).
+                    \end{eqnarray*}
+                </div>
+
+                Now, take $\delta = 1 $ or $\delta=\dfrac{\varepsilon}{1+2\left|z_0\right|},$ 
+                whichever is smaller. Then $0\lt\left| z-z_0\right|\lt\delta$
+                implies that
+                $$\left| z^2-z_0^2\right|\lt\varepsilon.$$
+                This means that
+                $$\left| z^2-z_0^2\right|\lt\varepsilon \quad\text{whenever}\quad 0\lt\left| z-z_0\right|\lt\delta$$
+                where $\delta=\min\left\{1,\dfrac{\varepsilon}{1+2\left|z_0\right|}\right\}.$
+                </p>
+                <p>
+                    现在我们可以着手写出形式化的证明。
+                </p>
+                <p>
+                    <strong>证明：</strong>
+                    令 $\varepsilon>0.$。选取
+                    $\delta=\min\left\{1,\dfrac{\varepsilon}{1+2\left|z_0\right|}\right\}$ 使得
+                    $0\lt\left| z-z_0\right|\lt\delta.$。因此
+                    $$
+                    \left| z^2-z_0^2\right|\lt\varepsilon. \quad \blacksquare
+                    $$
+                </p>
+            </div>
+
+            <hr>
+
+            <p>
+                复变函数 $f(z)$ 的极限与
+                两个实变量的实值函数 $g(x,y).$ 的极限之间存在联系。
+                后一种类型在微积分中研究过，我们可以利用它们的定义和性质，如下所示：
+            </p>
+
+            <div class="theorem">
+                Consider
+                $f(z)=u(x,y)+iv(x,y)$
+                and
+                $z_0=x_0+iy_0,$ $w_0=u_0+iv_0.$
+                Then
+                \begin{eqnarray}\label{limitpart01}
+                \lim_{z\rightarrow z_0}f(z)=w_0
+                \end{eqnarray}
+                if and only if
+                \begin{eqnarray}\label{limitpart02}
+                \lim_{\left(x,y\right) \rightarrow \left(x_0,y_0\right)}u\left(x,y\right)=u_0\quad \text{and}\quad
+                \lim_{\left(x,y\right) \rightarrow \left(x_0,y_0\right)}v\left(x,y\right)=v_0
+                \end{eqnarray}
+            </div>
+
+
+            <div class="proof">
+                First, let us assume that limit (\ref{limitpart01}) holds.
+                Thus, for each positive number $\varepsilon,$ there is a positive number
+                $\delta$ such
+                that
+                \begin{eqnarray}\label{limpart05}
+                |(u + iv) -(u_0 + iv_0)| \lt \varepsilon
+                \end{eqnarray}
+                whenever
+                \begin{eqnarray}\label{limpart06}
+                0 \lt |(x + iy) - (x_0 + iy_0)| \lt \delta
+                \end{eqnarray}
+                But
+                <div class="scroll-wrapper">
+                    \begin{eqnarray*}
+                    |u-u_0|&\leq &|(u-u_0) + i(v -v_0)|\;=\;|(u + iv) - (u_0 + iv_0)|,\\
+                    |v-v_0|&\leq &|(u-u_0) + i(v -v_0)|\;=\;|(u + iv) - (u_0 + iv_0)|
+                    \end{eqnarray*}
+                </div>
+                and
+                <div class="scroll-wrapper">
+                    $$|(x+iy)-(x_0+iy_0)|=|(x-x_0)+i(y-y_0)|=\sqrt{(x-x_0)^2+(y-y_0)^2}$$
+                </div>
+                Hence it follows from inequalities (\ref{limpart05}) and (\ref{limpart06}) that
+                <div class="scroll-wrapper">
+                    $$|u-u_0|\lt\varepsilon\quad \text{and}\quad |v-v_0|\lt\varepsilon$$
+                </div>
+                whenever
+                <div class="scroll-wrapper">
+                    $$0\lt\sqrt{(x-x_0)^2+(y-y_0)^2}\lt\delta$$
+                </div>
+                which proves that limits (\ref{limitpart02}) hold.
+
+                <p>
+                    现在，我们假设极限 (\ref{limitpart02}) 成立以得到极限 (\ref{limitpart01})。
+                    极限 (\ref{limitpart02}) 告诉我们，对于每个正数 $\varepsilon,$，存在正数
+                    $\delta_1$ 和 $\delta_2$ 使得
+                <div class="scroll-wrapper">
+                    \begin{eqnarray}\label{limpart03}
+                    |u-u_0|\lt \frac{\varepsilon}{2}\quad\text{whenever}\quad
+                    0\lt\sqrt{(x-x_0)^2+(y-y_0)^2}\lt\delta_1
+                    \end{eqnarray}
+                </div>
+                和
+                <div class="scroll-wrapper">
+                    \begin{eqnarray}\label{limpart04}
+                    |v - v_0| \lt \frac{\varepsilon}{2}\quad\text{whenever}\quad
+                    0\lt\sqrt{(x-x_0)^2+(y-y_0)^2}\lt\delta_2
+                    \end{eqnarray}
+                </div>
+
+                令 $\delta$ 是小于 $\delta_1$ 和 $\delta_2.$ 的任何正数。因为
+                <div class="scroll-wrapper">
+                    $$|(u + iv) - (u_0 + iv_0)| = |(u - u_0) + i(v - v_0)| \leq |u - u_0| + |v - v_0|$$
+                </div>
+                和
+                <div class="scroll-wrapper">
+                    $$\sqrt{(x-x_0)^2+(y-y_0)^2}=|(x-x_0)+i(y-y_0)|\leq |(x+iy)-(x_0+iy_0)|$$
+                </div>
+                由陈述 (\ref{limpart03}) 和 (\ref{limpart04}) 可得
+                <div class="scroll-wrapper">
+                    $$|(u + iv) -(u_0 + iv_0)| \lt\frac{\varepsilon}{2}+\frac{\varepsilon}{2}=\varepsilon$$
+                </div>
+                每当
+                <div class="scroll-wrapper">
+                    $$0 \lt |(x + iy) - (x_0 + iy_0)| \lt \delta.$$
+                </div>
+
+                即极限 (\ref{limitpart01}) 成立，这完成了定理的证明。
+                </p>
+            </div>
+
+            <div class="practice">
+                <p><strong>例 2：</strong> 证明
+                    $$\lim_{z\rightarrow 0}\dfrac{z}{\overline{z}}$$
+                    不存在。
+                </p>
+                <p>
+                    <strong>解：</strong>
+                    假设极限存在。那么我们可以通过令点 $z = x+iy$ 以任何方式趋近于原点来计算它。
+                    然而，当 $z = x+i0$ 是实轴上的非零点时
+                    $$f(z)=\frac{x+i0}{x-i0}=1;$$
+                    而当 $z=0+iy$ 是虚轴上的非零点时，
+                    $$f(z)=\frac{0+iy}{0-iy}=-1.$$
+                </p>
+                <p>
+                    因此，如果我们令 $z$ 沿实轴趋近于原点，我们发现极限为 $1.$。
+                    另一方面，如果沿虚轴趋近，我们得到的极限是 $-1,$，
+                    这产生矛盾，因为极限是唯一的。因此我们必须断定极限
+                    $$\lim_{z\rightarrow 0}\dfrac{z}{\overline{z}}$$
+                    不存在。
+                </p>
+
+            </div>
+
+            <p>
+                除了计算特定的极限外，**定理 2** 也是一个重要的理论工具，使我们能够从实极限的性质推导出复极限的许多性质。
+                下面的定理给出了这一过程的一个例子。
+            </p>
+
+            <p class="theorem" id="limits-properties">
+                假设
+                \begin{eqnarray}
+                \lim_{z\rightarrow z_0}f(z)=w_1\quad \text{and}\quad \lim_{z\rightarrow z_0}g(z)=w_2\label{limithypo}
+                \end{eqnarray}
+                则
+                \begin{eqnarray}
+                \lim_{z\rightarrow z_0}\big[c\cdot f(z)\big] &=& c\cdot \lim_{z\rightarrow z_0} f(z) \text{ with }
+                c\in\C, \label{limitconst}\\
+                \lim_{z\rightarrow z_0}\big[f(z)+g(z)\big]=w_1+w_2,\label{limitsum}\\
+                \lim_{z\rightarrow z_0}\big[f(z)g(z)\big]=w_1w_2;\label{limitmult}
+                \end{eqnarray}
+                且如果 $w_2\neq 0,$
+                \begin{eqnarray}\label{limitdiv}
+                \lim_{z\rightarrow z_0}\frac{f(z)}{g(z)}=\frac{w_1}{w_2}.
+                \end{eqnarray}
+            </p>
+
+
+            <div class="proof">
+                For proving property (\ref{limitsum}), we must show that for any $\varepsilon >0$ we can find
+                $\delta >0$ such that
+                <div class="scroll-wrapper">
+                    \begin{eqnarray*}
+                    \left| \left(f(z)+g(z)\right)-\left(w_1+w_2\right)\right|\lt\varepsilon \quad \text{when}\quad
+                    0\lt\left| z-z_0\right|\lt\delta
+                    \end{eqnarray*}
+                </div>
+                By hypothesis, given $\varepsilon >0$ we can find $\delta_1 >0$ and $\delta_2>0$ such that
+                <div class="scroll-wrapper">
+                    \begin{eqnarray*}
+                    \left| f(z)-w_1\right|\lt\varepsilon/2 \quad \text{when}\quad 0\lt\left| z-z_0\right|\lt\delta_1
+                    \\
+                    \left| g(z)-w_2\right|\lt\varepsilon/2 \quad \text{when}\quad 0\lt\left| z-z_0\right|\lt\delta_2
+                    \end{eqnarray*}
+                </div>
+
+                <p>于是我们有
+                <div class="scroll-wrapper">
+                    \begin{eqnarray*}
+                    \left| \left(f(z)+g(z)\right)-\left(w_1+w_2\right)\right| &=&\left|
+                    \left(f(z)-w_1\right)+\left(g(z)+w_2\right)\right| \\ &\leq &\left| f(z)-w_1\right|+\left|
+                    g(z)-w_2\right|\\
+                    &\leq & \varepsilon/2+\varepsilon/2=\varepsilon
+                    \end{eqnarray*}
+                </div>
+
+                因此，
+                <div class="scroll-wrapper">
+                    \begin{eqnarray*}
+                    \left| \left(f(z)+g(z)\right)-\left(w_1+w_2\right)\right|\lt\varepsilon \quad \text{when}\quad
+                    0\lt\left| z-z_0\right|\lt\delta
+                    \end{eqnarray*}
+                </div>
+                其中 $\delta$ 取 $\delta_1$ 和 $\delta_2.$ 中较小者。
+                </p>
+
+                <p>
+                    现在我们将证明性质 (\ref{limitmult})。
+                    首先，利用三角不等式，我们写
+                <div class="scroll-wrapper">
+                    \begin{eqnarray*}
+                    \left|f(z)g(z) - w_1w_2\right|& \leq & \left|f(z)g(z) - f(z)w_2\right| + \left|f(z)w_2 -
+                    w_1w_2\right|\\
+                    &=& \left|f(z)\right|\left|g(z) - w_2\right|+ \left|f(z) - w_1\right|\left|w_2\right|
+                    \end{eqnarray*}
+                </div>
+
+                为估计每一项，我们选取 $\delta_1\gt 0$ 使得 $0\lt \left|z-z_0\right|\lt \delta_1$ 蕴含
+                $\left|f(z)- w_1\right|\lt 1,$ 从而 $\left|f(z)\right|\lt \left|w_1\right|+1,$，因为
+                $$\left|f(z) - w_1\right|\geq \left|f(z)\right|- \left| w_1\right|.$$
+                给定 $\varepsilon\gt 0,$，设 $\delta_2$ 和 $\delta_3$ 使得
+                $0\lt \left|z-z_0\right|\lt \delta_2$ 蕴含
+                $$\left|f(z)-w_1\right|\lt \frac{\varepsilon}{2\left(|w_2|+1\right)}$$
+                以及
+                $0\lt \left|z-z_0\right|\lt \delta_3$ 蕴含
+                $$\left|g(z)-w_2\right|\lt \frac{\varepsilon}{2\left(|w_1|+1\right)}.$$
+                因此我们可以选取 $\delta = \min\left\{\delta_1,\delta_2,\delta_3\right\}.$
+                如果 $0\lt \left|z-z_0\right|\lt \delta,$，则
+                <div class="scroll-wrapper">
+                    \begin{eqnarray*}
+                    \left|f(z)g(z) - w_1w_2\right|& \leq & \left|f(z)\right|\left|g(z) - w_2\right|+ \left|f(z) -
+                    w_1\right|\left|w_2\right|\\
+                    &\lt & \frac{\varepsilon}{2\left(|w_1|+1\right)}\left|f(z)\right| +
+                    \frac{\varepsilon}{2\left(|w_2|+1\right)}\left|w_2\right|\\
+                    &\lt & \frac{\varepsilon}{2} + \frac{\varepsilon}{2} = \varepsilon.
+                    \end{eqnarray*}
+                </div>
+
+                因此，$\ds \lim_{z\rightarrow z_0}\big[f(z)g(z)\big]=w_1w_2$ 得证。
+
+                <!--
+                         with the aid of <strong>Theorem 2</strong>.
+                    Considering the following
+                    \begin{eqnarray*}
+                    f (z) = u(x, y) + iv(x, y), \quad g(z) = U(x, y) + iV (x, y),\\
+                    z_0 = x_0 + iy_0,\quad w_1 = u_1 + iv_1, \quad w_2 = u_2 + iv_2.
+                    \end{eqnarray*}
+                    Then, according to hypotheses (\ref{limithypo}) and <strong>Theorem 2</strong>, the limits as
+                    $(x, y)$ approaches
+                    $(x_0, y_0)$ of the functions $u, \,v, \,U$ and $V$ exist and have the values $u_1, \,v_1,\, u_2$
+                    and
+                    $v_2,$ respectively. So the real and imaginary components of the product
+                    $$f (z)g(z) = (uU - vV ) + i(vU + uV )$$
+                    have the limits $u_1u_2 - v_1v_2$ and $v_1u_2 + u_1v_2,$ respectively, as $(x, y)$ approaches
+                    $(x_0, y_0).$ Hence, by <strong>Theorem 2</strong> again, $f (z)g(z)$ has the limit
+                    $$(u_1u_2 - v_1v_2) + i(v_1u_2 + u_1v_2)$$
+                    as $z$ approaches $z_0;$ and this is equal to $w_1w_2.$ Property (\ref{limitmult}) is thus
+                    established.
+                    -->
+                </p>
+
+                <p>
+                    性质 (\ref{limitconst}) 和 (\ref{limitdiv}) 留作练习。
+                </p>
+            </div>
+
+
+
+        </article>
+    </main>
+
+    <a href="li_man_qiu_mian.html" style="text-decoration: none;">
+        <p class="nextPage">黎曼球面 <i class="fa-solid fa-angles-right"></i></p>
+    </a>
+    <!-- Ends main content -->
+
+</section>

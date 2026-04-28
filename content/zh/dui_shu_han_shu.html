@@ -1,0 +1,304 @@
+<section data-type="chapter" id="template">
+
+    <!-- Starts main content -->
+
+    <div w3-include-html="small_screen_message.html"></div>
+
+    <div class="toc-chapter" id="toc-chapter">
+        <p><p>: <i class="fa-solid fa-list"></i>目录</p>
+        <ul>
+            <li><li>: <a href="#section1">对数函数</a></li>
+            <li><li>: <a href="#section2">对数的分支</a></li>
+            <li><li>: <a href="#section3">最后的说明</a></li>
+            <!-- Add more sections as needed -->
+        </ul>
+    </div>
+
+    <br><br>
+
+    <main>
+        <article>
+
+            <div id="section1">
+
+                <h1><h1>: 对数函数</h1>
+
+                <hr>
+
+                <p><p>: 考虑 $z$ 为任意非零复数。我们希望从方程 \begin{eqnarray}\label{log1}
+                    e^w=z.
+                    \end{eqnarray} 中解出 \begin{eqnarray}\label{log1}
+                    e^w=z.
+                    \end{eqnarray} 若 $\Theta=\textbf{Arg} (z)$ 且 $-\pi &lt; \Theta \leq \pi,$，则 $z$ 和 $w$ 可写为如下形式 \begin{eqnarray*}
+                    z=re^{i\Theta} \quad \text{and}\quad w=u+iv.
+                    \end{eqnarray*} 那么方程 (\\ref{log1}) 变为 $$e^ue^{iv}=re^{i\Theta}.$$ 因此，我们有 \begin{eqnarray*}
+                    e^u=r\quad\text{and}\quad v=\Theta +2n\pi
+                    \end{eqnarray*} 其中 $n\in \mathbb Z .$ 由于 $e^u=r$ 与 $u=\ln r,$ 相同，故方程 (\\ref{log1}) 成立当且仅当 $w$ 具有下列值之一 <div class="scroll-wrapper"> \begin{eqnarray*}
+                    w=\ln r +i(\Theta + 2n\pi )\quad (n\in \mathbb Z ).
+                    \end{eqnarray*} </div></p>
+
+
+
+                <p><p>: 因此，非零复变量 $z=re^{i\Theta}$ 的（多值）对数函数由以下公式定义 <div class="scroll-wrapper"> \begin{eqnarray}\label{log2}
+                    \log z=\ln r +i\left(\Theta + 2n\pi \right)\quad \quad(n\in \mathbb Z ).
+                    \end{eqnarray} </div></p>
+
+
+
+
+                <div class="practice">
+                    <p><p>: <strong>例 1:</strong> 计算 $\log z$ 其中 $z=-1-\sqrt{3}i.$<br><br><em>解:</em> 若 $z=-1-\sqrt{3}i,$ 则 $r=2$ 且 $\Theta=-\frac{2\pi}{3}.$ 因此 <div class="scroll-wrapper"> $$\log(-1-\sqrt{3}i)=\ln 2 +i\left(-\frac{2\pi}{3}+2n\pi\right)=\ln 2
+                        +2\left(n-\frac{1}{3}\right)\pi i$$ </div> 其中 $n\in \mathbb Z .$</p>
+                </div>
+
+                <p><p>: $\log z$ 的<em>主值</em>是当 $n = 0$ 时由方程 (\\ref{log2}) 得到的值，记为 $\text{Log} \,z.$ 因此 $$\text{Log}\, z=\ln r +i\Theta .$$ 函数 $\text{Log}\, z$ 在 $z\neq 0$ 时有良好定义且是单值的，且 $$\log z=\text{Log}\, z+2n\pi i\quad (n\in \mathbb Z )
+                    $$ 当 $z$ 为正实数时，这退化为微积分中通常的对数。</p>
+
+                <div class="practice">
+
+                    <p><p>: <strong>例 2:</strong> 计算 $\log \left(1\right)$ 和 $\log \left(-1\right).$<br><br><em>解:</em> 由表达式 (\\ref{log2}) $$\log \left(1\right)=\ln 1+i\left(0+2n\pi\right)=2n\pi i\quad \quad(n\in \mathbb Z )
+                        $$ 且 $$\log \left(-1\right)=\ln 1+i\left(\pi+2n\pi\right)=\left(2n+1\right)\pi i\quad \quad(n\in
+                        \mathbb Z )
+                        $$ 注意 $\text{Log}\, (1)=0$ 且 $\text{Log}\, (-1)=\pi i.$</p>
+
+                </div>
+
+
+                <p><p>: 表达式 (\\ref{log2}) 也等价于以下形式：\begin{eqnarray*}
+                    \log z&amp;=&amp;\ln |z| +i\,\textbf{arg} (z)\\
+                    &amp;=&amp;\ln |z| +i\,\textbf{Arg} (z)+2ni\,\pi \quad \quad(n\in \mathbb Z )
+                    \end{eqnarray*}</p>
+
+
+                <p><p>: 函数 $\log z$ 的一些基本性质如下：<ol> <li> $\log \left(z_1 \,z_2\right)=\log z_1 + \log z_2$ </li> <li> $\log\left( \dfrac{z_1}{z_2}\right)=\log z_1 -\log z_2$</li> <li> 可能存在 $\text{Log}\,\left(z_1 \,z_2\right)\neq \text{Log}\, z_1 + \text{Log}\, z_2$ </li> </ol></p>
+
+            </div>
+
+            <hr>
+
+            <div id="section2">
+
+                <h2><h2>: 对数的分支</h2>
+
+                <p><p>: 由定义 (\\ref{log2})，令 $\theta = \Theta + 2n\pi$（$n\in \mathbb Z$），则可写为 \begin{eqnarray}\label{log30}
+                    \log z = \ln r +i\theta.
+                    \end{eqnarray}</p>
+
+                <p><p>: 现在，令 $\alpha$ 为任意实数。若限制 $\theta$ 的值使得 $\alpha < \theta < \alpha + 2n\pi$，则函数 <div class="scroll-wrapper"> \begin{eqnarray}\label{log3}
+                    \log z=\ln r +i\theta \quad (r&gt; 0, \alpha &lt; \theta &lt; \alpha + 2\pi ),
+                    \end{eqnarray} </div> 及其分量 \begin{eqnarray*}
+                    u(r, \theta)=\ln r, \quad v(r,\theta)=\theta,
+                    \end{eqnarray*} 在所述区域内是一个<em>单值</em>的连续函数。</p>
+
+
+                <p><p>: 多值函数 $f$ 的一个<em>分支</em>是任意单值函数 $F$，它在某个区域内是解析的，且在该区域的每个点 $z$ 处，值 $F(z)$ 是 $f.$ 的值之一。当然，解析性的要求防止了 $F$ 从 $f.$ 的值中随意选取。注意，对于每个固定的 $\alpha,$，单值函数 (\\ref{log3}) 是多值函数 (\\ref{log30}) 的一个分支。函数 <div class="scroll-wrapper"> \begin{eqnarray}\label{log4}
+                    \text{Log } z=\ln r +i\Theta \quad (r&gt; 0, -\pi &lt; \theta &lt; \pi ),
+                    \end{eqnarray} </div> 称为主值分支。</p>
+
+
+                <p><p>: <em>分支切割</em>是为定义多值函数 $f.$ 的分支 $f.$ 而引入的一段直线或曲线。$F$ 的分支切割上的点是 $F,$ 的<em>奇点</em>，而 $f$ 的所有分支切割的公共点称为<em>分支点</em>。原点和射线 $\theta = \alpha$ 构成对数函数的分支 (\\ref{log3}) 的分支切割。主值分支 (\\ref{log4}) 的分支切割由原点和射线 $= \pi.$ 组成。原点显然是多值对数函数各分支的分支点。</p>
+
+                <p><p>: 可以利用<a href="http://mathworld.wolfram.com/RiemannSurface.html" target="_blank">黎曼面</a>来可视化 $\log z$ 的多值性质。以下交互式图像展示了 $\log(z).$ 的实部和虚部。</p>
+
+                <script src="js/mathcell.js"></script>
+
+                <br/>
+
+                <div class="mathcell" style="width: 100%; height: 450px">
+                    <script>
+
+                        var parent = document.currentScript.parentNode;
+
+                        var id = generateId();
+                        parent.id = id;
+
+                        MathCell(id, []);
+
+                        parent.update = function (id) {
+
+                            var pi = Math.PI;
+
+                            //Real component ln(sqrt(x x + y y))
+                            var Re = (x, y) => Math.log(Math.sqrt(x * x + y * y));
+
+                            var data = [];
+
+                            var s = parametric((u, v) => [u * Math.cos(v),
+                            u * Math.sin(v),
+                            Re(u * Math.cos(v), u * Math.sin(v))
+                            ],
+                                [0.0001, 3], [-pi, pi],
+                                {
+                                    color: '#80aaff',
+                                    opacity: 0.9
+                                }
+                            );
+
+
+                            data.push(s);
+
+                            var config = {
+                                type: 'threejs',
+                                frame: true,
+                                viewpoint: [1, -1, 1],
+                                zMin: -3,
+                                zMax: 3
+                            };
+
+                            evaluate(id, data, config);
+
+                        }
+
+                        parent.update(id);
+
+                    </script>
+                </div>
+                <div>
+                    <p  style="text-align: center;margin-top: -10px;"><p>: <em>$\log z$ 的实部</em></p>
+                </div>
+
+                <br/>
+
+
+                <div class="mathcell" style="width: 100%; height: 450px">
+                    <script>
+
+                        var parent = document.currentScript.parentNode;
+
+                        var id = generateId();
+                        parent.id = id;
+
+                        MathCell(id, []);
+
+                        parent.update = function (id) {
+
+                            var pi = Math.PI;
+
+                            //Imaginary component arctan()
+                            var ImB = (x, y) => Math.atan2(y, x) + 2 * pi * 2;
+                            var ImA = (x, y) => Math.atan2(y, x) + 2 * pi;
+                            var Im0 = (x, y) => Math.atan2(y, x);
+                            var Ima = (x, y) => Math.atan2(y, x) - 2 * pi;
+                            var Imb = (x, y) => Math.atan2(y, x) - 2 * pi * 2;
+
+
+
+                            var data = [];
+
+                            var den = 1000;
+
+                            var sB = parametric((u, v) => [u * Math.cos(v),
+                            u * Math.sin(v),
+                            ImB(u * Math.cos(v), u * Math.sin(v))
+                            ],
+                                [0, 2], [-pi, pi - pi / den],
+                                {
+                                    color: '#cc0066',
+                                    opacity: 0.9
+                                }
+                            );
+
+                            var sA = parametric((u, v) => [u * Math.cos(v),
+                            u * Math.sin(v),
+                            ImA(u * Math.cos(v), u * Math.sin(v))
+                            ],
+                                [0, 2], [-pi, pi - pi / den],
+                                {
+                                    color: '#80aaff',
+                                    opacity: 0.9
+                                }
+                            );
+                            var s0 = parametric((u, v) => [u * Math.cos(v),
+                            u * Math.sin(v),
+                            Im0(u * Math.cos(v), u * Math.sin(v))
+                            ],
+                                [0, 2], [-pi, pi - pi / den],
+                                {
+                                    color: '#6666ff',
+                                    opacity: 0.9
+                                }
+                            );
+
+                            var sa = parametric((u, v) => [u * Math.cos(v),
+                            u * Math.sin(v),
+                            Ima(u * Math.cos(v), u * Math.sin(v))
+                            ],
+                                [0, 2], [-pi, pi - pi / den],
+                                {
+                                    color: '#00b3b3',
+                                    opacity: 0.9
+                                }
+                            );
+
+                            var sb = parametric((u, v) => [u * Math.cos(v),
+                            u * Math.sin(v),
+                            Imb(u * Math.cos(v), u * Math.sin(v))
+                            ],
+                                [0, 2], [-pi, pi - pi / den],
+                                {
+                                    color: '#b3b3b3',
+                                    opacity: 0.9
+                                }
+                            );
+
+                            data.push(sB);
+                            data.push(sA);
+                            data.push(s0);
+                            data.push(sa);
+                            data.push(sb);
+
+                            var config = {
+                                type: 'threejs',
+                                frame: true,
+                                viewpoint: [1, -1, 0.5],
+                                zMin: -16,
+                                zMax: 16
+                            };
+
+                            evaluate(id, data, config);
+
+                        }
+
+                        parent.update(id);
+
+                    </script>
+                </div>
+                <div >
+                    <p style="text-align: center;margin-top: -10px;"><p>: <em>$\log z$ 的虚部：每个分支用不同颜色标识。</em></p>
+                </div>
+
+                <p><p>: 使用对数函数的分支时必须特别小心，尤其是涉及对数的预期恒等式并不总是能从微积分中推广过来。</p>
+
+
+            </div>
+
+            <hr>
+
+            <div id="section3">
+
+                <h2><h2>: 最后的说明</h2>
+
+
+                <p><p>: 注意，对于 $z\neq 0,$ 我们有 <div class="scroll-wrapper"> \begin{eqnarray}\label{exp001}
+                    e^{\log z}=z\quad \text{and}\quad \log(e^z) =z+2n\pi i
+                    \end{eqnarray} </div> 其中 $n\in \mathbb Z .$</p>
+
+
+                <div class="practice">
+                    <p><p>: <strong>例 3:</strong> 计算 $e^{\log z},$ 和 $\log \left(e^z\right)$ 其中 $z=4i.$<br><br><em>解:</em> 若 $z=4i,$ 则 $e^z=e^{4i}.$ 因此 $$\log\left(e^{4i}\right)=4i +2n\pi i$$ 其中 $n\in \mathbb Z .$ 另一方面，我们有 $$e^{\log\left(4i\right)}=4i.$$</p>
+                </div>
+
+                <br>
+
+            </div>
+
+
+        </article>
+    </main>
+
+    <a href="li_man_mian.html" style="text-decoration: none;">
+        <p class="nextPage"><p>: 黎曼面 <i class="fa-solid fa-angles-right"></i></p>
+    </a>
+    <!-- Ends main content -->
+
+</section>

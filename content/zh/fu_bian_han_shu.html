@@ -1,0 +1,159 @@
+<section data-type="chapter" id="complex-functions">
+
+    <!-- Starts main content -->
+
+    <div w3-include-html="small_screen_message.html"></div>
+
+    <div class="toc-chapter" id="toc-chapter">
+        <p><p>: <i class="fa-solid fa-list"></i>目录</p>
+        <ul>
+            <li><li>: <a href="#section1">复变函数</a></li>
+            <li><li>: <a href="#section2">函数示例</a></li>
+            <li><li>: <a href="#section3">动态探索</a></li>
+            <!-- Add more sections as needed -->
+        </ul>
+    </div>
+
+    <br>
+    <img src="../images/chp02/complex-f.jpg" alt="f(z)=z+1/z" title="f(z)=z+1/z">
+    <br />
+
+
+    <main>
+        <article>
+
+            <div id="section1">
+
+                <h1><h1>: 复变函数</h1>
+
+                <hr>
+
+                <p><p>: 设 $S$ 为一个复数集。定义在 $S$ 上的<em>函数</em> $S$ 是一个规则，它将 $S$ 中的每个 $S$ 对应到一个复数 $w.$ 数 $w$ 称为 $f$ 在 $z$ 处的值，记为 $f (z)$；即 $w = f (z).$ 集合 $S$ 称为 $f.$ 的定义域。</p>
+
+                <p><p>: 如果 $z,$ 的每个值只对应一个 $z,$ 值，则称 $w$ 是 $z$ 的<em>单值</em>函数，或称 $f(z)$ 是单值的。如果 $z,$ 的每个值对应多个 $z,$ 值，则称 $w$ 是 $z.$ 的<em>多值</em>函数。</p>
+
+                <p><p>: <em>多值</em>函数可以看作单值函数的集合，其中每个成员称为该函数的一个<em>分支</em>。通常，我们将其中一个特定成员视为多值函数的<em>主值分支</em>，并将对应于该分支的函数值称为<em>主值</em>。</p>
+
+                <div class="practice">
+                    <p><p>: <strong>例 1:</strong> 函数 $w=z^2$ 是 $z.$ 的单值函数。另一方面，若 $w=z^{\frac{1}{2}},$ 则对 $z$ 的每个值，$w.$ 有两个值。因此，函数 $$w=z^{\frac{1}{2}}$$ 是 $z.$ 的多值（本例中为二值）函数。</p>
+                </div>
+
+                <p><p>: 设 $w=u+iv$ 是函数 $f$ 在 $z= x+iy,$ 处的值，即 $$u+iv=f(x+iy)$$ 每个实数 $u$ 和 $v$ 都依赖于实变量 $x$ 和 $y,$，因此 $f(z)$ 可以用一对关于实变量 $x$ 和 $y$ 的实值函数来表示：\begin{eqnarray}\label{eq1}
+                    f(z)= u(x,y)+iv(x,y).
+                    \end{eqnarray} 如果使用极坐标 $r$ 和 $\theta,$ 代替 $x$ 和 $y$，则 $$u+iv=f\left(re^{i\theta}\right)$$ 其中 $w=u+iv$ 且 $z=re^{i\theta}.$ 此时，我们写作 \begin{eqnarray}\label{eq2}
+                    f(z)=u\left(r, \theta\right)+iv\left(r, \theta\right).
+                    \end{eqnarray}</p>
+
+                <div class="practice">
+                    <p><p>: <strong>例 2:</strong> 若 $f(z)= z^2$ 则 $$f(x+iy)=(x+iy)^2=x^2-y^2+i(2xy).$$ 从而 $$u(x,y)= x^2-y^2\quad \text{and}\quad v(x,y)= 2xy.$$ 当使用极坐标时，有 $$u\left(r, \theta\right)= r^2\cos 2\theta \quad \text{and}\quad v\left(r, \theta\right)=
+                        r^2\sin 2\theta.$$</p>
+                </div>
+
+                <p><p>: <strong>问题:</strong> 在方程 (\\ref{eq1}) 或 (\\ref{eq2}) 中，当函数 $v$ 的值恒为零时会发生什么？</p>
+
+
+            </div>
+
+            <hr>
+
+            <div id="section2">
+
+                <h2><h2>: 复变函数示例</h2>
+
+                <h4 style="text-align:left"><h4>: 多项式函数</h4>
+                <p><p>: 对于复常数 $a_n, a_{n-1}, \ldots, a_0$，我们定义 <div class="scroll-wrapper"> $$p(z) = a_n z^n + a_{n-1} z^{n-1} +\cdots +a_{1}z + a_0$$ </div> 其中 $a_n\neq 0$ 且 $n$ 是一个正整数，称为多项式 $p(z).$ 的<em>次数</em>。</p>
+
+                <p><p>: <em>有理函数:</em> 比值 $$\frac{p(z)}{q(z)}$$ 其中 $p(z)$ 和 $q(z)$ 是多项式，且 $q(z)\neq 0.$</p>
+
+                <h4 style="text-align:left"><h4>: 指数函数</h4>
+
+                <p><p>: <em>指数函数:</em> 若 $z=x+iy,$ 指数函数 $e^z$ 的定义为 \begin{eqnarray*}
+                    e^z=e^xe^{iy}.
+                    \end{eqnarray*} 因为 \begin{eqnarray*}
+                    e^{iy}=\cos y +i\sin y,
+                    \end{eqnarray*} 则我们有 \begin{eqnarray*}
+                    e^z=e^x\left(\cos y +i\sin y\right).
+                    \end{eqnarray*}</p>
+
+                <h4 style="text-align:left"><h4>: 对数函数</h4>
+
+                <p><p>: 类似地，复对数是一般实数自然对数（即以 $e$ 为底）的复扩张。在极坐标 $z = r e^{i\theta},$ 下，复对数具有形式 $$\log z = \log\left(r e^{i\theta}\right) = \log r + \log e^{i\theta}= \log r + i \theta.$$ 我们稍后将详细探讨此函数。</p>
+
+                <h4 style="text-align:left" id="trig-functions"><h4>: 三角函数</h4>
+
+                <p><p>: 复变量 $z$ 的正弦和余弦定义如下：<div class="scroll-wrapper"> \begin{eqnarray*}
+                    \sin z=\frac{e^{i z}-e^{-iz}}{2i}\quad \text{and}\quad \cos z=\frac{e^{iz} +e^{-i z}}{2}.
+                    \end{eqnarray*} </div> 其他四个三角函数通过以下关系由正弦和余弦函数定义：<div class="scroll-wrapper"> \begin{align*}
+                    \tan z&=\frac{\sin z}{\cos z} & \cot z&=\frac{\cos z}{\sin z} \\
+                    \sec z&=\frac{1}{\cos z} & \csc z&=\frac{1}{\sin z}.
+                    \end{align*} </div></p>
+
+                <h4 style="text-align:left"><h4>: 双曲三角函数</h4>
+
+                <p><p>: 复变量的双曲正弦和双曲余弦的定义与实变量情形相同；即 <div class="scroll-wrapper"> \begin{eqnarray*}
+                    \sinh z=\frac{e^{z}-e^{-z}}{2}\quad \text{and}\quad \cosh z=\frac{e^{z} +e^{- z}}{2}.
+                    \end{eqnarray*} </div> 其他四个双曲函数通过以下关系由双曲正弦和余弦函数定义：<div class="scroll-wrapper"> \begin{align*}
+                    \tanh z&=\frac{\sinh z}{\cosh z} & \coth z&=\frac{\cosh z}{\sinh z} \\
+                    \text{sech } z&=\frac{1}{\cosh z} & \text{csch } z&=\frac{1}{\sinh z}.
+                    \end{align*} </div></p>
+
+            </div>
+
+            <hr>
+
+            <div id="section3">
+
+                <h2><h2>: 探索实部和虚部</h2>
+
+                <p><p>: 使用以下小程序探索某些复变函数的实部和虚部：</p>
+
+                <div  class="ggbElement"  style="display:block" id="ggb-element"></div>
+
+                <div class="practice">
+                    <details>
+                        <summary><strong>Code</strong></summary>
+
+                        <p><p>: 在 <a href="https://www.geogebra.org/classic#3d" target="_blank">GeoGebra</a> 中输入以下脚本自行探索。打开 3D 视图。符号 <code>#</code> 表示注释。</p>
+
+                        <pre><code>#Define complex function
+f(z) := z + 1/z
+
+#Define components
+Re = Surface(u, v, real( f(u + ί v) ), u, -5, 5, v, -5, 5)
+Im = Surface(u, v, imaginary( f(u + ί v) ), u, -5, 5, v, -5, 5)
+</code></pre>
+                    </details>
+                </div>
+
+            </div>
+
+
+        </article>
+    </main>
+
+    <!--GeoGebra embedding-->
+    <script src="https://www.geogebra.org/apps/deployggb.js"></script>
+    <script>
+        let params = {
+            "width": 772,
+            "height": 541,
+            "material_id": "q8cagcc5",
+            "borderColor": "888888",
+            "playButton": true,
+            "showFullscreenButton": true,
+            "enableShiftDragZoom": true,
+            "showResetIcon": true
+        };
+        let ggbApplet = new GGBApplet(params, true);
+        window.addEventListener("load", () => {
+            ggbApplet.inject('ggb-element');
+        });
+    </script>
+    <!--GeoGebra embedding ends-->
+
+    <a href="ji_xian.html" style="text-decoration: none;">
+        <p class="nextPage"><p>: 极限 <i class="fa-solid fa-angles-right"></i></p>
+    </a>
+    <!-- Ends main content -->
+
+</section>

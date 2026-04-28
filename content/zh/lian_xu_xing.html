@@ -1,0 +1,163 @@
+<section data-type="chapter" id="continuity">
+
+    <!-- Starts main content -->
+
+    <br />
+    <img src="../images/chp02/continuity.jpg" alt="f(z)=log((-z+4.5)^(0.85))-log((z+4.5)^(0.85))-4.9*arctan(z)"
+        title="f(z)=log((-z+4.5)^(0.85))-log((z+4.5)^(0.85))-4.9*arctan(z)">
+    <br />
+
+    <main>
+        <article>
+
+            <h1>连续性</h1>
+            <hr>
+
+
+            <p>                函数 $f$ 在点 $z_0$ 处<strong>连续</strong>，如果满足以下条件：            </p>
+            <ol style="font-weight: bold;">
+                <li>                    $\ds\lim_{z\rightarrow z_0}f(z)$ 存在，                </li>
+                <li>                    $f(z_0)$ 存在，且                </li>
+                <li>                    $\ds\lim_{z\rightarrow z_0}f(z) = f(z_0).$                </li>
+            </ol>
+
+            <p>                注意 <strong>陈述 3</strong> 实际上包含了                <strong>陈述 1</strong> 和 <strong>2</strong>，因为等式中每边的量都必须存在。            </p>
+
+            <p>                <strong>陈述 3</strong>                表明对每个正数 $\epsilon,$，存在正数 $\delta$ 使得            </p>
+            <div class="scroll-wrapper">
+                \begin{eqnarray}\label{continuouscondition}
+                \left|f (z) - f(z_0)\right| \lt \epsilon \quad \text{whenever}\quad 0 \lt |z - z_0| \lt \delta
+                \end{eqnarray}
+            </div>
+
+            <p>                称一个复变量函数在区域 $R$ 中<strong>连续</strong>，如果它在 $R.$ 中的每一点都连续。            </p>
+
+            <p>                如果函数 $f$ 在点 $z_0$ 处不连续，                则称 $f$ 在 $z_0.$ 处不连续。                例如，函数                \[
+                f(z)=\frac{1}{1+z^2}
+                \]                在 $z=i$ 和 $z=-i.$ 处不连续。            </p>
+
+            <div class="practice">
+                <p>                    <strong>例 1：</strong>                    断言函数 $f(z)=\dfrac{1}{z}$ 对每个 $z\neq 0.$ 都连续。                </p>
+                <p>                    为证明这一点，固定 $z_0\in \C\setminus\{0\}.$ 如果 $z\in \C\setminus\{0\},$                    那么                    \[
+                    \abs{\frac{1}{z}-\frac{1}{z_0}} = \frac{\abs{z-z_0}}{\abs{z} \abs{z_0}}.
+                    \]                    因此                    $\abs{z-z_0}\lt \dfrac{\abs{z_0}}{2},$                </p>
+                <p>                    因此，通过选择 $\delta = \min\left\{ \dfrac{\abs{z_0}^2}{2}, \dfrac{\abs{z_0}^2}{2}\epsilon \right\}$，                    可得 $$
+                    \abs{z-z_0}\lt \delta \implies \left| \frac{1}{z}-\frac{1}{z_0}\right|\lt\epsilon.
+                    $$                </p>
+            </div>
+
+            <p><strong>注：</strong>                一个<em>有用的事实</em>是，如果函数在某个点处可微，则它在该点处必然连续。                </p>
+
+            <p>在前面的例子中，证明了函数 $z\in \C\setminus\{0\}.$ 是连续的，但没有使用定义。事实上，该函数是可微的，因此连续。</p>
+
+            <div class="practice">
+                <p><strong>例 2：</strong>
+                    考虑函数 $f(z)$ 其在 $z_0$ 处连续吗？                </p>
+                <p>                    使用 <a href="xu_ke_xie_yi.html#limits-properties">极限的性质</a>，有                    \[
+                    \lim_{z\to z_0} f(z) = \lim_{z\to 1-i } \left(z^2 - iz+ 2\right) = \left(1-i\right)^2-i(1-i)+ 2 =
+                    1-3i.
+                    \]                </p>
+                <p>                    此外，对于 $z_0=1-i$，有                </p>
+                <p>                    由于 $ \ds\lim_{z\to z_0} f(z) = f(z_0),$，得出                </p>
+            </div>
+
+            <br>
+
+            <div class="theorem">
+                A composition of continuous functions is itself continuous.
+            </div>
+
+            <div class="proof">
+                Let $w = f (z)$ be a function that is defined for all $z$ in a neighborhood
+                $|z - z_0 | \lt \delta_1$ of a point $z_0,$ and let
+                $W=g(w)$ be a function whose domain of definition contains the
+                image of that neighborhood under $f.$
+                Then the composition $W=g\big(f(z)\big)$ is defined for all $z$ in the
+                neighborhood $|z - z_0 | \lt \delta_1.$
+
+
+
+                <p>                    现在假设 $f$ 在 $z$ 处连续且 $g$ 在 $f (z )$ 处连续。                    则复合函数 $w$ 在 $g$ 处连续。                </p>
+                <div class="scroll-wrapper">
+                    \begin{eqnarray}\label{composition}
+                    \abs{g\big(f(z)\big)- g\big(f(z_0)\big)}\lt \epsilon \;\;\text{whenever}\;\; \abs{f(z)- f(z_0)}\lt
+                    \delta_2.
+                    \end{eqnarray}
+
+                </div>
+
+                <figure>
+                    <img src="../images/chp02/composition.svg" alt="Composition" title="Composition"
+                        style="width:100%;">
+                    <figcaption>函数复合的几何解释。</figcaption>
+                </figure>
+
+                <p>                    由于 $f$ 在 $z_0,$ 处连续，                    存在 $\abs{z-z_0}\lt\delta_1$ 使得                </p>
+            </div>
+
+            <br />
+
+            <div class="theorem">
+                If a function $f$ is continuous and nonzero at a point $z_0,$ then
+                $f(z)\neq 0$ throughout some neighborhood of that point.
+            </div>
+
+            <div class="proof">
+
+                Suppose that $f$ is continuous and $f(z_0)\neq 0.$
+                Then for every $\epsilon\gt 0$ there exists a $\delta\gt 0$
+                such that $|z-z_0|\lt\delta$ implies
+                <div class="scroll-wrapper">
+                    $$|f(z)-f(z_0)|\lt\epsilon.$$
+                </div>
+
+                <p>                    由于 $f(z_0)\neq 0$，可以取 $\epsilon=\dfrac{|f(z_0)|}{2}.$                </p>
+
+            </div>
+
+            <p>                    还注意到                    $R$ 的连续性可以从 <a href="ji_xian.html#limits-properties">极限的性质</a> 直接推出。                    特别是，如果 $f$ 和 $R$ 在 $M\gt 0$ 处连续，则                </p>
+
+            <div class="theorem" id="bounded-function">
+                If $f$ is continuous throughout a region $R$ that is 
+                both bounded and closed, there there exists 
+                $M\gt 0$ such that $\abs{f(z)}\leq M$ for all points in $R,$ 
+                where the equality holds for at least one such $z.$
+            </div>
+
+            <div class="proof">
+                If $f(z) = u(x,y)+iv(x,y)$ is continuous, then the function
+                \[
+                F(x,y)=\sqrt{u^2 + v^2}
+                \]
+                is also continuous throughout $R.$ This means that $F(x,y)$ reaches a 
+                maximum value $M$ somewhere in $R.$ Hence 
+                $\abs{f(z)}\leq M$ for all points in $R.$ 
+            </div>
+
+            <p>代数 <a href="ji_xian.html#limits-properties">极限的性质</a> 如下：</p>
+
+            <div class="theorem" id="contuity-properties">
+                Suppose that $f$ and $g$ are continuous at $z_0,$ then the following
+                are continuous functions at $z_0:$
+                <ol class="roman-list">
+                    <li>$c\cdot f,$ 其中 $c$ 是复常数，</li>
+                    <li>$f \pm g,$</li>
+                    <li>$f\cdot g,$ 且</li>
+                    <li>$\dfrac{f}{g},$ 如果 $g(z_0)\neq 0.$</li>
+                </ol>
+            </div>
+
+            <div class="practice">
+                <p><strong>练习：</strong>                    证明多项式函数在整个复平面 $\C.$ 上连续。                </p>
+            </div>
+            <br />
+
+        </article>
+    </main>
+
+    <a href="fu_wei_fen.html" style="text-decoration: none;">
+        <p class="nextPage">复微分 <i class="fa-solid fa-angles-right"></i></p>
+    </a>
+    <!-- Ends main content -->
+
+</section>

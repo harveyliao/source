@@ -1,0 +1,226 @@
+<section data-type="chapter" id="complex-potential">
+
+    <!-- Starts main content -->
+
+    <div w3-include-html="small_screen_message.html"></div>
+
+    <div class="toc-chapter" id="toc-chapter">
+        <p><p>: <i class="fa-solid fa-list"></i>目录</p>
+        <ul>
+            <li><li>: <a href="#section1">均匀流</a></li>
+            <li><li>: <a href="#section2">驻点流</a></li>
+            <li><li>: <a href="#section3">源与汇</a></li>
+            <li><li>: <a href="#section4">涡旋</a></li>
+            <li><li>: <a href="#section5">组合复势</a></li>
+            <!-- Add more sections as needed -->
+        </ul>
+    </div>
+
+    <br><br>
+
+
+    <main>
+        <article>
+
+            <h1><h1>: 复势</h1>
+            <h2 style="text-align: center;margin-top: -10px;"><h2>: 基本示例</h2>
+            <hr>
+
+            <div id="section1">
+
+                <h2><h2>: 均匀流</h2>
+
+                <p><p>: 复势 \begin{eqnarray}\label{uniform}
+                    F(z)=Ue^{-i\alpha}z
+                    \end{eqnarray} 对应于速度为 $U$、方向与 $x$ 轴成一定角度的均匀流。</p>
+
+                <p><p>: 这里我们关心的是求速度场 $$\mathbf V = \left(u(x,y), v(x,y)\right).$$ 但首先需要得到流函数 $\psi,$，它是 ($\ref{uniform}$) 的虚部。</p>
+
+
+                <p><p>: 重写 ($\ref{uniform}$) 我们得到 \begin{eqnarray*}
+                    F(z)&amp;=&amp; Ue^{-i\alpha}z \\
+                    &amp;=&amp; U\left( \cos \alpha - i \sin \alpha \right)\left( x+iy\right) \\
+                    &amp;=&amp; U\left( x\cos \alpha + y \sin \alpha \right) + i U\left( y\cos \alpha - x \sin
+                    \alpha \right).
+                    \end{eqnarray*} 因此 \begin{eqnarray*}
+                    \psi = U\left( y\cos \alpha - x \sin \alpha \right).
+                    \end{eqnarray*}</p>
+
+
+                <p><p>: 最后，由于 $u=\dfrac{\partial \psi}{\partial y}$ 且 $v=-\dfrac{\partial \psi}{\partial x},$ 我们有 \begin{eqnarray*}
+                    u=U \cos \alpha ,\quad v=U\sin \alpha.
+                    \end{eqnarray*}</p>
+
+                <p><p>: 下面的小程序展示了均匀流的模拟。拖动滑块改变参数。点击 <code>Trace</code> 按钮显示流线。点击 <code>Field</code> 按钮显示向量场。</p>
+
+                <br/>
+
+                <div class="hide-small hide-medium" style="text-align: center;">
+                    <iframe loading="lazy" name="uniform" src="../applets/p5js/uniform/index.html" width="700px" height="500px"
+                        style="border:none;overflow:hidden;"></iframe>
+
+                    
+                    <div style="text-align: center;">
+                        <button onclick="var ifr=document.getElementsByName('uniform')[0]; ifr.src=ifr.src;"
+                         style="cursor: pointer;font-weight: bold;">Reset</button>
+                    </div>
+                </div>
+
+                <div class="hide-large">
+                    <div w3-include-html="fixed_applets_message.html"></div>
+                </div>
+
+
+            </div>
+
+            <hr>
+            <div id="section2">
+
+                <h2><h2>: 驻点流</h2>
+
+                <p><p>: 复势 \begin{eqnarray*}
+                    F(z)=\frac{k z^2}{2}
+                    \end{eqnarray*} 对应于强度为 $k\geq 0.$ 的驻点流。</p>
+
+                <br/>
+
+                <div class="hide-small hide-medium" style="text-align: center;">
+                    <iframe loading="lazy" name="nearawall" src="../applets/p5js/nearawall/index.html" width="700px" height="500px"
+                        style="border:none;overflow:hidden;"></iframe>
+
+                    <div style="text-align: center;">
+                        <button onclick="var ifr=document.getElementsByName('nearawall')[0]; ifr.src=ifr.src;"
+                        style="cursor: pointer;font-weight: bold;">Reset</button>
+
+                    </div>
+                </div>
+
+                <div class="hide-large">
+                    <div w3-include-html="fixed_applets_message.html"></div>
+                </div>
+
+
+            </div>
+
+            <hr>
+            <div id="section3">
+
+                <h2><h2>: 源与汇</h2>
+
+                <p><p>: 原点处强度为 $Q>0$ 的源由复势 \begin{eqnarray}\label{source-sink}
+                    F(z)=\frac{Q}{2\pi}\log z .
+                    \end{eqnarray} 表示。注意这是一个多值函数，在原点处有一个分支点。若 $Q&lt;0,$ 则复势对应于汇。</p>
+
+                <br/>
+
+                <div class="hide-small hide-medium " style="text-align: center;">
+                    <iframe loading="lazy" name="sourcesink" src="../applets/p5js/sourcesink/index.html" width="700px" height="500px"
+                        style="border:none;" style="overflow:hidden;"></iframe>
+
+                    
+                    <div style="text-align: center;">
+                        <button onclick="var ifr=document.getElementsByName('sourcesink')[0]; ifr.src=ifr.src;"
+                        style="cursor: pointer;font-weight: bold;">Reset</button>
+
+                    </div>
+                </div>
+
+                <div class="hide-large">
+                    <div w3-include-html="fixed_applets_message.html"></div>
+                </div>
+
+                
+
+                <p><p>: 容易将 (\\ref{source-sink}) 推广到复平面中任意点 $(a, b)$ 的情形。所需的复势为 \begin{eqnarray*}
+                    F(z)=\frac{Q}{2\pi}\log(z-c).
+                    \end{eqnarray*} 其中 $c= a+ib.$</p>
+
+            </div>
+
+            <hr>
+            <div id="section4">
+
+                <h2><h2>: 涡旋</h2>
+
+                <p><p>: 原点处强度为 $C$ 的涡旋由复势 \begin{eqnarray*}
+                    F(z)=\frac{-iC}{2\pi}\log z .
+                    \end{eqnarray*} 表示。这同样是一个多值函数。当 $C>0,$ 时旋转为逆时针方向，当 $C &lt; 0$ 时旋转为顺时针方向。</p>
+                <br/>
+
+                <div class="hide-small hide-medium " style="text-align: center;">
+                    <iframe loading="lazy" name="vortex" src="../applets/p5js/vortex/index.html" width="700px" height="500px"
+                        style="border:none;overflow:hidden;"></iframe>
+
+                    <div style="text-align: center;">
+                        <button onclick="var ifr=document.getElementsByName('vortex')[0]; ifr.src=ifr.src;"
+                        style="cursor: pointer;font-weight: bold;">Reset</button>
+
+                    </div>
+                </div>
+
+                <div class="hide-large ">
+                    <div w3-include-html="fixed_applets_message.html"></div>
+                </div>
+
+                
+
+                <p><p>: 任意点 $c\in \mathbb C$ 处的涡旋由复势 \begin{eqnarray*}
+                    F(z)=\frac{-iC}{2\pi}\log(z-c).
+                    \end{eqnarray*} 表示，其中 $c= a+ib.$</p>
+
+
+                <div class="practice">
+                    <p><p>: <strong>练习:</strong> 求驻点流、源与汇以及涡旋流的速度场。</p>
+                </div>
+
+            </div>
+
+            <hr>
+            <div id="section5">
+
+                <h2><h2>: 组合复势</h2>
+                <p><p>: 上述基本流动可以通过简单叠加相应的复势来组合。</p>
+
+                <p><p>: 例如，考虑速度为 $U\ge 0,$ 的均匀流 $U\ge 0,$ 和 $Q\ge 0.$ 的源 $Q\ge 0.$ 于是可以产生复势 \begin{eqnarray}\label{comb}
+                    F(z)=Uz+\frac{Q}{2\pi}\log z .
+                    \end{eqnarray} 下面的小程序展示了 (\\ref{comb}) 产生的流动。拖动滑块改变参数。</p>
+
+                    <br/>
+
+                <div class="hide-small hide-medium " style="text-align: center;">
+                    <iframe loading="lazy" name="source-uniform" src="../applets/p5js/source-uniform/index.html" width="700px"
+                        height="500px" style="border:none;overflow:hidden;"></iframe>
+
+                   
+                    <div style="text-align: center;">
+                        <button onclick="var ifr=document.getElementsByName('source-uniform')[0]; ifr.src=ifr.src;"
+                        style="cursor: pointer;font-weight: bold;">Reset</button>
+
+                    </div>
+                </div>
+
+                <div class="hide-large">
+                    <div w3-include-html="fixed_applets_message.html"></div>
+                </div>
+
+               
+
+                <div class="practice">
+                    <p><p>: <strong>练习:</strong> 求在 $x$ 方向上速度为 $U$ 的均匀流中，强度为 $x$ 的源所产生的流动的速度场。</p>
+                </div>
+
+
+                <br />
+
+            </div>
+
+
+        </article>
+    </main>
+
+    <a href="yuan_huan_liu_dong.html" style="text-decoration: none;">
+        <p class="nextPage"><p>: 绕圆柱均匀流 <i class="fa-solid fa-angles-right"></i></p>
+    </a>
+    <!-- Ends main content -->
+
+</section>

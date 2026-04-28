@@ -1,0 +1,181 @@
+<section data-type="chapter" id="principal-argument">
+
+    <!-- Starts main content -->
+
+    <div w3-include-html="small_screen_message.html"></div>
+
+    <br><br>
+
+    <main>
+        <article>
+
+            <h1>主辐角</h1>
+
+
+            <hr>
+
+            <p>在本文中，记号 $\textbf{arg} (z)$ 用于表示 $z,$ 的任意辐角，这意味着 $\textbf{arg} (z)$ 是一个集合而不是一个数。
+                特别地，关系式 $$\textbf{arg} (z_1) = \textbf{arg} (z_2)$$ 不是一个方程，而是表达了两个集合的相等。</p>
+
+            <p>因此，两个非零复数 $r_1 (\cos \varphi_1 + i \sin\varphi_1)$ 和 $r_2
+                (\cos \varphi_2 + i \sin\varphi_2)$
+                相等当且仅当
+            <div class="scroll-wrapper">
+                $$r_1=r_2,\quad \text{and}\quad \varphi_1 = \varphi_2+ 2 k \pi,$$
+            </div>
+            其中 $k \in \mathbb Z.$
+            </p>
+
+            <p>为了将 $z$ 的辐角变为一个良定义的数，有时将其限制在区间 $(-\pi, \pi].$ 上。
+                这种特殊的选择称为<em>主值</em>或<em>主支</em>，记作 $\textbf{Arg}(z).$。
+            </p>
+
+            <p>注意，关于主值的定义没有统一的约定，有时其值被假定在区间 $[0, 2\pi).$ 上。这种
+                歧义性是误解和错误的持续来源。</p>
+
+
+
+
+            <hr>
+
+
+
+            <p>复数 $z=x+iy$ 的主值 $z=x+iy$ 通常由下式给出
+                $$\Theta=\arctan\left(\frac{y}{x}\right),$$
+                其中 $y/x$ 是斜率，$\arctan$ 将斜率转换为角度。但这仅在 $x \neq 0$ 时正确，即商有定义
+                且角度介于 $-\pi/2$ 和 $\pi/2.$ 之间。我们需要将此定义扩展到
+                $x$ 不为正的情形，分别在四个象限上考虑辐角的主值。</p>
+
+
+            <p>函数 $\textbf{Arg}(z)$ $:\mathbb C \setminus \{0\} \rightarrow \left(-\pi,\pi\right]$ 定义如下：
+            <div class="scroll-wrapper">
+                \begin{eqnarray*}
+                \textbf{Arg}(z)= \left\{\def\arraystretch{1.2}%
+                \begin{array}{@{}c@{\quad}r@{}}
+                \arctan \frac{y}{x} & \;\text{if $x>0,$ $y\in \mathbb R$}\\
+                \arctan \frac{y}{x}+\pi & \;\text{if $x &lt;0,$ $y\geq 0$}\\
+                \arctan \frac{y}{x}-\pi & \;\text{if $x &lt; 0,$ $y &lt; 0$}\\
+                \frac{\pi}{2} & \;\text{if $x=0,$ $y> 0$}\\
+                -\frac{\pi}{2} & \;\text{if $x=0,$ $y &lt; 0$}\\
+                \text{undefined}& \;\text{if $x=0,$ $y=0$}\\
+                \end{array}\right.
+                \end{eqnarray*}
+            </div>
+            因此，如果 $z=r(\cos \Theta +i\sin \Theta),$ 其中 $r>0$ 且 $-\pi &lt; \Theta \leq \pi,$，则
+            <div class="scroll-wrapper">
+                \begin{eqnarray*}
+                \textbf{arg}(z)= \{ \textbf{Arg}(z)+2n\pi \mid n \in  \mathbb{Z} \}.
+                \end{eqnarray*}
+            </div>
+            </p>
+
+            <p>我们可以通过使用 <a
+                    href="http://mathworld.wolfram.com/RiemannSurface.html" target="_blank">黎曼曲面</a>来可视化 $\textbf{arg}(z)$ 的多值性质。
+                下面的交互式展示展示了 $\textbf{arg}(z).$ 的无限多个值中的一些。每个分支用不同的颜色标识。
+            </p>
+
+            <div class="ggbElement" id="ggb-element"></div>
+
+            <hr>
+
+            <h2>
+                乘积与商的辐角
+            </h2>
+
+            <p>
+                如果 $z_1= r_1e^{i\theta_1}$ 且 $z_2= r_2e^{i\theta_2},$，则
+                \begin{eqnarray}\label{product}
+                z_1z_2 = \left(r_1r_2\right)e^{i\left(\theta_1 + \theta_2\right)}
+                \end{eqnarray}
+                蕴含
+                \begin{eqnarray}\label{arg-product}
+                \arg\left(z_1z_2\right) = \arg\left(z_1\right) + \arg\left(z_2\right).
+                \end{eqnarray}
+                我们可以通过令 $\theta_1$ 和 $\theta_2$ 分别表示 $\arg\left(z_1\right)$ 和 $\arg\left(z_1\right),$ 的任意值来轻松证明 (\ref{arg-product})。
+                那么表达式 (\ref{product}) 告诉我们 $\theta_1+\theta_2$ 是 $\arg\left(z_1z_2\right).$ 的一个值。
+                如果 $\arg\left(z_1z_2\right)$ 和 $\arg\left(z_1\right)$ 的值是指定的，则这些值对应于表达式
+                \[
+                \arg\left(z_1z_2\right) = \left(\theta_1 + \theta_2\right)+ 2n\pi\quad (n\in \Z)
+                \]
+                和
+                \[
+                \arg\left(z_1\right) =\theta_1 + 2k\pi\quad (k\in \Z)
+                \]
+                中 \[
+                \arg\left(z_1z_2\right) = \left(\theta_1 + \theta_2\right)+ 2n\pi\quad (n\in \Z)
+                \] 和 \[
+                \arg\left(z_1\right) =\theta_1 + 2k\pi\quad (k\in \Z)
+                \] 的特定选择。现在，由于
+                \[
+                \left(\theta_1 + \theta_2\right)+ 2n\pi = \theta_1 + 2k\pi + \left[\theta_2 + 2(n-k)\pi\right],
+                \]
+                当我们选择值
+                \[
+                \arg\left(z_2\right) =\theta_2 + 2(n-k)\pi.
+                \]
+                时，方程 (\ref{arg-product}) 成立。
+                当 $\arg\left(z_1z_2\right)$ 和 $\arg\left(z_2\right)$ 的值被指定时，由对称性可得验证。
+            </p>
+
+            <p>
+                陈述 (\ref{arg-product}) 有时在将 $\arg$ 处处替换为 $\Arg.$ 时仍然有效。
+                然而，如下面的例子所示，情况并非总是如此。
+            </p>
+
+            <div class="practice">
+                <p>
+                    <strong>例：</strong>
+                    考虑 $z_1 = -1$ 和 $z_2=i.$。则
+                    \[
+                    \Arg\left(z_1z_2\right) = \Arg(-i)=-\frac{\pi}{2}
+                    \]
+                    但
+                    \[
+                    \Arg\left(z_1\right)+\Arg\left(z_2\right) = \pi +\frac{\pi}{2}= \frac{3\pi}{2}.
+                    \]
+                    然而，如果我们取刚才使用的 $\arg (z_1)$ 和 $\arg (z_2)$ 的值，并选择
+                    $\arg (z_1z_2),$ 的值
+                    $\arg (z_1z_2),$，我们得到方程 (\ref{arg-product}) 成立。
+                </p>
+            </div>
+
+            <div class="practice">
+                <p>
+                    <strong>练习：</strong>
+                    回忆 $\dfrac{z_1}{z_2}=z_1z_2^{-1}.$。利用陈述 (\ref{arg-product})
+                    证明
+                    \[
+                    \arg\left(\frac{z_1}{z_2}\right) = \arg\left(z_1\right) -\arg\left(z_2\right).
+                    \]
+                </p>
+            </div>
+            
+
+        </article>
+    </main>
+
+    <!-- GeoGebra -->
+    <script src="https://www.geogebra.org/apps/deployggb.js"></script>
+    <script>
+        let params = {
+            "width": 797,
+            "height": 494,
+            "material_id": "bp3pprjp",
+            "borderColor": "888888",
+            "playButton": true,
+            "showFullscreenButton": true,
+            "enableShiftDragZoom": true,
+            "showResetIcon": true
+        };
+        let ggbApplet = new GGBApplet(params, true);
+        window.addEventListener("load", () => {
+            ggbApplet.inject('ggb-element');
+        });
+    </script>
+
+    <a href="fu_shu_qiu_gen.html" style="text-decoration: none;">
+        <p class="nextPage">复数的根 <i class="fa-solid fa-angles-right"></i></p>
+    </a>
+    <!-- Ends main content -->
+
+</section>

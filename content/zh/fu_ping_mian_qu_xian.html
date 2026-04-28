@@ -1,0 +1,260 @@
+<section data-type="chapter" id="curves-complex-plane">
+
+    <!-- Starts main content -->
+
+    <br><br>
+
+    <main>
+        <article>
+
+
+
+            <h1>复平面上的曲线</h1>
+
+            <hr>
+
+            <p>
+                假设连续实值函数 $x = x(t),$、$y = y(t),$、$a \leq t \leq b,$ 是复平面上曲线 $C$ 的参数方程。如果我们将这些方程用作 $z = x+iy,$ 中的实部和虚部，
+                我们可以通过一个实变量 $t$ 的复值函数来描述 $C$ 上的点 $t$，
+                该函数称为 $C$ 的<em>参数化</em>：
+                \begin{equation}\label{parcurve}
+                z(t) = x(t) + i y(t), \quad a\leq t\leq b.
+                \end{equation}
+            </p>
+
+            <p>
+                点 $z(a) = x(a) + i y(a)$ 或 $z_0 = (x(a), y(a))$ 称为 $C$ 的<em>起点</em>，
+                $z(b) = x(b) + iy(b)$ 或 $z_1 = (x(b), y(b))$ 是其<em>终点</em>。
+                表达式 $z(t) = x(t) + iy(t)$ 也可以解释为一个二维向量函数。
+                因此，$z(a)$ 和 $z(b)$ 可以解释为位置向量。当 $t$ 从 $t = a$ 变化到 $t = b$ 时，我们可以想象曲线 $C$ 由 $z(t).$ 的移动箭头描绘出来。
+                这可以在下面的小程序中看到，其中 $0 \leq t\leq 1.$
+            </p>
+
+            <div class="ggbElement" id="ggb-element-01"></div>
+            <p style="text-align: center;margin-top: -10px;">
+                <em>按下</em> <code>开始</code> <em>以动画显示。您可以移动点来改变曲线。</em>
+            </p>
+
+            <p>
+                例如，参数方程 $x = \cos t,$、$y = \sin t,$、$0 \leq t \leq 2\pi,$
+                描述了一个以原点为中心的单位圆。该圆的参数化为
+                $z(t) = \cos t + i \sin t,$ 或
+                $z(t) = e^{it},$、$0 \leq t \leq 2\pi.$
+            </p>
+
+            <div class="ggbElement" id="ggb-element-02"></div>
+            <p style="text-align: center;margin-top: -10px;"><em>按下</em> <code>开始</code> <em>以动画显示。</em></p>
+
+
+
+
+            <hr>
+
+
+
+            <h2>围道</h2>
+
+            <p>
+                复平面上曲线的光滑、分段光滑、简单、闭合和简单闭合等概念可以很容易地用向量函数 (\ref{parcurve}) 来表述。
+                假设 (\ref{parcurve}) 的导数为 $z'(t) = x'(t) + iy'(t).$。我们说复平面上的曲线 $C$ 是<em>光滑</em>的，如果 $z'(t)$
+                在区间 $a \leq t \leq b.$ 上连续且永不为零。
+                如图 1 所示，由于向量 $z'(t)$ 在 $C,$ 上的任何点 $C,$ 处都不为零，
+                向量 $z'(t)$ 在 $P.$ 处与 $P.$ 相切。
+                因此，光滑曲线具有连续转动的切线；换句话说，光滑曲线不能有尖锐的角或尖点。反例见图 2。
+            </p>
+
+            <div class="figure-container">
+                <div id="smooth">
+                    <figure>
+                        <img src="../images/chp04/smooth.svg" alt="Smooth curve and Tangent vector"
+                            title="Smooth curve and Tangent vector" style="width:100%;">
+                        <figcaption>
+                            $z'(t)=x'(t) + iy(t)$ 作为切向量。
+                        </figcaption>
+                    </figure>
+                </div>
+                <div id="not-smooth">
+                    <figure>
+                        <img src="../images/chp04/not-smooth.svg" alt="Non smooth" title="Non smooth"
+                            style="width:100%;">
+                        <figcaption>
+                            曲线 $C$ 不光滑，因为它有一个尖点。
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <p>
+                一条<em>分段光滑曲线</em> $C$ 具有连续转动的切线，
+                但在组成曲线 $C_1, C_2, \ldots, C_n$ 的连接点处可能例外。
+            </p>
+
+            <figure>
+                <img src="../images/chp04/piecewise-smooth.svg" alt="Piecewise smooth curve"
+                    title="Piecewise smooth curve" style="width:65%;">
+                <figcaption>
+                    一条分段光滑曲线。
+                </figcaption>
+            </figure>
+
+            <p>
+                复平面上的曲线 $C$ 称为<em>简单</em>的，如果对 $t_1 \neq t_2,$ 有 $t_1 \neq t_2,$，
+                但 $t = a$ 和 $t = b.$ 可能例外。$C$ 是<em>闭合曲线</em>，如果 $z(a) = z(b)$。
+            </p>
+
+            <div class="figure-container">
+                <div>
+                    <figure>
+                        <img src="../images/chp04/simple-curve.svg" alt="Simple curve" title="Simple curve"
+                            style="width:100%;">
+                        <figcaption>
+                            简单曲线。
+                        </figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <img src="../images/chp04/non-simple-curve.svg" alt="Non simple curve" title="Non simple curve"
+                            style="width:100%;">
+                        <figcaption>
+                            非简单曲线。
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <p>
+                $C$ 是<em>简单闭合曲线</em>，如果对 $t_1\neq t_2$ 有 $t_1\neq t_2$，且 $z(a) = z(b).$。
+            </p>
+
+            <div class="figure-container">
+                <div>
+                    <figure>
+                        <img src="../images/chp04/simple-closed-curve.svg" alt="Simple curve"
+                            title="Simple closed curve" style="width:100%;">
+                        <figcaption>
+                            简单闭合曲线。
+                        </figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <img src="../images/chp04/non-simple-closed-curve.svg" alt="Non simple curve"
+                            title="Non simple closed curve" style="width:100%;">
+                        <figcaption>
+                            非简单闭合曲线。
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <p>
+                在复分析中，分段光滑曲线 $C$ 称为<em>围道</em>或<em>路径</em>。
+                我们定义围道 $C$ 上的<em>正方向</em>为对应于参数 $t.$ 增加的方向。
+                也说曲线 $C$ 具有<em>正向</em>。
+                在简单闭合围道 $C,$ 的情况下，<em>正</em>方向对应<em>逆时针</em>方向。
+                例如，圆 $z(t) = e^{it},$、$0 \leq t \leq 2\pi,$ 具有正向。
+                围道 $C$ 上的<em>负方向</em>是与正方向相反的方向。如果 $C$ 有一个方向，
+                <em>相反曲线</em>，即具有相反方向的曲线，记为 $−C.$。在简单闭合曲线上，负方向对应顺时针方向。
+                例如，圆 $z(t) = e^{-it},$、$0 \leq t \leq 2\pi,$ 具有负向。
+            </p>
+
+            <div class="figure-container">
+
+                <figure>
+                    <img src="../images/chp04/simple-closed-curve-pos.gif" alt="Simple curve" title="Simple curve"
+                        style="width:85%;">
+                    <figcaption>
+                        正向。
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="../images/chp04/simple-closed-curve-neg.gif" alt="Non simple curve"
+                        title="Non simple curve" style="width:85%;">
+                    <figcaption>
+                        负向。
+                    </figcaption>
+                </figure>
+
+            </div>
+
+            <br />
+
+            <div class="ggbElement" id="ggb-element-03"></div>
+            <p style="text-align: center;margin-top: 0px;"><em>按下</em> <code>开始</code> <em>以动画显示。</em>
+                <em>您可以改变 $C.$ 的方向</em>
+            </p>
+
+
+
+            <div class="practice">
+                <p><strong>练习：</strong> 围道 $C.$ 没有唯一的参数化。
+                    您应验证
+                    \begin{eqnarray*}
+                    z(t)&=&e^{it} =\cos t+i\sin t,\; 0\leq t\leq 2\pi \\
+                    z(t)&=& e^{2\pi it} =\cos \left(2 \pi t\right) +i \sin \left(2 \pi t\right),\; 0\leq t\leq 1\\
+                    z(t)&=&e^{\pi/2 it} =\cos \left( \frac{\pi}{2} t\right)+i \sin \left( \frac{\pi}{2} t\right),\;
+                    0\leq t
+                    \leq 4
+                    \end{eqnarray*}
+                    都是单位圆 $|z| = 1.$ 的正向参数化。
+                </p>
+            </div>
+
+            <br>
+
+
+
+
+        </article>
+    </main>
+
+
+    <!--GeoGebra embedding-->
+    <script src="https://www.geogebra.org/apps/deployggb.js"></script>
+    <script>
+        let params01 = {
+            "width": 576,
+            "height": 419,
+            "material_id": "tncpryrm",
+            "borderColor": "888888",
+            "playButton": false,
+            "showFullscreenButton": true,
+            "showResetIcon": true
+        };
+        let params02 = {
+            "width": 450,
+            "height": 419,
+            "material_id": "nc34pddp",
+            "borderColor": "888888",
+            "playButton": false,
+            "showFullscreenButton": true,
+            "showResetIcon": true
+        };
+        let params03 = {
+            "width": 449,
+            "height": 419,
+            "material_id": "gsejmuxj",
+            "borderColor": "888888",
+            "playButton": false,
+            "showFullscreenButton": true,
+            "showResetIcon": true
+        };
+        let ggbApplet01 = new GGBApplet(params01, true);
+        let ggbApplet02 = new GGBApplet(params02, true);
+        let ggbApplet03 = new GGBApplet(params03, true);
+        window.addEventListener("load", () => {
+            ggbApplet01.inject('ggb-element-01');
+            ggbApplet02.inject('ggb-element-02');
+            ggbApplet03.inject('ggb-element-03');
+        });
+    </script>
+    <!--GeoGebra embedding ends-->
+
+    <a href="fu_ji_fen.html" style="text-decoration: none;">
+        <p class="nextPage">复积分 <i class="fa-solid fa-angles-right"></i></p>
+    </a>
+    <!-- Ends main content -->
+
+</section>

@@ -1,0 +1,157 @@
+<section data-type="chapter" id="joukowsky-airfoil">
+
+    <!-- Starts main content -->
+
+    <div w3-include-html="small_screen_message.html"></div>
+
+    <div class="toc-chapter" id="toc-chapter">
+        <p><i class="fa-solid fa-list"></i>目录</p>
+        <ul>
+            <li><a href="#section1">茹科夫斯基映射</a></li>
+            <li><a href="#section2">绕茹科夫斯基翼型的流动</a></li>
+            <!-- Add more sections as needed -->
+        </ul>
+    </div>
+
+    <br><br>
+
+
+    <main>
+        <article>
+
+            <h1>茹科夫斯基翼型</h1>
+            <hr>
+
+            <div id="section1">
+
+                <h2>茹科夫斯基映射</h2>
+
+                <p>共形函数的一个著名例子是<em>茹科夫斯基映射</em>
+                    \begin{eqnarray}\label{jouk}
+                    w= z+ 1/z.
+                    \end{eqnarray}
+                    它最初由俄国空气动力学和流体动力学研究的先驱
+                    <a href="http://mathshistory.st-andrews.ac.uk/Biographies/Zhukovsky.html" target="_blank">尼古拉·茹科夫斯基</a> (Joukowsky)
+                    用于研究绕飞机机翼的流动。
+                </p>
+
+                <p>由于
+                <div class="scroll-wrapper">
+                    $$\frac{d}{dz}w=1-\frac{1}{z^2}=0\quad \text{if and only if}\quad z=\pm 1,$$
+                </div>
+                函数 (\ref{jouk}) 除在临界点 $z = \pm 1$ 以及未定义的奇点 $z = 0,$ 外是共形的。
+                </p>
+
+                <p>如果 $z = e^{i\theta}$ 在单位圆上，则 $$w =e^{i\theta}+e^{-i\theta}=2\cos \theta,$$ 在实轴上，其中 $-2\leq w\leq 2.$。因此，
+                    茹科夫斯基映射将单位圆压缩到实线段 $[-2, 2].$ 上。单位圆外点的像填满 $w$ 平面的其余部分，
+                    单位圆内（非零）点的像也是如此。事实上，如果我们从 (\ref{jouk}) 解出 $z,$，得到
+                    $$z=\frac{1}{2}\left(w\pm \sqrt{w^2-4}\right).$$
+                    我们看到每个 $w$（除 $\pm 2$ 外）来自两个不同的点 $z$；
+                    对于不在临界线段 $[-2, 2],$ 上的 $[-2, 2],$，一个点（负号）在单位圆内，一个点（正号）在单位圆外，
+                    而如果 $-2 \lt w \lt 2,$，两个点都在单位圆上且在同一条竖直线上。</p>
+
+                <p>因此，茹科夫斯基映射定义了一个从 $| z | > 1,$（单位圆外部）到线段 $[-2, 2],$ 外部的一一对应共形映射，
+                    即 $\mathbb C \setminus [-2, 2].$
+                </p>
+
+                <p>在图 4 中，我们可以观察到同心圆 $|z|= r > 1$ 被映射到 $w$ 平面上焦点为 $w$ 的椭圆。
+                </p>
+
+                <figure>
+                    <img src="../images/chp06/map-circle.png" alt="MapJ" title="JMap"
+                        style="width:90%;">
+                    <figcaption>
+                        茹科夫斯基映射应用于 $|z|=r \geq 1.$
+                    </figcaption>
+                </figure>
+
+                <p>对不以原点为中心的圆的效果更有趣。像曲线呈现出各种各样的形状。
+                    当圆经过奇点 $z=1,$ 时，其像不再是光滑的，而在 $w=2$ 处有一个尖点；
+                    当圆经过 $z=-1$ 时，尖点在 $w=-2.$ 处。
+                    一些像曲线呈现出著名的理想化飞机机翼或<em>翼型</em>的截面形状，也称为<em>茹科夫斯基翼型</em>。</p>
+
+                <p>
+                    您可以在下面的小程序中探索茹科夫斯基映射。拖动圆心。
+                    拖动滑块以应用映射或改变半径。点击按钮查看预定义的值。
+                </p>
+
+                <div class="ggbElement" id="ggb-element"></div>
+
+            </div>
+
+            <hr>
+
+            <div id="section2">
+
+                <h2>绕茹科夫斯基翼型的流动</h2>
+
+                <p>现在考虑绕单位圆的均匀流动，其环量为 $C$，速度为 $U>0$，由复势给出
+                    \begin{eqnarray}\label{eq1}
+                    F(z)=Uz+\frac{U}{z}-\frac{i C}{2\pi}\log z.
+                    \end{eqnarray}
+                </p>
+
+
+                <p>我们可以使用线性变换
+                    $$T(z)=-0.15+0.23i + 0.23\sqrt{13\cdot 2} z$$
+                    将这种绕 $|z|=1$ 的流动映射到绕圆 $c_1$（中心 $z_1=-0.15+0.23i$，半径 $r=0.23\sqrt{13\cdot 2}.$）的流动。
+</p>
+
+                <p>最后，通过应用茹科夫斯基映射 (\ref{jouk})，我们可以得到绕<em>茹科夫斯基翼型</em>带环量的均匀流动。
+                </p>
+
+                <p>下面的模拟展示了绕圆柱体 $c_1$ 的均匀流动及其到<em>茹科夫斯基翼型</em>的变换。拖动滑块进行探索：</p>
+                <ul>
+                    <li>滑块 U = 速度。</li>
+                    <li>滑块 C = 环量。</li>
+                    <li>滑块 T = 应用变换。</li>
+                </ul>
+
+                <p>按下 <code>轨迹</code> 按钮以显示<em>流线</em>。</p>
+
+                <div class="hide-small hide-medium">
+                    <iframe name="JoukAirfoil" src="../applets/p5js/joukowsky/index.html" width="800px" height="500px"
+                        style="border:none;" style="overflow:hidden;"></iframe>
+                    
+                    <div style="text-align: center;">
+                        <button onclick="var ifr=document.getElementsByName('JoukAirfoil')[0]; ifr.src=ifr.src;"
+                        style="cursor: pointer;font-weight: bold;">Reset</button>
+                    </div>
+                </div>
+
+                <div class="hide-large ">
+                    <div w3-include-html="fixed_applets_message.html"></div>
+                </div>
+
+            </div>
+
+
+        </article>
+    </main>
+
+
+    <!--GeoGebra embedding-->
+    <script src="https://www.geogebra.org/apps/deployggb.js"></script>
+    <script>
+        let params = {
+            "width": 728,
+            "height": 531,
+            "material_id": "ukwamarf",
+            "borderColor": "888888",
+            "playButton": false,
+            "showFullscreenButton": true,
+            "showResetIcon": true
+        };
+        let ggbApplet = new GGBApplet(params, true);
+        window.addEventListener("load", () => {
+            ggbApplet.inject('ggb-element');
+        });
+    </script>
+    <!--GeoGebra embedding ends-->
+
+    <a href="can_kao_wen_xian.html" style="text-decoration: none;">
+        <p class="nextPage">参考文献 <i class="fa-solid fa-angles-right"></i></p>
+    </a>
+    <!-- Ends main content -->
+
+</section>

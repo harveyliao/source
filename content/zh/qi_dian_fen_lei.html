@@ -1,0 +1,191 @@
+<section data-type="chapter" id="classification-singularities">
+
+    <!-- Starts main content -->
+
+    <div w3-include-html="small_screen_message.html"></div>
+
+    <div class="toc-chapter" id="toc-chapter">
+        <p><i class="fa-solid fa-list"></i>目录</p>
+        <ul>
+            <li><a href="#section1">分类</a></li>
+            <li><a href="#section2">极点</a></li>
+            <li><a href="#section3">可去奇点</a></li>
+            <li><a href="#section4">本性奇点</a></li>
+            <li><a href="#section5">最后说明</a></li>
+            <!-- Add more sections as needed -->
+        </ul>
+    </div>
+
+    <br><br>
+
+    <main>
+        <article>
+
+            <div id="section1">
+
+                <h1>奇点的分类</h1>
+
+                <hr>
+
+                <p>                    <a href="luo_lang_ji_shu.html#laurent-series-theorem">洛朗级数</a>中                    涉及 $z - z_0,$ 的负幂次的部分                    $z - z_0,$                    称为 $f$ 在 $z_0.$ 处的                    <a href="luo_lang_ji_shu.html#principal-part"><em>主要部分</em></a>。                    方程 (\ref{principal}) 中的系数 $b_1$ 在复分析中起着非常特殊的作用。                    它有一个特殊的名称：函数 $f(z).$ 的<em>留数</em>。                    本节将重点讨论主要部分，以将孤立奇点 $z_0$ 识别为三种特殊类型之一。                </p>
+
+            </div>
+
+            <hr>
+
+            <div id="section2">
+
+                <h2>极点</h2>
+
+                <p>                    如果 $f$ 在 $z_0$ 处的主要部分至少包含一个非零项，但这样的项的数量是有限的，                    则存在整数 $m \geq 1$ 使得                    $$b_m\neq 0 \quad\text{and} \quad b_{k}=0\quad \text{for}\quad k\gt m.$$                    在这种情况下，孤立奇点 $z_0$ 称为<em>$m.$ 阶极点</em>。                    一阶极点通常简称为<em>简单极点</em>。                </p>
+
+
+
+                <h3>例子</h3>
+
+                <p>                    考虑函数                    <div class="scroll-wrapper">                        $$f(z)=\dfrac{e^z-1}{z^2},\qquad g(z)=\frac{\cos z}{z^2}\qquad\text{and}\qquad h(z)=\frac{\sinh z}{z^4},$$                    </div>                    其中 $z_0=0.$ 是整数。还考虑函数                    <div class="scroll-wrapper">                        $$f(z)=\frac{1-\cos z}{z^2},\qquad g(z)=\frac{\sin z}{z}\qquad\text{and}\qquad h(z)=\frac{z}{e^z-1}.$$                    </div>                </p>
+
+                <!--https://editor.p5js.org/jcponce/sketches/sfoT8EUys
+		https://umu.diva-portal.org/smash/get/diva2:1251778/FULLTEXT01.pdf-->
+                <figure>
+                    <img src="../images/chp05/pole01.jpg" alt="Pole order 1"
+                        title="Pole order 1" style="width:55%;">
+                    <figcaption>$f(z)=\dfrac{e^z-1}{z^2}.$</figcaption>
+                </figure>
+
+                <figure >
+                    <img  src="../images/chp05/pole02.jpg" alt="Pole order 2"
+                        title="Pole order 2" style="width:55%;">
+                    <figcaption>$g(z)=\dfrac{\cos z}{z^2}.$</figcaption>
+                </figure>
+
+                <figure >
+                    <img  src="../images/chp05/pole03.jpg" alt="Pole order 3"
+                        title="Pole order 3" style="width:55%;">
+                    <figcaption>$h(z)=\dfrac{\sinh z}{z^4}.$</figcaption>
+                </figure>
+
+                <p>                    现在从 <a href="qu_yu_zhuo_se.html#enhanced-phase-portraits">增强相位图</a>可以看出，                    $z_0=0$ 是奇点。特别地，$f,$ 是 $g$ 阶极点，                    $h$ 是 $0.$ 阶极点，而 $f$ 不是孤立奇点。                    在图 2 中 $g$，我们可以看到零点（所有颜色交汇处）和极点（也是所有颜色交汇处，但颜色顺序相反）。                </p>
+
+            </div>
+
+            <hr>
+
+            <div id="section3">
+
+                <h2>可去奇点</h2>
+
+                <p>                    当每个 $b_n$ 都为零时，使得                    $z_0$                    在 $f$ 处的主要部分为零，那么孤立奇点 $z_0$ 称为<em>可去奇点</em>。                    在这种情况下，洛朗级数中的每个 $f(z_0) = a_0,$ 都为零，从而洛朗级数就是泰勒级数。                </p>
+
+
+
+                <h3>例子</h3>
+
+                <p>                    考虑函数                    <div class="scroll-wrapper">                        $z - z_0,$                    </div>                    和                    <div class="scroll-wrapper">                        $f$                    </div>                </p>
+
+                <figure>
+                    <img  src="../images/chp05/rmv-sing-01.jpg" alt="Removable singularity"
+                        title="Removable singularity" style="width:55%;">
+                    <figcaption>$f(z)=\dfrac{1-\cos z}{z^2}.$</figcaption>
+                </figure>
+
+                <figure >
+                    <img src="../images/chp05/rmv-sing-02.jpg" alt="Removable singularity"
+                        title="Removable singularity" style="width:55%;">
+                    <figcaption>$g(z)=\dfrac{\sin z}{z}.$</figcaption>
+                </figure>
+
+                <figure >
+                    <img  src="../images/chp05/rmv-sing-03.jpg" alt="Removable singularity"
+                        title="Removable singularity" style="width:55%;">
+                    <figcaption>$h(z)=\dfrac{z}{e^z-1}.$</figcaption>
+                </figure>
+
+                <p>                    注意到 $f$ 在 $z_0=0$ 处有一个奇点，但从图 4 来看，                    这个奇点似乎是可去的。可以很容易地在 $f(0)=1/2$ 处重新定义函数，使得 $f$                </p>
+
+                <p>                    这个断言可以很容易地从洛朗级数表示中确认：                    $z=0$                    在这种情况下，当 $f$ 时，$f,$ 的值趋近于 $0\lt |z|\lt \varepsilon.$                </p>
+
+                <div class="practice">
+                    <p><strong>练习 1：</strong> 求 $h$ 在 $z_0=0.$ 处的洛朗级数展开。</p>
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div id="section4">
+
+                <h2>本性奇点</h2>
+
+                <p id="essential-singularity">                    如果有无穷多个系数 $b_n$ 非零，则 $z_0$ 称为 $f.$ 的<em>本性奇点</em>。                </p>
+
+
+
+                <h3>例子</h3>
+
+                <p>函数 $$f(z)=\exp\left(\frac{1}{z}\right)$$ 在 $z_0=0$ 处有一个本性奇点。</p>
+
+                <p>                    图 7 展示了 $f$ 在区域 ${|\text{Re }z|\lt 0.5}$ 中的增强相位图。                    在原点附近，我们看到颜色以复杂的方式变化，表明该函数的行为非常复杂。                </p>
+
+                <figure >
+                    <img  src="../images/chp05/essential-01.jpg" alt="Essential singularity"
+                        title="Essential singularity" style="width:55%;">
+                    <figcaption>$\exp(1/z)$ 定义在 $[-0.5, 0.5]\times[-0.5, 0.5].$ 上。</figcaption>
+                </figure>
+
+                <p>                    事实上，$z_0=0$ 的一个邻域与函数 $\exp(1/z)$ 的值域相交无穷多次（Picard 定理），                    这表明本性奇点附近的行为是非常奇特的。                </p>
+
+                <figure >
+                    <img  src="../images/chp05/zoom-essential.gif" alt="Essential singularity"
+                        title="Essential singularity" style="width:55%;">
+                    <figcaption>简单相位图：本性奇点的近距离观察。</figcaption>
+                </figure>
+
+                <p>另一个在原点处有本性奇点的例子是函数 $|\text{Im } z| \lt 0.3.$</p>
+
+                <figure >
+                    <img src="../images/chp05/essential-03.jpg" alt="Essential singularity"
+                        title="Essential singularity" style="width:55%;">
+                    <figcaption>$(z - 1) \cos(1/z).$</figcaption>
+                </figure>
+
+                <div class="practice">
+                    <p><strong>练习 2：</strong> 求 $(z − 1) \cos(1/z)$ 在 $z_0=0.$ 处的洛朗级数展开。</p>
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div id="section5">
+
+                <h2>最后说明</h2>
+
+
+                <p>                    相位图对于理解函数在其奇点附近的行为非常有用。                    特别是当与模的等值线结合使用时，增强相位图为可去奇点、极点和本性奇点提供了清晰的视觉区分。                    然而，值得注意的是，仅靠相位图可能不足以完全确定奇点的类型。                    例如，函数 $z_0$ 看起来在原点处有一个简单极点，                    但实际上它有 $z_0.$ 阶极点。这就是为什么在可能的情况下，将相位图与模的等值线结合起来使用更好的原因。                </p>
+
+                <figure >
+                    <img  src="../images/chp05/jacobi-series.jpg" alt="Essential singularity"
+                        title="Essential singularity" style="width:60%;">
+                    <figcaption>$\displaystyle\sum_{k=-\infty}^{\infty}q^{k^2}z^k,$ 其中 $q=0.97e^{i\pi/6}.$</figcaption>
+                </figure>
+
+
+                <br>
+
+
+            </div>
+
+
+
+        </article>
+    </main>
+
+    <button onclick="topFunction()" id="toTop" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <a href="mandelbrot_ji.html" style="text-decoration: none;">
+        <p class="nextPage">Mandelbrot 集合 <i class="fa-solid fa-angles-right"></i></p>
+    </a>
+    <!-- Ends main content -->
+
+</section>

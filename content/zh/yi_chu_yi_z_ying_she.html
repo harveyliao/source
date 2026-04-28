@@ -1,0 +1,211 @@
+<section data-type="chapter" id="mapping-1overz">
+
+    <!-- Starts main content -->
+
+    <div w3-include-html="small_screen_message.html"></div>
+
+    <div class="toc-chapter" id="toc-chapter">
+        <p><i class="fa-solid fa-list"></i>目录</p>
+        <ul>
+            <li><a href="#section1">变换 $w = 1/z$</a></li>
+            <li><a href="#section2">$1/z$ 给出的映射</a></li>
+            <!-- Add more sections as needed -->
+        </ul>
+    </div>
+
+    <br><br>
+
+    <main>
+        <article>
+
+            <div id="section1">
+
+                <h1>变换 $w=1/z$</h1>
+                <hr>
+
+                <p>考虑方程
+                    $$w=\frac{1}{z}$$
+                    它建立了 $z$ 平面和 $w$ 平面的非零点之间的一一对应。由于 $z\overline{z} = |z|^2,$，该映射可以通过逐次变换来描述
+                    $$g(z)=\frac{z}{|z|^2},\quad f(z)=\overline{g(z)}.$$
+                    第一个变换 $g(z)$ 是关于单位圆 $|z| = 1.$ 的反演。即非零点 $z$ 的像是具有以下性质的点 $g(z)$
+                    $$|g(z)| = \frac{1}{|z|}\quad\text{and}\quad \textbf{arg } g(z) = \textbf{arg } z.$$
+                    因此圆 $|z| = 1$ 外部的点映射到其内部的非零点，反之亦然。圆上的任意点映射到自身。
+                    第二个变换 $f(z)=\overline{g(z)}$ 仅仅是关于实轴的反射。
+                </p>
+
+                <div  class="ggbElement" id="ggb-element-01"></div>
+
+                <p>如果我们考虑函数
+                    \begin{eqnarray*}
+                    T(z)=\frac{1}{z}, \quad z\neq 0,
+                    \end{eqnarray*}
+                    我们可以在原点和无穷远点定义 $T$ 以使其在<em>扩展</em>复平面上连续。为了使 $T$ 在扩展平面上连续，
+                    我们写
+                    \begin{eqnarray*}
+                    T(0)=\infty,\quad T(\infty)=0, \quad \text{and}\quad T(z)=\frac{1}{z}
+                    \end{eqnarray*}
+                    对 $z.$ 的其余值成立。
+                </p>
+
+
+            </div>
+
+            <hr>
+
+            <div id="section2">
+
+                <h2>$1/z$ 给出的映射</h2>
+
+
+                <p>映射 $w = 1/z$ 的一个有趣性质是它将圆和直线变换为圆和直线。</p>
+
+                <p>您可以在下面的小程序中直观地观察这一点。尝试事项：
+                <ul>
+                    <li>在 <code>直线</code> 或 <code>圆</code> 之间选择。</li>
+                    <li>在左侧窗口中拖动点。您也可以通过拖动灰色点来改变直线或圆的位置。</li>
+                </ul>
+                </p>
+
+                <div  class="ggbElement" id="ggb-element-02"></div>
+
+                <p>
+                    仔细观察点 $w_1, w_2$（分别是 $z_1$ 和 $z_2,$ 的像）在 $uv$ 平面上
+                    （显示在右侧窗口中）的情况。
+                <ul>
+                    <li>当 $xy$ 平面上的直线穿过原点时，您注意到什么？</li>
+                    <li>当 $xy$ 平面上的圆穿过原点时，发生了什么？</li>
+                </ul>
+                </p>
+
+
+
+                <!--<p>If a point $w = u + iv$ is the image of a nonzero point $z = x + iy$ in the finite
+plane under the transformation $w = 1/z,$ and considering the equation
+\begin{eqnarray*}
+w=\frac{\overline{z}}{z\overline{z}}=\frac{\overline{z}}{|z|^2},
+\end{eqnarray*}
+we can obtain the following
+\begin{eqnarray*}
+x=\frac{u}{u^2+v^2},\quad y=\frac{-v}{u^2+v^2}.
+\end{eqnarray*}
+On the other hand, since
+\begin{eqnarray*}
+z=\frac{1}{w}=\frac{\overline{w}}{w|w|^2}=\frac{\overline{w}}{|w|^2}
+\end{eqnarray*}
+we can see that
+\begin{eqnarray*}
+u=\frac{x}{x^2+y^2},\quad v=\frac{-y}{x^2+y^2}.
+\end{eqnarray*}
+</p>-->
+
+                <p>当 $A,$、$B,$、$C$ 和 $D$ 都是满足条件 $B^2+C^2>4AD,$ 的实数时，
+                    方程
+                    \begin{eqnarray}\label{circle01}
+                    A\left(x^2+y^2\right)+Bx+Cy+D=0
+                    \end{eqnarray}
+                    表示一个任意的圆或直线，其中 $A\neq 0$ 对应圆，$A=0$ 对应直线。</p>
+
+
+
+                <p>通过使用配方法，我们可以将方程 (\ref{circle01}) 重写如下
+                    <div class="scroll-wrapper">
+                       \begin{eqnarray*}\label{circle02}
+                    \left(x+\frac{B}{2A}\right)^2+\left(y+\frac{C}{2A}\right)^2=\left(\frac{\sqrt{B^2+C^2-4AD}}{2A}\right)^2
+                    \end{eqnarray*} 
+                    </div>
+                    
+                    这使得当 $A\neq 0.$ 时需要条件 $A\neq 0.$。当 $A = 0,$ 时，条件变为 $B^2 + C^2 &gt; 0,$，这意味着 $B$ 和 $C$ 不都为零。
+                </p>
+
+
+
+                <p>现在，利用关系式
+                    <div class="scroll-wrapper">
+                        \begin{eqnarray}\label{exp01}
+                    x=\frac{z+\overline{z}}{2},\quad y=\frac{z-\overline{z}}{2i},
+                    \end{eqnarray}
+                    </div>
+                    
+                    我们可以将方程 (\ref{circle01}) 重写为
+                    \begin{eqnarray}\label{circle03}
+                    2Az\overline{z}+(B-iC)z+(B+iC)\overline{z}+2D=0.
+                    \end{eqnarray}
+                    由于 $w=1/z,$，方程 (\ref{circle03}) 变为
+                    \begin{eqnarray*}
+                    2Dw\overline{w}+(B+iC)w+(B-iC)\overline{w}+2A=0
+                    \end{eqnarray*}
+                    再利用关系式
+                    \begin{eqnarray}\label{exp02}
+                    u=\frac{w+\overline{w}}{2},\quad v=\frac{w-\overline{w}}{2i},
+                    \end{eqnarray}
+                    我们得到
+                    \begin{eqnarray}\label{circle04}
+                    D(u^2+v^2)+Bu-Cv+A=0
+                    \end{eqnarray}
+                    它也表示一个圆或直线。
+                </p>
+
+
+                <p>从方程 (\ref{circle01}) 和 (\ref{circle04}) 现在可以清楚地看出
+                <ol>
+                    <li>$z$ 平面上不经过原点 $(D\neq 0)$ 的圆 ($z$) 变换为 $w$ 平面上不经过原点的圆；</li>
+                    <li>$z$ 平面上经过原点 $(D = 0)$ 的圆 ($z$) 变换为 $w$ 平面上不经过原点的直线；</li>
+                    <li>$z$ 平面上不经过原点 $(D \neq 0)$ 的直线 ($z$) 变换为 $w$ 平面上经过原点的圆；</li>
+                    <li>$z$ 平面上经过原点 $(D = 0)$ 的直线 ($z$) 变换为 $w$ 平面上经过原点的直线。</li>
+                </ol>
+                </p>
+
+
+                <div class="practice">
+                    <p><strong>练习：</strong> 验证表达式 \(D(u^2+v^2)+Bu-Cv+A=0\) 可以通过关系式 (\ref{exp01}) 和 (\ref{exp02}) 从 (\ref{circle01}) 导出。
+                    </p>
+                </div>
+
+
+
+                <br>
+
+            </div>
+
+
+
+
+        </article>
+    </main>
+
+    <!--GeoGebra embedding-->
+    <script src="https://www.geogebra.org/apps/deployggb.js"></script>
+    <script>
+        let params01 = {
+            "width": 562,
+            "height": 435,
+            "material_id": "xmsy8qvh",
+            "borderColor": "888888",
+            "playButton": false,
+            "showFullscreenButton": true,
+            "showResetIcon": true
+        };
+        let params02 = {
+            "width": 800,
+            "height": 435,
+            "material_id": "bf4p8vtm",
+            "borderColor": "888888",
+            "playButton": true,
+            "showFullscreenButton": true,
+            "showResetIcon": true
+        };
+        let ggbApplet01 = new GGBApplet(params01, true);
+        let ggbApplet02 = new GGBApplet(params02, true);
+        window.addEventListener("load", () => {
+            ggbApplet01.inject('ggb-element-01');
+            ggbApplet02.inject('ggb-element-02');
+        });
+    </script>
+    <!--GeoGebra embedding ends-->
+    
+    <a href="jie_xi_jing_guan.html" style="text-decoration: none;">
+        <p class="nextPage">解析景观 <i class="fa-solid fa-angles-right"></i></p>
+    </a>
+    <!-- Ends main content -->
+
+</section>

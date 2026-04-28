@@ -1,0 +1,646 @@
+<section data-type="chapter" id="cauchy-goursat-theorem">
+
+    <!-- Starts main content -->
+
+    <div w3-include-html="small_screen_message.html"></div>
+
+    <div class="toc-chapter" id="toc-chapter">
+        <p><i class="fa-solid fa-list"></i>目录</p>
+        <ul>
+            <li><a href="#section1">柯西定理</a></li>
+            <li><a href="#section2">柯西-古尔萨定理</a></li>
+            <li><a href="#section3">连通域</a></li>
+            <li><a href="#section4">历史注记与证明</a></li>
+            <li><a href="#section5">参考文献</a></li>
+            <!-- Add more sections as needed -->
+        </ul>
+    </div>
+ 
+    <br><br>
+
+    <main>
+        <article>
+
+            
+
+            <h1>柯西-古尔萨定理</h1>
+
+            <hr>
+
+            <div id="section1">
+
+                <h2>柯西定理</h2>
+
+               <p>
+                1825 年，法国数学家 Augustin-Louis Cauchy 证明了复分析中最重要的定理之一，该定理将闭围道上的复积分与围道内部函数的解析行为联系起来。
+            </p>
+
+               <div class="theorem">
+                <span style="font-style: normal!important;"><strong>(Cauchy's Theorem)</strong></span>
+                Suppose that $f$ is analytic, with the derivative $f'$
+                continuous on and inside a closed simple contour $C.$
+                Then
+                \[
+                \int_C f(z)\, dz = 0.
+                \]
+               </div>
+
+              <figure>
+                <img src="../images/chp04/cauchy-theorem.svg" alt="Cauchy's Theorem" title="Cauchy's Theorem" style="width:60%;">
+                <figcaption>
+                    柯西定理蕴含 $\displaystyle \int_C f(z)\,dz =0.$
+                </figcaption>
+              </figure>
+
+               <p>
+                如果函数在 $C,$ 内部的整个区域上不是解析的，那么积分可能不为零。
+            </p>
+
+               <p>
+                <em>定理 1 的证明。</em> 该定理的证明是<strong>格林定理</strong>（参见您的旧微积分教材）和柯西-黎曼方程的立即推论。
+            </p>
+               <div class="scroll-wrapper">
+                \begin{eqnarray}\label{green-theo}
+                \int_C P\,dx + Q\, dy &amp; =&amp; \iint_R \left(\frac{\partial Q}{\partial x} - \frac{\partial P}{\partial y}\right) dA
+                \end{eqnarray}
+               </div>
+               <p>
+                在格林定理中，$R$ 表示 $C,$ 的<em>内部</em>。
+            </p>
+               <p>令 $f=u+iv,$，我们有</p>
+               <div class="scroll-wrapper">
+                \begin{eqnarray*}
+                \int_C f(z)\,dz &amp; =&amp; \int_C \left(u+iv\right) \left(dx+idy\right)\\
+                &amp; =&amp; \int_C \left(u\,dx - v\,dy \right)  + i \int_C \left(u\, dy+v \,dx\right).
+                \end{eqnarray*}
+               </div>
+               <p>
+                对每个积分应用格林定理，我们得到
+            </p>
+               <div class="scroll-wrapper">
+                \begin{eqnarray*}
+                \int_C f(z)\,dz &amp; =&amp; \iint_R \left(-\frac{\partial v}{\partial x} - \frac{\partial u}{\partial y}\right) dA + i  \iint_R \left(\frac{\partial u}{\partial x} - \frac{\partial v}{\partial y}\right) dA \\
+                \end{eqnarray*}
+               </div>
+               <p>
+                由于<a href="fu_wei_fen.html">柯西-黎曼方程</a>，右边的两个积分都为零。
+            </p>
+
+               <p>注意，一旦确定了该积分的值为零，
+                围道的取向就不再重要。换句话说，为了达到一个形式，正方向是首选的，但并非必要。
+            </p>
+
+               <div class="practice">
+                
+                <p><strong>例 1：</strong>
+                  考虑函数 $f(z)= \exp\left(z^3\right).$。如果 $C$ 是简单闭围道，那么 \[
+                  \int_C \exp\left(z^3\right)\,dz =0.
+                  \] 在 $f$ 内部及其上是解析的。因此 $f$。
+            </p>
+               </div>
+               
+
+            </div>
+
+            <hr>
+
+ 
+
+            <div id="section2">
+              <h2>柯西-古尔萨定理</h2>
+
+              <p>
+                1900 年，法国数学家 <a href="https://mathshistory.st-andrews.ac.uk/Biographies/Goursat/">Édouard Goursat</a> 证明了，在柯西定理的假设中，导数连续性的假设可以去掉。因此，柯西定理的修改版本现在被称为<em>柯西-古尔萨定理</em>。
+            </p> 
+
+              <div class="theorem">
+                <span style="font-style: normal!important;"><strong>(Cauchy-Goursat Theorem)</strong></span>
+                If a function $f$ is analytic at all points interior to and on a simple 
+                closed contour $C,$ then
+                \[
+                \int_C f(z) \, dz = 0.
+                \]
+              </div>
+
+              <div class="practice">
+                  <p>
+                    <strong>例 2：</strong>
+                    函数 $f(z)=\exp(z)$ 是整函数，因此在任何简单闭围道 $C.$ 上有 \[
+                    \int_C \exp(z)\,dz = 0.
+                    \]。
+                </p>
+                  <div class="scroll-wrapper">
+                    \begin{eqnarray*}
+                    p(z) = a_nz^n+ a_{n-1}z^{n-1} + \cdots + a_1 z + a_0, 
+                    \quad (n =0,1,2,\ldots)
+                    \end{eqnarray*}
+                   </div>
+                   <p>是整函数，则</p>
+                  <div class="scroll-wrapper">
+                    \begin{eqnarray*}
+                    \int_C \sin z\,dz = 0,\quad \int_C \cos z\,dz = 0,\quad \int_C p(z)\,dz = 0.
+                    \end{eqnarray*}
+                   </div>
+                   <p>
+                    对任何简单闭围道 $C$，
+                </p>
+              </div>
+
+              <div class="practice">
+                <p>
+                  <strong>例 3：</strong>
+                  我们可以使用柯西-古尔萨定理来求积分
+                  \[
+                  \int_C \frac{1}{z^2}\,dz,
+                  \]
+                  的值，其中 $C$ 是图 3 所示的简单闭围道。
+              </p>
+
+                <figure>
+                  <div  class="ggbElement" id="ggb-element-1" ></div>
+                  <!--<img src="../images/chp04/cauchy-theorem-example-03.svg" alt="Cauchy-Goursat Theorem example" title="Cauchy-Goursat Theorem example" style="width:55%;">-->
+                  <figcaption>
+                     椭圆围道 $C.$。激活框 <code>相位图</code> 来显示 $f(z)=1/z^2,$。
+                </figcaption>
+                </figure>
+            </div>
+
+            </div>
+
+            <hr>
+
+            <div id="section3">
+              <h2>单连通与多连通域</h2>
+              
+              <p>
+                我们说一个域 $D$ 是<em>单连通</em>的，如果 $C$ 中的每一条简单闭围道只包围 $D$ 的点。
+            </p>
+
+              <figure>
+                <img src="../images/chp04/cauchy-theorem-simply-connected.gif" alt="Simply connected" title="Simply connected" style="width:500px;">
+                <figcaption>
+                  单连通域 $D.$
+                </figcaption>
+              </figure>
+
+              
+
+              <p>
+                换句话说，单连通域没有“洞”。整个复平面是单连通域的例子。
+            </p>
+
+              <figure id="annulus">
+                <img src="../images/chp04/annulus.svg" alt="Annulus" title="Annulus" style="width:55%;">
+                <figcaption>
+                    $1 \lt |z| \lt 2.$
+                </figcaption>
+               </figure>
+                
+              <p>不是单连通的域称为<em>多连通</em>域；即一个在内部包含点同时在域外的简单闭曲线的域。</p>
+
+              <figure>
+                <img src="../images/chp04/cauchy-theorem-not-simply-connected.gif" alt="No simply connected" title="Not simply connected" style="width:500px;">
+                <figcaption>
+                  非单连通域 $D.$
+                </figcaption>
+              </figure>
+                
+           
+
+              <p>
+                当定理适用于多连通域时，柯西-古尔萨定理中的闭围道不需要是简单的。
+                实际上，围道可以在有限个点处与自身相交。
+            </p>
+
+              <div class="theorem">
+                If a function $f$ is analytic throughout a simply simple connected domain $D,$ 
+                then
+                \[
+                \int_C f(z) \, dz = 0.
+                \]
+                for every closed contour $C$ lying in $D.$
+              </div>
+
+              <p>
+                如果 $C$ 是简单闭围道，或者如果它是与自身相交的闭围道但仍可以分解成有限条简单闭曲线，则证明很容易。
+            </p>
+              <div class="scroll-wrapper">
+                \begin{eqnarray*}
+                \int_C f(z)\,dz = \sum_{k=1}^{4}\int_{C_k}f(z)\, dz = 0.
+                \end{eqnarray*}
+               </div>
+
+               <figure>
+                <img src="../images/chp04/cauchy-theorem-closed-contours-sum.svg" alt=" Simply closed contours C_k" title=" Simply closed contours C_k" style="width:55%;">
+                <figcaption>
+                  简单闭围道 $C_k.$
+                </figcaption>
+              </figure>
+
+
+              <div class="practice">
+                <p><strong>例 4：</strong>
+                设 $C$ 是位于开圆盘 $|z|\lt 2.$ 内的任何闭围道。使用柯西-古尔萨定理证明 \[
+                \int_C \frac{z\sin(z)}{\left(z^2-9\right)^3}dz =0.
+                \]。
+            </p>
+                <figure>
+                  <img src="../images/chp04/cauchy-theorem-example-04.svg" alt="Cauchy-Goursat Theorem example" title="Cauchy-Goursat Theorem example" style="width:75%;">
+                  <figcaption>
+                    开圆盘 $D:|z|\lt 2$ 是单连通的，而 $C$ 是任意闭围道。
+                </figcaption>
+                </figure>
+              </div>
+               
+
+
+              <div class="corollary">
+                A function $f$ that is analytic throughout a simply simple connected domain $D$ 
+                must have an antiderivative everywhere in $D.$
+              </div>
+
+              <p>
+                如果 $f$ 在多连通域 $D$ 中解析，那么对于域中的简单闭围道 $\int_C f(z)\,dz=0$，我们不能得出 $C$。
+            </p>
+
+              <figure>
+                <img src="../images/chp04/cauchy-theorem-multiply-connected-contours-start.svg" alt="Cauchy-Goursat Theorem multiply connected" title="Cauchy-Goursat multiply connected" style="width:65%;">
+                <figcaption>
+                  $D$ 是有两个“洞”的多连通域。
+                </figcaption>
+              </figure>
+
+              <p>
+                现在，还假设
+                $f$ 在每个围道上以及在构成 $C$ 边界等距的环状区域中都解析。
+            </p>
+
+              <figure>
+                <img src="../images/chp04/cauchy-theorem-multiply-connected-contours.svg" alt="Cauchy-Goursat Theorem multiply connected" title="Cauchy-Goursat multiply connected" style="width:65%;">
+                <figcaption>
+                  引入多边形线 $L_k$。
+                </figcaption>
+              </figure>
+
+              <p>
+                如图 10 所示，可以引入两条简单闭围道
+                $\Gamma_1$ 和 $\Gamma_2$，使得
+                $L_k$ 和 $-L_k$ 由 $C$ 和 $C_k$ 的部分以及 $f$ 和 $\Gamma_1$ 的弧段组成。
+            </p>
+              <div class="scroll-wrapper">
+                \begin{eqnarray*}
+                \int_C f(z)\,dz +  \int_{C_1} f(z)\,dz + \int_{C_2} f(z)\,dz =0
+                \end{eqnarray*}
+               </div>
+
+               <figure>
+                <img src="../images/chp04/cauchy-theorem-multiply-connected-contours-final.svg" alt="Cauchy-Goursat Theorem multiply connected" title="Cauchy-Goursat multiply connected" style="width:65%;">
+                <figcaption>
+                 $\int_{L_k}f(z)\,dz = -\int_{-L_k}f(z)\,dz .$
+                </figcaption>
+              </figure>
+
+              <p>
+                下一个定理总结了具有 $n$ 个洞的多连通域的一般结果。
+            </p>
+
+              <div class="theorem">
+                Suppose that 
+                <ol>
+                  <li>
+                    C 是一条简单闭围道，以逆时针方向描述；
+                </li>
+                  <li>
+                    $C_k$ $(k = 1, 2, \ldots , n)$ 是位于 $C,$ 内部的简单闭围道，所有这些围道都具有正方向（逆时针）。
+                </li>
+                </ol>
+                <p>
+                  如果 $f$ 在所有这一切围道上以及整个多连通域
+                  中都是解析的，那么 $C$。
+                </p>
+                <div class="scroll-wrapper">
+                  \begin{eqnarray*}
+                  \int_C f(z)\,dz + \sum_{n=1}^{n} \int_{C_k} f(z)\,dz  =0
+                  \end{eqnarray*}
+                 </div>
+              </div>
+
+              <p>
+                以下推论被称为<strong>围道变形原理</strong>。
+            </p>
+
+              <div class="corollary">
+                Let $C_1$ and $C_2$ denote positively oriented simple 
+                closed contours, where $C_1$ is interior to $C_2.$
+                If $f$ is analytic in the closed region 
+                consisting of those contours and all points between 
+                them, then
+                \[
+                \int_{C_2} f(z) \, dz  = \int_{C_1} f(z) \, dz  .
+                \]
+              </div>
+
+              <figure>
+                <img src="../images/chp04/cauchy-theorem-simply-deformation.gif" alt="Cauchy-Goursat Theorem" title="Cauchy-Goursat" style="width:500px;">
+                <figcaption>
+                  $C_1$ 连续变形为 $C_2.$
+                </figcaption>
+              </figure>
+
+              <div class="practice">
+                <p>
+                  <strong>例 5：</strong>
+                  我们可以使用前面的推论来证明
+                  \[
+                  \int_C \frac{1}{z} dz= 2\pi \,i
+                  \]
+              </p>
+                <p>
+                  考虑 $C_0$ 是以原点为中心、半径为 $C_0$ 的正向圆。
+              </p>
+
+                <p>
+                  我们知道（参见<a href="fu_ji_fen.html">复积分</a>部分的例 2），
+                  \[
+                  \int_{C_0} \frac{1}{z} dz= 2\pi \,i.
+                  \]
+              </p>
+
+                <figure>
+                  <img src="../images/chp04/cauchy-theorem-simply-deformation-example.gif" alt="Cauchy-Goursat Theorem" title="Cauchy-Goursat" style="width:500px;">
+                  <figcaption>
+                   $\ds \int_{C_0} \frac{1}{z} dz= 2\pi \,i.$
+                  </figcaption>
+                </figure>
+              </div>
+
+              <div class="practice">
+                <p>
+                  <strong>练习 1：</strong>
+                  使用围道变形原理证明
+                  $z_0$
+              </p>
+              </div>
+
+            </div>
+
+            <hr>
+
+            <div id="section4">
+
+              <h2>历史注记与证明</h2>
+
+              <p>
+                柯西于 1814 年首次向<em>科学院</em>（法兰西科学院）传达了积分定理，这是关于函数沿矩形围道积分等于零的定理——参见 (Cauchy, 1814 和 1825)。
+            </p>
+
+              <p>
+                古尔萨于 1884 年证明了简单闭曲线情形下的柯西定理，方法是将内部区域划分为小正方形。
+            </p>
+              <div class="scroll-wrapper">
+                \[
+                \left|f(z) - f(z_0) - f'(z_0)(z-z_0)\right|\lt \epsilon \left|z-z_0\right|
+                \]
+              </div>
+              <p>
+                对于子正方形边界上的每个 $z$，其中 $z_0$ 是某个固定正数。
+            </p>
+
+              <p>
+                1900 年，Eliakim H. Moore 改进了证明，处理了对边界曲线的更精确的描述。
+            </p>
+
+              <p>
+                后来在 1901 年，Alfred Pringsheim 对古尔萨对边界曲线的处理提出了批评，但古尔萨定理的这个方面最终已得到纠正。
+            </p>
+
+              <p>
+                为了避免在接下来的讨论中不必要的重复，我们将假设我们处理的是简单闭围道。
+            </p>
+
+
+              <div class="lemma">
+                If $\Delta$ is a triangular contour lying entirely within $D,$
+                then $\int_{\Delta} f(z)\,dz=0.$
+              </div>
+
+              <div class="proof">
+                Let $\Delta$ be the triangular contour shown in Figure 13. 
+                The vertices of $\Delta$ are labeled $V_1,V_2$ and $V_3.$ 
+                We form smaller triangles $\Delta_1, \Delta_2,$ $\Delta_3$ and $\Delta_4$ 
+                by joining the midpoints $M_1,M_2$ and $M_3$ of the sides of $\Delta$ 
+                by straight line segments as shown in Figure 14. Then
+                <div class="scroll-wrapper">
+                  \begin{eqnarray}\label{sumcontours}
+                  \int_{\Delta} f(z)\,dz = \int_{C_1} f(z)\,dz +\int_{C_2} f(z)\,dz +\int_{C_3} f(z)\,dz +\int_{C_4} f(z)\,dz.
+                  \end{eqnarray}
+                </div>
+
+                <div class="figure-container">
+                  <figure>
+                    <img src="../images/chp04/cauchy-theorem-lemma-01-a.svg" alt="Triangle in D." title="Triangle in D." style="width:100%;">
+                    <figcaption>
+                      在 $D.$ 内的三角形围道 $\Delta$
+                    </figcaption>
+                  </figure>
+                  <figure>
+                    <img src="../images/chp04/cauchy-theorem-lemma-01-b.svg" alt="Partition." title="Partition." style="width:100%;">
+                    <figcaption>
+                      三角形围道 $C_k.$
+                    </figcaption>
+                  </figure>
+        
+                </div>
+
+                <p>
+                  使用三角不等式，我们有
+                </p>
+                <div class="scroll-wrapper">
+                  \begin{eqnarray}\label{triangle01}
+                  \left|\int_{\Delta} f(z)\,dz\right| \leq  \left|\int_{C_1} f(z)\,dz\right| + \left|\int_{C_2} f(z)\,dz\right| + \left|\int_{C_3} f(z)\,dz\right| + \left|\int_{C_4} f(z)\,dz\right|.
+                  \end{eqnarray}
+                </div>
+                <p>
+                  由于前一个不等式右边的四个量是非负实数，它们之和必定大于或等于其中任何一个。
+                </p>
+
+                <p>
+                  现在我们为三角形 $\Delta_1.$ 重复上述过程。也就是说，我们形成内部三角形
+                  $\Delta_1$，然后考虑 $f$。
+                </p>
+
+                <p>
+                  我们将最后一个不等式与 (\ref{triangle02}) 结合，得到
+                  \[
+                  \left|\int_{\Delta_1} f(z)\,dz\right| \leq 4 \left|\int_{\Delta_1} f(z)\,dz\right| \leq 4^2 \left|\int_{\Delta_2} f(z)\,dz\right| .
+                  \]
+                </p>
+
+                <p>
+                  我们继续这样做，得到一系列“嵌套”的三角形围道
+                  $\Delta, \Delta_1, \Delta_2,\ldots,$，且 $n$。
+                </p>
+
+                <p>
+                  由于三角形围道序列
+                  $\Delta, \Delta_1, \Delta_2,\ldots,$ 是嵌套的，存在一个公共点 $z_0$。
+                </p>
+                <div class="scroll-wrapper">
+                  \begin{eqnarray}\label{expanded}
+                  \int_{\Delta_n}f(z)\,dz = f(z_0) \int_{\Delta_n}dz + f'(z_0)\int_{\Delta_n}(z-z_0)\,dz + \int_{\Delta_n}(z-z_0)\Lambda(z)\,dz. 
+                  \end{eqnarray}
+                </div>
+                <p>
+                  由于
+                  \[
+                  \int_{\Delta_n}dz =0 \quad \text{and}\quad \int_{\Delta_n}(z-z_0)\,dz=0
+                  \]
+                  （为什么？），(\ref{expanded}) 的右边简化为 \begin{eqnarray}\label{reduced}
+                  \int_{\Delta_n}f(z)\,dz = \int_{\Delta_n}(z-z_0)\Lambda(z)\,dz. 
+                  \end{eqnarray}。
+                </p>
+
+                <p>
+                  现在设 $L$ 和 $L_1$ 分别表示三角形围道 $\Delta$ 和 $\Delta_1,$ 的长度。
+                </p>
+
+                <p>
+                  对于任何 $z\in \Delta_n,$，我们有
+                  $\abs{z-z_0}\lt L_n,$，其中 $\ds L_n= \frac{1}{2^n}L.$。
+                </p>
+                <div class="scroll-wrapper">
+                  \begin{eqnarray}\label{boundgeneral}
+                  \abs{\int_{\Delta_n}f(z)\,dz } = \abs{ \int_{\Delta_n}(z-z_0)\Lambda(z)\,dz} \leq \frac{L}{2^n}\cdot \epsilon \cdot \frac{L}{2^n}  = \frac{L^2}{4^n}\epsilon 
+                  \end{eqnarray}
+                </div>
+
+                <p>
+                  将 (\ref{bound4}) 与 (\ref{boundgeneral}) 结合，我们得到由三角形 $\epsilon \gt 0$ 所界定的第 $\Delta:$ 个实心三角形的积分模的界。
+                </p>
+              </div>
+
+              <div class="lemma">
+                If $C$ is a closed polygonal contour lying entirely within $D,$ 
+                then $\int_C f(z)\,dz=0.$
+              </div>
+
+              <div class="practice">
+                <p>
+                  <strong>练习 2：</strong>
+                  使用<strong>引理 1</strong> 以及任何闭围道都可以用多边形来近似的事实，来证明<strong>引理 2</strong>。
+                </p>
+
+                <div class="figure-container">
+                  <figure>
+                    <img src="../images/chp04/cauchy-theorem-lemma-02-a.svg" alt="Closed polygonal contour" title="Closed polygonal contour" style="width:100%;">
+                    <figcaption>
+                      在 $D.$ 内的闭多边形围道 $C$
+                    </figcaption>
+                  </figure>
+                  <figure>
+                    <img src="../images/chp04/cauchy-theorem-lemma-02-b.svg" alt="Triangulation of the polygonal contour" title="Triangulation of the polygonal contour" style="width:100%;">
+                    <figcaption>
+                      多边形围道 $C.$ 的三角剖分
+                    </figcaption>
+                  </figure>
+        
+                </div>
+
+                <p>
+                  <strong>注记：</strong>
+                  粗略地说，“三角剖分”意味着闭多边形 $C$ 可以分解为有限个具有以下性质的三角形 $C$。
+                </p>
+              </div>
+
+              <p>
+                现在，柯西-古尔萨定理可以使用
+                <strong>引理 2</strong> 和以下事实容易地证明：
+                $C$。
+            </p>
+
+              <figure>
+                <img src="../images/chp04/cauchy-theorem-final-proof.gif" alt="Approximation by polygonal path" title="Approximation by polygonal path" style="width:550px;">
+                <figcaption>
+                  围道 $C$ 由多边形围道 $P.$ 来近似。
+                </figcaption>
+              </figure>
+
+              <p>
+                <em>柯西-古尔萨定理的证明。</em>
+                考虑简单闭围道 $C$。我们需要证明 $n$。
+            </p>
+
+
+              <p>
+                柯西-古尔萨定理已经通过各种方法建立起来。例如，证明还使用了拓扑方法，如 (Hance-Olsen, 2008) 及其中引用的参考文献。
+            </p>
+
+            </div>
+
+            <hr>
+
+            <div id="section5">
+              <h2>参考文献</h2>
+
+              <ol class="bbtex-list">
+                <li id="bottazzini1984">Bottazzini, U. (1984). <em>The higher calculus: a history of real and complex analysis from Euler to Weierstrass</em>. New York: Springer-Verlag.</li>
+                <li id="borger1921">Borger, R. L. (1921). On the Cauchy-Goursat theorem, <em>Bulletin of the American Mathematical Society</em>, Vol. 27, No. 7, pp. 325-329.</li>
+                <li id="brown2009">Brown, J. W., Churchill, R. V. (2009). <em>Complex Variables and Applications.</em> 8th Edition. New
+                  York: McGraw-Hill.</li>
+                <li id="cauchy1814">Cauchy, A. (1814). <em>Mémoire sur la théorie des intégrales définies,</em>
+                  in Œuvres complètes d'Augustin Cauchy, Série 1, Tome 1, pp. 319–506. Paris: Gauthier-Villars.</li>
+                <li id="cauchy1825">Cauchy, A. (1825). <em>Mémoire sur les intégrales définies, prises entre des limites imaginaires,</em>
+                  in Œuvres complètes d'Augustin Cauchy, Série 2, Tome 15, pp. 41–89. Paris: Gauthier-Villars.</li>
+                <li id="dixon1971">Dixon, J. D. (1971). A brief proof of Cauchy's integral theorem, <em>Proceedings of the American Mathematical Society</em>, Vol. 29, No. 3, pp. 625-626.</li>
+                <li id="goursat1884">Goursat, E. (1884). Démonstration du théorème de Cauchy. <em>Acta Mathematica</em>, 4, pp. 197-200.
+                  <a href="https://doi.org/10.1007/BF02418421">https://doi.org/10.1007/BF02418421</a>.</li>
+                <li id="goursat1900">Goursat, E. (1900).  Sur la définition générale des fonctions analytiques, d'après Cauchy, <em>Transactions of the American Mathematical Society</em>, Vol. 1, No. 1, pp. 14-16.</li>
+                <li id="hance-olsen2008">Hance-Olsen, H. (2008). On Goursat's Proof of Cauchy's Integral Theorem, <em>The American Mathematical Monthly</em>, 115, pp. 648-652.</li>
+                <li id="marsden1999">Marsden, J. E. &amp; Hoffman, M. J. (1999) <em>Basic Complex Analysis.</em> (3rd ed.) New York: W. H. Freeman and Co.</li>
+                <li id="moore1900">Moore, E. H. (1900). A Simple Proof of the Fundamental Cauchy-Goursat Theorem, <em>Transactions of the American Mathematical Society</em>, Vol. 1, No. 4, pp. 499-506.</li>
+                <li id="pringsheim1901">Pringsheim, A. (1901). Ueber den Goursat'schen Beweis des Cauchy'schen Integralsatzes, <em>Transactions of the American Mathematical Society</em>, Vol. 2, No. 4, pp. 413-421.</li>
+                <li id="smithies1997">Smithies, F. (1997). <em>Cauchy and the Creation of Complex Function Theory.</em> UK: Cambridge University Press.</li>
+                <li id="vynorny1979">Výborný, R. (1979). On the Use of a Differentiable Homotopy in the Proof of the Cauchy Theorem, <em>The American Mathematical Monthly</em>, 86, pp. 380-382.</li>
+            </ol>
+
+            </div>
+
+
+            <br>
+
+           
+
+
+
+        </article>
+    </main>
+
+   <!--GeoGebra embedding-->
+   <script src="https://www.geogebra.org/apps/deployggb.js"></script>
+
+   <script>
+       let params1 = {
+           "width": 564,
+           "height": 493,
+           "material_id": "g9f5shdn",
+           "borderColor": "888888",
+           "playButton": false,
+           "showFullscreenButton": true,
+           "enableShiftDragZoom": false,
+           "showResetIcon": true
+       };
+      
+       let ggbApplet1 = new GGBApplet(params1, true);
+       
+       window.addEventListener("load", () => {
+           ggbApplet1.inject('ggb-element-1');
+       });
+   </script>
+   <!--GeoGebra embedding ends-->
+
+    <a href="ke_xi_ji_fen_gong_shi.html" style="text-decoration: none;">
+        <p class="nextPage">柯西积分公式 <i class="fa-solid fa-angles-right"></i></p>
+    </a>
+    <!-- Ends main content -->
+
+</section>

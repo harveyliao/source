@@ -1,0 +1,243 @@
+<section data-type="chapter" id="topology">
+
+    <!-- Starts main content -->
+
+    <div class="toc-chapter" id="toc-chapter">
+        <p><i class="fa-solid fa-list"></i>目录</p>
+        <ul>
+            <li><a href="#section1">邻域</a></li>
+            <li><a href="#section2">点的分类</a></li>
+            <li><a href="#section3">拓扑空间</a></li>
+            <!-- Add more sections as needed -->
+        </ul>
+    </div>
+
+    <br><br>
+
+    <main>
+        <article>
+
+            <h1>复平面的拓扑</h1>
+
+            <hr />
+
+            <div id="section1">
+
+                <h2>邻域</h2>
+
+
+                <p>                    复数 $z_0$ 的一个 $z_0$ <em id="neighborhood">邻域</em>，也称为                    <em>开球</em>或<em>开圆盘</em>，由所有满足条件的点                    $z$ 组成，这些点位于以 $z_0$ 为圆心、半径为                    $\varepsilon>0$ 的圆内部（不在圆周上），其表达式为                <div class="scroll-wrapper">                    \begin{eqnarray}
+                    B_{\varepsilon}(z_0)=\{z:|z-z_0| \lt \varepsilon\}.
+                    \end{eqnarray}                </div>                $z_0$ 的<em id="closed-neighborhood">闭</em> $z_0$ <em>邻域</em>                表示为                <div class="scroll-wrapper">                    \begin{eqnarray}
+                    \overline{B}_{\varepsilon}(z_0)=\{z:|z-z_0|\leq \varepsilon\}.
+                    \end{eqnarray}                </div>                最后，$z_0,$ 的<em id="deleted-neighborhood">去心</em> $z_0,$ <em>邻域</em>，                也称为<em>去心球或去心圆盘</em>，表示为                <div class="scroll-wrapper">                    \begin{eqnarray}
+                    B_{\varepsilon}(z_0)\setminus \{z_0\}=\{z:0 \lt |z-z_0| \lt \varepsilon\}.
+                    \end{eqnarray}                </div>                图 1 展示了以下例子的几何表示：                </p>
+
+                <div class="scroll-wrapper">
+                    <ol>
+                        <li>$B_{1}(0)=\{z:|z|\lt 1\}$</li>
+                        <li> $\overline{B}_{\frac{7}{8}}\left(-1-\sqrt{2}i\right)=\left\{z:|z-\left(-1-\sqrt{2}i\right)|\leq                            \frac{7}{8}\right\}$</li>
+                        <li> $\overline{B}_{\frac{1}{2}}\left(2+\sqrt{3}i\right)\setminus\left\{2+\sqrt{3}i\right\}=\left\{z:0<|z-\left(2+\sqrt{3}i\right)|\leq                            \frac{1}{2}\right\}$</li>
+                    </ol>
+                </div>
+
+
+                <figure>
+                    <img src="../images/chp01/balls.svg" alt="Neighborhoods" title="Neighborhoods" style="width:60%;">
+                    <figcaption>邻域的几何表示。</figcaption>
+                </figure>
+
+
+
+
+            </div>
+
+            <hr>
+
+            <div id="section2">
+
+                <h2>点的分类</h2>
+
+                <p>                    点 $z_0$ 称为集合 $S\subset \mathbb C$ 的<em id="interior-point">内点</em>，如果存在 $z_0$ 的一个邻域                    包含于 $S$ 中。                    点 $S$ 称为集合 $S.$ 的<em id="exterior-point">外点</em>，如果存在 $z_0$ 的一个邻域                    与 $S.$ 不相交。                    如果 $S$ 既不是 $S.$ 的内点也不是外点，则称其为<em id="boundary-point">边界点</em>。                    $S.$ 的所有边界点的集合记为 $$
+                    S_1=B_1(0),\;
+                    S_2=\overline{B}_{\frac{7}{8}}\left(-1-\sqrt{2}i\right) \text{ and }
+                    S_3=\overline{B}_{\frac{1}{2}}\left(2+\sqrt{3}i\right)\setminus \left\{2+\sqrt{3}i\right\}.
+                    $$                </p>
+
+
+                <p>本文中将使用以下记号：</p>
+                <div class="scroll-wrapper">
+                    <ol>
+                        <li>$\text{Int } S=\left\{z: z \text{ is an interior point of } S \right\}$</li>
+                        <li>$\text{Ext } S=\left\{z: z \text{ is an exterior point of } S \right\}$</li>
+                        <li>$\partial S=\left\{z: z \text{ is a boundary point of } S \right\}$</li>
+                    </ol>
+                </div>
+
+
+                <figure>
+                    <img src="../images/chp01/classification.svg" alt="Interior, boundary, and exterior S"
+                        title="Interior, boundary, and exterior S" style="width:50%;">
+                    <figcaption>集合 $S.$ 的内部、边界和外部。</figcaption>
+                </figure>
+
+
+                <p>                    考虑前面的邻域例子，令                    $S_1$                    $\text{Int } S_1=B_1(0)$                    那么：                </p>
+
+
+
+                <p>对于 $S_2$，有：</p>
+                <div class="scroll-wrapper">
+                    <ul>
+                        <li>$\text{Int } S_2=B_{\frac{7}{8}}\left(-1-\sqrt{2}i\right)$</li>
+                        <li>$\text{Ext } S_2=\left\{z:|z-\left(-1-\sqrt{2}i\right)|>\frac{7}{8}\right\}$</li>
+                        <li>$\partial S_2=\left\{z:| z-\left(-1-\sqrt{2}i\right)| =\frac{7}{8}\right\}$</li>
+                    </ul>
+                </div>
+
+
+
+                <p>最后，对于 $S_3$，有：</p>
+                <div class="scroll-wrapper">
+                    <ul>
+                        <li>$\text{Int } S_3=B_{\frac{1}{2}}\left(2+\sqrt{3}i\right)\setminus \{2+\sqrt{3}i\}$</li>
+                        <li>$\text{Ext } S_3=\left\{z:|z-\left(2+\sqrt{3}i\right)|>\frac{1}{2}\right\}$</li>
+                        <li>$\partial S_3=\left\{z:|z-\left(2+\sqrt{3}i\right)|=\frac{1}{2}\right\}\cup\{2+\sqrt{3}i\}$</li>
+                    </ul>
+                </div>
+
+
+
+            </div>
+
+            <hr>
+
+            <div id="section3">
+
+                <h2>拓扑空间</h2>
+
+                <p><!--
+			Topology is, in essence, the study of the properties that 
+			are preserved through continuous deformations of "objects",
+			such as twisting, stretching or bending, but not tearing or 
+			gluing.
+
+The "objects" of study in topology are formally defined as topological spaces,
+which are sets endowed with a structure, called a topology. 
+This topology allows to define continuous deformations of 
+subspaces, and, more generally, all kinds of continuity.
+
+In particulartopology In the case of the set of complex numbers $\mathbb C$
+The "" In topology the main objects of study are called topological spaces.  
+We can think of topological spaces as sets of points together with some 
+notion of continuity. This notion of continuity, in this case, comes in the form
+of a mathematical gadget called topology that determines which functions mapping out
+
+The technical definition of topology is a bit unintuitive.
+
+https://www.youtube.com/watch?v=pSjahcOnJvU
+                        -->
+
+                    集合 $S$ 称为<em id="open-set">开集</em>，如果对于每个 $z\in S,$ 都存在一个 $\varepsilon>0$ 的邻域                    完全包含于 $\text{Int } S= S.$ 中。                    集合 $S$ 称为<em>闭集</em>，如果它在 $\mathbb C$ 中的补集是开集。                </p>
+
+                <p>                    集合 $\mathbb C,$ 连同其子集的收集 $\tau =\{S\subseteq \mathbb C: S \text{ is open} \}$ 构成一个<em>拓扑空间</em>，如果满足以下条件：                   <br>                   - $\left(\mathbb C, \tau\right).$ 和 $\left(\mathbb C, \tau\right)$ 属于 $\emptyset$                   <br>                   - $\mathbb C$ 中任意多个集合的并集仍在 $S_1$ 中。                   <br>                   - $S_2$ 中有限多个集合的交集仍在 $S_1\bigcap S_2.$ 中。                </p>
+
+                <p><strong>注：</strong> 拓扑空间的技术定义有点超出本文的范围。                    然而，需要指出的是集合 $\mathbb C$ 的收集满足上述所有三个条件，                    因此 $$B_{\varepsilon}(z)\subset S.$$ 是一个拓扑空间。                </p>
+
+                <!--
+		<p>
+			On the other hand, considering closed sets, we have the following properties:
+			<ol>
+				<li>$\emptyset$ and $\mathbb C$ are closed.</li>
+				<li>Whenever two or more sets are closed, then so is their union.</li>
+				<li>Whenever sets $S_1$ and $S_2$ are closed, then so is $S_1\bigcap S_2.$</li>
+			</ol>
+
+
+			
+
+		</p>
+	-->
+
+                <p>                    集合 $S$ 的<em id="closure">闭包</em>是包含 $S$ 的所有闭集的交集，                    记为 $$\partial S\subseteq S.$$ 因此，$S.$ 是包含 $S$ 的最小闭集。                </p>
+
+                <p>                    一般来说，如果一个集合不能表示为两个不相交的非空开子集的并集，则称其为连通的。                    在复平面中，一个开集是连通的当且仅当其中任意两点都可以用完全位于该集合内的折线连接。                </p>
+
+                <br />
+                <figure>
+                    <img src="../images/chp01/connected-set.gif" alt="Connected set" title="Connected set"
+                        style="width:50%;">
+                    <figcaption>多边形连通的开集。</figcaption>
+                </figure>
+
+                <p>例如，注意开集 $|z| \lt 1$ 是连通的，因为其内部任意两点都可以用一条折线连接。</p>
+
+                <br />
+
+                <div class="figure-container">
+                    <figure id="open-connected">
+                    <img src="../images/chp01/unit-ball.svg" alt="Open connected set" title="Open connected set"
+                        style="width:95%;">
+                    <figcaption>$|z| \lt 1.$</figcaption>
+                </figure>
+                <br />
+                <figure id="annulus">
+                    <img src="../images/chp01/annulus.svg" alt="Annulus" title="Annulus" style="width:95%;">
+                    <figcaption>$1 \lt |z| \lt 2.$</figcaption>
+                </figure>
+                </div>
+                
+
+                <p>                    一个非空且连通的开集称为<em>区域</em>。                    可将其视为由内部点组成且任意两点可用折线连接的集合。                </p>
+                <br />
+                <figure>
+                    <img src="../images/chp01/bounded.svg" alt="Bounded set" title="Bounded set" style="width:55%;">
+                    <figcaption>有界集。</figcaption>
+                </figure>
+
+                <!--
+			<p>
+			A point $z\in \mathbb C$ is an <em id="accumulation
+			point">accumulation point</em> of $S\subseteq \mathbb C$ if every 
+			deleted neighbourhood of $z$
+			intersects $S.$ It follows that if a set $S$ is closed, then it contains 
+			each of its accumulation
+			points. For if an accumulation point $z_0$ were not in $S,$ it would 
+			be a boundary point of $S$; but
+			this contradicts the fact that a closed set contains all of its 
+			boundary points. It is left as an
+			exercise to show that the converse is, in fact, true. Thus a set 
+			is closed if and only if it
+			contains all of its accumulation points. Evidently, a point $z_0$ 
+			is not an accumulation point of a
+			set S whenever there exists some deleted neighbourhood of $z_0$ 
+			that does not contain at least one
+			point of $S.$ Note that the origin is the only accumulation point 
+			of the set $z_n=i/n$ with $n=1, 2,
+			3,\ldots $ </p>
+		-->
+
+                <div class="practice">
+                    <p><strong>练习：</strong> 在复平面中画出集合 $S$                    并指出其中的点 $$\overline{S}=S\cup \partial S.$$                </p>
+                    <ul>
+                        <li>$\text{Im}(z)\lt 0$</li>
+                        <li>$-1\lt \text{Re(z)} \lt 1$</li>
+                        <li>$|z|>1$</li>
+                        <li>$2\le |z - 3+4i |\le 5$</li>
+                    </ul>
+                </div>
+
+
+
+            </div>
+
+        </article>
+    </main>
+
+    <a href="fu_bian_han_shu.html" style="text-decoration: none;">
+        <p class="nextPage">复变函数 <i class="fa-solid fa-angles-right"></i></p>
+    </a>
+    <!-- Ends main content -->
+
+</section>

@@ -1,0 +1,748 @@
+<section data-type="chapter" id="complex-integration">
+
+    <!-- Starts main content -->
+
+    <div w3-include-html="small_screen_message.html"></div>
+
+    <div class="toc-chapter" id="toc-chapter">
+        <p><i class="fa-solid fa-list"></i>目录</p>
+        <ul>
+            <li><a href="#section1">围道积分</a></li>
+            <li><a href="#section2">数值计算 1</a></li>
+            <li><a href="#section3">数值计算 2</a></li>
+            <li><a href="#section4">性质</a></li>
+            <li><a href="#section5">原函数</a></li>
+            <!-- Add more sections as needed -->
+        </ul>
+    </div>
+
+    <br><br>
+
+    <main>
+        <article>
+
+            <h1>复积分</h1>
+
+            <hr>
+
+            <div style="margin-right:0px;margin-left:100px">
+                <div>
+                    <p style="font-size:0.8em;font-weight:normal;">
+                        微积分的魔力和力量最终建立在这样一个奇妙的事实之上：微分和
+                        积分不仅在一切实际用途中都紧密关联，而且在某种意义上，
+                        它们是同一枚硬币的两面。
+                    </p>
+                </div>
+                <div style="font-size:0.8em;font-weight:normal;text-align: right;"><strong>Peter J. Oliver</strong>
+                </div>
+            </div>
+
+            <div id="section1">
+
+                <h2>围道积分</h2>
+
+                <p>
+                    考虑围道 $C$，由 $z(t) = x(t) + i y(t)$ 参数化，其中 $a\leq t\leq b.$。我们定义
+                    复函数沿 $C$ 的<em>积分</em>为复数
+                    \begin{eqnarray}\label{contour-integral}
+                    \int_C f(z)\,dz = \int_a^bf\left(z(t)\right)z'(t)\,dt.
+                    \end{eqnarray}
+                    这里我们假设 $f\left(z(t)\right)$ 在区间 $a \leq t \leq b$ 上分段连续，
+                    因此该积分存在。方程 (\ref{contour-integral}) 的右侧是一个普通
+                    实值复函数的积分，其定义由 $f (z)$ 给出，
+                    其中 $C.$ 是连续实值函数。在那个上下文中，存在性由
+                    $C$ 和 $z'(t)$ 的连续性保证，
+                    因为所有函数都映射到 $a \leq t \leq b$。
+                </p>
+
+                <p>
+                    方程 (\ref{contour-integral}) 的右侧是一个普通
+                    复值函数的实积分：即，如果 $w(t) = u(t) + i v(t),$，那么
+                    \begin{eqnarray}\label{integral-real-cv}
+                    \int_a^b w(t)\,dt = \int_a^b u(t)\,dt + i \int_a^b v(t)\,dt
+                    \end{eqnarray}
+                </p>
+
+
+                <p>
+                    现在我们将被积函数
+                    $$f(z)= u(x,y)+ iv(x,y)$$
+                    写成实部和虚部的形式，同时写出微分
+                    $$dz=\frac{dz}{dt}dt = \left(\frac{dx}{dt}+ i \frac{dy}{dt}\right)dt = dx+ i dy$$
+                    那么复积分 (\ref{contour-integral}) 分解为一对实线积分：
+                <div class="scroll-wrapper">
+                  
+                  \begin{eqnarray}\label{real-integrals}
+                    \int_C f(z)\,dz = \int_C\left(u+iv\right)\left(dx+idy\right) = \int_C\left(u\,dx-v\,dy\right) + i
+                    \int_C\left(v\,dx+u\,dy\right).
+                    \end{eqnarray}
+                </div>
+            </p>
+
+                <div class="practice">
+                    <p><strong>例 1：</strong> 让我们计算 $\int_C \overline{z}\, dz,$，其中 $C$ 由
+                        $x=3t,
+                        y=t^2,$
+                        给出，且 $-1\leq t\leq 4.$。
+                    </p>
+
+                    <figure>
+                        <img src="../images/chp04/integral-example-1.gif" alt="Piecewise smooth curve"
+                            title="Piecewise smooth curve" style="width:45%;">
+                        <figcaption>
+                            $C$：$z(t)=3t+ it^2,$，其中 $-1\leq t\leq 4.$
+                        </figcaption>
+                    </figure>
+
+
+                    <p>
+                        这里我们有 $C$ 是 $z(t)=3t+ it^2 .$。因此，利用恒等式
+                        $f(z)=\overline{z}$
+                        我们得到
+                        $$f\left(z(t)\right)=\overline{3t+it^2}= 3t-it^2 .$$
+                        此外，$z'(t) = 3 + 2it,$，所以积分是
+                        \begin{eqnarray*}
+                        \int_C \overline{z}\, dz&=& \int_{-1}^4 \left(3t-it^2\right)\left(3+ 2it\right)dt\\
+                        &=& \int_{-1}^4 \left(2t^3+9t + 3t^2i\right)dt\\
+                        &=& \int_{-1}^4 \left(2t^3+9t \right)dt + i\int_{-1}^4 3t^2dt\\
+                        &=& \Bigg. \left(\frac{1}{2}t^4 + \frac{9}{2} t^2\right)\Bigg|_{-1}^4 + i\Bigg.
+                        t^3\Bigg|_{-1}^4\\
+                        &=& 195+ 65 i.
+                        \end{eqnarray*}
+                    </p>
+
+
+                </div>
+
+
+
+                <div class="practice">
+                    <p><strong>例 2：</strong> 现在让我们计算 $\displaystyle \int_C \dfrac{1}{z}\, dz,$，其中
+                        $C$ 是圆
+                        $x=\cos t, y=\sin t,$
+                        且 $0\leq t\leq 2\pi .$。
+                    </p>
+
+                    <figure>
+                        <img src="../images/chp04/integral-example-2.gif" alt="Piecewise smooth curve"
+                            title="Piecewise smooth curve" style="width:45%;">
+                        <figcaption>
+                            $C$：$z(t)=\cos t + i \sin t = e^{it},$，其中 $0\leq t\leq 2\pi .$
+                        </figcaption>
+                    </figure>
+
+                    <p>
+                        在这种情况下，$C$ 是 $z(t)=\cos t + i \sin t = e^{it},$。
+                        $$f\left(z(t)\right)=\frac{1}{e^{it}}$$
+                        并且，
+                        $z'(t) = ie^{it}.$
+                        所以积分是
+                        \begin{eqnarray*}
+                        \int_C \dfrac{1}{z}\, dz&=& \int_{0}^{2\pi} \left(e^{-it}\right)ie^{it}dt = i \int_{0}^{2\pi}
+                        dt= 2\pi
+                        \,i.
+
+                        \end{eqnarray*}
+                    </p>
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div id="section2">
+
+                <h2>复积分的数值计算</h2>
+
+                <h3>探索 1</h3>
+
+                <p>
+                    使用以下小程序数值地探索积分
+                    $$\int_C \overline{z}\, dz$$
+                    在不同的围道上。你可以选择以下围道：
+                </p>
+                <ul>
+                    <li>线段。</li>
+                    <li>半圆。</li>
+                    <li>圆，正定向和负定向。</li>
+                </ul>
+                <p>
+                    你也可以改变<a href="qu_yu_zhuo_se.html" target="_blank">区域着色</a>绘图
+                    选项。
+                </p>
+
+
+                <div class="ggbElement" id="ggb-element-1"></div>
+                <p style="text-align: center;margin-top: -10px;"><em>围道上的箭头表示方向。</em></p>
+
+
+                <div class="practice">
+                    <p><strong>练习 1：</strong> 使用定义 (\ref{contour-integral}) 来
+                        计算 $\displaystyle \int_C \overline{z}\, dz,$，对于以下围道
+                        $C$ 和函数 $z_0=-2i$ $z_1=2i$。在每种情况下，你可以在
+                        图表中选择适当的选项。
+                    </p>
+                    <ol>
+                        <li>线段。即，$z\left(t\right) = -2i(1-t)+ 2it,$，其中 $0\leq t\leq 1.$。</li>
+                        <li>右半圆。即，
+                            $z\left(\theta\right) = 2e^{i \theta}$，其中 $-\frac{\pi}{2}\leq \theta \leq \frac{\pi}{2}.$。
+                        </li>
+                        <li>左半圆。即，
+                            $z\left(\theta\right) = -2ie^{-i \theta}$，其中 $0 \leq \theta \leq \pi.$。
+                        </li>
+                    </ol>
+
+                    <p>使用小程序确认你的结果。</p>
+
+                    <p>关于函数 $\overline{z}$，你能得出什么结论（如果有的话）？</p>
+
+
+                </div>
+
+            </div>
+
+
+
+            <div id="section3">
+
+                <h3>探索 2</h3>
+
+                <p>
+                    现在使用下面的小程序数值地探索积分
+                    $$\int_C \left(z^2+z\right) dz;\qquad \int_C \frac{1}{z^2}\, dz$$
+                    在不同的围道上。
+                </p>
+
+
+
+                <div class="ggbElement" id="ggb-element-2"></div>
+
+
+                <div class="practice">
+                    <p><strong>练习 2：</strong> 考虑积分
+                        $$I_1 =\int_C \left(z^2+z\right) dz.$$
+                        使用小程序分析以下围道上的积分
+                        $I_1$：
+                    </p>
+                    <ol>
+                        <li>$C$ 是从 $z_0=-1-i$ 到 $z_1 = 1+i.$ 的任意围道。</li>
+                        <li>$C$ 是以 $z_0$ 为圆心、半径为 $r\gt 0,$ 的圆
+                            $|z-z_0|= r$；正定向，顺时针。</li>
+                    </ol>
+
+                    <p>关于 $I_1$ 的值和函数 $z^2+z$，你能得出什么结论（如果有的话）？</p>
+
+
+                </div>
+
+                <div class="practice">
+                    <p><strong>练习 3：</strong> 现在考虑积分
+                        $$I_2 =\int_C \dfrac{1}{z^2}dz.$$。首先，在 applet 中选择函数
+                        $I_2$。然后选择以下围道：
+                    </p>
+                    <ol>
+                        <li>$C$ 是从 $z_0=-i$ 到 $z_1 = i.$ 的任意围道。
+                            当你选择 <code>Line Segment</code> 时会发生什么
+                            在 applet 中？</li>
+                        <li>$C$ 是以 $z_0$ 为圆心、半径为 $r\gt 0,$ 的圆
+                            $|z-z_0|= r$；正定向，顺时针。
+                            在这种情况下，计算 $z = 0$，
+                            $z=0$，
+                            $z_0=1$ 和
+                            $r=1$。</li>
+                    </ol>
+
+                    <p>关于 $I_2$ 的值和函数 $\dfrac{1}{z^2}$，你能得出什么结论（如果有的话）？</p>
+
+
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div id="section4">
+
+                <h2>性质</h2>
+
+                <p>
+                    以下所有熟悉的积分性质都可以直接从 (\ref{contour-integral}) 中的定义证明：
+                    $w(t)= u(t)+iv(t)$
+                    此外，如果 $s(t)= \upsilon(t)+i \nu(t)$ 由 $t$ 参数化，并且
+                    $[a,b],$，那么
+                </p>
+                <div class="scroll-wrapper">
+                    \begin{eqnarray}
+                    \int_a^b k \, w(t)\, dt &=& k \int_a^b w(t)\,dt, \quad k\text{ is a complex constant,}\\
+                    \int_a^b \big[ w(t) + s(t)\big] \,dt &=& \int_a^b w(t)\,dt + \int_a^b s(t) \,dt,\\
+                    \int_a^b w(t) \,dt &=& \int_a^c w(t)\,dt + \int_c^b w(t) \,dt \quad c\in[a,b], \\
+                    \int_a^b w(t) \,dt &=& -\int_b^a w(t)\,dt.
+                    \end{eqnarray}
+                </div>
+
+                <p>
+                    从定义 (\ref{contour-integral}) 和上述性质，
+                    还可以直接推出
+                </p>
+                <div class="scroll-wrapper">
+                    \begin{eqnarray}
+                    \int_{C} z_0 \, f(z) \, dz &=& z_0 \int_{C} f(z) \, dz, \quad z_0 \text{ is a complex constant,}\\
+                    \int_{C} \big[ f(z) + g(z) \big] \, dz &=& \int_{C} \, f(z) \, dz + \int_{C} g(z) \, dz \\
+                    \end{eqnarray}
+                </div>
+
+                <p>
+                    现在考虑为积分 (\ref{contour-integral}) 定义的围道。
+                    围道 $-C$ 可以参数化为 $z_2$，其中 $z_1,$。
+                </p>
+
+                <figure>
+                    <img src="../images/chp04/reversed-contour.svg" alt="Reversed contour" title="Reversed contour"
+                        style="width:60%;">
+                    <figcaption>
+                        围道 $-C$ 从 $z_2$ 延伸至 $z_1.$。
+                    </figcaption>
+                </figure>
+
+                <p>
+                    围道 $-C$ 具有参数表示 $z=z(-t)$，其中 $-b\leq t \leq -a.$。
+                </p>
+                <div class="scroll-wrapper">
+                    \begin{eqnarray*}
+                    \int_{-C} f(z) \, dz = \int_{-b}^{-a} f\left[z(-t)\right]\frac{d}{dt}z(-t)\,dt = -\int_{-b}^{-a}
+                    f\left[z(-t)\right]z'(-t)\,dt.
+                    \end{eqnarray*}
+                </div>
+                <p>
+                    如果我们在最后一个积分中使用代换 $\tau = -t$，那么
+                </p>
+                <div class="scroll-wrapper">
+                    \begin{eqnarray*}
+                    \int_{-C} f(z) \, dz = -\int_{a}^{b} f\left[z(\tau)\right]z'(\tau)\,dt.
+                    \end{eqnarray*}
+                </div>
+                <p>
+                    因此，我们得到以下性质
+                </p>
+                <div class="scroll-wrapper">
+                    \begin{eqnarray}
+                    \int_{-C} f(z) \, dz = -\int_{C} f(z)\, dz.
+                    \end{eqnarray}
+                </div>
+
+                <p>
+                    现在考虑一条路径 $C,$，由 $z(t)$ 参数化，其中 $t\in[a,b],$，
+                    它由两个光滑弧 $C_1$ 和 $z_1$ 首尾相连组成，
+                    使得 $z_2$ 的终点与 $C_2$ 的起点重合。
+                    那么
+                    $z_2$
+                    其中 $z_3,$ 和 $C_2$ 是积分 (\ref{contour-integral})
+                    中定义的被积函数。更方便地，如果围道 $C_1.$ 具有
+                    参数化
+                </p>
+                <div class="scroll-wrapper">
+                    \begin{eqnarray}\label{sum-paths}
+                    \int_{C} f(z) \, dz = \int_{C_1} f(z) \, dz + \int_{C_2} f(z) \, dz.
+                    \end{eqnarray}
+                </div>
+
+                <figure>
+                    <img src="../images/chp04/sum-contours.svg" alt="Sum of contours" title="Sum of contours"
+                        style="width:60%;">
+                    <figcaption>
+                        $C= C_1 + C_2.$
+                    </figcaption>
+                </figure>
+
+                <div class="practice">
+                    <p>
+                        <strong>练习 4：</strong>
+                        使用函数 $w(t)$ 的积分性质来
+                        求积分
+                    </p>
+                </div>
+
+                <p>
+                    最后，我们引入一个涉及围道积分的不等式，
+                    它在复分析的各种应用中极其重要。
+                    $C$
+                    这个不等式从定义 (\ref{contour-integral}) 出发：
+                    令 $z(t)=x(t)+ iy(t)$。
+                    如果 $t\in [a,b].$ 是 $x'(t)$ 的划分，
+                    我们可以将积分
+                    $y'(t)$
+                    写为 Riemann 和
+                    \[
+                    z'(t) = x'(t) + iy'(t)
+                    \]
+                    的和的极限。作为上述结果，我们有
+                    $[a,b].$
+                    现在，利用三角不等式，我们得到
+                    $[a,b].$
+                    取极限
+                    $C$
+                    我们得到
+                    \[
+                    L = \int_a^b \left|z'(z)\right|\,dt.
+                    \]
+                </p>
+
+                <p>
+                    如果 $C$ 是长度为 $L$ 的围道，
+                    且 $f$ 在 $C,$ 上分段连续，并且如果对所有
+                    $M$，存在一个常数 $\left|f(z)\right|\leq M$ 使得 $z$，那么
+                    $C$
+                    不等式 (\ref{ML-inequality}) 被称为<em>ML-不等式</em>，
+                    其中 $f(z)$ 是 \begin{eqnarray}\label{ML-inequality}
+                    \left|\int_C f(z)\, dz\right|\leq ML
+                    \end{eqnarray} 的上界。
+                </p>
+
+                <p>
+                    注意到由于 $C$ 是一个围道，
+                    且 $f$ 在 $C,$ 上分段连续，
+                    存在一个数 $M$，
+                    使得对每个 $\left|f(z)\right|\leq M$，
+                    $\left|f\big(z(t )\big)\right|$。换句话说，
+                    不等式成立，因为分段连续函数在闭集和
+                    有界集上达到最大值。此外，由定义
+                    $[a,b]$
+                    可得 $f$ 的长度为 $C;$。还有
+                    $M$
+                    因此
+                    $|f (z)|$
+                    另一方面，由于 $C$，取极限时我们得到
+                    $f$
+                    因此
+                    $f$
+                    这就完成了 ML-不等式的证明
+                    $C.$。
+                </p>
+                <p>
+                    性质 (\ref{ML-inequality}) 常用于
+                    复积分的理论中，有时被称为
+                    ML-不等式。
+                </p>
+
+                <div class="practice">
+
+                    <p>
+                        <strong>例 3：</strong>
+                        设 $C$ 为圆 $|z|=2$ 的围道，
+                        从 $z_1=2$ 到 $z_2=2i$。
+                        利用 ML-不等式给出 \[
+                        \left|\int_C \frac{dz}{z^2-1}\right|\leq \frac{\pi}{3}.
+                        \] 的一个上界。
+                    </p>
+
+                    <figure>
+                        <img src="../images/chp04/integral-example-3-ml-inequality.svg" alt="ML-inequality example"
+                            title="ML-inequality example" style="width:50%;">
+                        <figcaption>
+                            圆 $|z|=2$ 从 $z_1=2$ 到 $z_2=2i.$。
+                        </figcaption>
+                    </figure>
+
+                    <p>
+                        注意到如果 $z$ 是 $C,$ 上的一点，那么
+                    </p>
+                    <div class="scroll-wrapper">
+                        \begin{eqnarray*}
+                        \left|z^2-1\right|\geq \left|\left|z^2\right|- 1\right|= \left|\left|z\right|^2- 1\right| =
+                        \left|4- 1\right|=3
+                        \end{eqnarray*}
+                    </div>
+                    <p>
+                        因此
+                        \[
+                        \left|\frac{1}{z^2-1}\right| = \frac{1}{ \left|z^2- 1\right|}\leq \frac{1}{3}
+                        \]
+                        同时，$C$ 的长度为 $\dfrac{1}{4}(4\pi).$。
+                        因此，对于所有 $M=\dfrac{1}{3}$，我们有 $L= \pi,$。
+                        由 (\ref{ML-inequality})，
+                        \[
+                        \left|\int_C \frac{dz}{z^2-1}\right|\leq ML = \frac{\pi}{3}.
+                        \]
+                    </p>
+                </div>
+
+                <div class="practice">
+                    <p>
+                        <strong>例 4：</strong>
+                        我们也可以使用 ML-不等式来求
+                        积分 \[
+                        \lim_{R\to \infty} \int_{C_R}\frac{z^{1/2}}{z^2+1}dz
+                        \] 的渐近值，借助公式 (\ref{ML-inequality})，
+                        其中 $C_R$ 是
+                        图 5 所示的圆弧 $z(t)= Re^{it},$，且
+                        $t\in[0,\pi]$。
+                        证明
+                        $z^{1/2}$
+                        当 \[
+                        z^{1/2} = \exp\left(\frac{1}{2}\log z\right) = \sqrt{r}e^{it/2},\quad \left(r>0,-\frac{\pi}{2}\lt t \lt \frac{3\pi}{2}\right)
+                        \] 时。
+                    </p>
+
+                    <figure>
+                        <img src="../images/chp04/example-02-ML-inequality.svg" alt="ML-inequality example"
+                            title="ML-inequality example" style="width:60%;">
+                        <figcaption>
+                            圆弧 $z(t)= Re^{it},$，其中 $t\in[0,\pi].$。
+                            虚线表示分支切割。
+                        </figcaption>
+                    </figure>
+
+
+                    <p>
+                        注意到当 $|z|=R\gt 1,$ 时，$\abs{z^{1/2}}= \abs{\sqrt{R}e^{it/2}} = \sqrt{R}$，且
+                        \[
+                        \abs{z^2+1}\geq \abs{\abs{z^2}-1} = R^2-1.
+                        \]。
+                    </p>
+                    <div class="scroll-wrapper">
+                        \[
+                        \abs{\frac{z^{1/2}}{z^2+1}}\leq M_R \quad \text{where} \quad M_R = \frac{\sqrt{R}}{R^2-1}.
+                        \]
+                    </div>
+                    <p>
+                        由于 $C_R$ 的长度为 $L=\pi R,$，利用 (\ref{ML-inequality})，
+                        我们得到
+                    </p>
+                    <div class="scroll-wrapper">
+                        \[
+                        \abs{\int_{C_R}\frac{z^{1/2}}{z^2+1}dz}\leq  M_R L = \frac{\pi R\sqrt{R}}{R^2-1} \cdot \frac{1/R^2}{1/R^2}= \frac{\dfrac{\pi}{\sqrt{R}}}{1 - \dfrac{1}{R^2}}.
+                        \]
+                    </div>
+                    <p>
+                        右侧的项当 $R$ 趋于无穷时趋于零。因此
+                        \[
+                        \lim_{R\to \infty} \int_{C_R}\frac{z^{1/2}}{z^2+1}dz=0.
+                        \]。
+                    </p>
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div id="section5">
+
+                <h2>原函数</h2>
+
+                <p>
+                    虽然复函数 $f (z)$ 从固定点 $z_0$ 到固定点 $z_1$ 的围道积分
+                    通常会依赖于所取的路径（正如练习 1 和 2 中所观察到的），
+                    但存在一些重要的特殊情况，
+                    其中该积分与路径无关。
+                    事实上，如果存在函数 $z_0$ 使得
+                    $z_1$ 在整个区域 $f(z)$ 上成立，
+                    并且 $D,$ 是 $F(z)$ 在 $F'(z)=f(z)$ 中的一个原函数，
+                    那么对于 $z\in D.$ 中任何从
+                    $z_0$ 到 $z_1$ 的围道，
+                </p>
+
+                <div class="theorem" id="FTC">
+                    Suppose that $f(z)$ is continuous on a domain $D.$
+                    If $f(z)$ has an antiderivative throughout $D,$ then
+                    for any contour $C$ lying entirely in $D$,
+                    with initial fixed point $z_1$ and
+                    final fixed point $z_2,$ we have that
+                    \begin{eqnarray}\label{FTC}
+                    \int_C f(z) dz = \bigg. F(z) \bigg|_{z_1}^{z_2} =F(z_2)- F(z_1).
+                    \end{eqnarray}
+                </div>
+
+                <div class="proof">
+                    This follows from definition (\ref{contour-integral}) and
+                    the chain rule. That is
+                    \begin{eqnarray*}
+                    \int_C f(z) dz &=& \int_C F'\left(z(t)\right) \frac{dz}{dt}dt \\
+                    &=& \int_{a}^{b} \frac{d}{dt} F \left(z(t)\right) dt \\
+                    &=& F\left(z(b)\right) - F\left(z(a)\right) \\
+                    &=& F\left(z_2\right) - F\left(z_1\right)
+                    \end{eqnarray*}
+                    where $z_1= z(a)$ and $z_2= z(b)$ are the endpoints of the contour $C.$
+                </div>
+
+                <p>
+                    作为前述<strong>定理 1</strong>的推论，对于闭曲线，我们有
+                    \begin{eqnarray}
+                    \int_{C} f\left(z\right)dz=\int_{C}F^{\prime}(z) dz=0.
+                    \end{eqnarray}
+                    其中 $C,$ 是简单闭围道。
+                </p>
+
+                <p>
+                    如果函数 $f(z)$ 满足<strong>定理 1</strong>的假设，那么对于所有
+                    包含在 $C$ 中的围道 $D$，积分仅依赖于
+                    $z_1$ 的起点和终点，即
+                    $z_2$
+                </p>
+
+                <figure>
+                    <img src="../images/chp04/path-independence.svg" alt="Path independence" title="Path independence"
+                        style="width:60%;">
+                    <figcaption>
+                        形成闭曲线的独立路径
+                    </figcaption>
+                </figure>
+
+                <p>
+                    考虑图 6，我们有
+                    $$\int_{C_1} f\left(z\right)dz=\int_{C_2} f\left(z\right)dz$$
+                    因为
+                <div class="w3-responsive">
+                    \begin{eqnarray*}
+                    \int_{C} f\left(z\right)dz=\int_{C_1} f\left(z\right)dz-\int_{C_2} f\left(z\right)dz=0
+                    \end{eqnarray*}
+                </div>
+                这表明我们也可以允许一条
+                自身相交且具有有限个自交点的路径 $C = C_1 - C_2.$。
+            </p>
+
+                <div class="theorem">
+                    If $f$ is continuous and has an antiderivative throughout a domain $D,$
+                    then $\ds\int_C f(z)\,dz$ is independent of path.
+                </div>
+
+                <p>
+                    此外，我们有如下原函数存在的充分条件：
+                </p>
+
+                <div class="theorem">
+                    If $f$ is continuous and $\ds\int_C f(z)\,dz$ is independent of path,
+                    then $f$ has an antiderivate everywhere in $D.$
+                </div>
+
+                <div class="proof">
+                    Consider the function
+                    \begin{eqnarray}\label{anti-exists}
+                    F(z) = \int_{z_0}^{z}f(s)\,ds
+                    \end{eqnarray}
+                    where $s$ denotes a complex variable, $z_0$ is a fixed points in $D,$
+                    and $z$ represents any point in $D.$ 
+                    Assuming that
+                    $f$ is continuous and $\ds\int_C f(z)\,dz$ is independent of path,
+                    we wish to prove that $F'(z) = f(z),$ that is, (\ref{anti-exists})
+                    is an antiderivate of $f$ in $D.$
+
+                    <p>
+                        利用积分的性质，我们有
+                    </p>
+                    <div class="scroll-wrapper">
+                        \begin{eqnarray}\label{anti-def}
+                        F(z+ \Delta z) - F(z) = \int_{z_0}^{z+\Delta z}f(s)\,ds - \int_{z_0}^{z}f(s)\,ds = \int_{z}^{z+\Delta z}f(s)\,ds.
+                        \end{eqnarray}
+                    </div>
+
+
+                    <p>
+                        由于 $D$ 是一个区域，我们可以选择 $\Delta z$，使得
+                        $z + \Delta z$ 由一条完全包含在 $D.$ 中的线段 $z$ 连接。
+                        那么，由 (\ref{mvmcomplex})，
+                        $z + \Delta z$
+                        其中 $z$。
+                    </p>
+                    <div class="scroll-wrapper">
+                        \begin{eqnarray}\label{anti-expand}
+                        f(z) \Delta z =f(z) \int_{z}^{z+\Delta z}ds  = \int_{z}^{z+\Delta z}f(z)\,ds  \quad \text{or}\quad f(z) = \frac{1}{\Delta z} \int_{z}^{z+\Delta z}f(z)\,ds.
+                        \end{eqnarray}
+                    </div>
+
+                    <figure>
+                        <img src="../images/chp04/proof-anti-derivative-exists.svg" alt="Proof" title="Proof"
+                            style="width:60%;">
+                        <figcaption>
+                            点 $z$ 和 $z + \Delta z$ 可以通过
+                            一条直线段连接。
+                        </figcaption>
+                    </figure>
+
+                    <p>
+                        由 (\ref{anti-def}) 和 (\ref{anti-expand})，我们得到
+                    </p>
+                    <div class="scroll-wrapper">
+                        \begin{eqnarray*}
+                        \frac{F(z+\Delta z)-f(z)}{\Delta z}  = \frac{1}{\Delta z} \int_{z}^{z+\Delta z}\left[f(s) - f(z)\right]\,ds.
+                        \end{eqnarray*}
+                    </div>
+
+                    <p>
+                        现在，由于 $f$ 是连续的，对于任意 $\epsilon\gt 0 $，存在
+                        一个 $\delta\gt 0$ 使得
+                        $\abs{f(s)-f(z)}\lt \epsilon$
+                        因此，利用 (\ref{mvmcomplex})，
+                        $\abs{s-z}\lt \delta.$
+                        由于 $z+ \Delta z$，
+                        $z$
+                        现在，由 ML-不等式 (\ref{ML-inequality}) 和不等式 (\ref{goaly})，
+                        我们得出
+                        $\abs{\Delta z}\lt \delta,$
+                    </p>
+                    <div class="scroll-wrapper">
+                        \begin{eqnarray*}
+                        \abs{\frac{F(z+\Delta z)-f(z)}{\Delta z} } &= &\abs{\frac{1}{\Delta z} \int_{z}^{z+\Delta z}\left[f(s) - f(z)\right]\,ds}\\
+                        &=& \abs{\frac{1}{\Delta z}} \abs{ \int_{z}^{z+\Delta z}\left[f(s) - f(z)\right]\,ds}\\
+                        &\leq & \abs{\frac{1}{\Delta z}}\epsilon \abs{\Delta z} = \epsilon.
+                        \end{eqnarray*}
+                    </div>
+                    <p>
+                        因此，我们证明了
+                    </p>
+                    <div class="scroll-wrapper">
+                        \begin{eqnarray*}
+                        \lim_{\Delta z \to 0}\frac{F(z+\Delta z)-f(z)}{\Delta z}  = f(z)\quad \text{or}\quad F'(z) = f(z).
+                        \end{eqnarray*}
+                    </div>
+
+                </div>
+
+
+                <br>
+
+            </div>
+
+
+
+        </article>
+    </main>
+
+    <!--GeoGebra embedding-->
+    <script src="https://www.geogebra.org/apps/deployggb.js"></script>
+
+    <script>
+        let params1 = {
+            "width": 721,
+            "height": 451,
+            "material_id": "uye8xbbj",
+            "borderColor": "888888",
+            "playButton": true,
+            "showFullscreenButton": true,
+            "enableShiftDragZoom": false,
+            "showResetIcon": true
+        };
+        let params2 = {
+            "width": 719,
+            "height": 449,
+            "material_id": "am4gsavs",
+            "borderColor": "888888",
+            "playButton": true,
+            "showFullscreenButton": true,
+            "enableShiftDragZoom": false,
+            "showResetIcon": true
+        };
+        let ggbApplet1 = new GGBApplet(params1, true);
+        let ggbApplet2 = new GGBApplet(params2, true);
+        window.addEventListener("load", () => {
+            ggbApplet1.inject('ggb-element-1');
+            ggbApplet2.inject('ggb-element-2');
+        });
+    </script>
+    <!--GeoGebra embedding ends-->
+
+    <a href="fen_zhi_qie_ge_ji_fen.html" style="text-decoration: none;">
+        <p class="nextPage">带分支切割的函数的积分 <i class="fa-solid fa-angles-right"></i></p>
+    </a>
+    <!-- Ends main content -->
+
+</section>

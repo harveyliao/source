@@ -1,0 +1,61 @@
+<section data-type="chapter" id="applications-conformal-mappings">
+
+    <!-- Starts main content -->
+
+    <br>
+
+
+    <iframe src="../applets/p5js/flowfield/index.html" width="100%" height="300px" 
+    scrolling="no" style="border: 1px solid black; overflow: hidden;"></iframe>
+
+
+    <main>
+        <article>
+
+
+            <h1>共形映射的<br>应用</h1>
+
+
+            <hr>
+
+            <h2>流体力学</h2>
+
+            <p>如果我们考虑一个（稳态）不可压缩、无粘性流体，我们关心的是求其速度场 $$\mathbf V (x,y)= \left(u(x,y), v(x,y)\right).$$
+                由向量分析我们知道，"不可压缩"意味着散度
+                $\text{div}\,\mathbf V =0.$（我们称 $\mathbf V$ 是<em>无散</em>的。）
+                我们假设 $\mathbf V$ 也是一个<em>势流</em>，因而是无旋的；即 $\mathbf V = \text{grad } \phi $ 对某个称为<em>速度势</em>的 $\phi$ 成立。因此 $\phi$ 是调和的，因为 $$\nabla^2\phi = \text{div } \text{grad }\phi =
+                \text{div } \mathbf V=0.$$
+                于是，当我们解出 $\phi$ 后，可以通过 $\mathbf V = \text{grad } \phi$ 得到 $\mathbf V = \text{grad } \phi$。即
+                \begin{eqnarray*}
+                u=\frac{\partial \phi }{\partial x},\quad v=\frac{\partial \phi }{\partial y}.
+                \end{eqnarray*}
+            </p>
+
+            <p>调和函数 $\phi$ 的共轭 $\phi$（在任意单连通区域上都存在）称为<em>流函数</em>，而解析函数
+                $$F=\phi +i\psi$$ 称为<em>复势</em>。</p>
+
+            <p>流函数必须满足
+                \begin{eqnarray*}
+                u=\frac{\partial \psi }{\partial y},\quad v=-\frac{\partial \psi }{\partial x}.
+                \end{eqnarray*}
+                最后，常数 $\psi$ 的曲线
+                以 $\mathbf V$ 为其切向量，因此常数 $\psi$ 的曲线可以解释为
+                <i>流体粒子运动的轨迹</i>；故称为流函数。</p>
+
+            <figure>
+                <img src="../images/chp06/stream.png" alt="Streamlines" title="Streamlines" style="width:65%;">
+                <figcaption>
+                    流线。
+                </figcaption>
+            </figure>
+
+
+        </article>
+    </main>
+
+    <a href="fu_shi_ji_ben_li.html" style="text-decoration: none;">
+        <p class="nextPage">复势 <i class="fa-solid fa-angles-right"></i></p>
+    </a>
+    <!-- Ends main content -->
+
+</section>

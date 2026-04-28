@@ -1,0 +1,219 @@
+<section data-type="chapter" id="geometric-interpretation">
+
+    <!-- Starts main content -->
+
+    <div w3-include-html="small_screen_message.html"></div>
+
+
+    <div class="toc-chapter" id="toc-chapter">
+        <p><i class="fa-solid fa-list"></i>目录</p>
+        <ul>
+            <li><a href="#section1">加法与减法</a></li>
+            <li><a href="#section2">乘法</a></li>
+            <li><a href="#section3">伸缩与旋转</a></li>
+            <!-- Add more sections as needed -->
+        </ul>
+    </div>
+
+    <br><br>
+
+    <main>
+        <article>
+
+            <h1>几何解释</h1>
+            <h1 style="font-size:1.8em;text-align: center;margin-top: -20px;"><span>算术运算的几何解释</span>
+            </h1>
+
+            <hr>
+
+            <div id="section1">
+
+                <h2>加法与减法</h2>
+
+                <p>从几何上看，两个复数 $Z_1$ 和 $Z_2$ 的加法可以通过使用<em>平行四边形法则</em>向量的加法来可视化。
+                    向量和 $Z_1+Z_2$ 由两个原始向量构成的平行四边形的对角线表示。</p>
+
+                <p>表示差 $Z_1-Z_2$ 的最简单方法是考虑加上一个负向量 $Z_1 + \left(-Z_2\right).$。
+                    负向量与其正对应向量是相同的向量，只是指向相反方向。</p>
+
+                <p>使用下面的小程序来探索这一几何解释。激活下面的复选框以显示加法或减法。
+                    您也可以拖动点 $Z_1$ 和 $Z_2$。
+                </p>
+
+                <div class="ggbElement" id="ggb-element-01"></div>
+
+                <div class="practice">
+                    <p><strong>练习 1：</strong> 您能想出三个复数加法的几何解释吗？一般地，
+                        $n$ 个复数加法的几何解释会是什么？</p>
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div id="section2">
+
+                <h2>乘法</h2>
+
+
+                <div class="w3-resposive">
+                    <p>在上一节中，我们定义了两个复数 $Z_1 $ 和 $Z_2$ 的乘法为
+                    <div class="scroll-wrapper">
+                        \begin{eqnarray*}
+                        Z_1 Z_2 &amp;=&amp; \left( x_1 + i y_1 \right) \left( x_2 + i y_2 \right)\\
+                        &amp;=&amp; (x_1x_2-y_1y_2) + i(x_1y_2+x_2y_1).
+                        \end{eqnarray*}
+                    </div>
+
+                    在这种情况下，为了理解几何上发生了什么，我们需要考虑 $Z_1 $ 和 $Z_2.$ 的极坐标形式。即
+                    <div class="scroll-wrapper">
+                        \begin{eqnarray*}
+                        Z_1 &amp;=&amp; r_1 \left( \cos \phi_1 + i \sin \phi_1 \right) \\
+                        Z_2 &amp;=&amp; r_2 \left( \cos \phi_2 + i \sin \phi_2 \right)
+                        \end{eqnarray*}
+                    </div>
+
+                    那么乘积可以写成以下形式
+                    <div class="scroll-wrapper">
+                        \begin{eqnarray*}
+                        Z_1 Z_2 &amp;=&amp; r_1 r_2 \big[ \left(\cos \phi_1 \cos\phi_2 - \sin \phi_1 \sin \phi_2\right)
+                        \big.\\
+                        &amp;+&amp; \big. i\left(\sin \phi_1 \cos\phi_2 + \cos \phi_1 \sin \phi_2\right)\big].
+                        \end{eqnarray*}
+                    </div>
+
+                    现在通过正弦和余弦的和角公式，这个表达式可以简化为
+                    <div class="scroll-wrapper">
+                        \begin{eqnarray*}
+                        Z_1 Z_2 &amp;=&amp; r_1 r_2 \big[ \cos \left( \phi_1 +\phi_2 \right) + i \sin \left( \phi_1
+                        +\phi_2 \right)\big].
+                        \end{eqnarray*}
+                    </div>
+
+                    因此乘积 $Z_1Z_2$ 具有模 $r_1r_2$ 和辐角 $\phi_1+\phi_2.$。
+                    </p>
+                </div>
+
+
+                <p>在下面的小程序中，您可以看到乘积辐角的变化。拖动点 $Z_1$ 和 $Z_2$ 并观察角度的行为。
+                    然后拖动下面的滑块。</p>
+
+                <div class="ggbElement" id="ggb-element-02"></div>
+
+                <div class="practice">
+                    <p><strong>练习 2：</strong>
+                        现在考虑
+                        \begin{eqnarray*}
+                        Z_1 &amp;=&amp; r_1 \left( \cos \phi_1 + i \sin \phi_1 \right) \\
+                        Z_2 &amp;=&amp; r_2 \left( \cos \phi_2 + i \sin \phi_2 \right)
+                        \end{eqnarray*}
+                        使得 $Z_2\neq 0.$。求 $Z_1/Z_2.$ 的极坐标表示。
+                        这个表达式的几何解释是什么？
+                    </p>
+                </div>
+
+
+            </div>
+
+            <hr>
+
+            <div id="section3">
+
+
+                <h3>复数乘法的几何意义：伸缩与旋转</h3>
+
+                <p>在下面的小程序中，一组点在复平面上随机定义。然后每个点乘以给定的复数 $z.$。
+                    在右侧屏幕上，拖动点 $z$ 并分析乘以 $z$ 的点（⭕）的行为，并尝试回答以下问题：
+                <ul>
+                    <li>当 $z$ 在单位圆内部或外部时会发生什么？</li>
+                    <li>如果 $z$ 仅在单位圆上移动时会发生什么？</li>
+                </ul>
+
+                <strong>注：</strong> 您也可以通过激活 <code>乘以 1/z</code> 复选框来研究乘以 $1/z$ 的点（⚫）的行为。
+                </p>
+
+                <div class="ggbElement" id="ggb-element-03"></div>
+
+
+                <p>正如您已经注意到的，复数乘法的几何解释是平面上向量的伸缩（或压缩）和旋转。</p>
+
+                <p>在上一个小程序中，使用选项 <code>Multiply by z</code>，通过将滑块拖到左侧来设置 <code>n = 1</code>。
+                    在这种情况下，小程序显示了三个复数
+                    $$z_0,\, z \,\text{ and }\, z_1 = z_0\cdot z,$$
+                    表示为向量。当 $z_0$ 和 $z$ 非零时，则
+                <ul>
+                    <li>$z_1$ 的模等于 $|z_0 \cdot z|,$，且</li>
+                    <li>$z_1$ 的辐角等于 $\text{Arg }(z_0+z).$。</li>
+                </ul>
+                如果 $|z| &gt; 1,$，我们面对的是伸缩。如果 $|z| &lt; 1,$，则是压缩的情况。</p>
+
+                <div class="practice">
+                    <p><strong>练习 3：</strong>
+                        使用同一个小程序，选择选项 <code>Multiply by 1/z</code>，研究当我们乘以 $1/z.$ 时会发生什么。
+                        通过将滑块拖到左侧来设置 <code>n = 1</code>，
+                        以显示三个复数
+                        $$z_0, \,z \,\text{ and }\, z_2 = z_0\cdot \frac{1}{z}.$$
+                        $z_2$ 的模和辐角会发生什么？
+                    </p>
+                </div>
+
+            </div>
+
+
+
+
+
+
+        </article>
+    </main>
+
+
+    <!-- GeoGebra -->
+    <script src="https://www.geogebra.org/apps/deployggb.js"></script>
+    <script>
+        let params01 = {
+            "width": 791,
+            "height": 520,
+            "material_id": "yf3vghuw",
+            "borderColor": "888888",
+            "playButton": false,
+            "showFullscreenButton": true,
+            "enableShiftDragZoom": true,
+            "showResetIcon": true
+        };
+        let params02 = {
+            "width": 666,
+            "height": 556,
+            "material_id": "hqj7cumq",
+            "borderColor": "888888",
+            "playButton": false,
+            "showFullscreenButton": true,
+            "enableShiftDragZoom": false,
+            "showResetIcon": true
+        };
+        let params03 = {
+            "width": 791,
+            "height": 469,
+            "material_id": "nefcpuam",
+            "borderColor": "888888",
+            "playButton": true,
+            "showFullscreenButton": true,
+            "enableShiftDragZoom": true,
+            "showResetIcon": true
+        };
+        let applet01 = new GGBApplet(params01, true);
+        let applet02 = new GGBApplet(params02, true);
+        let applet03 = new GGBApplet(params03, true);
+        window.addEventListener("load", () => {
+            applet01.inject('ggb-element-01');
+            applet02.inject('ggb-element-02');
+            applet03.inject('ggb-element-03');
+        });
+    </script>
+
+    <a href="fu_jiao_zhu_zhi.html" style="text-decoration: none;">
+        <p class="nextPage">主辐角 <i class="fa-solid fa-angles-right"></i></p>
+    </a>
+    <!-- Ends main content -->
+
+</section>

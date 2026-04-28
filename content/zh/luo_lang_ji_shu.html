@@ -1,0 +1,208 @@
+<section data-type="chapter" id="laurent-series">
+
+    <!-- Starts main content -->
+
+    <br><br>
+
+    <main>
+        <article>
+
+            <h1>洛朗级数</h1>
+
+            <hr>
+
+            <p>
+                回忆一下，复变函数 $f$ 在点 $z_0$ 处<em>解析</em>，如果它在 $z_0.$ 的某个邻域内每一点都有导数。
+                <em>整函数</em>是在整个有限平面上的每一点都解析的函数。
+                如果函数 $f$ 在点 $z_0$ 处不解析，但在 $z_0,$ 的每个邻域内的某点解析，则 $z_0$ 称为
+                $f.$ 的<em>奇点</em>或<em>奇点</em>。
+            </p>
+
+            <p>
+                假设 $f(z),$（或 $f(z),$ 的任意单值分支，如果 $f(z)$ 是多值的）
+                在区域
+                $0\lt|z-z_0|\lt R$
+                内解析，但在点 $z_0.$ 处不解析。则点 $z_0$ 称为 $f(z).$ 的<em>孤立奇点</em>。
+            </p>
+
+            <p>
+                现在，也回忆一下，任何在圆盘 $|z -z_0|\lt R_0$ 上解析的函数必须有一个关于 $z_0.$ 的泰勒级数。如果函数
+                在点 $z_0,$ 处不解析，通常可以找到 $f(z)$ 的一个同时包含 $z - z_0.$ 的正幂和负幂的级数表示。
+                形式上，我们有如下结果：
+            </p>
+
+            <div class="theorem" id="laurent-series-theorem">
+                Suppose that a function $f$ is analytic throughout an annular domain
+                $R_1 \lt |z - z_0| \lt R_2,$ centered at $z_0,$ and let $C$ denote any positively oriented simple
+                closed contour around $z_0$ and lying in that domain. Then, at each point in
+                the domain, $f (z)$ has the series representation
+                \begin{eqnarray}\label{laurentfunction}
+                f(z)=\sum_{n=0}^{\infty} a_n(z-z_0)^n+\sum_{n=1}^{\infty}\frac{b_n}{(z-z_0)^n},
+                \end{eqnarray}
+                where
+                \begin{eqnarray}\label{non-principalpart}
+                a_n=\frac{1}{2\pi i}\oint_C \frac{f(z)dz}{(z-z_0)^{n+1}},\quad n=0,1,2,\ldots
+                \end{eqnarray}
+                and
+                \begin{eqnarray}\label{principalpart}
+                b_n=\frac{1}{2\pi i}\oint_C \frac{f(z)dz}{(z-z_0)^{-n+1}},\quad n=1,2,\ldots
+                \end{eqnarray}
+
+            </div>
+
+
+
+
+            <figure>
+                <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/1304482/images/7253947/diagram-laurent.svg"
+                    alt="Annulus" title="Annulus" style="width:55%;">
+                <figcaption>
+                    $f(z)$ 在环形区域
+                    $R_1 \lt |z - z_0| \lt R_2.$ 上解析。
+                </figcaption>
+            </figure>
+
+            <p>
+                作为 (\ref{laurentfunction}) 的一个非常简单的例子，我们考虑函数
+                \[
+                f(z) = \frac{1}{z-1}.
+                \]
+                如你所见，点 $z = 1$ 是 $f$ 的一个孤立奇点，
+                因此该函数不能展开为以该点为中心的泰勒级数。
+                然而，$f$ 可以展开为 (\ref{laurentfunction}) 中给出的形式，
+                对所有靠近 $1:$ 的 $1:$ 有效。
+            </p>
+            <div class="scroll-wrapper">
+                \begin{eqnarray}\label{simple-example}
+                f(z) = \cdots + 0 \cdot (z-1)^2 + 0 \cdot (z-1) + 0 +  \frac{1}{(z-1)} + \frac{0}{(z-1)^2} + \cdots
+                \end{eqnarray}
+            </div>
+            <p>
+                该级数表示对 $0 \lt |z - 1| \lt \infty.$ 有效。
+            </p>
+
+            <p>
+                (\ref{laurentfunction}) 右侧的级数有专门的名称。由 $z - z_0$ 的非负幂组成的部分
+                \begin{eqnarray}\label{analytic-part}
+                \sum_{n=0}^{\infty} a_n(z-z_0)^n
+                \end{eqnarray}
+                称为级数 (\ref{laurentfunction}) 的<span id="analytic-part"><strong>解析部分</strong></span>，
+                且对 $|z - z_0| \lt R_2.$ 收敛。
+                包含 $z - z_0,$ 的负幂的部分，即
+                \begin{eqnarray}\label{principal-part}
+                \sum_{n=1}^{\infty}\frac{b_n}{(z-z_0)^n}
+                \end{eqnarray}
+                称为级数 (\ref{laurentfunction}) 的<span id="principal-part"><strong>主部</strong></span>，
+                且对
+               
+                <div class="scroll-wrapper">
+                    $$\abs{\frac{1}{z-z_0}}\lt \frac{1}{R_1} \quad
+                \text{or equivalent }\quad
+                 R_1 \lt \abs{z-z_0}.$$
+                </div>
+                收敛。
+                
+            </p>
+
+            <p>
+                因此，(\ref{analytic-part}) 和 (\ref{principal-part}) 的和在 $z$ 同时满足 $R_1 \lt \abs{z-z_0}$ <em>和</em>
+                $\abs{z-z_0}\lt R_2$ 时收敛，即当 $z$ 是
+                由 $R_1 \lt |z - z_0| \lt R_2.$ 定义的环形区域中的一个点时。
+            </p>
+
+            <p>
+                级数 (\ref{simple-example}) 的主部恰好由一个非零项组成，
+                而其解析部分由所有零项组成。
+                下面的例子展示了形式为 (\ref{laurentfunction}) 的一个级数，
+                其中级数的主部也由有限个非零项组成，但这次
+                解析部分由无穷多个非零项组成。
+            </p>
+
+
+            <div class="practice">
+                <p>
+                    <strong>例 1：</strong>
+                    函数 $f(z) = \dfrac{\sin z}{z^4}$
+                    在孤立奇点 $z = 0 $ 处不解析，
+                    因此不能展开为麦克劳林级数。
+                    然而，$\sin z$ 是一个整函数，
+                    我们知道其麦克劳林级数为
+                </p>
+                <div class="scroll-wrapper">
+                    $$\sin z = z - \frac{z^3}{3!}+ \frac{z^5}{5!} - \frac{z^7}{7!} + \frac{z^9}{9!}- \cdots,$$
+                </div>
+                <p>
+                    对 $|z|\lt \infty.$ 收敛。将该幂级数
+                    除以 $z^4$，我们得到 $f$ 的一个同时包含 $z:$ 的负和正整数幂的级数。
+                </p>
+                <div class="scroll-wrapper">
+                    \begin{eqnarray}\label{example-1}
+                    f(z) = \dfrac{\sin z}{z^4} = \overbrace{\frac{1}{z^3} - \frac{1}{3!z} }^{\large \textbf{Principal part}} \underbrace{+ \frac{z}{5!} - \frac{z^3}{7!} + \frac{z^5}{9!}- \cdots}_{\large \textbf{Analytic part}}
+                    \end{eqnarray}
+                </div>
+                <p>
+                    (\ref{example-1}) 中级数的解析部分对 $|z|\lt \infty.$ 收敛（请验证！）
+                    主部对 $|z|>0.$ 有效。因此 (\ref{example-1}) 对除 $z=0;$ 之外的所有 $z=0;$ 收敛，
+                    即该级数表示对 $0 \lt |z| \lt \infty.$ 有效。
+                </p>
+
+            </div>
+
+
+
+            <p>
+                在实践中，**定理 1** 中提供的上述积分公式 (\ref{non-principalpart}) 和
+                (\ref{principalpart}) 可能不是计算给定函数 $f(z)$ 的系数 $f(z)$ 和 $f(z)$ 的最实用方法；
+                相反，通常通过组合已知的泰勒展开来拼凑洛朗级数，正如我们在**例 1** 中所做的。
+                因为**函数的洛朗展开在存在时是唯一的**，所以任何在某个圆环中实际上等于
+                给定函数 $f(z)$ 的这种形式的表达式必定是 $f(z).$ 的洛朗展开。
+            </p>
+
+            <div class="practice">
+                <p><strong>例 2：</strong>
+                    考虑函数
+                    $$f(z)=\frac{1}{z(1+z^2)}$$
+                    它在 $z=0$ 和 $z=\pm i.$ 处有孤立奇点。
+                    在这种情况下，存在一个适用于区域 $0\lt |z|\lt 1$ 的洛朗级数表示，
+                    也存在一个适用于圆 $|z|=1.$ 外部的区域 $|z|=1.$ 的表示。
+                    为求这些洛朗级数，我们回忆麦克劳林级数表示
+                    $$\frac{1}{1-z}=\sum_{n=0}^{\infty}z^n,\quad |z|\lt 1.$$
+                    对于区域 $0\lt |z|\lt 1,$，我们有
+                    \begin{eqnarray*}
+                    f(z)&=&\frac{1}{z}\frac{1}{1+z^2}=\frac{1}{z}\sum_{n=0}^{\infty}\left(-z^2\right)^n \\
+                    &=&\sum_{n=0}^{\infty}(-1)^nz^{2n-1}\\
+                    &=&\frac{1}{z}+\sum_{n=1}^{\infty}(-1)^nz^{2n-1} \\
+                    &=& \sum_{n=0}^{\infty}(-1)^{n+1}z^{2n+1}+\frac{1}{z}.
+                    \end{eqnarray*}
+                    另一方面，当 $1\lt |z|\lt \infty,$ 时
+                    \begin{eqnarray*}
+                    f(z)&=&\frac{1}{z^3}\frac{1}{1+\frac{1}{z^2}}=\frac{1}{z^3}\sum_{n=0}^{\infty} \left(-\frac{1}{z^2}
+                    \right)^n\\
+                    & =&\sum_{n=0}^{\infty}\frac{(-1)^n}{z^{2n+3}}\\
+                    &=&\sum_{n=1}^{\infty}\frac{(-1)^{n+1}}{z^{2n+1}}
+                    \end{eqnarray*}
+                    在最后一部分中，我们使用了事实 $(-1)^{n-1}=(-1)^{n-1}(-1)^2=(-1)^{n+1}.$
+                </p>
+
+            </div>
+            
+
+            <div class="practice">
+                <p><strong>练习：</strong> 将 $f(z)=e^{3/z}$ 展开为对
+                    $0\lt |z| \lt \infty.$ 有效的洛朗级数。
+                </p>
+            </div>
+
+
+            <br>
+
+
+        </article>
+    </main>
+
+    <a href="qi_dian_fen_lei.html" style="text-decoration: none;">
+        <p class="nextPage">奇点的分类 <i class="fa-solid fa-angles-right"></i></p>
+    </a>
+    <!-- Ends main content -->
+
+</section>
