@@ -1,0 +1,146 @@
+{
+  "file": "power_function.html",
+  "original_length": 8698,
+  "num_text_blocks": 11,
+  "num_verbatim": 11,
+  "verbatim_map": {
+    "@@verbatim:0:5d5138@@": "<!-- Starts main content -->",
+    "@@verbatim:1:bf283c@@": "<!-- Cindy.js -->",
+    "@@verbatim:2:3bb20f@@": "<!--ends applet-->",
+    "@@verbatim:3:b6e327@@": "<!--end hidesmall-->",
+    "@@verbatim:4:2aa52a@@": "<!-- Ends main content -->",
+    "@@verbatim:5:ee4d2a@@": "<script type=\"text/javascript\" src=\"../applets/cindyjs/assets/Cindy.js\"></script>",
+    "@@verbatim:6:52d0da@@": "<script type=\"text/javascript\" src=\"../applets/cindyjs/assets/CindyGL.js\"></script>",
+    "@@verbatim:7:0e6a7b@@": "<script type=\"text/javascript\" src=\"../applets/cindyjs/assets/symbolic.js\"></script>",
+    "@@verbatim:8:a9a28e@@": "<script id=\"csinit\" type=\"text/x-cindyscript\">\n                            grid1=true;\n                            grid2=true;\n                        </script>",
+    "@@verbatim:9:91b0ec@@": "<script id=\"csdraw\" type=\"text/x-cindyscript\">\n\n            N.y = -2.5;\n            n = round(5*(N.x+4));\n            //n = min(-17)\n            n = max(-22, n);\n            N.x = n/5-4;\n            \n            hsvToRGB(h, s, v) := (\n\t\t\t\tregional(j, p, q, t, f);\n\n\t\t\t\th = (h-floor(h))*6;\n\n\t\t\t\tj = floor(h);\n\t\t\t\tf = h - j;\n\n\t\t\t\tp = 1 - s;\n\t\t\t\tq = 1 - s*f;\n\t\t\t\tt = 1 - s*(1-f);\n\n\t\t\t\tif(j == 0, [1, t, p],\n\t\t\t\tif(j == 1, [q, 1, p],\n\t\t\t\tif(j == 2, [p, 1, t],\n\t\t\t\tif(j == 3, [p, q, 1],\n\t\t\t\tif(j == 4, [t, p, 1],\n\t\t\t\tif(j == 5, [1, p, q]))))))*v\n\t\t\t);\n            \n            color(z) := ( //what color should be given to a complex number z?\n\t\t\t\tregional(n0, grey1, grey2);\n\t\t\t\tn0 = 12;\n                         z = log(z)/2/pi;// + i * N.x * pi;\n\n\t\t\t\tzfract = n0*z - floor(n0*z); //value of n*z in C mod Z[i]\n\n\t\t\t\t//grey1 = im(zfract);\n\t\t\t\t//grey2 = re(zfract);\n                         \n                grey1 = if(grid1, im(zfract), 1);\n                grey2 = if(grid2, re(zfract), 1);\n\n\t\t\t\thsvToRGB(im(z), 1.0, .6+.5*re(sqrt(grey1 * grey2)))\n\t\t\t);\n\t\t\n\t\tt(z) := (A.x + i*A.y)^z;\n        u(z) := z^(B.x + 6 + i * B.y);\n\n\t\tcolorplot(\n\t\t\t//z = zoom*complex(#);\n            z = complex(#);\n\t\t\tcolor(t(z));\n\t\t\t,\n\t\t\t(-3,-3),(3,3)\n\t\t);\n\t\t\n\t\tcolorplot(\n\t\t\tz = (complex(#)+6);\n\t\t\tcolor(u(z));\n\t\t\t,\n\t\t\t(-9,-3),(-3,3)\n\t\t);\n\t\t\n        \n        shape1 = polygon([(-9,2.5), (-6,2.5), (-6,3), (-9,3)]);\n        fill(shape1,color->(0.9,0.9,0.9));\n        draw(shape1, color->(0.9,0.9,0.9));\n        \n        shape2 = polygon([(-3,2.5), (0,2.5), (0,3), (-3,3)]);\n        fill(shape2,color->(0.9,0.9,0.9));\n        draw(shape2, color->(0.9,0.9,0.9));\n\t\t\n        drawtext((-2.9,2.7), \"$c^z,$ $c = (\" + round(A.x  * 100)/100 + \" , \" + round(A.y * 100)/100 + \")$\", color->(0,0,0));\n\t\tdrawtext((-8.9,2.7), \"$z^c,$ $c = (\" + round((B.x + 6 ) * 100)/100 + \" , \" + round(B.y * 100)/100 + \")$\", color->(0,0,0));\n        \n        \n        linesize(3);\n\t\tdraw((-3,-3),(-3,3), color->[0,0,0]);\n\t\t\n        \n        drawtext((A.x+0.15,A.y+0.15),\"$c$\", color->(0.098,0.098,0.098));\n        drawtext((B.x+0.15,B.y+0.15),\"$c$\", color->(0.098,0.098,0.098));\n        \n        if(A.x < -3, A.x=-3);\n        if(A.y < -3, A.y=-3);\n        if(A.x > 3, A.x=3);\n        if(A.y > 3, A.y=3);\n        \n        if(B.x < -9, B.x=-9);\n        if(B.y < -3, B.y=-3);\n        if(B.x > -3, B.x=-3);\n        if(B.y > 3, B.y=3);\n        \n        //draw((-8.5,-2.5),(2.5,-2.5), color->[0,0,0]);\n        \n        //drawtext((N.x-0.2,N.y+0.3),\"$n = \" + n + \"$\", color->(0.98,0.98,0.98));\n\t\t\n\t\t</script>",
+    "@@verbatim:10:566d21@@": "<script type=\"text/javascript\">\n                        var cdy = CindyJS({\n                            canvasname: \"CSCanvas\",\n                            scripts: \"cs*\",\n                            geometry: [\n                                { name: \"A\", type: \"Free\", pos: [1.2, 0.8], color: [0, 0.9, 1], size: 8 },\n                                { name: \"B\", type: \"Free\", pos: [-4.5, 0.6], color: [0, 0.9, 1], size: 8 },\n                                //{name:\"N\", type:\"Free\", pos:[-4, -2], color:[0.9,0.9,1], size:8}\n                            ],\n                            animation: { autoplay: true },\n                            ports: [{\n                                id: \"CSCanvas\",\n                                width: 800,\n                                height: 400,\n                                transform: [{ visibleRect: [-9, -3, 3, 3] }]\n                            }],\n                            use: [\"CindyGL\", \"katex\"]\n                        });\n\n                        var check1 = function () {\n                            if (document.getElementById(\"ch1\").checked) {\n                                cdy.evokeCS('grid1=true;');\n                            } else {\n                                cdy.evokeCS('grid1=false;');\n\n                            }\n                        }\n\n                        var check2 = function () {\n                            if (document.getElementById(\"ch2\").checked) {\n                                cdy.evokeCS('grid2=true;');\n                            } else {\n                                cdy.evokeCS('grid2=false;');\n\n                            }\n                        }\n\n                    </script>",
+    "@@math:11:4dc32b@@": "\\begin{eqnarray}\\label{gcp}\n                f(z) = z^c = \\exp(c\\log z), \\quad \\text{with}\\quad z\\neq 0.\n                \\end{eqnarray}",
+    "@@math:12:7c8681@@": "\\begin{eqnarray*}\n                f(z) = z^c&= &\\exp\\left(c \\log z\\right) = \\exp\\left[c \\left( \\text{Log}\\,z + 2n\\pi i \\right)\\right],\n                \\end{eqnarray*}",
+    "@@math:13:e51396@@": "\\begin{eqnarray}\\label{gef}\n                f(z)=c^z=\\exp(z\\log c)=\\exp\\left[z \\left(\\text{Log}\\,c +2 n \\pi \\, i\\right)\\right],\n                \\end{eqnarray}",
+    "@@math:14:b58c30@@": "$$w=c^z=\\exp(z\\log c)=\\exp(z\\,\\text{Log}\\,c),$$",
+    "@@math:15:07e671@@": "$$e^z=e^x(\\cos y +i\\sin y )$$",
+    "@@math:16:4943aa@@": "$\\log z,$",
+    "@@math:17:2d9169@@": "$c,$",
+    "@@math:18:e8c1a0@@": "$z=0.$",
+    "@@math:19:5d1ff7@@": "$n\\in \\mathbb Z.$",
+    "@@math:20:8652b6@@": "$c \\neq 0 ,$",
+    "@@math:21:531d03@@": "$n\\in \\mathbb Z.$",
+    "@@math:22:3b1a13@@": "$z$",
+    "@@math:23:1d6873@@": "$n.$",
+    "@@math:24:ac0602@@": "$f(z)=z^c$",
+    "@@math:25:499358@@": "$f(z)=c^z.$",
+    "@@math:26:970312@@": "$n=0$",
+    "@@math:27:294af6@@": "$c\\neq 0.$",
+    "@@math:28:bce2d2@@": "$c = e$",
+    "@@math:29:12cac6@@": "$[-3,3]\\times[-3,3].$",
+    "@@math:30:562025@@": "$c$",
+    "@@math:31:83a7b5@@": "$c^z=\\exp(z\\,\\text{Log } c ),$",
+    "@@math:32:537dfa@@": "$c$",
+    "@@math:33:c104bd@@": "$c,$",
+    "@@math:34:368964@@": "$c^z=\\exp(z \\log c )$"
+  },
+  "text_blocks": [
+    {
+      "id": "block_0",
+      "tag": "h1",
+      "text": "The Complex Power Function",
+      "raw_len": 26,
+      "placeholder": "@@text:45:fdf016@@",
+      "byte_start": 304,
+      "byte_end": 330
+    },
+    {
+      "id": "block_1",
+      "tag": "p",
+      "text": "The [[em]]generalized complex power function[[/em]] is defined as:\n                @@math:11:4dc32b@@\n            ",
+      "raw_len": 110,
+      "placeholder": "@@text:44:a65950@@",
+      "byte_start": 371,
+      "byte_end": 481
+    },
+    {
+      "id": "block_2",
+      "tag": "p",
+      "text": "Due to the multi-valued nature of @@math:16:4943aa@@ it follows that (\\ref{gcp}) is also multi-valued for\n                any non-integer value of @@math:17:2d9169@@ with a branch point at @@math:18:e8c1a0@@ In other words\n            <div class=\"scroll-wrapper\">\n                @@math:12:7c8681@@\n            </div>\n            with @@math:19:5d1ff7@@\n            ",
+      "raw_len": 366,
+      "placeholder": "@@text:43:b09a79@@",
+      "byte_start": 503,
+      "byte_end": 869
+    },
+    {
+      "id": "block_3",
+      "tag": "p",
+      "text": "On the other hand, we have that the [[em]]generalized exponential function[[/em]], for @@math:20:8652b6@@\n                is defined as:\n            <div class=\"scroll-wrapper\">\n                @@math:13:e51396@@\n            </div>\n            with @@math:21:531d03@@\n            ",
+      "raw_len": 276,
+      "placeholder": "@@text:42:e55ceb@@",
+      "byte_start": 889,
+      "byte_end": 1165
+    },
+    {
+      "id": "block_4",
+      "tag": "p",
+      "text": "\n                Notice that (\\ref{gef}) possesses no branch point (or any other type of singularity) in the\n                infinite complex @@math:22:3b1a13@@-plane. Thus, we can regard the equation (\\ref{gef}) as defining a set of\n                independent single-value functions for each value of @@math:23:1d6873@@",
+      "raw_len": 321,
+      "placeholder": "@@text:41:a1a5f8@@",
+      "byte_start": 1186,
+      "byte_end": 1507
+    },
+    {
+      "id": "block_5",
+      "tag": "p",
+      "text": "This is the reason why the multi-valued [[em]]nature[[/em]] of the function @@math:24:ac0602@@ differs from the\n                multi-valued function @@math:25:499358@@",
+      "raw_len": 164,
+      "placeholder": "@@text:40:dea3f4@@",
+      "byte_start": 1529,
+      "byte_end": 1693
+    },
+    {
+      "id": "block_6",
+      "tag": "p",
+      "text": "Typically, the @@math:26:970312@@ case is the most useful, in which case, we would simply define:\n                @@math:14:b58c30@@\n                with @@math:27:294af6@@",
+      "raw_len": 172,
+      "placeholder": "@@text:39:f2ea4b@@",
+      "byte_start": 1715,
+      "byte_end": 1887
+    },
+    {
+      "id": "block_7",
+      "tag": "p",
+      "text": "This conforms with the definition of exponential function\n                @@math:15:07e671@@\n                where @@math:28:bce2d2@@ (the Euler constant).",
+      "raw_len": 155,
+      "placeholder": "@@text:38:140a60@@",
+      "byte_start": 1909,
+      "byte_end": 2064
+    },
+    {
+      "id": "block_8",
+      "tag": "p",
+      "text": "Use the following applet to explore functions (\\ref{gcp}) and (\\ref{gef}) defined on the region\n                @@math:29:12cac6@@ The enhanced phase portrait is used with contour lines of modulus and phase.\n                Drag the points to change the value of @@math:30:562025@@ in each case. You can also deactivate the contour lines,\n                if you want.",
+      "raw_len": 367,
+      "placeholder": "@@text:37:11fcca@@",
+      "byte_start": 2085,
+      "byte_end": 2452
+    },
+    {
+      "id": "block_9",
+      "tag": "p",
+      "text": "[[strong]]Final remark: [[/strong]]In practice, many textbooks treat the [[em]]generalized exponential\n                    function[[/em]] as a single-valued function, @@math:31:83a7b5@@ only\n                when @@math:32:537dfa@@ is a positive real number. For any other value of @@math:33:c104bd@@ the multi-valued function\n                @@math:34:368964@@ is preferred.",
+      "raw_len": 367,
+      "placeholder": "@@text:36:df03bc@@",
+      "byte_start": 3209,
+      "byte_end": 3576
+    },
+    {
+      "id": "block_10",
+      "tag": "p",
+      "text": "Curves in the Complex Plane [[i class=\"fa-solid fa-angles-right\"]][[/i]]",
+      "raw_len": 68,
+      "placeholder": "@@text:35:65713a@@",
+      "byte_start": 3757,
+      "byte_end": 3825
+    }
+  ],
+  "reassembly_template": "<section data-type=\"chapter\" id=\"power-function\">\n\n    @@verbatim:0:5d5138@@\n\n    <div w3-include-html=\"small_screen_message.html\"></div>\n\n    <br><br>\n\n    @@verbatim:1:bf283c@@\n    @@verbatim:5:ee4d2a@@\n    @@verbatim:6:52d0da@@\n    @@verbatim:7:0e6a7b@@\n\n    <main>\n        <article>\n\n            <h1>@@text:45:fdf016@@</h1>\n\n            <hr>\n\n\n            <p>@@text:44:a65950@@</p>\n\n\n            <p>@@text:43:b09a79@@</p>\n            <p>@@text:42:e55ceb@@</p>\n\n            <p>@@text:41:a1a5f8@@</p>\n\n\n            <p>@@text:40:dea3f4@@</p>\n\n\n            <p>@@text:39:f2ea4b@@</p>\n\n\n            <p>@@text:38:140a60@@</p>\n\n            <p>@@text:37:11fcca@@</p>\n\n\n            <div class=\"hide-small hide-medium\">\n                <div id=\"applet\">\n\n                    @@verbatim:8:a9a28e@@\n\n                    @@verbatim:9:91b0ec@@\n\n                    <div id=\"CSCanvas\" style=\"border:2px solid black\"></div>\n                    <input id=\"ch1\" onclick=\"check1()\" checked type=\"checkbox\">Phase&nbsp;&nbsp;&nbsp;\n                    <input id=\"ch2\" onclick=\"check2()\" checked type=\"checkbox\">Modulus\n\n                    @@verbatim:10:566d21@@\n\n                </div>@@verbatim:2:3bb20f@@\n\n            </div>@@verbatim:3:b6e327@@\n\n            <div class=\"hide-large \">\n                <div w3-include-html=\"fixed_applets_message.html\"></div>\n            </div>\n\n            <br>\n\n            <hr>\n\n            <p>@@text:36:df03bc@@</p>\n            </p>\n\n            <br>\n\n\n        </article>\n    </main>\n\n    <a href=\"curves_in_the_complex_plane.html\" style=\"text-decoration: none;\">\n        <p class=\"nextPage\">@@text:35:65713a@@</p>\n    </a>\n    @@verbatim:4:2aa52a@@\n\n</section>",
+  "_protected_html": "<section data-type=\"chapter\" id=\"power-function\">\n\n    @@verbatim:0:5d5138@@\n\n    <div w3-include-html=\"small_screen_message.html\"></div>\n\n    <br><br>\n\n    @@verbatim:1:bf283c@@\n    @@verbatim:5:ee4d2a@@\n    @@verbatim:6:52d0da@@\n    @@verbatim:7:0e6a7b@@\n\n    <main>\n        <article>\n\n            <h1>The Complex Power Function</h1>\n\n            <hr>\n\n\n            <p>The <em>generalized complex power function</em> is defined as:\n                @@math:11:4dc32b@@\n            </p>\n\n\n            <p>Due to the multi-valued nature of @@math:16:4943aa@@ it follows that (\\ref{gcp}) is also multi-valued for\n                any non-integer value of @@math:17:2d9169@@ with a branch point at @@math:18:e8c1a0@@ In other words\n            <div class=\"scroll-wrapper\">\n                @@math:12:7c8681@@\n            </div>\n            with @@math:19:5d1ff7@@\n            </p>\n            <p>On the other hand, we have that the <em>generalized exponential function</em>, for @@math:20:8652b6@@\n                is defined as:\n            <div class=\"scroll-wrapper\">\n                @@math:13:e51396@@\n            </div>\n            with @@math:21:531d03@@\n            </p>\n\n            <p>\n                Notice that (\\ref{gef}) possesses no branch point (or any other type of singularity) in the\n                infinite complex @@math:22:3b1a13@@-plane. Thus, we can regard the equation (\\ref{gef}) as defining a set of\n                independent single-value functions for each value of @@math:23:1d6873@@</p>\n\n\n            <p>This is the reason why the multi-valued <em>nature</em> of the function @@math:24:ac0602@@ differs from the\n                multi-valued function @@math:25:499358@@</p>\n\n\n            <p>Typically, the @@math:26:970312@@ case is the most useful, in which case, we would simply define:\n                @@math:14:b58c30@@\n                with @@math:27:294af6@@</p>\n\n\n            <p>This conforms with the definition of exponential function\n                @@math:15:07e671@@\n                where @@math:28:bce2d2@@ (the Euler constant).</p>\n\n            <p>Use the following applet to explore functions (\\ref{gcp}) and (\\ref{gef}) defined on the region\n                @@math:29:12cac6@@ The enhanced phase portrait is used with contour lines of modulus and phase.\n                Drag the points to change the value of @@math:30:562025@@ in each case. You can also deactivate the contour lines,\n                if you want.</p>\n\n\n            <div class=\"hide-small hide-medium\">\n                <div id=\"applet\">\n\n                    @@verbatim:8:a9a28e@@\n\n                    @@verbatim:9:91b0ec@@\n\n                    <div id=\"CSCanvas\" style=\"border:2px solid black\"></div>\n                    <input id=\"ch1\" onclick=\"check1()\" checked type=\"checkbox\">Phase&nbsp;&nbsp;&nbsp;\n                    <input id=\"ch2\" onclick=\"check2()\" checked type=\"checkbox\">Modulus\n\n                    @@verbatim:10:566d21@@\n\n                </div>@@verbatim:2:3bb20f@@\n\n            </div>@@verbatim:3:b6e327@@\n\n            <div class=\"hide-large \">\n                <div w3-include-html=\"fixed_applets_message.html\"></div>\n            </div>\n\n            <br>\n\n            <hr>\n\n            <p><strong>Final remark: </strong>In practice, many textbooks treat the <em>generalized exponential\n                    function</em> as a single-valued function, @@math:31:83a7b5@@ only\n                when @@math:32:537dfa@@ is a positive real number. For any other value of @@math:33:c104bd@@ the multi-valued function\n                @@math:34:368964@@ is preferred.</p>\n            </p>\n\n            <br>\n\n\n        </article>\n    </main>\n\n    <a href=\"curves_in_the_complex_plane.html\" style=\"text-decoration: none;\">\n        <p class=\"nextPage\">Curves in the Complex Plane <i class=\"fa-solid fa-angles-right\"></i></p>\n    </a>\n    @@verbatim:4:2aa52a@@\n\n</section>"
+}

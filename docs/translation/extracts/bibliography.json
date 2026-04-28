@@ -1,0 +1,221 @@
+{
+  "file": "bibliography.html",
+  "original_length": 8685,
+  "num_text_blocks": 23,
+  "num_verbatim": 2,
+  "verbatim_map": {
+    "@@verbatim:0:46e4db@@": "<!-- Starts main content -->",
+    "@@verbatim:1:ed71a7@@": "<!-- Ends main content -->"
+  },
+  "text_blocks": [
+    {
+      "id": "block_0",
+      "tag": "h1",
+      "text": "Bibliography",
+      "raw_len": 12,
+      "placeholder": "@@text:24:4ace85@@",
+      "byte_start": 136,
+      "byte_end": 148
+    },
+    {
+      "id": "block_1",
+      "tag": "li",
+      "text": "Ablowitz, M. J., Fokas, A. S. (2003). [[em]]Complex variables: introduction and applications[[/em]] (2nd\n                    ed). Cambridge University Press.",
+      "raw_len": 153,
+      "placeholder": "@@text:23:eacf32@@",
+      "byte_start": 241,
+      "byte_end": 394
+    },
+    {
+      "id": "block_2",
+      "tag": "li",
+      "text": "Brown, J. W., Churchill, R. V. (2009). [[em]]Complex Variables and Applications.[[/em]] 8th Edition. New\n                    York: McGraw-Hill Higher Education.\n                ",
+      "raw_len": 173,
+      "placeholder": "@@text:22:85c92d@@",
+      "byte_start": 420,
+      "byte_end": 593
+    },
+    {
+      "id": "block_3",
+      "tag": "li",
+      "text": "Crone, L. (n.d.) [[em]]Color graphs of complex functions.[[/em]] [[a\n                        href=\"http://fs2.american.edu/lcrone/www/ComplexPlot.html\" target=\"_blank\" title=\"Open link\"\n                        class=\"w3-text-indigo w3-hover-text-blue\"]][[i class=\"fas fa-external-link-alt\"]][[/i]][[/a]]",
+      "raw_len": 291,
+      "placeholder": "@@text:21:31da49@@",
+      "byte_start": 619,
+      "byte_end": 910
+    },
+    {
+      "id": "block_4",
+      "tag": "li",
+      "text": "Farris, F. (1997). [[em]]Visualizing complex-valued functions in the plane.[[/em]] [[a\n                        href=\"http://www.maa.org/pubs/amm_complements/complex.html\" target=\"_blank\" title=\"Open link\"\n                        class=\"w3-text-indigo w3-hover-text-blue\"]][[i class=\"fas fa-external-link-alt\"]][[/i]][[/a]]",
+      "raw_len": 310,
+      "placeholder": "@@text:20:2e12b4@@",
+      "byte_start": 936,
+      "byte_end": 1246
+    },
+    {
+      "id": "block_5",
+      "tag": "li",
+      "text": "Farris, F. (1998). Review of Visual Complex Analysis. By Tristan Needham. [[em]]The American\n                        Mathematical Monthly[[/em]], 105(6), 570-576. [[a href=\"https://www.jstor.org/stable/2589427\"\n                        target=\"_blank\" title=\"Open link\" class=\"w3-text-indigo w3-hover-text-blue\"]][[i\n                            class=\"fas fa-external-link-alt\"]][[/i]][[/a]]",
+      "raw_len": 378,
+      "placeholder": "@@text:19:a3a1d9@@",
+      "byte_start": 1272,
+      "byte_end": 1650
+    },
+    {
+      "id": "block_6",
+      "tag": "li",
+      "text": "Farris, F. A. (2017). Domain Coloring and the Argument Principle. [[em]]PRIMUS[[/em]] 27:8-9, 827-844,\n                    DOI: [[a href=\"https://doi.org/10.1080/10511970.2016.1234526\" target=\"_blank\" title=\"Open link\"\n                        class=\"w3-text-indigo w3-hover-text-blue\"]]10.1080/10511970.2016.1234526[[/a]]",
+      "raw_len": 313,
+      "placeholder": "@@text:18:9be82d@@",
+      "byte_start": 1676,
+      "byte_end": 1989
+    },
+    {
+      "id": "block_7",
+      "tag": "li",
+      "text": "Losada-Liste, R. (2014). El color dinámico de GeoGebra. [[em]]Gaceta De La Real Sociedad Matemática\n                        Española[[/em]], 17, 525-547, Madrid. ",
+      "raw_len": 158,
+      "placeholder": "@@text:17:490d2f@@",
+      "byte_start": 2015,
+      "byte_end": 2173
+    },
+    {
+      "id": "block_8",
+      "tag": "li",
+      "text": "Lundmark, H. (2004). [[em]]Visualizing complex analytic functions using domain coloring.[[/em]] [[a\n                        href=\"http://users.mai.liu.se/hanlu09/complex/domain_coloring.html\" target=\"_blank\"\n                        title=\"Open link\" class=\"w3-text-indigo w3-hover-text-blue\"]][[i\n                            class=\"fas fa-external-link-alt\"]][[/i]][[/a]]",
+      "raw_len": 359,
+      "placeholder": "@@text:16:974f8b@@",
+      "byte_start": 2199,
+      "byte_end": 2558
+    },
+    {
+      "id": "block_9",
+      "tag": "li",
+      "text": "Needham, T. (1997). [[em]]Visual Complex Analysis.[[/em]] Oxford University Press, Oxford. [[a\n                        href=\"http://usf.usfca.edu/vca/\" target=\"_blank\" title=\"Open link\"\n                        class=\"w3-text-indigo w3-hover-text-blue\"]][[i class=\"fas fa-external-link-alt\"]][[/i]][[/a]]",
+      "raw_len": 291,
+      "placeholder": "@@text:15:fa7727@@",
+      "byte_start": 2584,
+      "byte_end": 2875
+    },
+    {
+      "id": "block_10",
+      "tag": "li",
+      "text": "Marsden, J. E. &amp; Hoffman, M. J. (1987) [[em]]Basic Complex Analysis.[[/em]] (2nd ed.) W. H. Freeman\n                    and Co,\n                    New York.",
+      "raw_len": 157,
+      "placeholder": "@@text:14:bf5ef8@@",
+      "byte_start": 2901,
+      "byte_end": 3058
+    },
+    {
+      "id": "block_11",
+      "tag": "li",
+      "text": "Poelke, K. &amp; Polthier, K. (2012) Domain coloring of complex functions: An\n                    implementation-oriented introduction.\n                    [[em]]IEEE Computer Graphics Math &amp; Applications[[/em]] 32(5), pp. 90-97, DOI: [[a\n                        href=\"https://ieeexplore.ieee.org/document/6311374\" target=\"_blank\" title=\"Open link\"\n                        class=\"w3-text-indigo w3-hover-text-blue\"]]10.1109/MCG.2012.100[[/a]]\n                ",
+      "raw_len": 455,
+      "placeholder": "@@text:13:0fb6ec@@",
+      "byte_start": 3084,
+      "byte_end": 3539
+    },
+    {
+      "id": "block_12",
+      "tag": "li",
+      "text": "Ponce Campuzano, J. C. (2019) The use of phase portraits to visualize and investigate isolated\n                    singular points of complex functions [[em]]Journal International Journal of Mathematical Education in\n                        Science and Technology.[[/em]] 50(7), pp. 999-1010, DOI: [[a\n                        href=\"https://doi.org/10.1080/0020739X.2019.1656829\" target=\"_blank\" title=\"Open link\"\n                        class=\"w3-text-indigo w3-hover-text-blue\"]]10.1080/0020739X.2019.1656829[[/a]]",
+      "raw_len": 507,
+      "placeholder": "@@text:12:9e1d4a@@",
+      "byte_start": 3565,
+      "byte_end": 4072
+    },
+    {
+      "id": "block_13",
+      "tag": "li",
+      "text": "Thaller, B. (1998). Visualization of complex functions, [[em]]Mathematica J.,[[/em]] Vol. 7, issue 2. [[a\n                        href=\"https://vqm.uni-graz.at/articles/complexvis/complexvis.pdf\" target=\"_blank\"\n                        title=\"Open link\" class=\"w3-text-indigo w3-hover-text-blue\"]][[i\n                            class=\"fas fa-external-link-alt\"]][[/i]][[/a]]",
+      "raw_len": 363,
+      "placeholder": "@@text:11:ab93ed@@",
+      "byte_start": 4098,
+      "byte_end": 4461
+    },
+    {
+      "id": "block_14",
+      "tag": "li",
+      "text": "Farris, F. A. (1998). Review of Visual Complex Analysis. By Tristan Needham. [[em]]American\n                        Mathematical Monthly[[/em]] 105 (1998), 570–576.",
+      "raw_len": 160,
+      "placeholder": "@@text:10:a2ebaa@@",
+      "byte_start": 4487,
+      "byte_end": 4647
+    },
+    {
+      "id": "block_15",
+      "tag": "li",
+      "text": "Wahlström, D. (2018). [[em]]The Great Picard Theorem.[[/em]] Bachelor's Thesis. Sweeden: UMEÅ\n                    University.\n                    [[a href=\"https://umu.diva-portal.org/smash/get/diva2:1251778/FULLTEXT01.pdf\" target=\"_blank\"\n                        title=\"Open link\" class=\"w3-text-indigo w3-hover-text-blue\"]]\n                        [[i class=\"fas fa-external-link-alt\"]][[/i]][[/a]]\n                ",
+      "raw_len": 405,
+      "placeholder": "@@text:9:8d6133@@",
+      "byte_start": 4673,
+      "byte_end": 5078
+    },
+    {
+      "id": "block_16",
+      "tag": "li",
+      "text": "Wegert, E. (2010). Phase Diagrams of Meromorphic Functions. [[em]]Comput. Methods Funct.[[/em]] Theory\n                    10, 639-661.\n                    [[a href=\"https://link.springer.com/article/10.1007/BF03321784\" target=\"_blank\" title=\"Open link\"\n                        class=\"w3-text-indigo w3-hover-text-blue\"]][[i class=\"fas fa-external-link-alt\"]][[/i]][[/a]]\n                ",
+      "raw_len": 376,
+      "placeholder": "@@text:8:be8cd3@@",
+      "byte_start": 5104,
+      "byte_end": 5480
+    },
+    {
+      "id": "block_17",
+      "tag": "li",
+      "text": "Wegert, E. (2012). [[em]]Visual Complex Functions: An introduction with phase\n                        portraits.[[/em]] New York: Springer Basel.\n                    [[a href=\"http://www.springer.com/de/book/9783034801799\" target=\"_blank\" title=\"Open link\"\n                        class=\"w3-text-indigo w3-hover-text-blue\"]][[i class=\"fas fa-external-link-alt\"]][[/i]][[/a]]\n                ",
+      "raw_len": 379,
+      "placeholder": "@@text:7:fd0032@@",
+      "byte_start": 5523,
+      "byte_end": 5902
+    },
+    {
+      "id": "block_18",
+      "tag": "li",
+      "text": "Wegert, E. (2016). Visual exploration of complex functions. In T. Qian and L. R. Rodino (eds.),\n                    [[em]]Mathematical analysis, probability and applications - Plenary Lectures SPMS[[/em]] (Vol. 177. pp.\n                    253-279). Switzerland: Springer International Publishing.\n                ",
+      "raw_len": 310,
+      "placeholder": "@@text:6:e7970d@@",
+      "byte_start": 5928,
+      "byte_end": 6238
+    },
+    {
+      "id": "block_19",
+      "tag": "li",
+      "text": "Wegert, E. &amp; Semmler, G. (2011). Phase plots of complex functions: a journey in illustration.\n                    [[em]]Notices Amer. Math. Soc.[[/em]] 58, 768-780. [[a\n                        href=\"https://www.ams.org/notices/201106/rtx110600768p.pdf\" target=\"_blank\" title=\"Open link\"\n                        class=\"w3-text-indigo w3-hover-text-blue\"]][[i class=\"fas fa-external-link-alt\"]][[/i]][[/a]]\n                ",
+      "raw_len": 413,
+      "placeholder": "@@text:5:5defba@@",
+      "byte_start": 6264,
+      "byte_end": 6677
+    },
+    {
+      "id": "block_20",
+      "tag": "li",
+      "text": "Wikipedia: [[em]]Domain Coloring[[/em]] [[a href=\"https://en.wikipedia.org/wiki/Domain_coloring\"\n                        target=\"_blank\" title=\"Open link\" class=\"w3-text-indigo w3-hover-text-blue\"]][[i\n                            class=\"fas fa-external-link-alt\"]][[/i]][[/a]]",
+      "raw_len": 264,
+      "placeholder": "@@text:4:00f107@@",
+      "byte_start": 6703,
+      "byte_end": 6967
+    },
+    {
+      "id": "block_21",
+      "tag": "p",
+      "text": "[[strong]]That's it![[/strong]] If you found this book useful and help you\n                in your journey to understand [[em]]Complex Analysis[[/em]],\n                please [[a href=\"https://forms.gle/PhCrkFyGCkiiYLPc7\"]]let me know![[/a]]\n                You can also support this project with the links below.\n                Your support will be appreciated!\n                \n                <div style=\" text-wrap: wrap; display: flex; justify-content: center;\">\n                    <div style=\"padding: 0 5px;\">\n                        [[i class=\"fa-brands fa-patreon\"]][[/i]] [[a href=\"https://www.patreon.com/jcponce\"]]\n                            [[strong]]Patreon[[/strong]][[/a]]\n                            &nbsp;&nbsp;\n                        [[i class=\"fa-brands fa-paypal\"]][[/i]] [[a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=WTMTR7D8RYZ26&item_name=Your+support+will+help+me+to+improve+and+keep+up+to+date+the+applets+of+this+book.+Sincerely+appreciate+it%21&currency_code=AUD&source=url\"]]\n                            [[strong]]PayPal[[/strong]][[/a]]\n                            &nbsp;&nbsp;\n                        [[i class=\"fa-solid fa-shop\"]][[/i]] [[a target=\"_blank\" href=\"https://jcponcemath.secure-decoration.com/\"]]\n                            [[strong]]Buy a T-shirt[[/strong]]\n                        [[/a]]\n                    </div>\n                </div>\n\n\n            ",
+      "raw_len": 1381,
+      "placeholder": "@@text:3:1944f0@@",
+      "byte_start": 7037,
+      "byte_end": 8418
+    },
+    {
+      "id": "block_22",
+      "tag": "p",
+      "text": "[[i class=\"fa-solid fa-infinity\"]][[/i]]  ❤️",
+      "raw_len": 40,
+      "placeholder": "@@text:2:475150@@",
+      "byte_start": 8582,
+      "byte_end": 8622
+    }
+  ],
+  "reassembly_template": "<section data-type=\"chapter\" id=\"bibliography\">\n\n    @@verbatim:0:46e4db@@\n\n    <br><br>\n\n    <main>\n        <article>\n\n            <h1>@@text:24:4ace85@@</h1>\n\n            <hr>\n            \n            <ol class=\"bbtex-list\">\n                <li>@@text:23:eacf32@@</li>\n                <li>@@text:22:85c92d@@</li>\n                <li>@@text:21:31da49@@</li>\n                <li>@@text:20:2e12b4@@</li>\n                <li>@@text:19:a3a1d9@@</li>\n                <li>@@text:18:9be82d@@</li>\n                <li>@@text:17:490d2f@@</li>\n                <li>@@text:16:974f8b@@</li>\n                <li>@@text:15:fa7727@@</li>\n                <li>@@text:14:bf5ef8@@</li>\n                <li>@@text:13:0fb6ec@@</li>\n                <li>@@text:12:9e1d4a@@</li>\n                <li>@@text:11:ab93ed@@</li>\n                <li>@@text:10:a2ebaa@@</li>\n                <li>@@text:9:8d6133@@</li>\n                <li>@@text:8:be8cd3@@</li>\n                <li id=\"wegert-2012\">@@text:7:fd0032@@</li>\n                <li>@@text:6:e7970d@@</li>\n                <li>@@text:5:5defba@@</li>\n                <li>@@text:4:00f107@@</li>\n            </ol>\n            \n            <br>\n\n            <p>@@text:3:1944f0@@</p>\n\n\n            <br>\n\n\n        </article>\n    </main>\n\n    <a href=\"https://www.patreon.com/jcponce\" style=\"text-decoration: none;\">\n        <p class=\"nextPage\">@@text:2:475150@@</p>\n    </a>\n    @@verbatim:1:ed71a7@@\n\n</section>",
+  "_protected_html": "<section data-type=\"chapter\" id=\"bibliography\">\n\n    @@verbatim:0:46e4db@@\n\n    <br><br>\n\n    <main>\n        <article>\n\n            <h1>Bibliography</h1>\n\n            <hr>\n            \n            <ol class=\"bbtex-list\">\n                <li>Ablowitz, M. J., Fokas, A. S. (2003). <em>Complex variables: introduction and applications</em> (2nd\n                    ed). Cambridge University Press.</li>\n                <li>Brown, J. W., Churchill, R. V. (2009). <em>Complex Variables and Applications.</em> 8th Edition. New\n                    York: McGraw-Hill Higher Education.\n                </li>\n                <li>Crone, L. (n.d.) <em>Color graphs of complex functions.</em> <a\n                        href=\"http://fs2.american.edu/lcrone/www/ComplexPlot.html\" target=\"_blank\" title=\"Open link\"\n                        class=\"w3-text-indigo w3-hover-text-blue\"><i class=\"fas fa-external-link-alt\"></i></a></li>\n                <li>Farris, F. (1997). <em>Visualizing complex-valued functions in the plane.</em> <a\n                        href=\"http://www.maa.org/pubs/amm_complements/complex.html\" target=\"_blank\" title=\"Open link\"\n                        class=\"w3-text-indigo w3-hover-text-blue\"><i class=\"fas fa-external-link-alt\"></i></a></li>\n                <li>Farris, F. (1998). Review of Visual Complex Analysis. By Tristan Needham. <em>The American\n                        Mathematical Monthly</em>, 105(6), 570-576. <a href=\"https://www.jstor.org/stable/2589427\"\n                        target=\"_blank\" title=\"Open link\" class=\"w3-text-indigo w3-hover-text-blue\"><i\n                            class=\"fas fa-external-link-alt\"></i></a></li>\n                <li>Farris, F. A. (2017). Domain Coloring and the Argument Principle. <em>PRIMUS</em> 27:8-9, 827-844,\n                    DOI: <a href=\"https://doi.org/10.1080/10511970.2016.1234526\" target=\"_blank\" title=\"Open link\"\n                        class=\"w3-text-indigo w3-hover-text-blue\">10.1080/10511970.2016.1234526</a></li>\n                <li>Losada-Liste, R. (2014). El color dinámico de GeoGebra. <em>Gaceta De La Real Sociedad Matemática\n                        Española</em>, 17, 525-547, Madrid. </li>\n                <li>Lundmark, H. (2004). <em>Visualizing complex analytic functions using domain coloring.</em> <a\n                        href=\"http://users.mai.liu.se/hanlu09/complex/domain_coloring.html\" target=\"_blank\"\n                        title=\"Open link\" class=\"w3-text-indigo w3-hover-text-blue\"><i\n                            class=\"fas fa-external-link-alt\"></i></a></li>\n                <li>Needham, T. (1997). <em>Visual Complex Analysis.</em> Oxford University Press, Oxford. <a\n                        href=\"http://usf.usfca.edu/vca/\" target=\"_blank\" title=\"Open link\"\n                        class=\"w3-text-indigo w3-hover-text-blue\"><i class=\"fas fa-external-link-alt\"></i></a></li>\n                <li>Marsden, J. E. &amp; Hoffman, M. J. (1987) <em>Basic Complex Analysis.</em> (2nd ed.) W. H. Freeman\n                    and Co,\n                    New York.</li>\n                <li>Poelke, K. &amp; Polthier, K. (2012) Domain coloring of complex functions: An\n                    implementation-oriented introduction.\n                    <em>IEEE Computer Graphics Math &amp; Applications</em> 32(5), pp. 90-97, DOI: <a\n                        href=\"https://ieeexplore.ieee.org/document/6311374\" target=\"_blank\" title=\"Open link\"\n                        class=\"w3-text-indigo w3-hover-text-blue\">10.1109/MCG.2012.100</a>\n                </li>\n                <li>Ponce Campuzano, J. C. (2019) The use of phase portraits to visualize and investigate isolated\n                    singular points of complex functions <em>Journal International Journal of Mathematical Education in\n                        Science and Technology.</em> 50(7), pp. 999-1010, DOI: <a\n                        href=\"https://doi.org/10.1080/0020739X.2019.1656829\" target=\"_blank\" title=\"Open link\"\n                        class=\"w3-text-indigo w3-hover-text-blue\">10.1080/0020739X.2019.1656829</a></li>\n                <li>Thaller, B. (1998). Visualization of complex functions, <em>Mathematica J.,</em> Vol. 7, issue 2. <a\n                        href=\"https://vqm.uni-graz.at/articles/complexvis/complexvis.pdf\" target=\"_blank\"\n                        title=\"Open link\" class=\"w3-text-indigo w3-hover-text-blue\"><i\n                            class=\"fas fa-external-link-alt\"></i></a></li>\n                <li>Farris, F. A. (1998). Review of Visual Complex Analysis. By Tristan Needham. <em>American\n                        Mathematical Monthly</em> 105 (1998), 570–576.</li>\n                <li>Wahlström, D. (2018). <em>The Great Picard Theorem.</em> Bachelor's Thesis. Sweeden: UMEÅ\n                    University.\n                    <a href=\"https://umu.diva-portal.org/smash/get/diva2:1251778/FULLTEXT01.pdf\" target=\"_blank\"\n                        title=\"Open link\" class=\"w3-text-indigo w3-hover-text-blue\">\n                        <i class=\"fas fa-external-link-alt\"></i></a>\n                </li>\n                <li>Wegert, E. (2010). Phase Diagrams of Meromorphic Functions. <em>Comput. Methods Funct.</em> Theory\n                    10, 639-661.\n                    <a href=\"https://link.springer.com/article/10.1007/BF03321784\" target=\"_blank\" title=\"Open link\"\n                        class=\"w3-text-indigo w3-hover-text-blue\"><i class=\"fas fa-external-link-alt\"></i></a>\n                </li>\n                <li id=\"wegert-2012\">Wegert, E. (2012). <em>Visual Complex Functions: An introduction with phase\n                        portraits.</em> New York: Springer Basel.\n                    <a href=\"http://www.springer.com/de/book/9783034801799\" target=\"_blank\" title=\"Open link\"\n                        class=\"w3-text-indigo w3-hover-text-blue\"><i class=\"fas fa-external-link-alt\"></i></a>\n                </li>\n                <li>Wegert, E. (2016). Visual exploration of complex functions. In T. Qian and L. R. Rodino (eds.),\n                    <em>Mathematical analysis, probability and applications - Plenary Lectures SPMS</em> (Vol. 177. pp.\n                    253-279). Switzerland: Springer International Publishing.\n                </li>\n                <li>Wegert, E. &amp; Semmler, G. (2011). Phase plots of complex functions: a journey in illustration.\n                    <em>Notices Amer. Math. Soc.</em> 58, 768-780. <a\n                        href=\"https://www.ams.org/notices/201106/rtx110600768p.pdf\" target=\"_blank\" title=\"Open link\"\n                        class=\"w3-text-indigo w3-hover-text-blue\"><i class=\"fas fa-external-link-alt\"></i></a>\n                </li>\n                <li>Wikipedia: <em>Domain Coloring</em> <a href=\"https://en.wikipedia.org/wiki/Domain_coloring\"\n                        target=\"_blank\" title=\"Open link\" class=\"w3-text-indigo w3-hover-text-blue\"><i\n                            class=\"fas fa-external-link-alt\"></i></a></li>\n            </ol>\n            \n            <br>\n\n            <p><strong>That's it!</strong> If you found this book useful and help you\n                in your journey to understand <em>Complex Analysis</em>,\n                please <a href=\"https://forms.gle/PhCrkFyGCkiiYLPc7\">let me know!</a>\n                You can also support this project with the links below.\n                Your support will be appreciated!\n                \n                <div style=\" text-wrap: wrap; display: flex; justify-content: center;\">\n                    <div style=\"padding: 0 5px;\">\n                        <i class=\"fa-brands fa-patreon\"></i> <a href=\"https://www.patreon.com/jcponce\">\n                            <strong>Patreon</strong></a>\n                            &nbsp;&nbsp;\n                        <i class=\"fa-brands fa-paypal\"></i> <a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=WTMTR7D8RYZ26&item_name=Your+support+will+help+me+to+improve+and+keep+up+to+date+the+applets+of+this+book.+Sincerely+appreciate+it%21&currency_code=AUD&source=url\">\n                            <strong>PayPal</strong></a>\n                            &nbsp;&nbsp;\n                        <i class=\"fa-solid fa-shop\"></i> <a target=\"_blank\" href=\"https://jcponcemath.secure-decoration.com/\">\n                            <strong>Buy a T-shirt</strong>\n                        </a>\n                    </div>\n                </div>\n\n\n            </p>\n\n\n            <br>\n\n\n        </article>\n    </main>\n\n    <a href=\"https://www.patreon.com/jcponce\" style=\"text-decoration: none;\">\n        <p class=\"nextPage\"><i class=\"fa-solid fa-infinity\"></i>  ❤️</p>\n    </a>\n    @@verbatim:1:ed71a7@@\n\n</section>"
+}

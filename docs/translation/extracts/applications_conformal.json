@@ -1,0 +1,97 @@
+{
+  "file": "applications_conformal.html",
+  "original_length": 2745,
+  "num_text_blocks": 7,
+  "num_verbatim": 3,
+  "verbatim_map": {
+    "@@verbatim:0:45f7e9@@": "<!-- Starts main content -->",
+    "@@verbatim:1:420766@@": "<!-- Ends main content -->",
+    "@@verbatim:2:007beb@@": "<iframe src=\"../applets/p5js/flowfield/index.html\" width=\"100%\" height=\"300px\" \n    scrolling=\"no\" style=\"border: 1px solid black; overflow: hidden;\"></iframe>",
+    "@@math:3:bf3f34@@": "\\begin{eqnarray*}\n                u=\\frac{\\partial \\phi }{\\partial x},\\quad v=\\frac{\\partial \\phi }{\\partial y}.\n                \\end{eqnarray*}",
+    "@@math:4:9c3354@@": "\\begin{eqnarray*}\n                u=\\frac{\\partial \\psi }{\\partial y},\\quad v=-\\frac{\\partial \\psi }{\\partial x}.\n                \\end{eqnarray*}",
+    "@@math:5:31d61b@@": "$$\\mathbf V (x,y)= \\left(u(x,y), v(x,y)\\right).$$",
+    "@@math:6:1aef21@@": "$$\\nabla^2\\phi = \\text{div } \\text{grad }\\phi =\n                \\text{div } \\mathbf V=0.$$",
+    "@@math:7:055746@@": "$$F=\\phi +i\\psi$$",
+    "@@math:8:f4e8f0@@": "$\\text{div}\\,\\mathbf V =0.$",
+    "@@math:9:ac2b27@@": "$\\mathbf V$",
+    "@@math:10:b7b582@@": "$\\mathbf V$",
+    "@@math:11:f31695@@": "$\\mathbf V = \\text{grad } \\phi $",
+    "@@math:12:ed00fa@@": "$\\phi$",
+    "@@math:13:8ff67f@@": "$\\phi$",
+    "@@math:14:3eb543@@": "$\\phi$",
+    "@@math:15:9e65ef@@": "$\\mathbf V$",
+    "@@math:16:7cb5d3@@": "$\\mathbf V = \\text{grad } \\phi$",
+    "@@math:17:a85df0@@": "$\\psi$",
+    "@@math:18:6cb994@@": "$\\phi$",
+    "@@math:19:ce35be@@": "$\\psi$",
+    "@@math:20:81d5c0@@": "$\\mathbf V$",
+    "@@math:21:da0f6e@@": "$\\psi$"
+  },
+  "text_blocks": [
+    {
+      "id": "block_0",
+      "tag": "h1",
+      "text": "Applications of  [[br]] Conformal Mappings",
+      "raw_len": 39,
+      "placeholder": "@@text:28:3b9e8a@@",
+      "byte_start": 181,
+      "byte_end": 220
+    },
+    {
+      "id": "block_1",
+      "tag": "h2",
+      "text": "Hydrodynamics",
+      "raw_len": 13,
+      "placeholder": "@@text:27:0ed4fb@@",
+      "byte_start": 262,
+      "byte_end": 275
+    },
+    {
+      "id": "block_2",
+      "tag": "p",
+      "text": "If we have a (steady-state) incompressible, nonviscous fluid, we are interested\n                in finding its velocity field @@math:5:31d61b@@\n                From vector analysis we know that 'incompressible' means that the divergence\n                @@math:8:f4e8f0@@ (We say @@math:9:ac2b27@@ is [[em]]divergence free.[[/em]])\n                We assume that @@math:10:b7b582@@ is also a [[em]]potential flow[[/em]] and hence is circulation\n                free; that is @@math:11:f31695@@ for some @@math:12:ed00fa@@ called the [[em]]velocity\n                    potential.[[/em]] Thus @@math:13:8ff67f@@ is harmonic because @@math:6:1aef21@@\n                Thus when we solve for @@math:14:3eb543@@ we can obtain @@math:15:9e65ef@@ by taking @@math:16:7cb5d3@@. That\n                is\n                @@math:3:bf3f34@@\n            ",
+      "raw_len": 826,
+      "placeholder": "@@text:26:69c576@@",
+      "byte_start": 297,
+      "byte_end": 1123
+    },
+    {
+      "id": "block_3",
+      "tag": "p",
+      "text": "The conjugate @@math:17:a85df0@@ of the harmonic function @@math:18:6cb994@@ (which will exist on any simple\n                connected region) is called the [[em]]stream function[[/em]], and the analytic function\n                @@math:7:055746@@ is called the [[em]]complex potential[[/em]]. ",
+      "raw_len": 285,
+      "placeholder": "@@text:25:506da1@@",
+      "byte_start": 1144,
+      "byte_end": 1429
+    },
+    {
+      "id": "block_4",
+      "tag": "p",
+      "text": "The stream function must satisfy\n                @@math:4:9c3354@@\n                Finally, lines of constant @@math:19:ce35be@@\n                have @@math:20:81d5c0@@ as their tangents, so lines of constant @@math:21:da0f6e@@ may be interpreted as\n                the [[i]]lines along which particles of fluid move[[/i]]; hence the name stream function.",
+      "raw_len": 351,
+      "placeholder": "@@text:24:3f7e53@@",
+      "byte_start": 1450,
+      "byte_end": 1801
+    },
+    {
+      "id": "block_5",
+      "tag": "figcaption",
+      "text": "\n                    Streamlines.\n                ",
+      "raw_len": 50,
+      "placeholder": "@@text:23:730c7b@@",
+      "byte_start": 1968,
+      "byte_end": 2018
+    },
+    {
+      "id": "block_6",
+      "tag": "p",
+      "text": "Complex Potential [[i class=\"fa-solid fa-angles-right\"]][[/i]]",
+      "raw_len": 58,
+      "placeholder": "@@text:22:fdfabd@@",
+      "byte_start": 2200,
+      "byte_end": 2258
+    }
+  ],
+  "reassembly_template": "<section data-type=\"chapter\" id=\"applications-conformal-mappings\">\n\n    @@verbatim:0:45f7e9@@\n\n    <br>\n\n\n    @@verbatim:2:007beb@@\n\n\n    <main>\n        <article>\n\n\n            <h1>@@text:28:3b9e8a@@</h1>\n\n\n            <hr>\n\n            <h2>@@text:27:0ed4fb@@</h2>\n\n            <p>@@text:26:69c576@@</p>\n\n            <p>@@text:25:506da1@@</p>\n\n            <p>@@text:24:3f7e53@@</p>\n\n            <figure>\n                <img src=\"../images/chp06/stream.png\" alt=\"Streamlines\" title=\"Streamlines\" style=\"width:65%;\">\n                <figcaption>@@text:23:730c7b@@</figcaption>\n            </figure>\n\n\n        </article>\n    </main>\n\n    <a href=\"complex_potential_basic_examples.html\" style=\"text-decoration: none;\">\n        <p class=\"nextPage\">@@text:22:fdfabd@@</p>\n    </a>\n    @@verbatim:1:420766@@\n\n</section>",
+  "_protected_html": "<section data-type=\"chapter\" id=\"applications-conformal-mappings\">\n\n    @@verbatim:0:45f7e9@@\n\n    <br>\n\n\n    @@verbatim:2:007beb@@\n\n\n    <main>\n        <article>\n\n\n            <h1>Applications of <br/>Conformal Mappings</h1>\n\n\n            <hr>\n\n            <h2>Hydrodynamics</h2>\n\n            <p>If we have a (steady-state) incompressible, nonviscous fluid, we are interested\n                in finding its velocity field @@math:5:31d61b@@\n                From vector analysis we know that 'incompressible' means that the divergence\n                @@math:8:f4e8f0@@ (We say @@math:9:ac2b27@@ is <em>divergence free.</em>)\n                We assume that @@math:10:b7b582@@ is also a <em>potential flow</em> and hence is circulation\n                free; that is @@math:11:f31695@@ for some @@math:12:ed00fa@@ called the <em>velocity\n                    potential.</em> Thus @@math:13:8ff67f@@ is harmonic because @@math:6:1aef21@@\n                Thus when we solve for @@math:14:3eb543@@ we can obtain @@math:15:9e65ef@@ by taking @@math:16:7cb5d3@@. That\n                is\n                @@math:3:bf3f34@@\n            </p>\n\n            <p>The conjugate @@math:17:a85df0@@ of the harmonic function @@math:18:6cb994@@ (which will exist on any simple\n                connected region) is called the <em>stream function</em>, and the analytic function\n                @@math:7:055746@@ is called the <em>complex potential</em>. </p>\n\n            <p>The stream function must satisfy\n                @@math:4:9c3354@@\n                Finally, lines of constant @@math:19:ce35be@@\n                have @@math:20:81d5c0@@ as their tangents, so lines of constant @@math:21:da0f6e@@ may be interpreted as\n                the <i>lines along which particles of fluid move</i>; hence the name stream function.</p>\n\n            <figure>\n                <img src=\"../images/chp06/stream.png\" alt=\"Streamlines\" title=\"Streamlines\" style=\"width:65%;\">\n                <figcaption>\n                    Streamlines.\n                </figcaption>\n            </figure>\n\n\n        </article>\n    </main>\n\n    <a href=\"complex_potential_basic_examples.html\" style=\"text-decoration: none;\">\n        <p class=\"nextPage\">Complex Potential <i class=\"fa-solid fa-angles-right\"></i></p>\n    </a>\n    @@verbatim:1:420766@@\n\n</section>"
+}

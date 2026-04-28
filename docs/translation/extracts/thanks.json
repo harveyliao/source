@@ -1,0 +1,204 @@
+{
+  "file": "thanks.html",
+  "original_length": 8301,
+  "num_text_blocks": 21,
+  "num_verbatim": 3,
+  "verbatim_map": {
+    "@@verbatim:0:743535@@": "<!-- Starts main content -->",
+    "@@verbatim:1:0c74f9@@": "<!--<a href=\"https://github.com/konnerthg\">Gerhard Konnerth</a>,-->",
+    "@@verbatim:2:0638bf@@": "<!-- Ends main content -->"
+  },
+  "text_blocks": [
+    {
+      "id": "block_0",
+      "tag": "h1",
+      "text": "Acknowledgements",
+      "raw_len": 16,
+      "placeholder": "@@text:23:f8e23a@@",
+      "byte_start": 176,
+      "byte_end": 192
+    },
+    {
+      "id": "block_1",
+      "tag": "p",
+      "text": "[[strong]]Acknowledgements[[/strong]]",
+      "raw_len": 33,
+      "placeholder": "@@text:22:822279@@",
+      "byte_start": 334,
+      "byte_end": 367
+    },
+    {
+      "id": "block_2",
+      "tag": "p",
+      "text": "Since 2015 I tried many times to integrate my complex analysis notes with\n                applets that I have designed or adapted from other people. Finally, in 2019,\n                I was able to accomplish this task thanks to the development of mathematical,\n                open-source, software capable to run online in (almost) any browser. This book\n                would not have been possible without a ton of people sharing their great work.\n                As much as possible, I've tried to keep track of all the online resources,\n                books and articles that I have used.",
+      "raw_len": 594,
+      "placeholder": "@@text:21:1f60b3@@",
+      "byte_start": 426,
+      "byte_end": 1020
+    },
+    {
+      "id": "block_3",
+      "tag": "p",
+      "text": "A big [[strong]]thank you[[/strong]] to all the people who support, or have supported, this project:",
+      "raw_len": 96,
+      "placeholder": "@@text:20:83aad3@@",
+      "byte_start": 1041,
+      "byte_end": 1137
+    },
+    {
+      "id": "block_4",
+      "tag": "p",
+      "text": "[[strong]]Patreon:[[/strong]] \n                    Edward Huff,\n                    Abei,\n                    pmbem,\n                    [[a href=\"https://twitter.com/fractalkitty\" target=\"_blank\"]]Sophia Wood[[/a]],\n                    Adam Parrott,\n                    Doug Kuhlman,\n                    bleh,\n                    Miguel Díaz,\n                    Ruan Ramon,\n                    Maciej Lasota,\n                    Christopher-Alexander Hermanns,\n                    Aarón Reyes,\n                    Jerome Siegler,\n                    Yashar Shoraka,\n                    Shaun MacMillan, \n                    Scott Pedersen, \n                    Ihsan Karabulut,\n                    Elias Sanchez Angarano,\n                    Sarah Gelsinger Brewer,\n                    F. Lengyel,\n                    Thomas Smith.\n                ",
+      "raw_len": 842,
+      "placeholder": "@@text:19:cf1193@@",
+      "byte_start": 1197,
+      "byte_end": 2039
+    },
+    {
+      "id": "block_5",
+      "tag": "p",
+      "text": "[[strong]]GitHub Sponsors:[[/strong]]\n                   erob409\n                ",
+      "raw_len": 77,
+      "placeholder": "@@text:18:d970a8@@",
+      "byte_start": 2064,
+      "byte_end": 2141
+    },
+    {
+      "id": "block_6",
+      "tag": "p",
+      "text": "Kelly E. Matthews,\n                    Alex Iktan,\n                    Codi Quetzal,\n                    Feya,\n                    [[a href=\"https://twitter.com/nicoguaro\" target=\"_blank\"]]Nicolás Guarín-Zapata[[/a]],\n                    Carla Luciane Klôa Schöninger,\n                    Ken Thele,\n                    [[a href=\"https://twitter.com/mike_mates\" target=\"_blank\"]]Mates Mike[[/a]],\n                    Christopher Lee,\n                    [[a href=\"https://twitter.com/Alvy\" target=\"_blank\"]]Alvy[[/a]],\n                    Jason Cunliffe,\n                    Julian Miranda,\n                    Leticia Hernández López,\n                    SureshKumar M S,\n                    [[a href=\"https://github.com/rchappa\" target=\"_blank\"]]Rodrigo Chappa[[/a]],\n                    Fahim Ahmed,\n                    [[a href=\"https://github.com/sprowell\" target=\"_blank\"]]Stacey Prowell[[/a]],\n                    Eric Peper,\n                    Paul St. Jean,\n                    [[a href=\"https://twitter.com/a_busch\" target=\"_blank\"]]Antoine Büsch[[/a]],\n                    Rose-Maree Locsei,\n                    Michael Rivera,\n                    Mengxuan Qiu,\n                    Olympia Ellinas,\n                    Simon,\n                    Zoltán Köllő,\n                    Jason Sabloff,\n                    José Ramón Montejo Garai,\n                    Philip Benjamin,\n                    Anton Pirogov,\n                    Luciano Merenda,\n                    Wilson Sawyer,\n                    Emiliano Espinosa,\n                    [[a href=\"https://github.com/eamonsuo\" target=\"_blank\"]]eamounsou[[/a]],\n                    Cameron Fredrickson,\n                    Heather Moore,\n                    [[a href=\"https://twitter.com/ArsoCivil\" target=\"_blank\"]]David Arso Civil[[/a]],\n                    Juan Martinez\n                    Juan Lopez.\n                ",
+      "raw_len": 1857,
+      "placeholder": "@@text:17:ed8ed2@@",
+      "byte_start": 2166,
+      "byte_end": 4023
+    },
+    {
+      "id": "block_7",
+      "tag": "p",
+      "text": "Many thanks also to:",
+      "raw_len": 20,
+      "placeholder": "@@text:16:f128b8@@",
+      "byte_start": 4064,
+      "byte_end": 4084
+    },
+    {
+      "id": "block_8",
+      "tag": "li",
+      "text": "[[a href=\"http://www.jeffreythompson.org/\" target=\"_blank\"]]Jeffrey Thompson[[/a]].\n                    The initial design of this site was inspired by his book [[a\n                        href=\"http://www.jeffreythompson.org/collision-detection/index.php\" target=\"_blank\"]]Collision\n                        Detection[[/a]]. If you want to learn about the\n                    algorithms behind collisions using basic geometrical shapes, you should check it!",
+      "raw_len": 449,
+      "placeholder": "@@text:15:08047b@@",
+      "byte_start": 4127,
+      "byte_end": 4576
+    },
+    {
+      "id": "block_9",
+      "tag": "li",
+      "text": "[[a href=\"https://geo.ma.tum.de/en/people/aaron-montag.html\" target=\"_blank\"]]Aaron Montag[[/a]], [[a\n                        href=\"http://martin.von-gagern.net/\" target=\"_blank\"]]Martin von Gagern[[/a]], [[a\n                        href=\"https://github.com/kranich\" target=\"_blank\"]]Stefan Kranich[[/a]] and [[a\n                        href=\"https://github.com/strobelm\" target=\"_blank\"]]Michael Strobel[[/a]]\n                    @@verbatim:1:0c74f9@@ creators, developers and\n                    contributors of the [[a href=\"https://cindyjs.org/\" target=\"_blank\"]]CindyJS[[/a]] project. Thanks for\n                    allowing me to adapt your great applets.\n                ",
+      "raw_len": 658,
+      "placeholder": "@@text:14:9f0754@@",
+      "byte_start": 4602,
+      "byte_end": 5260
+    },
+    {
+      "id": "block_10",
+      "tag": "li",
+      "text": "[[a href=\"http://www.science-to-touch.com/en/about.html\" target=\"_blank\"]]Jürgen Richter-Gebert[[/a]],\n                    one of the authors of the interactive mathematics software [[a\n                        href=\"https://www.cinderella.de/tiki-index.php\" target=\"_blank\"]]Cinderella[[/a]], who now works on\n                    the [[a href=\"https://cindyjs.org/\" target=\"_blank\"]]CindyJS[[/a]] project.",
+      "raw_len": 393,
+      "placeholder": "@@text:13:72f03a@@",
+      "byte_start": 5286,
+      "byte_end": 5679
+    },
+    {
+      "id": "block_11",
+      "tag": "li",
+      "text": "The [[a href=\"https://www.geogebra.org/\" target=\"_blank\"]]GeoGebra[[/a]] developers and community who\n                    share their wonderful constructions and applets.",
+      "raw_len": 166,
+      "placeholder": "@@text:12:b3bf58@@",
+      "byte_start": 5705,
+      "byte_end": 5871
+    },
+    {
+      "id": "block_12",
+      "tag": "li",
+      "text": "[[a href=\"https://shiffman.net/\" target=\"_blank\"]]Daniel Shiffman[[/a]], an amazing teacher who shares\n                    his knowledge with the world. I have learned all the basics about programming from his [[a\n                        href=\"https://shiffman.net/books/\"]]books[[/a]] and video tutorials [[a\n                        href=\"https://thecodingtrain.com/\"]]The Coding Train[[/a]].",
+      "raw_len": 381,
+      "placeholder": "@@text:11:09be89@@",
+      "byte_start": 5897,
+      "byte_end": 6278
+    },
+    {
+      "id": "block_13",
+      "tag": "li",
+      "text": "[[a href=\"http://lauren-mccarthy.com/about\" target=\"_blank\"]]Lauren McCarthy[[/a]], the creator of [[a\n                        href=\"https://p5js.org/\" target=\"_blank\"]]p5.js[[/a]], and to the great community of creative\n                    people who use this programming language.",
+      "raw_len": 274,
+      "placeholder": "@@text:10:8a67dc@@",
+      "byte_start": 6304,
+      "byte_end": 6578
+    },
+    {
+      "id": "block_14",
+      "tag": "li",
+      "text": "[[a href=\"https://paulmasson.github.io/\" target=\"_blank\"]]Paul Masson[[/a]], the creator of [[a\n                        href=\"http://mathcell.org/\" target=\"_blank\"]]MathCell[[/a]]. This is JavaScript library for\n                    including interactive mathematics in a web browser.",
+      "raw_len": 275,
+      "placeholder": "@@text:9:70022b@@",
+      "byte_start": 6604,
+      "byte_end": 6879
+    },
+    {
+      "id": "block_15",
+      "tag": "li",
+      "text": "The equations in the book are displayed thanks to [[a href=\"https://www.mathjax.org/\"]]MathJax[[/a]].\n                    However, in some applets [[a href=\"https://katex.org/\" target=\"_blank\"]]KaTeX[[/a]] is used instead.\n                ",
+      "raw_len": 231,
+      "placeholder": "@@text:8:e714a5@@",
+      "byte_start": 6905,
+      "byte_end": 7136
+    },
+    {
+      "id": "block_16",
+      "tag": "p",
+      "text": "Finally, about the applets:",
+      "raw_len": 27,
+      "placeholder": "@@text:7:b2e3f8@@",
+      "byte_start": 7177,
+      "byte_end": 7204
+    },
+    {
+      "id": "block_17",
+      "tag": "li",
+      "text": "The applets \"Analytic Landscapes\" and \"Taylor Series\" were adapted for the purposes of this book.\n                    The original versions can be found in the [[a\n                        href=\"https://cindyjs.org/gallery/cindygl/\"]]CindyGL-Gallery[[/a]].",
+      "raw_len": 251,
+      "placeholder": "@@text:6:c769f7@@",
+      "byte_start": 7247,
+      "byte_end": 7498
+    },
+    {
+      "id": "block_18",
+      "tag": "li",
+      "text": "I designed all the GeoGebra applets. They can be downloaded from this [[a\n                        href=\"https://www.geogebra.org/m/m8qcakxd\" target=\"_blank\"]]GeoGebra book[[/a]].",
+      "raw_len": 174,
+      "placeholder": "@@text:5:36d3dd@@",
+      "byte_start": 7524,
+      "byte_end": 7698
+    },
+    {
+      "id": "block_19",
+      "tag": "li",
+      "text": "I also designed all the p5.js applets and the source code can be found at [[a\n                        href=\"https://github.com/complex-analysis/complex-analysis.github.io/tree/master/applets/p5js\"\n                        target=\"_blank\"]]GitHub[[/a]].",
+      "raw_len": 247,
+      "placeholder": "@@text:4:2059cf@@",
+      "byte_start": 7724,
+      "byte_end": 7971
+    },
+    {
+      "id": "block_20",
+      "tag": "p",
+      "text": "Reader's comments [[i class=\"fa-solid fa-angles-right\"]][[/i]]",
+      "raw_len": 58,
+      "placeholder": "@@text:3:e7b263@@",
+      "byte_start": 8134,
+      "byte_end": 8192
+    }
+  ],
+  "reassembly_template": "<section data-type=\"chapter\" id=\"thanks\">\n\n    @@verbatim:0:743535@@\n\n    <br /><br />\n\n    <main>\n        <article>\n\n            <span class=\"hide-small\">\n                <h1>@@text:23:f8e23a@@</h1>\n            </span>\n\n            <span class=\"hide-large hide-medium\">\n                <p  style=\"font-size: 1.7em;text-align: center;\">@@text:22:822279@@</p>\n            </span>\n\n            <hr>\n\n            <p>@@text:21:1f60b3@@</p>\n\n            <p>@@text:20:83aad3@@</p>\n\n            <div class=\"practice\">\n                <p>@@text:19:cf1193@@</p>\n\n                <p>@@text:18:d970a8@@</p>\n\n                <p>@@text:17:ed8ed2@@</p>\n\n            </div>\n\n            <p>@@text:16:f128b8@@</p>\n\n            <ul>\n                <li>@@text:15:08047b@@</li>\n                <li>@@text:14:9f0754@@</li>\n                <li>@@text:13:72f03a@@</li>\n                <li>@@text:12:b3bf58@@</li>\n                <li>@@text:11:09be89@@</li>\n                <li>@@text:10:8a67dc@@</li>\n                <li>@@text:9:70022b@@</li>\n                <li>@@text:8:e714a5@@</li>\n            </ul>\n\n\n            <p>@@text:7:b2e3f8@@</p>\n\n            <ul>\n                <li>@@text:6:c769f7@@</li>\n                <li>@@text:5:36d3dd@@</li>\n                <li>@@text:4:2059cf@@</li>\n            </ul>\n\n            <br>\n\n        </article>\n    </main>\n\n    <a href=\"comments.html\" style=\"text-decoration: none;\">\n        <p class=\"nextPage\">@@text:3:e7b263@@</p>\n    </a>\n    @@verbatim:2:0638bf@@\n\n</section>",
+  "_protected_html": "<section data-type=\"chapter\" id=\"thanks\">\n\n    @@verbatim:0:743535@@\n\n    <br /><br />\n\n    <main>\n        <article>\n\n            <span class=\"hide-small\">\n                <h1>Acknowledgements</h1>\n            </span>\n\n            <span class=\"hide-large hide-medium\">\n                <p  style=\"font-size: 1.7em;text-align: center;\"><strong>Acknowledgements</strong></p>\n            </span>\n\n            <hr>\n\n            <p>Since 2015 I tried many times to integrate my complex analysis notes with\n                applets that I have designed or adapted from other people. Finally, in 2019,\n                I was able to accomplish this task thanks to the development of mathematical,\n                open-source, software capable to run online in (almost) any browser. This book\n                would not have been possible without a ton of people sharing their great work.\n                As much as possible, I've tried to keep track of all the online resources,\n                books and articles that I have used.</p>\n\n            <p>A big <strong>thank you</strong> to all the people who support, or have supported, this project:</p>\n\n            <div class=\"practice\">\n                <p><strong>Patreon:</strong> \n                    Edward Huff,\n                    Abei,\n                    pmbem,\n                    <a href=\"https://twitter.com/fractalkitty\" target=\"_blank\">Sophia Wood</a>,\n                    Adam Parrott,\n                    Doug Kuhlman,\n                    bleh,\n                    Miguel Díaz,\n                    Ruan Ramon,\n                    Maciej Lasota,\n                    Christopher-Alexander Hermanns,\n                    Aarón Reyes,\n                    Jerome Siegler,\n                    Yashar Shoraka,\n                    Shaun MacMillan, \n                    Scott Pedersen, \n                    Ihsan Karabulut,\n                    Elias Sanchez Angarano,\n                    Sarah Gelsinger Brewer,\n                    F. Lengyel,\n                    Thomas Smith.\n                </p>\n\n                <p><strong>GitHub Sponsors:</strong>\n                   erob409\n                </p>\n\n                <p>Kelly E. Matthews,\n                    Alex Iktan,\n                    Codi Quetzal,\n                    Feya,\n                    <a href=\"https://twitter.com/nicoguaro\" target=\"_blank\">Nicolás Guarín-Zapata</a>,\n                    Carla Luciane Klôa Schöninger,\n                    Ken Thele,\n                    <a href=\"https://twitter.com/mike_mates\" target=\"_blank\">Mates Mike</a>,\n                    Christopher Lee,\n                    <a href=\"https://twitter.com/Alvy\" target=\"_blank\">Alvy</a>,\n                    Jason Cunliffe,\n                    Julian Miranda,\n                    Leticia Hernández López,\n                    SureshKumar M S,\n                    <a href=\"https://github.com/rchappa\" target=\"_blank\">Rodrigo Chappa</a>,\n                    Fahim Ahmed,\n                    <a href=\"https://github.com/sprowell\" target=\"_blank\">Stacey Prowell</a>,\n                    Eric Peper,\n                    Paul St. Jean,\n                    <a href=\"https://twitter.com/a_busch\" target=\"_blank\">Antoine Büsch</a>,\n                    Rose-Maree Locsei,\n                    Michael Rivera,\n                    Mengxuan Qiu,\n                    Olympia Ellinas,\n                    Simon,\n                    Zoltán Köllő,\n                    Jason Sabloff,\n                    José Ramón Montejo Garai,\n                    Philip Benjamin,\n                    Anton Pirogov,\n                    Luciano Merenda,\n                    Wilson Sawyer,\n                    Emiliano Espinosa,\n                    <a href=\"https://github.com/eamonsuo\" target=\"_blank\">eamounsou</a>,\n                    Cameron Fredrickson,\n                    Heather Moore,\n                    <a href=\"https://twitter.com/ArsoCivil\" target=\"_blank\">David Arso Civil</a>,\n                    Juan Martinez\n                    Juan Lopez.\n                </p>\n\n            </div>\n\n            <p>Many thanks also to:</p>\n\n            <ul>\n                <li><a href=\"http://www.jeffreythompson.org/\" target=\"_blank\">Jeffrey Thompson</a>.\n                    The initial design of this site was inspired by his book <a\n                        href=\"http://www.jeffreythompson.org/collision-detection/index.php\" target=\"_blank\">Collision\n                        Detection</a>. If you want to learn about the\n                    algorithms behind collisions using basic geometrical shapes, you should check it!</li>\n                <li><a href=\"https://geo.ma.tum.de/en/people/aaron-montag.html\" target=\"_blank\">Aaron Montag</a>, <a\n                        href=\"http://martin.von-gagern.net/\" target=\"_blank\">Martin von Gagern</a>, <a\n                        href=\"https://github.com/kranich\" target=\"_blank\">Stefan Kranich</a> and <a\n                        href=\"https://github.com/strobelm\" target=\"_blank\">Michael Strobel</a>\n                    @@verbatim:1:0c74f9@@ creators, developers and\n                    contributors of the <a href=\"https://cindyjs.org/\" target=\"_blank\">CindyJS</a> project. Thanks for\n                    allowing me to adapt your great applets.\n                </li>\n                <li><a href=\"http://www.science-to-touch.com/en/about.html\" target=\"_blank\">Jürgen Richter-Gebert</a>,\n                    one of the authors of the interactive mathematics software <a\n                        href=\"https://www.cinderella.de/tiki-index.php\" target=\"_blank\">Cinderella</a>, who now works on\n                    the <a href=\"https://cindyjs.org/\" target=\"_blank\">CindyJS</a> project.</li>\n                <li>The <a href=\"https://www.geogebra.org/\" target=\"_blank\">GeoGebra</a> developers and community who\n                    share their wonderful constructions and applets.</li>\n                <li><a href=\"https://shiffman.net/\" target=\"_blank\">Daniel Shiffman</a>, an amazing teacher who shares\n                    his knowledge with the world. I have learned all the basics about programming from his <a\n                        href=\"https://shiffman.net/books/\">books</a> and video tutorials <a\n                        href=\"https://thecodingtrain.com/\">The Coding Train</a>.</li>\n                <li><a href=\"http://lauren-mccarthy.com/about\" target=\"_blank\">Lauren McCarthy</a>, the creator of <a\n                        href=\"https://p5js.org/\" target=\"_blank\">p5.js</a>, and to the great community of creative\n                    people who use this programming language.</li>\n                <li><a href=\"https://paulmasson.github.io/\" target=\"_blank\">Paul Masson</a>, the creator of <a\n                        href=\"http://mathcell.org/\" target=\"_blank\">MathCell</a>. This is JavaScript library for\n                    including interactive mathematics in a web browser.</li>\n                <li>The equations in the book are displayed thanks to <a href=\"https://www.mathjax.org/\">MathJax</a>.\n                    However, in some applets <a href=\"https://katex.org/\" target=\"_blank\">KaTeX</a> is used instead.\n                </li>\n            </ul>\n\n\n            <p>Finally, about the applets:</p>\n\n            <ul>\n                <li>The applets \"Analytic Landscapes\" and \"Taylor Series\" were adapted for the purposes of this book.\n                    The original versions can be found in the <a\n                        href=\"https://cindyjs.org/gallery/cindygl/\">CindyGL-Gallery</a>.</li>\n                <li>I designed all the GeoGebra applets. They can be downloaded from this <a\n                        href=\"https://www.geogebra.org/m/m8qcakxd\" target=\"_blank\">GeoGebra book</a>.</li>\n                <li>I also designed all the p5.js applets and the source code can be found at <a\n                        href=\"https://github.com/complex-analysis/complex-analysis.github.io/tree/master/applets/p5js\"\n                        target=\"_blank\">GitHub</a>.</li>\n            </ul>\n\n            <br>\n\n        </article>\n    </main>\n\n    <a href=\"comments.html\" style=\"text-decoration: none;\">\n        <p class=\"nextPage\">Reader's comments <i class=\"fa-solid fa-angles-right\"></i></p>\n    </a>\n    @@verbatim:2:0638bf@@\n\n</section>"
+}

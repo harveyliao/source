@@ -1,0 +1,313 @@
+{
+  "file": "domain_coloring.html",
+  "original_length": 10921,
+  "num_text_blocks": 30,
+  "num_verbatim": 5,
+  "verbatim_map": {
+    "@@verbatim:0:c8d44a@@": "<!-- Starts main content -->",
+    "@@verbatim:1:fe4004@@": "<!-- Add more sections as needed -->",
+    "@@verbatim:2:35f2a5@@": "<!-- Ends main content -->",
+    "@@verbatim:3:464c58@@": "<iframe name=\"Domain Coloring\" src=\"../applets/p5js/domain-coloring/iframe/\"\n                            style=\"border:1px solid black;width:800px;height:500px;\" scrolling=\"no\"></iframe>",
+    "@@verbatim:4:b38b98@@": "<iframe name=\"Same phase\" src=\"../applets/p5js/samephase/index.html\" width=\"800px\" height=\"400px\"\n                        style=\"border:none;\" style=\"overflow:hidden;\"></iframe>",
+    "@@math:5:2d6778@@": "\\begin{eqnarray}\\label{eq1}\n                    f(z)=\\frac{z-1}{z^2+z+1}\n                    \\end{eqnarray}",
+    "@@math:6:787dc7@@": "\\begin{eqnarray}\\label{example}\n                    f(z)=\\frac{z-1}{z^2+z+1}, \\qquad g(z)=(z-1)\\left(\\overline{z}^2+\\overline{z}+1\\right)\n                    \\end{eqnarray}",
+    "@@math:7:9f20d4@@": "$$f(z)=z \\quad \\text{and}\\quad g(z)=1/z,$$",
+    "@@math:8:949589@@": "$$z_{1}=\\frac{-1 + \\sqrt{3}\\,i}{2} \\quad \\text{and} \\quad z_{2}=\\frac{-1 - \\sqrt{3}\\,i}{2}.$$",
+    "@@math:9:3d7d74@@": "$f:\\mathbb{C}\\to\\mathbb{C}$",
+    "@@math:10:d4211b@@": "$f(z)=z.$",
+    "@@math:11:87b29d@@": "$f(z)=z.$",
+    "@@math:12:723253@@": "$f(z)=z.$",
+    "@@math:13:f9dee1@@": "$f$",
+    "@@math:14:139159@@": "$z_0,$",
+    "@@math:15:c7486a@@": "$f(z_0)=0.$",
+    "@@math:16:c80756@@": "$z_0$",
+    "@@math:17:3e9323@@": "$f(z_0)$",
+    "@@math:18:08d6f3@@": "$f(z)$",
+    "@@math:19:97c9d2@@": "$z=0.$",
+    "@@math:20:fba8ef@@": "$z=0.$",
+    "@@math:21:519c61@@": "$z_0=1$",
+    "@@math:22:761a40@@": "$f(z)=(z-1)/(z^2+z+1)$",
+    "@@math:23:27e5be@@": "$f$",
+    "@@math:24:22f478@@": "$g$",
+    "@@math:25:be69d6@@": "$f$",
+    "@@math:26:ab9e51@@": "$g$",
+    "@@math:27:94814d@@": "$f$",
+    "@@math:28:1acad4@@": "$g$",
+    "@@math:29:55d382@@": "$g$",
+    "@@math:30:2ce712@@": "$\\pi/2$"
+  },
+  "text_blocks": [
+    {
+      "id": "block_0",
+      "tag": "p",
+      "text": "[[i class=\"fa-solid fa-list\"]][[/i]]Contents",
+      "raw_len": 40,
+      "placeholder": "@@text:60:a10dc2@@",
+      "byte_start": 198,
+      "byte_end": 238
+    },
+    {
+      "id": "block_1",
+      "tag": "li",
+      "text": "[[a href=\"#section1\"]]Complex phase portraits[[/a]]",
+      "raw_len": 47,
+      "placeholder": "@@text:59:1c1787@@",
+      "byte_start": 272,
+      "byte_end": 319
+    },
+    {
+      "id": "block_2",
+      "tag": "li",
+      "text": "[[a href=\"#section2\"]]Explore complex functions[[/a]]",
+      "raw_len": 49,
+      "placeholder": "@@text:58:f096dc@@",
+      "byte_start": 341,
+      "byte_end": 390
+    },
+    {
+      "id": "block_3",
+      "tag": "li",
+      "text": "[[a href=\"#section3\"]]Warning![[/a]]",
+      "raw_len": 32,
+      "placeholder": "@@text:57:4887db@@",
+      "byte_start": 412,
+      "byte_end": 444
+    },
+    {
+      "id": "block_4",
+      "tag": "li",
+      "text": "[[a href=\"#section4\"]]Gallery of functions[[/a]]",
+      "raw_len": 44,
+      "placeholder": "@@text:56:0fa24d@@",
+      "byte_start": 466,
+      "byte_end": 510
+    },
+    {
+      "id": "block_5",
+      "tag": "h1",
+      "text": "Domain coloring",
+      "raw_len": 15,
+      "placeholder": "@@text:55:3c7cc0@@",
+      "byte_start": 636,
+      "byte_end": 651
+    },
+    {
+      "id": "block_6",
+      "tag": "h2",
+      "text": "Complex phase portraits",
+      "raw_len": 23,
+      "placeholder": "@@text:54:58650f@@",
+      "byte_start": 729,
+      "byte_end": 752
+    },
+    {
+      "id": "block_7",
+      "tag": "p",
+      "text": "A way to visualize complex functions @@math:9:3d7d74@@ is\n                    using phase-portraits. A complex number\n                    can be assigned a color according to its argument/phase. Positive numbers are colored red; negative\n                    numbers\n                    are colored in cyan and numbers with a non-zero imaginary part are colored as in Figure 1, which\n                    shows a\n                    phase portrait for the function @@math:10:d4211b@@",
+      "raw_len": 481,
+      "placeholder": "@@text:53:12fa42@@",
+      "byte_start": 807,
+      "byte_end": 1288
+    },
+    {
+      "id": "block_8",
+      "tag": "figcaption",
+      "text": "\n                        Phase portrait of @@math:11:87b29d@@\n                    ",
+      "raw_len": 82,
+      "placeholder": "@@text:52:904205@@",
+      "byte_start": 1534,
+      "byte_end": 1616
+    },
+    {
+      "id": "block_9",
+      "tag": "p",
+      "text": "In his book [[a href=\"http://www.springer.com/de/book/9783034801799\" target=\"_blank\"]] [[em]]Visual Complex\n                            Functions[[/em]][[/a]],\n                    Elias Wegert employs phase portraits with contour lines of phase and modulus ([[em]]enhanced phase\n                        portraits[[/em]]) for the study of the theory of complex functions. See for example Figures 2 and\n                    3 for\n                    the function @@math:12:723253@@",
+      "raw_len": 466,
+      "placeholder": "@@text:51:a8a229@@",
+      "byte_start": 1676,
+      "byte_end": 2142
+    },
+    {
+      "id": "block_10",
+      "tag": "figcaption",
+      "text": "\n                                Contour lines of phase.\n                            ",
+      "raw_len": 85,
+      "placeholder": "@@text:50:f450bc@@",
+      "byte_start": 2483,
+      "byte_end": 2568
+    },
+    {
+      "id": "block_11",
+      "tag": "figcaption",
+      "text": "\n                                Contour lines of modulus.\n                            ",
+      "raw_len": 87,
+      "placeholder": "@@text:49:8d838e@@",
+      "byte_start": 2935,
+      "byte_end": 3022
+    },
+    {
+      "id": "block_12",
+      "tag": "p",
+      "text": "\n                    We say that a complex function @@math:13:f9dee1@@ has a root (or a zero) at\n                    @@math:14:139159@@ if @@math:15:c7486a@@ We say that @@math:16:c80756@@ is a pole when\n                    @@math:17:3e9323@@ is undefined.\n                    With the use of enhanced phase portraits, roots and poles of\n                    a complex function @@math:18:08d6f3@@ can be easily spotted\n                    at the points where all colors meet. Figures [[a href=\"#F4\"]]4[[/a]]\n                    and [[a href=\"#F5\"]]5[[/a]] show the enhanced\n                    phase portrait of the functions @@math:7:9f20d4@@\n                    respectively. Observe the\n                    contrast between the level curves of modulus in each case.",
+      "raw_len": 759,
+      "placeholder": "@@text:48:b4dbf8@@",
+      "byte_start": 3141,
+      "byte_end": 3900
+    },
+    {
+      "id": "block_13",
+      "tag": "figcaption",
+      "text": "\n                                Root at @@math:19:97c9d2@@\n                            ",
+      "raw_len": 88,
+      "placeholder": "@@text:47:12f457@@",
+      "byte_start": 4279,
+      "byte_end": 4367
+    },
+    {
+      "id": "block_14",
+      "tag": "figcaption",
+      "text": "\n                                Pole at @@math:20:fba8ef@@\n                            ",
+      "raw_len": 88,
+      "placeholder": "@@text:46:4edc4f@@",
+      "byte_start": 4772,
+      "byte_end": 4860
+    },
+    {
+      "id": "block_15",
+      "tag": "p",
+      "text": "Consider now the function\n                    @@math:5:2d6778@@\n                    which has a root at @@math:21:519c61@@ and two poles at\n                    @@math:8:949589@@\n                ",
+      "raw_len": 194,
+      "placeholder": "@@text:45:cba143@@",
+      "byte_start": 4980,
+      "byte_end": 5174
+    },
+    {
+      "id": "block_16",
+      "tag": "p",
+      "text": "Figure 6 shows the enhanced portrait of (\\ref{eq1}) with level curves of the modulus. Notice the\n                    behaviour of\n                    the level curves of the modulus around the root (right side) and the poles (left side). Can you see\n                    the\n                    difference?",
+      "raw_len": 305,
+      "placeholder": "@@text:44:e768c9@@",
+      "byte_start": 5199,
+      "byte_end": 5504
+    },
+    {
+      "id": "block_17",
+      "tag": "figcaption",
+      "text": "\n                        Plot of @@math:22:761a40@@ with level curves of the modulus.\n                    ",
+      "raw_len": 106,
+      "placeholder": "@@text:43:cd0a69@@",
+      "byte_start": 5667,
+      "byte_end": 5773
+    },
+    {
+      "id": "block_18",
+      "tag": "h2",
+      "text": "Explore complex functions",
+      "raw_len": 25,
+      "placeholder": "@@text:42:4d8598@@",
+      "byte_start": 5918,
+      "byte_end": 5943
+    },
+    {
+      "id": "block_19",
+      "tag": "p",
+      "text": "Use the applet below to explore enhanced phase portraits of complex functions.",
+      "raw_len": 78,
+      "placeholder": "@@text:41:792d17@@",
+      "byte_start": 5969,
+      "byte_end": 6047
+    },
+    {
+      "id": "block_20",
+      "tag": "h2",
+      "text": "Warning!",
+      "raw_len": 8,
+      "placeholder": "@@text:40:52362d@@",
+      "byte_start": 6900,
+      "byte_end": 6908
+    },
+    {
+      "id": "block_21",
+      "tag": "p",
+      "text": "If we do not impose additional restrictions,\n                    like continuity or differentiability, the isochromatic sets of complex functions can\n                    be arbitrary - but this is not so for [[em]]analytic[[/em]] functions, which are the objects\n                    of prime interest in this text.",
+      "raw_len": 310,
+      "placeholder": "@@text:39:55b96c@@",
+      "byte_start": 6934,
+      "byte_end": 7244
+    },
+    {
+      "id": "block_22",
+      "tag": "p",
+      "text": "In fact, analytic functions are (almost) uniquely\n                    determined by their (pure) phase portraits, but this is\n                    not so for general functions. For example, the functions @@math:23:27e5be@@ (analytic) and @@math:24:22f478@@ (not\n                    analytic) defined by\n                <div class=\"scroll-wrapper\">\n                    @@math:6:787dc7@@\n                </div>\n                have the same phase (except at their zeros and poles) though they are completely\n                different.\n                ",
+      "raw_len": 548,
+      "placeholder": "@@text:38:a334f2@@",
+      "byte_start": 7270,
+      "byte_end": 7818
+    },
+    {
+      "id": "block_23",
+      "tag": "p",
+      "text": "Since pure phase portraits do not always display enough information for exploring general complex\n                    functions,\n                    I recommend the use of their enhanced versions with contour lines of modulus and phase in such\n                    cases. Figure\n                    7 shows two such portraits of the functions @@math:25:be69d6@@ (left) and @@math:26:ab9e51@@ (right) defined in (\\ref{example}).\n                ",
+      "raw_len": 443,
+      "placeholder": "@@text:37:aa7aba@@",
+      "byte_start": 7844,
+      "byte_end": 8287
+    },
+    {
+      "id": "block_24",
+      "tag": "figcaption",
+      "text": "\n                        Enhanced phase portraits of @@math:27:94814d@@ (left) and @@math:28:1acad4@@ (right). Drag slider.\n                    ",
+      "raw_len": 144,
+      "placeholder": "@@text:36:f617ba@@",
+      "byte_start": 8469,
+      "byte_end": 8613
+    },
+    {
+      "id": "block_25",
+      "tag": "p",
+      "text": "A notable distinction between the two portraits is the shape of the tiles. In the left picture most\n                    of them\n                    are almost squares and have right-angled corners. In contrast, many tiles in the portrait of @@math:29:55d382@@ are\n                    prolate\n                    and their angles differ significantly from @@math:30:2ce712@@ - at some points the contour lines of modulus and\n                    phase\n                    are even mutually tangent.",
+      "raw_len": 496,
+      "placeholder": "@@text:35:ab7ff9@@",
+      "byte_start": 8813,
+      "byte_end": 9309
+    },
+    {
+      "id": "block_26",
+      "tag": "h2",
+      "text": "Gallery of functions",
+      "raw_len": 20,
+      "placeholder": "@@text:34:87f1db@@",
+      "byte_start": 9406,
+      "byte_end": 9426
+    },
+    {
+      "id": "block_27",
+      "tag": "p",
+      "text": "\n                    If you want to explore more complex functions using\n                    domain coloring, then visit the site\n                    [[a href=\"https://www.dynamicmath.xyz/domain-coloring/\" target=\"_blank\"]]Domain coloring\n                        [[i class=\"fas fa-external-link-alt\"]][[/i]][[/a]],\n                    where you can also find interactive tools to\n                    explore a great variety of complex functions.\n                ",
+      "raw_len": 454,
+      "placeholder": "@@text:33:f512d9@@",
+      "byte_start": 9452,
+      "byte_end": 9906
+    },
+    {
+      "id": "block_28",
+      "tag": "figcaption",
+      "text": "\n                        Gallery of functions.\n                    ",
+      "raw_len": 67,
+      "placeholder": "@@text:32:183aa8@@",
+      "byte_start": 10063,
+      "byte_end": 10130
+    },
+    {
+      "id": "block_29",
+      "tag": "p",
+      "text": "The Complex Power Function [[i class=\"fa-solid fa-angles-right\"]][[/i]]",
+      "raw_len": 67,
+      "placeholder": "@@text:31:ae8ce2@@",
+      "byte_start": 10342,
+      "byte_end": 10409
+    }
+  ],
+  "reassembly_template": "<section data-type=\"chapter\" id=\"domain-coloring\">\n\n    @@verbatim:0:c8d44a@@\n\n    <div w3-include-html=\"small_screen_message.html\"></div>\n\n    <div class=\"toc-chapter\" id=\"toc-chapter\">\n        <p>@@text:60:a10dc2@@</p>\n        <ul>\n            <li>@@text:59:1c1787@@</li>\n            <li>@@text:58:f096dc@@</li>\n            <li>@@text:57:4887db@@</li>\n            <li>@@text:56:0fa24d@@</li>\n            @@verbatim:1:fe4004@@\n        </ul>\n    </div>\n\n    <br><br>\n\n    <main>\n        <article>\n\n            <h1>@@text:55:3c7cc0@@</h1>\n\n            <hr>\n\n            <div id=\"section1\">\n\n                <h2>@@text:54:58650f@@</h2>\n                <p id=\"enhanced-phase-portraits\">@@text:53:12fa42@@</p>\n\n                <figure>\n                    <img src=\"../images/chp03/phaseportrait.png\" alt=\"phase portrait for z\"\n                        title=\"phase portrait for the function f(z)=z\" style=\"width:50%;\">\n                    <figcaption>@@text:52:904205@@</figcaption>\n                </figure>\n\n                <p>@@text:51:a8a229@@</p>\n\n\n\n                <div class=\"figure-container\">\n                    <div id=\"phase\">\n                        <figure>\n                            <img src=\"../images/chp03/phase.png\" alt=\"phase portrait for z\"\n                                title=\"Contour lines of phase\" style=\"width:100%;\">\n                            <figcaption>@@text:50:f450bc@@</figcaption>\n                        </figure>\n                    </div>\n                    <div id=\"modulus\">\n                        <figure>\n                            <img src=\"../images/chp03/modulus.png\" alt=\"phase portrait for z\"\n                                title=\"Contour lines of modulus\" style=\"width:100%;\">\n                            <figcaption>@@text:49:8d838e@@</figcaption>\n                        </figure>\n                    </div>\n\n                </div>\n\n                <p>@@text:48:b4dbf8@@</p>\n\n                <div class=\"figure-container\">\n                    <div id=\"enhanced\">\n                        <figure id=\"F4\">\n                            <img src=\"../images/chp03/enhancedz.png\" alt=\"phase portrait for z\"\n                                title=\"Enhanced phase portrait for the function f(z)=z\" style=\"width:100%;\">\n                            <figcaption>@@text:47:12f457@@</figcaption>\n                        </figure>\n                    </div>\n                    <div id=\"enhanced2\">\n                        <figure id=\"F5\">\n                            <img src=\"../images/chp03/enhanced1z.png\" alt=\"phase portrait for z\"\n                                title=\"Enhanced phase portrait for the function g(z)=1/z\" style=\"width:100%;\">\n                            <figcaption>@@text:46:4edc4f@@</figcaption>\n                        </figure>\n                    </div>\n\n                </div>\n\n\n                <p>@@text:45:cba143@@</p>\n\n                <p>@@text:44:e768c9@@</p>\n\n\n                <figure>\n                    <img src=\"../images/chp03/plotfz.jpg\" alt=\"(z-1)(z^2+z+1)\" style=\"width:55%;\">\n                    <figcaption>@@text:43:cd0a69@@</figcaption>\n                </figure>\n\n            </div>\n\n            <hr>\n\n            <div id=\"section2\">\n\n                <h2 id=\"plotter\">@@text:42:4d8598@@</h2>\n\n                <p>@@text:41:792d17@@</p>\n\n\n                <br />\n\n\n\n                <div class=\"hide-small hide-medium\">\n                    <div id=\"iframeContainer1\" class=\"iframeContainer\">\n                        @@verbatim:3:464c58@@\n\n                    </div>\n                    <div style=\"text-align: center;\">\n                        <button>\n                            <a href=\"../applets/p5js/domain-coloring/\" target=\"_blank\"\n                                style=\"color: black;font-weight: bold;outline: none;text-decoration: none; \">Fullscreen\n                            </a></button>\n\n                    </div>\n                </div>\n\n                <div class=\"hide-large\">\n                    <div w3-include-html=\"fixed_applets_message.html\"></div>\n                </div>\n\n            </div>\n\n            <hr>\n\n            <div id=\"section3\">\n\n                <h2>@@text:40:52362d@@</h2>\n\n                <p>@@text:39:55b96c@@</p>\n\n\n                <p>@@text:38:a334f2@@</p>\n\n\n                <p>@@text:37:aa7aba@@</p>\n\n                <br />\n\n                <div class=\"hide-small hide-medium\">\n                    @@verbatim:4:b38b98@@\n                    <br>\n                    <figcaption>@@text:36:f617ba@@</figcaption>\n\n                </div>\n\n                <div class=\"hide-large\">\n                    <div w3-include-html=\"fixed_applets_message.html\"></div>\n                </div>\n\n                <p>@@text:35:ab7ff9@@</p>\n\n            </div>\n\n            <hr>\n\n            <div id=\"section4\">\n\n                <h2>@@text:34:87f1db@@</h2>\n\n                <p>@@text:33:f512d9@@</p>\n\n                <figure>\n                    <img src=\"../images/chp03/gallery.jpg\" alt=\"Gallery\" style=\"width:100%;\">\n                    <figcaption>@@text:32:183aa8@@</figcaption>\n                </figure>\n\n                <br />\n\n            </div>\n\n\n        </article>\n    </main>\n\n    <a href=\"power_function.html\" style=\"text-decoration: none;\">\n        <p class=\"nextPage\">@@text:31:ae8ce2@@</p>\n    </a>\n    @@verbatim:2:35f2a5@@\n\n</section>",
+  "_protected_html": "<section data-type=\"chapter\" id=\"domain-coloring\">\n\n    @@verbatim:0:c8d44a@@\n\n    <div w3-include-html=\"small_screen_message.html\"></div>\n\n    <div class=\"toc-chapter\" id=\"toc-chapter\">\n        <p><i class=\"fa-solid fa-list\"></i>Contents</p>\n        <ul>\n            <li><a href=\"#section1\">Complex phase portraits</a></li>\n            <li><a href=\"#section2\">Explore complex functions</a></li>\n            <li><a href=\"#section3\">Warning!</a></li>\n            <li><a href=\"#section4\">Gallery of functions</a></li>\n            @@verbatim:1:fe4004@@\n        </ul>\n    </div>\n\n    <br><br>\n\n    <main>\n        <article>\n\n            <h1>Domain coloring</h1>\n\n            <hr>\n\n            <div id=\"section1\">\n\n                <h2>Complex phase portraits</h2>\n                <p id=\"enhanced-phase-portraits\">A way to visualize complex functions @@math:9:3d7d74@@ is\n                    using phase-portraits. A complex number\n                    can be assigned a color according to its argument/phase. Positive numbers are colored red; negative\n                    numbers\n                    are colored in cyan and numbers with a non-zero imaginary part are colored as in Figure 1, which\n                    shows a\n                    phase portrait for the function @@math:10:d4211b@@</p>\n\n                <figure>\n                    <img src=\"../images/chp03/phaseportrait.png\" alt=\"phase portrait for z\"\n                        title=\"phase portrait for the function f(z)=z\" style=\"width:50%;\">\n                    <figcaption>\n                        Phase portrait of @@math:11:87b29d@@\n                    </figcaption>\n                </figure>\n\n                <p>In his book <a href=\"http://www.springer.com/de/book/9783034801799\" target=\"_blank\"> <em>Visual Complex\n                            Functions</em></a>,\n                    Elias Wegert employs phase portraits with contour lines of phase and modulus (<em>enhanced phase\n                        portraits</em>) for the study of the theory of complex functions. See for example Figures 2 and\n                    3 for\n                    the function @@math:12:723253@@</p>\n\n\n\n                <div class=\"figure-container\">\n                    <div id=\"phase\">\n                        <figure>\n                            <img src=\"../images/chp03/phase.png\" alt=\"phase portrait for z\"\n                                title=\"Contour lines of phase\" style=\"width:100%;\">\n                            <figcaption>\n                                Contour lines of phase.\n                            </figcaption>\n                        </figure>\n                    </div>\n                    <div id=\"modulus\">\n                        <figure>\n                            <img src=\"../images/chp03/modulus.png\" alt=\"phase portrait for z\"\n                                title=\"Contour lines of modulus\" style=\"width:100%;\">\n                            <figcaption>\n                                Contour lines of modulus.\n                            </figcaption>\n                        </figure>\n                    </div>\n\n                </div>\n\n                <p>\n                    We say that a complex function @@math:13:f9dee1@@ has a root (or a zero) at\n                    @@math:14:139159@@ if @@math:15:c7486a@@ We say that @@math:16:c80756@@ is a pole when\n                    @@math:17:3e9323@@ is undefined.\n                    With the use of enhanced phase portraits, roots and poles of\n                    a complex function @@math:18:08d6f3@@ can be easily spotted\n                    at the points where all colors meet. Figures <a href=\"#F4\">4</a>\n                    and <a href=\"#F5\">5</a> show the enhanced\n                    phase portrait of the functions @@math:7:9f20d4@@\n                    respectively. Observe the\n                    contrast between the level curves of modulus in each case.</p>\n\n                <div class=\"figure-container\">\n                    <div id=\"enhanced\">\n                        <figure id=\"F4\">\n                            <img src=\"../images/chp03/enhancedz.png\" alt=\"phase portrait for z\"\n                                title=\"Enhanced phase portrait for the function f(z)=z\" style=\"width:100%;\">\n                            <figcaption>\n                                Root at @@math:19:97c9d2@@\n                            </figcaption>\n                        </figure>\n                    </div>\n                    <div id=\"enhanced2\">\n                        <figure id=\"F5\">\n                            <img src=\"../images/chp03/enhanced1z.png\" alt=\"phase portrait for z\"\n                                title=\"Enhanced phase portrait for the function g(z)=1/z\" style=\"width:100%;\">\n                            <figcaption>\n                                Pole at @@math:20:fba8ef@@\n                            </figcaption>\n                        </figure>\n                    </div>\n\n                </div>\n\n\n                <p>Consider now the function\n                    @@math:5:2d6778@@\n                    which has a root at @@math:21:519c61@@ and two poles at\n                    @@math:8:949589@@\n                </p>\n\n                <p>Figure 6 shows the enhanced portrait of (\\ref{eq1}) with level curves of the modulus. Notice the\n                    behaviour of\n                    the level curves of the modulus around the root (right side) and the poles (left side). Can you see\n                    the\n                    difference?</p>\n\n\n                <figure>\n                    <img src=\"../images/chp03/plotfz.jpg\" alt=\"(z-1)(z^2+z+1)\" style=\"width:55%;\">\n                    <figcaption>\n                        Plot of @@math:22:761a40@@ with level curves of the modulus.\n                    </figcaption>\n                </figure>\n\n            </div>\n\n            <hr>\n\n            <div id=\"section2\">\n\n                <h2 id=\"plotter\">Explore complex functions</h2>\n\n                <p>Use the applet below to explore enhanced phase portraits of complex functions.</p>\n\n\n                <br />\n\n\n\n                <div class=\"hide-small hide-medium\">\n                    <div id=\"iframeContainer1\" class=\"iframeContainer\">\n                        @@verbatim:3:464c58@@\n\n                    </div>\n                    <div style=\"text-align: center;\">\n                        <button>\n                            <a href=\"../applets/p5js/domain-coloring/\" target=\"_blank\"\n                                style=\"color: black;font-weight: bold;outline: none;text-decoration: none; \">Fullscreen\n                            </a></button>\n\n                    </div>\n                </div>\n\n                <div class=\"hide-large\">\n                    <div w3-include-html=\"fixed_applets_message.html\"></div>\n                </div>\n\n            </div>\n\n            <hr>\n\n            <div id=\"section3\">\n\n                <h2>Warning!</h2>\n\n                <p>If we do not impose additional restrictions,\n                    like continuity or differentiability, the isochromatic sets of complex functions can\n                    be arbitrary - but this is not so for <em>analytic</em> functions, which are the objects\n                    of prime interest in this text.</p>\n\n\n                <p>In fact, analytic functions are (almost) uniquely\n                    determined by their (pure) phase portraits, but this is\n                    not so for general functions. For example, the functions @@math:23:27e5be@@ (analytic) and @@math:24:22f478@@ (not\n                    analytic) defined by\n                <div class=\"scroll-wrapper\">\n                    @@math:6:787dc7@@\n                </div>\n                have the same phase (except at their zeros and poles) though they are completely\n                different.\n                </p>\n\n\n                <p>Since pure phase portraits do not always display enough information for exploring general complex\n                    functions,\n                    I recommend the use of their enhanced versions with contour lines of modulus and phase in such\n                    cases. Figure\n                    7 shows two such portraits of the functions @@math:25:be69d6@@ (left) and @@math:26:ab9e51@@ (right) defined in (\\ref{example}).\n                </p>\n\n                <br />\n\n                <div class=\"hide-small hide-medium\">\n                    @@verbatim:4:b38b98@@\n                    <br>\n                    <figcaption>\n                        Enhanced phase portraits of @@math:27:94814d@@ (left) and @@math:28:1acad4@@ (right). Drag slider.\n                    </figcaption>\n\n                </div>\n\n                <div class=\"hide-large\">\n                    <div w3-include-html=\"fixed_applets_message.html\"></div>\n                </div>\n\n                <p>A notable distinction between the two portraits is the shape of the tiles. In the left picture most\n                    of them\n                    are almost squares and have right-angled corners. In contrast, many tiles in the portrait of @@math:29:55d382@@ are\n                    prolate\n                    and their angles differ significantly from @@math:30:2ce712@@ - at some points the contour lines of modulus and\n                    phase\n                    are even mutually tangent.</p>\n\n            </div>\n\n            <hr>\n\n            <div id=\"section4\">\n\n                <h2>Gallery of functions</h2>\n\n                <p>\n                    If you want to explore more complex functions using\n                    domain coloring, then visit the site\n                    <a href=\"https://www.dynamicmath.xyz/domain-coloring/\" target=\"_blank\">Domain coloring\n                        <i class=\"fas fa-external-link-alt\"></i></a>,\n                    where you can also find interactive tools to\n                    explore a great variety of complex functions.\n                </p>\n\n                <figure>\n                    <img src=\"../images/chp03/gallery.jpg\" alt=\"Gallery\" style=\"width:100%;\">\n                    <figcaption>\n                        Gallery of functions.\n                    </figcaption>\n                </figure>\n\n                <br />\n\n            </div>\n\n\n        </article>\n    </main>\n\n    <a href=\"power_function.html\" style=\"text-decoration: none;\">\n        <p class=\"nextPage\">The Complex Power Function <i class=\"fa-solid fa-angles-right\"></i></p>\n    </a>\n    @@verbatim:2:35f2a5@@\n\n</section>"
+}

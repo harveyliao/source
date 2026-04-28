@@ -1,0 +1,428 @@
+[
+  {
+    "id": "block_0",
+    "placeholder": "@@text:444:2aba84@@",
+    "text": "[[i class=\"fa-solid fa-list\"]][[/i]]Contents",
+    "tag": "p"
+  },
+  {
+    "id": "block_1",
+    "placeholder": "@@text:443:9c0317@@",
+    "text": "[[a href=\"#section1\"]]Conformal mapping[[/a]]",
+    "tag": "li"
+  },
+  {
+    "id": "block_2",
+    "placeholder": "@@text:442:b0e598@@",
+    "text": "[[a href=\"#section2\"]]Analytic functions[[/a]]",
+    "tag": "li"
+  },
+  {
+    "id": "block_3",
+    "placeholder": "@@text:441:ccb8cb@@",
+    "text": "[[a href=\"#section3\"]]Examples[[/a]]",
+    "tag": "li"
+  },
+  {
+    "id": "block_4",
+    "placeholder": "@@text:440:d8bdb7@@",
+    "text": "[[a href=\"#section4\"]]Local inverses[[/a]]",
+    "tag": "li"
+  },
+  {
+    "id": "block_5",
+    "placeholder": "@@text:439:2463e0@@",
+    "text": "[[a href=\"#section5\"]]The Riemann Mapping Theorem[[/a]]",
+    "tag": "li"
+  },
+  {
+    "id": "block_6",
+    "placeholder": "@@text:438:deb94b@@",
+    "text": "Conformal Mapping",
+    "tag": "h1"
+  },
+  {
+    "id": "block_7",
+    "placeholder": "@@text:437:ae5b34@@",
+    "text": "\n          Let @@math:18:b9c9ee@@ be a complex mapping defined in a domain @@math:19:8668d1@@.\n          Consider two smooth curves @@math:20:9db80b@@ and @@math:21:38a0aa@@ in @@math:22:41efdb@@\n          that intersect at @@math:23:98bccf@@ and have a fixed orientation.\n          Let @@math:24:43a76e@@ and @@math:25:1427ef@@ be parametrizations of @@math:26:d06442@@ and @@math:27:f5d829@@\n          such that @@math:28:6e6ec4@@, and such that the\n          orientations on @@math:29:b9360a@@ and @@math:30:ef80d5@@ correspond to the\n          increasing values of the parameter @@math:31:eaed1c@@ Since @@math:32:f4a206@@ and\n          @@math:33:c84421@@ are smooth, the\n          tangent vectors @@math:34:972aaa@@ and @@math:35:135654@@\n          are both nonzero.\n          Then, @@math:36:d6ef83@@ and @@math:37:627d9e@@ represent the angles\n          between the position vectors of @@math:38:00553d@@ and @@math:39:d25990@@,\n          respectively, and the positive \\( x \\)-axis.\n\n\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_8",
+    "placeholder": "@@text:436:662351@@",
+    "text": "\n            [[strong]]Remark 1:[[/strong]] Here we will consider one single value of @@math:40:4359d5@@\n            For more details see [[a href=\"principal_argument.html\" target=\"_blank\"]]The Principal Argument[[/a]].\n          ",
+    "tag": "p"
+  },
+  {
+    "id": "block_9",
+    "placeholder": "@@text:435:1bd7b3@@",
+    "text": "\n                  <img src=\"../images/chp06/define-angle-z1-x-axis.svg\" alt=\"Representation of arg(z_1)\"\n                    title=\"Representation of arg(z_1)\" style=\"width:100%;\">\n                ",
+    "tag": "td"
+  },
+  {
+    "id": "block_10",
+    "placeholder": "@@text:434:7a0b59@@",
+    "text": "\n                  <img src=\"../images/chp06/define-angle-z2-x-axis.svg\" alt=\"Representation of arg(z_2)\"\n                    title=\"Representation of arg(z_2)\" style=\"width:100%;\">\n\n                ",
+    "tag": "td"
+  },
+  {
+    "id": "block_11",
+    "placeholder": "@@text:433:a612de@@",
+    "text": "\n            Geometrical representation of @@math:41:2acf16@@ and @@math:42:e571b8@@\n          ",
+    "tag": "figcaption"
+  },
+  {
+    "id": "block_12",
+    "placeholder": "@@text:432:bf9735@@",
+    "text": "\n          We define the angle @@math:43:a20e53@@ between @@math:44:63db42@@ and @@math:45:461423@@ at @@math:46:c8cc63@@ is\n          as the value of\n          @@math:7:1d93df@@\n          in the interval @@math:47:22d687@@ provided that we can rotate @@math:48:543b7f@@\n          counterclockwise about @@math:49:426a13@@ through the angle @@math:50:2ae4da@@ onto\n          @@math:51:0c6b87@@ In the case that a clockwise rotation is needed,\n          then @@math:52:f061c4@@ is the value of (\\ref{theta-angle}) in\n          the interval @@math:53:688c3a@@ In either case, we see that\n          (\\ref{theta-angle}) gives both the magnitude\n          and sense of the angle between @@math:54:fa4fc0@@ and @@math:55:a825f6@@ at @@math:56:4abf10@@\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_13",
+    "placeholder": "@@text:431:ca8657@@",
+    "text": "\n            Angle defined between @@math:58:c8a775@@ and @@math:59:4dd265@@\n          ",
+    "tag": "figcaption"
+  },
+  {
+    "id": "block_14",
+    "placeholder": "@@text:430:64abc8@@",
+    "text": "\n          Now suppose that under the\n          mapping @@math:60:9ca927@@ the curves @@math:61:bbbe3b@@ and @@math:62:cfa6f2@@\n          in the @@math:63:f91b67@@-plane are mapped\n          onto the curves @@math:64:433fa9@@ and @@math:65:7d65eb@@ in the @@math:66:228d0c@@-plane,\n          respectively. Because @@math:67:f8844e@@ and @@math:68:02510c@@\n          intersect at @@math:69:afb495@@, we must have that @@math:70:556f92@@ and @@math:71:44dc77@@\n          intersect at @@math:72:8070e6@@. If @@math:73:379d49@@ and @@math:74:45b688@@\n          are smooth, then the angle between\n          @@math:75:e5f3c3@@ and @@math:76:56af67@@ at @@math:77:223374@@ is\n          similarly defined to\n          be the angle @@math:78:2d160b@@\n          between similarly defined tangent vectors\n          @@math:79:de53f6@@ and @@math:80:916c92@@ We say that the angles\n          @@math:81:48a84c@@ and @@math:82:147f5f@@ are [[em]]equal in magnitude[[/em]]\n          if @@math:83:d7baa6@@\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_15",
+    "placeholder": "@@text:429:0cd61a@@",
+    "text": "\n                  <img src=\"../images/chp06/define-angle-z.svg\" alt=\"C_1 and C_2 on the z-plane\"\n                    title=\"C_1 and C_2 on the z-plane\" style=\"width:100%;\">\n                ",
+    "tag": "td"
+  },
+  {
+    "id": "block_16",
+    "placeholder": "@@text:428:d3c1df@@",
+    "text": "\n                  <img src=\"../images/chp06/define-angle-w.svg\" alt=\"Gamma_1 and Gamma_2 on the w-plane\"\n                    title=\"Gamma_1 and Gamma_2 on the w-plane\" style=\"width:100%;\">\n\n                ",
+    "tag": "td"
+  },
+  {
+    "id": "block_17",
+    "placeholder": "@@text:427:aeeaad@@",
+    "text": "\n            The angles @@math:84:0f680f@@ and @@math:85:a53c76@@ are equal in magnitude.\n          ",
+    "tag": "figcaption"
+  },
+  {
+    "id": "block_18",
+    "placeholder": "@@text:426:cb8e18@@",
+    "text": "\n          In the @@math:86:9515a6@@-plane, the vector @@math:87:d75c26@@ whose initial point is @@math:88:17c0e3@@\n          can be rotated through the angle @@math:89:d31965@@ onto the vector @@math:90:cd29bd@@\n          Of course, this rotation in the @@math:91:6e7cff@@-plane can be either in the counterclockwise\n          or the clockwise direction.\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_19",
+    "placeholder": "@@text:425:cd18ed@@",
+    "text": "\n              Counterclockwise rotation of @@math:92:633da2@@\n            ",
+    "tag": "figcaption"
+  },
+  {
+    "id": "block_20",
+    "placeholder": "@@text:424:bbed52@@",
+    "text": "\n              Clockwise rotation of @@math:93:606720@@\n            ",
+    "tag": "figcaption"
+  },
+  {
+    "id": "block_21",
+    "placeholder": "@@text:423:90d918@@",
+    "text": "\n          Similarly, in the @@math:94:77e343@@-plane, the\n          vector @@math:95:5a6da7@@ whose initial point is @@math:96:8899dc@@ can be rotated in\n          either the counterclockwise or clockwise direction through\n          an angle of @@math:97:c6c161@@ onto the vector @@math:98:5861de@@\n          If the rotation in the\n          @@math:99:0dec38@@-plane is the same direction as the rotation in the @@math:100:080207@@-plane,\n          we say that the angles\n          @@math:101:f96d18@@ and @@math:102:f76970@@ are [[em]]equal in sense[[/em]].\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_22",
+    "placeholder": "@@text:422:db6298@@",
+    "text": "\n          Now that we have established\n          the terminology regarding the magnitude and sense of an\n          angle, we are now in a position\n          to introduce the concept of\n          [[em]]conformal mapping[[/em]]. We say that the mapping @@math:103:0fef34@@ is\n          [[em]]conformal[[/em]] at a point @@math:104:8fd44c@@ in @@math:105:e99bdc@@\n          if for every pair of smooth oriented curves\n          @@math:106:523e37@@ and @@math:107:5a6fb2@@ in @@math:108:657caa@@, intersecting at @@math:109:b38424@@, the angle\n          between @@math:110:99506f@@ and @@math:111:582fee@@ at @@math:112:87e9a8@@ is equal to the angle\n          between the image curves @@math:113:09f36b@@ and @@math:114:9a3c47@@ at @@math:115:e8579b@@\n          in both magnitude and sense.\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_23",
+    "placeholder": "@@text:421:aa6f7c@@",
+    "text": "\n            After the mapping is applied, the angles @@math:116:396f85@@ and @@math:117:f2af4b@@\n            are equal in magnitude and sense.\n          ",
+    "tag": "figcaption"
+  },
+  {
+    "id": "block_24",
+    "placeholder": "@@text:420:e8c4b5@@",
+    "text": "\n          We will also use the term [[em]]conformal mapping[[/em]] to\n          refer to a complex mapping @@math:118:8b0b3f@@ that is conformal\n          at @@math:119:55b054@@ In addition, if @@math:120:70d28c@@ maps a domain\n          @@math:121:901f1d@@ onto a domain @@math:122:af0b9a@@ and if @@math:123:7b8957@@ is conformal at\n          every point in @@math:124:fd9756@@\n          then we call @@math:125:4db463@@ a conformal mapping of @@math:126:78ffc3@@ onto @@math:127:4a8bfc@@\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_25",
+    "placeholder": "@@text:419:cbdeb6@@",
+    "text": "Analytic functions",
+    "tag": "h2"
+  },
+  {
+    "id": "block_26",
+    "placeholder": "@@text:418:97bcfd@@",
+    "text": "\n          A remarkable geometrical property enjoyed by all complex\n          analytic functions is that,\n          at non-critical points, they preserve angles, and\n          therefore define conformal mappings.\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_27",
+    "placeholder": "@@text:417:83d735@@",
+    "text": "\n            We wish to prove that the angle @@math:153:17a8e4@@ between @@math:154:3b2062@@ and @@math:155:04ec5a@@ at @@math:156:a6aa84@@\n            is equal to the angle @@math:157:26868a@@ between @@math:158:485d57@@ and @@math:159:5601c4@@ at\n            @@math:160:142045@@ in both magnitude and sense.\n          ",
+    "tag": "p"
+  },
+  {
+    "id": "block_28",
+    "placeholder": "@@text:416:6bed67@@",
+    "text": "\n            We may assume, by renumbering @@math:161:48e76e@@ and @@math:162:b9821d@@ if necessary, that\n            @@math:163:775bcc@@ can be rotated counterclockwise about @@math:164:5f05f7@@ through the\n            angle @@math:165:b03271@@ onto @@math:166:e85470@@ Then, using (\\ref{theta-angle}), we know that\n            @@math:167:93b670@@\n            in the interval @@math:168:34a6cc@@\n          ",
+    "tag": "p"
+  },
+  {
+    "id": "block_29",
+    "placeholder": "@@text:415:029105@@",
+    "text": "\n            Using the chain rule we have that\n            @@math:8:c0c195@@\n            and\n            @@math:9:cbf638@@\n          ",
+    "tag": "p"
+  },
+  {
+    "id": "block_30",
+    "placeholder": "@@text:414:9bdd79@@",
+    "text": "\n            Since @@math:169:0e215b@@ and @@math:170:b5d635@@ are smooth, both @@math:171:1a23a1@@ and @@math:172:feeed3@@ are nonzero.\n            Moreover, we have that @@math:173:f71677@@ and thus,\n            both @@math:174:64fdba@@ and @@math:175:109b43@@ are nonzero. Now, the angle @@math:176:d1e006@@\n            between @@math:177:e24ad4@@ and @@math:178:f6091e@@ at @@math:179:71740b@@ is a value of\n          <div class=\"scroll-wrapper\">\n            @@math:10:4d68a4@@\n          </div>\n          Applying properties of the argument, we have that\n          <div class=\"scroll-wrapper\">\n            @@math:11:c93396@@\n          </div>\n          This expression has a unique value in @@math:180:f7e78b@@ namely @@math:181:f8347d@@\n          Therefore, @@math:182:f392a8@@ in both magnitude and sense,\n          and consequently @@math:183:fbc8ec@@ is a conformal mapping at @@math:184:a915a3@@\n          ",
+    "tag": "p"
+  },
+  {
+    "id": "block_31",
+    "placeholder": "@@text:413:147e6e@@",
+    "text": "\n            [[strong]]Remark 2:[[/strong]]\n            The previous theorem establishes that\n            a mapping is conformal at @@math:185:c70e8a@@ if @@math:186:c4ec9f@@ is analytic there and @@math:187:b5dd1a@@\n            Such transformation is actually conformal at each point in some\n            neighborhood of @@math:188:17daa8@@ This is because it must be analytic in a\n            neighborhood of @@math:189:d87f58@@; and since its derivative @@math:190:d943da@@ is continuous\n            in that neighborhood, there is also a neighborhood\n            of @@math:191:35ad7d@@ throughout which @@math:192:b208af@@\n          ",
+    "tag": "p"
+  },
+  {
+    "id": "block_32",
+    "placeholder": "@@text:412:b06bb3@@",
+    "text": "Examples",
+    "tag": "h2"
+  },
+  {
+    "id": "block_33",
+    "placeholder": "@@text:411:f3dd48@@",
+    "text": "\n          Now, with the help of Theorem 1, it is relatively easy to determine\n          where an analytic function is a conformal mapping.\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_34",
+    "placeholder": "@@text:410:b1fadc@@",
+    "text": "\n            [[strong]]Example 1: [[/strong]]\n            The mapping @@math:193:da3cbc@@ is conformal throughout the entire @@math:194:cab0ba@@\n            plane since @@math:195:5361db@@ for each @@math:196:8a52a5@@. Consider\n            any two lines @@math:197:ab5a7e@@ and @@math:198:9d65dc@@ in\n            the @@math:199:cf0f45@@ plane, the first with upward direction and the\n            second directed to the right. The images under the\n            mapping @@math:200:cfee4f@@ are a positively\n            oriented circle centred at the origin and a ray from\n            the origin, respectively. As illustrated\n            in Figure 7, the angle between the\n            lines at their point of intersection\n            is a right angle in the negative direction,\n            and the same is true of the angle between\n            the circle and the ray at the corresponding point in the @@math:201:bb3e24@@ plane.\n\n          ",
+    "tag": "p"
+  },
+  {
+    "id": "block_35",
+    "placeholder": "@@text:409:bb6f0c@@",
+    "text": "\n              Conformal mapping @@math:202:d1ffb3@@\n            ",
+    "tag": "figcaption"
+  },
+  {
+    "id": "block_36",
+    "placeholder": "@@text:408:c19ca8@@",
+    "text": "\n            [[strong]]Example 2: [[/strong]]\n            The entire function @@math:203:3ad6a2@@ is not conformal at @@math:204:1bd7e7@@\n            The explanation is, of course, that @@math:205:96e31f@@ is a critical\n            point of @@math:206:dfbe37@@, that is @@math:207:662e5d@@ Amazingly, the map\n            preserves angles everywhere else.\n            For example, consider the right\n            half-plane @@math:208:28e322@@ This region\n            is mapped conformally by @@math:209:11cfc0@@ onto the slit\n            plane @@math:210:a1b19d@@\n            as illustrated in Figure 8. Can you think of another\n            region where @@math:211:bc6cba@@ is conformal?\n          ",
+    "tag": "p"
+  },
+  {
+    "id": "block_37",
+    "placeholder": "@@text:407:b5c6b7@@",
+    "text": "\n                    <img src=\"../images/chp06/example-z-squared.svg\" alt=\"C_1 and C_2 on the z-plane\"\n                      title=\"C_1 and C_2 on the z-plane\" style=\"width:100%;\">\n                  ",
+    "tag": "td"
+  },
+  {
+    "id": "block_38",
+    "placeholder": "@@text:406:f72057@@",
+    "text": "\n                    <img src=\"../images/chp06/example-z-squared-mapped.svg\" alt=\"Gamma_1 and Gamma_2 on the w-plane\"\n                      title=\"Gamma_1 and Gamma_2 on the w-plane\" style=\"width:100%;\">\n\n                  ",
+    "tag": "td"
+  },
+  {
+    "id": "block_39",
+    "placeholder": "@@text:405:4fed42@@",
+    "text": "\n              The region @@math:212:322267@@ is mapped by @@math:213:271095@@\n              onto the slit plane @@math:214:f2b523@@\n            ",
+    "tag": "figcaption"
+  },
+  {
+    "id": "block_40",
+    "placeholder": "@@text:404:bee4f4@@",
+    "text": "\n          A mapping that preserves the magnitude of the angle\n          between two smooth curves but not necessarily the sense\n          is called an [[em]]isogonal mapping[[/em]].\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_41",
+    "placeholder": "@@text:403:ee446c@@",
+    "text": "\n            [[strong]]Example 3: [[/strong]]\n            The mapping @@math:215:937e77@@ is a reflection in the real axis.\n            This mapping is isogonal but not conformal.\n          ",
+    "tag": "p"
+  },
+  {
+    "id": "block_42",
+    "placeholder": "@@text:402:564ccb@@",
+    "text": "\n            Consider for example the curves @@math:216:c245a4@@ and @@math:217:8e9897@@ given by\n          <div class=\"scroll-wrapper\">\n            @@math:12:7b36df@@\n          </div>\n          respectively. These curves intersect at\n          @@math:218:2a9020@@ The tangent vectors at @@math:219:736752@@ are\n          @@math:220:f0a44f@@ and @@math:221:898829@@ Furthermore, we can see\n          in Figure 9 (left) that\n          the angle between @@math:222:7dddbf@@ and @@math:223:ced3e1@@ at @@math:224:c1c0a2@@ is @@math:225:16088e@@\n          Under the mapping @@math:226:37813c@@ the images of @@math:227:493b93@@ and @@math:228:399007@@ are the curves\n          @@math:229:ef56c1@@ and @@math:230:8544dd@@ respectively, as shown in Figure 9 (right).\n          ",
+    "tag": "p"
+  },
+  {
+    "id": "block_43",
+    "placeholder": "@@text:401:735f54@@",
+    "text": "\n                    <img src=\"../images/chp06/example-conj-z.svg\" alt=\"C_1 and C_2 on the z-plane\"\n                      title=\"C_1 and C_2 on the z-plane\" style=\"width:100%;\">\n                  ",
+    "tag": "td"
+  },
+  {
+    "id": "block_44",
+    "placeholder": "@@text:400:e31abe@@",
+    "text": "\n                    <img src=\"../images/chp06/example-conj-z-mapped.svg\" alt=\"Gamma_1 and Gamma_2 on the w-plane\"\n                      title=\"Gamma_1 and Gamma_2 on the w-plane\" style=\"width:100%;\">\n\n                  ",
+    "tag": "td"
+  },
+  {
+    "id": "block_45",
+    "placeholder": "@@text:399:1c9b55@@",
+    "text": "\n              @@math:231:b2acef@@ and @@math:232:906eb6@@ in the @@math:233:a3f857@@-plane (left).\n              @@math:234:897a47@@ and @@math:235:f76c07@@ in the @@math:236:488eaf@@-plane (right).\n            ",
+    "tag": "figcaption"
+  },
+  {
+    "id": "block_46",
+    "placeholder": "@@text:398:072d95@@",
+    "text": "\n            The image curves are parametrized by\n          <div class=\"scroll-wrapper\">\n            @@math:13:0f36fd@@\n          </div>\n          with @@math:237:29af83@@\n          and intersect at @@math:238:7c25a9@@ In addition, at\n          @@math:239:cbc1ab@@ we have the tangent vectors @@math:240:846a54@@ and @@math:241:1d2652@@\n          to @@math:242:be5cd2@@ and @@math:243:232750@@ respectively.\n          ",
+    "tag": "p"
+  },
+  {
+    "id": "block_47",
+    "placeholder": "@@text:397:46d83d@@",
+    "text": "\n            The angle between @@math:244:5ad575@@ and @@math:245:34ffc6@@ at @@math:246:5cdea1@@ is @@math:247:d65da3@@\n            Thus, the angles @@math:248:2251ca@@ and @@math:249:ac5efd@@ are equal in maginitude.\n            However, because the rotation through @@math:250:fb985e@@ of the vector\n            @@math:251:5ddc94@@ onto @@math:252:e3d9c4@@ must be [[em]]counterclockwise[[/em]], whereas the rotation through\n            @@math:253:dbbf9f@@ of @@math:254:c9cad2@@ onto @@math:255:5a9e04@@ must be [[em]]clockwise[[/em]], we\n            conclude that @@math:256:c57a5f@@ and @@math:257:f976f3@@ are not equal in sense.\n          ",
+    "tag": "p"
+  },
+  {
+    "id": "block_48",
+    "placeholder": "@@text:396:979cf3@@",
+    "text": "\n            Therefore, @@math:258:4ab2ad@@ is not conformal.\n          ",
+    "tag": "p"
+  },
+  {
+    "id": "block_49",
+    "placeholder": "@@text:395:4a7dcd@@",
+    "text": "\n          In the applet below you can explore the effect of\n          some mappings over a region. In particular, the applet\n          starts with a squared defined as @@math:259:fafe83@@\n          First, select a mapping and observe how the region @@math:260:7610a3@@\n          is transformed.\n          Then, modify this region by dragging the corner\n          points of the square.\n          What do you notice? What do you wonder?\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_50",
+    "placeholder": "@@text:394:c51de2@@",
+    "text": "Local inverses",
+    "tag": "h2"
+  },
+  {
+    "id": "block_51",
+    "placeholder": "@@text:393:342758@@",
+    "text": "\n          A transformation @@math:266:2c94e3@@ that is conformal at a point @@math:267:39f4d6@@ has a\n          local inverse there. That is,\n          if @@math:268:294678@@ then there exists a\n          unique transformation @@math:269:0c32dc@@ which is defined and analytic\n          in a neighborhood @@math:270:5ace68@@ of @@math:271:83e8e9@@ such that @@math:272:fa143c@@ Furthermore,\n          @@math:273:7fa2f7@@ is differentiable in @@math:274:33b8f7@@ and\n          @@math:275:e91a45@@\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_52",
+    "placeholder": "@@text:392:df95e7@@",
+    "text": "\n          The existence of such an inverse can be verified\n          using the [[em]]Inverse Function Theorem[[/em]]\n          from real analysis in two dimensions:\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_53",
+    "placeholder": "@@text:391:37b7b4@@",
+    "text": "\n          If @@math:287:edf5cc@@ is conformal at\n          @@math:288:cb5473@@ there is some\n          neighborhood @@math:289:7d05f6@@ of @@math:290:67f7d1@@ throughout which @@math:291:4b55c8@@ is analytic.\n          For @@math:292:ead21b@@ if we write\n          @@math:14:ae7ed7@@\n          we know that there is a neighborhood of the point @@math:293:edfaca@@\n          throughout which the functions @@math:294:ef7750@@ and @@math:295:22a83e@@ along with\n          their partial derivatives of all orders, are continuous\n          (a new section about this fact will be available soon).\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_54",
+    "placeholder": "@@text:390:2446a9@@",
+    "text": "\n          The function defined in (\\ref{trans01})\n          represents a transformation from the neighborhood\n          @@math:296:2ec9ad@@ into the @@math:297:b90f34@@ plane. Furthermore, the determinant\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_55",
+    "placeholder": "@@text:389:d86a39@@",
+    "text": "\n          which is known as the [[em]]Jacobian of the transformation[[/em]] @@math:299:2fa9b0@@,\n          is nonzero at the point @@math:300:0e7d10@@ It is easy to prove this\n          by considering the Cauchy-Riemann equations\n          @@math:301:38540b@@\n          Then we can write @@math:302:9daf5f@@ as\n          @@math:303:0e4e2c@@\n          Since @@math:304:a3b61e@@ is conformal at @@math:305:25b62e@@\n          then @@math:306:154313@@ and consequently,\n          the Jacobian is nonzero at the point @@math:307:a9e01f@@\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_56",
+    "placeholder": "@@text:388:7966f9@@",
+    "text": "\n          The above continuity conditions on the functions @@math:308:647d0c@@\n          and @@math:309:f61ffa@@ and their derivatives, together with this condition on\n          the Jacobian nonzero at the point @@math:310:790a38@@,\n          are sufficient to ensure the existence\n          of a local inverse of transformation (\\ref{trans01}) at @@math:311:8f46b1@@\n          which is established by [[strong]]Theorem 2[[/strong]].\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_57",
+    "placeholder": "@@text:387:98564a@@",
+    "text": "\n          In other words, if @@math:312:550928@@ and @@math:313:de15f5@@ then there\n          is a unique continuous transformation\n          @@math:15:d7624d@@\n          defined on a neighborhood @@math:314:d88678@@ of the point @@math:315:72ffac@@ and mapping\n          that point onto @@math:316:e71864@@ such that equation (\\ref{trans01}) holds\n          when equation (\\ref{trans02}) holds.\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_58",
+    "placeholder": "@@text:386:bb5446@@",
+    "text": "In addition to being continuous, the real and imaginary components of\n          the function (\\ref{trans02}) have\n          continuous first-order partial derivatives satisfying the equations\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_59",
+    "placeholder": "@@text:385:fe9dba@@",
+    "text": "\n          throughout @@math:317:6aded8@@\n          Since the Cauchy-Riemann equations hold for @@math:318:0a1d75@@ and @@math:319:3b8cba@@ they also\n          hold for @@math:320:24047a@@ and @@math:321:c1a225@@ that is\n          @@math:322:1cff87@@\n          throughout @@math:323:0f64f4@@\n          Consequently, the function defined in (\\ref{trans02})\n          is differentiable. Furthermore, using the expressions in (\\ref{eqls})\n          and the Cauchy-Riemann equations we have\n          that\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_60",
+    "placeholder": "@@text:384:168421@@",
+    "text": "\n          Hence, we have just proven the following:\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_61",
+    "placeholder": "@@text:383:073598@@",
+    "text": "\n\n          The [[em]]Inverse Function Theorem[[/em]] states only the existence of a [[em]]local[[/em]]\n          inverse for @@math:333:71f25c@@ For example, consider the function @@math:334:e51c2d@@ defined\n          on @@math:335:784ba9@@ Then @@math:336:5e66f3@@ for every point of @@math:337:faef73@@\n          The [[em]]Inverse Function Theorem[[/em]] says that @@math:338:dcc1e7@@ has a unique local analytic inverse,\n          which is, in fact, some branch of the square root function @@math:339:6a72be@@\n          However, @@math:340:9e6dcc@@ is not one-to-one on all @@math:341:2da859@@ since @@math:342:e3d96a@@ Thus\n          @@math:343:8935d1@@ will be one-to-one only within sufficiently small neighborhoods surrounding\n          each point.\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_62",
+    "placeholder": "@@text:382:edfeda@@",
+    "text": "The Riemann Mapping Theorem",
+    "tag": "h2"
+  },
+  {
+    "id": "block_63",
+    "placeholder": "@@text:381:e6d98d@@",
+    "text": "\n          In many applications it is common to look for a conformal\n          mapping of a domain @@math:344:289bf9@@ onto a simpler domain @@math:345:9e3613@@\n          A natural question to ask is whether such a mapping exists.\n          That is, given domain @@math:346:c245d4@@ and @@math:347:f24d67@@, does there exist a conformal\n          mapping of @@math:348:53c99a@@ onto @@math:349:418e62@@?\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_64",
+    "placeholder": "@@text:380:2ec87e@@",
+    "text": "\n          An answer to this question was given by Bernhard Riemann in 1851.\n          Although there was a gap in\n          Riemann's original proof (which was subsequently filled), this amazing\n          theorem still bears his name:\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_65",
+    "placeholder": "@@text:379:1d1a58@@",
+    "text": "\n          From this result we see that if @@math:355:e281f1@@ and @@math:356:df87a0@@ are any two simply connected domains,\n          with @@math:357:3bd1c8@@ @@math:358:d60c1f@@ then there exists a bijective conformal map @@math:359:839a06@@\n          If @@math:360:521490@@ and @@math:361:7a94f8@@ are conformal, we can set @@math:362:00fd78@@\n          (see Figure 10). Two domains @@math:363:b2eb56@@ and @@math:364:77855f@@ are called [[em]]conformally equivalent[[/em]]\n          if there is a bijective conformal map from @@math:365:b26ee0@@ to @@math:366:089d42@@ Thus the\n          [[em]]Riemann Mapping Theorem[[/em]] implies that two simple connected domains (unequal to @@math:367:5075f1@@)\n          are conformally equivalent.\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_66",
+    "placeholder": "@@text:378:57106f@@",
+    "text": "\n            To transform @@math:368:8c2030@@ to @@math:369:52fc09@@ we compose @@math:370:4326eb@@ with @@math:371:7d1be0@@\n          ",
+    "tag": "figcaption"
+  },
+  {
+    "id": "block_67",
+    "placeholder": "@@text:377:0dd829@@",
+    "text": "\n          Riemann's theorem is of critical theoretical importance, but its proof is\n          not constructive. This means that the theorem establishes the existence\n          of the mapping @@math:372:22dcf5@@ but it does not offer\n          a method to find a formula for @@math:373:68a9d8@@ A proof of\n          the [[em]]Riemann Mapping Theorem[[/em]] is beyond the scope of this text.\n          The interested reader can refer to \n          the books:\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_68",
+    "placeholder": "@@text:376:f26c6c@@",
+    "text": "\n            [[em]]Complex Analysis[[/em]]\n            by Lars V. Alfors, McGraw-Hill, 1979; and\n          ",
+    "tag": "li"
+  },
+  {
+    "id": "block_69",
+    "placeholder": "@@text:375:623a31@@",
+    "text": "\n            [[em]]Basic Complex Analysis[[/em]]\n            by Jerrold. E. Marsden &amp; Michael J. Hoffman, W. H. Freeman and Company, 1999.\n          ",
+    "tag": "li"
+  },
+  {
+    "id": "block_70",
+    "placeholder": "@@text:374:2a0457@@",
+    "text": "Linear Fractional Transformations[[i class=\"fa-solid fa-angles-right\"]][[/i]]",
+    "tag": "p"
+  }
+]

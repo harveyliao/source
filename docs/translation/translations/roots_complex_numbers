@@ -1,0 +1,15 @@
+[
+  "复数的根",
+  "回忆一下，如果 @@math:17:bc585b@@ 是一个[[em]]非零[[/em]]复数，那么它可以写成极坐标形式\n                @@math:18:55a7b6@@\n                其中 @@math:19:da9fc5@@，@@math:20:bbd762@@ 是从正 @@math:21:9556af@@ 轴到连接原点与点 @@math:22:c92c68@@ 的射线的角度（以弧度计）。\n            ",
+  "现在，[[em]]棣莫弗公式[[/em]]表明，如果 @@math:23:fd966c@@\n                且 @@math:24:c42d65@@ 是正整数，则\n                @@math:7:29977a@@\n            ",
+  "设 @@math:25:872b1a@@ 是一个非零复数。利用棣莫弗公式将帮助我们求解方程 @@math:11:5cf03b@@\n                关于 @@math:26:80b8d9@@，其中 @@math:27:6e1dfe@@ 已给定。\n            ",
+  "假设 @@math:28:d75997@@ 且 @@math:29:89ed97@@，\n                那么棣莫弗公式给出\n                @@math:12:d3ae99@@\n                由于 @@math:30:2d8e38@@，由极坐标表示的唯一性可得\n                @@math:13:8d9cd8@@\n                以及\n                @@math:14:1b5d28@@\n                其中 @@math:31:38b5cd@@ 是某个整数。因此，\n                非零复数 @@math:33:fcb15f@@ 的 @@math:32:e834ad@@ 次[[em]]根[[/em]]由下式给出\n            <div class=\"scroll-wrapper\">\n                @@math:8:be7499@@\n            </div>\n            @@math:34:5a3960@@ 的每个值给出 @@math:35:97c58e@@ 的一个不同值。@@math:36:6c93ea@@ 的任何其他值仅仅重复\n            @@math:37:ccd10f@@ 对应于 @@math:38:b7773b@@ 的值之一。因此，非零复数恰好有 @@math:39:9a18d0@@ 个 @@math:39:9a18d0@@ 次根。\n            ",
+  "利用[[em]]欧拉公式[[/em]]：\n                @@math:15:81562e@@\n                复数 @@math:40:f30d0a@@ 也可以写成指数形式\n                @@math:16:9dff46@@\n            ",
+  "因此，复数 @@math:42:889327@@ 的 @@math:42:889327@@ 次根也可以表示为\n            <div class=\"scroll-wrapper\">\n                @@math:9:3a11bd@@\n            </div>\n            其中 @@math:43:845b73@@\n            ",
+  "\n                    [[strong]]例：[[/strong]]\n                    复数 @@math:44:691435@@ 有三个立方根。此时\n                    @@math:45:f794ae@@ 且 @@math:46:a07fdb@@。因此给定数的极坐标形式为\n                    @@math:47:f13d12@@\n                    利用 (\\ref{n-roots}) 我们得到\n                    <div class=\"scroll-wrapper\">\n                        \\[\n                        w_k = \\sqrt[3]{1}\\left[\\cos\\left(\\frac{\\pi/2}{3}+\\frac{2k\\pi}{3}\\right)+i\\sin\\left(\\frac{\\pi/2}{3}+\\frac{2k\\pi}{3}\\right)\\right]\n                        \\]\n                    </div>\n                    其中 @@math:48:9b7a29@@。因此三个根为\n                    @@math:10:e05d89@@\n                ",
+  "下面的小程序展示了复数 @@math:49:5af066@@ 次根的几何和数值表示，最多到 @@math:50:cbf9dc@@。\n                拖动红点来改变 @@math:51:7f6162@@ 的值，或激活 [[code]]指定值[[/code]] 复选框来拖动滑块。\n                您可以验证前面例子中的根。\n            ",
+  "在 [[a href=\"https://www.geogebra.org/classic\" target=\"_blank\"]]GeoGebra[[/a]] 中输入以下脚本来自行探索并制作您自己的版本。\n                    符号 [[code]]#[[/code]] 表示注释。",
+  "[[strong]]练习 1：[[/strong]] 由根的指数形式 (\\ref{expform})，\n                    证明所有 @@math:52:11c8cb@@ 次根都位于以原点为圆心、半径为 @@math:53:55e3d4@@ 的圆上，且\n                    从辐角 @@math:55:8a8744@@ 开始，每隔 @@math:55:8a8744@@ 弧度均匀分布。\n            ",
+  "\n                    [[strong]]练习 2：[[/strong]]\n                    求 @@math:56:484768@@ 的四次根。您可以在前面的小程序中验证您的结果。\n                ",
+  "复平面的拓扑 [[i class=\"fa-solid fa-angles-right\"]][[/i]]"
+]

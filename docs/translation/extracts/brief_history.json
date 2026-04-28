@@ -1,0 +1,812 @@
+{
+  "file": "brief_history.html",
+  "original_length": 39633,
+  "num_text_blocks": 79,
+  "num_verbatim": 8,
+  "verbatim_map": {
+    "@@verbatim:0:e1d1cc@@": "<!-- Starts main content -->",
+    "@@verbatim:1:7a7d39@@": "<!-- Add more sections as needed -->",
+    "@@verbatim:2:701a6a@@": "<!--If we ask whether a particular circle and a line intersect, then the answer\n              can be \"yes\" or \"no\". And when the answer is \"yes\", the quadratic equation\n              for the intersection has a solution; if \"no\", it has no solution.-->",
+    "@@verbatim:3:dd5707@@": "<!--\n                     <p>\n                    Do they really exist or are they simply\n                     phantoms of our \"imagination\", and thus truly \"imaginary\"?\n                    </p>\n                     -->",
+    "@@verbatim:4:98ade6@@": "<!-- GeoGebra -->",
+    "@@verbatim:5:903566@@": "<!-- Ends main content -->",
+    "@@verbatim:6:34ab3b@@": "<script src=\"https://www.geogebra.org/apps/deployggb.js\"></script>",
+    "@@verbatim:7:10e027@@": "<script>\n        let params01 = {\n            \"width\": 696,\n            \"height\": 436,\n            \"material_id\": \"mqdbedcd\",\n            \"borderColor\": \"888888\",\n            \"playButton\": true,\n            \"showFullscreenButton\": true,\n            \"enableShiftDragZoom\": true,\n            \"showResetIcon\": true\n        };\n        let params02 = {\n            \"width\": 670,\n            \"height\": 430,\n            \"material_id\": \"ntehbavr\",\n            \"borderColor\": \"888888\",\n            \"playButton\": true,\n            \"showFullscreenButton\": true,\n            \"enableShiftDragZoom\": true,\n            \"showResetIcon\": true\n        };\n        let ggbApplet01 = new GGBApplet(params01, true);\n        let ggbApplet02 = new GGBApplet(params02, true);\n        window.addEventListener(\"load\", () => {\n            ggbApplet01.inject('ggb-element-01');\n            ggbApplet02.inject('ggb-element-02');\n        });\n    </script>",
+    "@@math:8:37c1ff@@": "\\begin{eqnarray}\\label{quad001}\n                    x^2 = mx + n.\n                    \\end{eqnarray}",
+    "@@math:9:bca18a@@": "\\begin{eqnarray}\\label{quad002}\n                    x = \\frac{-b\\pm \\sqrt{b^2-4ac}}{2a}\n                    \\end{eqnarray}",
+    "@@math:10:de68ee@@": "\\begin{eqnarray}\\label{quad003}\n                ax^2+ bx+c = 0 .\n                \\end{eqnarray}",
+    "@@math:11:84975e@@": "\\begin{eqnarray}\\label{quad004}\n                    x = \\frac{ m \\pm \\sqrt{m^2 + 4n } }{2} = \\frac{m}{2} \\pm \\sqrt{\\frac{m^2}{4} + n}\n                    \\end{eqnarray}",
+    "@@math:12:53cf61@@": "\\begin{eqnarray}\\label{cubic001}\n                    x^3 = p x + q.\n                    \\end{eqnarray}",
+    "@@math:13:45ba7d@@": "\\begin{eqnarray}\\label{cubic002}\n                    x = \\sqrt[3]{\\frac{q}{2} + \\sqrt{\\frac{q^2}{4} - \\frac{p^3}{27}}} -\n                    \\sqrt[3]{- \\frac{q}{2} + \\sqrt{\\frac{q^2}{4} - \\frac{p^3}{27}}}\n                    \\end{eqnarray}",
+    "@@math:14:2156dc@@": "\\begin{eqnarray}\\label{cubic003}\n                    x^3= 15 x+ 4\n                    \\end{eqnarray}",
+    "@@math:15:515fe8@@": "\\begin{eqnarray}\\label{cubic004}\n                        x = \\displaystyle \\sqrt[3]{2 + \\sqrt{-121}} + \\sqrt[3]{2 - \\sqrt{-121}}.\n                        \\end{eqnarray}",
+    "@@math:16:0f307c@@": "\\begin{eqnarray*}\n                            x^3 &=& 15x + 4\\\\\n                            [x^3 &=& px + p]\n                            \\end{eqnarray*}",
+    "@@math:17:42436a@@": "\\begin{eqnarray*}\n                            (4/2)^2-(15/3)^3 &=& -121\\\\\n                            [\\left(q/2\\right)^2 -\\left(p/2\\right)^3]&=&-121\n                            \\end{eqnarray*}",
+    "@@math:18:b8e9a8@@": "\\begin{eqnarray*}\n                            x &=& \\sqrt[3]{2+ \\sqrt{-121}} + \\sqrt[3]{2- \\sqrt{-121}}\\\\\n                            x &=& \\sqrt[3]{2+ 11\\sqrt{-1}} + \\sqrt[3]{2- 11\\sqrt{-1}} \\\\\n                            x &=& 2 + \\sqrt{-1} + 2 - \\sqrt{-1} = 4\n                            \\end{eqnarray*}",
+    "@@math:19:6e2c40@@": "$$x = \\pm\\sqrt{-1}.$$",
+    "@@math:20:0b374b@@": "$$x = \\displaystyle \\sqrt[3]{10 + \\sqrt{108}} -\n                    \\sqrt[3]{- 10 + \\sqrt{108}}.$$",
+    "@@math:21:ad665a@@": "$$8=(2)^3 = -6(2)+ 20 = -12+20=8.$$",
+    "@@math:22:8746b7@@": "$$\\sqrt[3]{2+ \\sqrt{-121}} = 2 + \\sqrt{-1} \\quad \\text{and} \\quad \\sqrt[3]{2- \\sqrt{-121}} = 2 -\n                        \\sqrt{-1} .$$",
+    "@@math:23:93e47a@@": "$$x = 2 + \\sqrt{-1} + 2 - \\sqrt{-1}.$$",
+    "@@math:24:717fa9@@": "$$x = 2 + \\cancel{\\sqrt{-1}} + 2 - \\cancel{\\sqrt{-1}}.$$",
+    "@@math:25:acb373@@": "$$(a, b)+(c, d) =(a + c, b + d)$$",
+    "@@math:26:93cbb4@@": "$$(a, b)(c, d) = (ac - bd, bc + ad).$$",
+    "@@math:27:7ced54@@": "$$\\int_0^{\\infty} \\frac{\\sin x}{x}\\,dx=\\frac{\\pi}{2}$$",
+    "@@math:28:625aae@@": "$$\\int_0^{\\pi}\\log \\sin x\\,dx =-\\pi \\log 2.$$",
+    "@@math:29:d65e60@@": "$x$",
+    "@@math:30:e11b08@@": "$x^2-mx-n = 0,$",
+    "@@math:31:dab5cf@@": "$y=x^2$",
+    "@@math:32:5f0b02@@": "$y = mx+n.$",
+    "@@math:33:0f82d2@@": "$x_0$",
+    "@@math:34:96967c@@": "$x_1.$",
+    "@@math:35:ae67ff@@": "$x^2= mx+ n.$",
+    "@@math:36:41c8ab@@": "$m=0$",
+    "@@math:37:9bc964@@": "$n=-1.$",
+    "@@math:38:f88ad9@@": "$x = \\pm\\sqrt{-1}$",
+    "@@math:39:23e87f@@": "$y = x^2$",
+    "@@math:40:bc6b8f@@": "$y=-1$",
+    "@@math:41:ada93d@@": "$\\dfrac{m^2}{4} + n \\lt 0,$",
+    "@@math:42:839d88@@": "$x^2= mx+ n$",
+    "@@math:43:324815@@": "$x^2=-1.$",
+    "@@math:44:aef0af@@": "$i,$",
+    "@@math:45:e3399f@@": "$\\sqrt{-1},$",
+    "@@math:46:b9fe44@@": "$i$",
+    "@@math:47:841a7c@@": "$i^2 = -1,$",
+    "@@math:48:c6f08a@@": "$x^2=-1.$",
+    "@@math:49:6abc47@@": "$a + b\\sqrt{-1},$",
+    "@@math:50:15f72c@@": "$x^2+1=0.$",
+    "@@math:51:96843f@@": "$y = x^3$",
+    "@@math:52:5719a3@@": "$y = px + q,$",
+    "@@math:53:d7220e@@": "$p$",
+    "@@math:54:8375bf@@": "$q,$",
+    "@@math:55:8c6a2c@@": "$px+q$",
+    "@@math:56:3d4400@@": "$x$",
+    "@@math:57:656e7b@@": "$p$",
+    "@@math:58:a5ac15@@": "$q$",
+    "@@math:59:ccc99c@@": "$-\\infty$",
+    "@@math:60:ad5b12@@": "$+\\infty.$",
+    "@@math:61:ff979d@@": "$x^2$",
+    "@@math:62:d5faf2@@": "$mx + n$",
+    "@@math:63:780c61@@": "$x^3 = px + q$",
+    "@@math:64:7256ea@@": "$x^3 = px + q$",
+    "@@math:65:8550db@@": "$x^3 = -6 x+ 20.$",
+    "@@math:66:6d83ca@@": "$p=-6$",
+    "@@math:67:50bf56@@": "$q=20.$",
+    "@@math:68:e2bfa9@@": "$x=2,$",
+    "@@math:69:ec0c81@@": "$x^3=6x+6$",
+    "@@math:70:927e27@@": "$x = 4$",
+    "@@math:71:450265@@": "$x^3=15x+4.$",
+    "@@math:72:a5360f@@": "$x^3= 15 x+ 4.$",
+    "@@math:73:ea12a7@@": "$p = 15$",
+    "@@math:74:568212@@": "$q=4,$",
+    "@@math:75:858f08@@": "$x$",
+    "@@math:76:a7ab18@@": "$\\sqrt{-1}$",
+    "@@math:77:a30fc4@@": "$x = 4$",
+    "@@math:78:cce483@@": "$x^3=15x+4$",
+    "@@math:79:b0d96a@@": "$x^3=15x+4,$",
+    "@@math:80:b87ead@@": "$\\sqrt[3]{2 \\pm \\sqrt{-121}} = 2 \\pm \\sqrt{-1}.$",
+    "@@math:81:7ad690@@": "$i=\\sqrt{-1}$",
+    "@@math:82:8b62ea@@": "$a+ b \\, i $",
+    "@@math:83:9aba78@@": "$n$",
+    "@@math:84:e0d0c4@@": "$n$",
+    "@@math:85:461dde@@": "$a+ ib$",
+    "@@math:86:822276@@": "$(a, b),$",
+    "@@math:87:0ed12e@@": "$a,b$",
+    "@@math:88:d847a8@@": "$\\sqrt{-1}$"
+  },
+  "text_blocks": [
+    {
+      "id": "block_0",
+      "tag": "p",
+      "text": "[[i class=\"fa-solid fa-list\"]][[/i]]Contents",
+      "raw_len": 40,
+      "placeholder": "@@text:167:08d355@@",
+      "byte_start": 196,
+      "byte_end": 236
+    },
+    {
+      "id": "block_1",
+      "tag": "li",
+      "text": "[[a href=\"#section1\"]]Geometric interpretation[[/a]]",
+      "raw_len": 48,
+      "placeholder": "@@text:166:5bf025@@",
+      "byte_start": 270,
+      "byte_end": 318
+    },
+    {
+      "id": "block_2",
+      "tag": "li",
+      "text": "[[a href=\"#section2\"]]Solution to cubic equations[[/a]]",
+      "raw_len": 51,
+      "placeholder": "@@text:165:9eb9dd@@",
+      "byte_start": 340,
+      "byte_end": 391
+    },
+    {
+      "id": "block_3",
+      "tag": "li",
+      "text": "[[a href=\"#section3\"]]The genesis of imaginary numbers[[/a]]",
+      "raw_len": 56,
+      "placeholder": "@@text:164:b0f099@@",
+      "byte_start": 413,
+      "byte_end": 469
+    },
+    {
+      "id": "block_4",
+      "tag": "li",
+      "text": "[[a href=\"#section4\"]]The maturing of complex numbers[[/a]]",
+      "raw_len": 55,
+      "placeholder": "@@text:163:86f22f@@",
+      "byte_start": 491,
+      "byte_end": 546
+    },
+    {
+      "id": "block_5",
+      "tag": "li",
+      "text": "[[a href=\"#section5\"]]Final comments[[/a]]",
+      "raw_len": 38,
+      "placeholder": "@@text:162:acca75@@",
+      "byte_start": 568,
+      "byte_end": 606
+    },
+    {
+      "id": "block_6",
+      "tag": "li",
+      "text": "[[a href=\"#section6\"]]References[[/a]]",
+      "raw_len": 34,
+      "placeholder": "@@text:161:bd298f@@",
+      "byte_start": 628,
+      "byte_end": 662
+    },
+    {
+      "id": "block_7",
+      "tag": "h1",
+      "text": "A Brief History",
+      "raw_len": 15,
+      "placeholder": "@@text:160:1e5090@@",
+      "byte_start": 788,
+      "byte_end": 803
+    },
+    {
+      "id": "block_8",
+      "tag": "h2",
+      "text": "Geometric interpretation of quadratic and cubic equations",
+      "raw_len": 57,
+      "placeholder": "@@text:159:c61504@@",
+      "byte_start": 885,
+      "byte_end": 942
+    },
+    {
+      "id": "block_9",
+      "tag": "p",
+      "text": "Consider a quadratic equation\n                    @@math:8:37c1ff@@\n                    From elementary school we have learned how to find its solutions,\n                    that is, all the values of @@math:29:d65e60@@ that satisfy equation\n                    (\\ref{quad001}). To do so we just need to use the widely known\n                    [[em]]quadratic formula[[/em]]\n                <div class=\"scroll-wrapper\">\n                    @@math:9:bca18a@@\n                </div>\n                of the [[em]]general quadratic equation [[/em]]\n                @@math:10:de68ee@@\n                By rewriting equation (\\ref{quad001}) as @@math:30:e11b08@@ we can\n                use (\\ref{quad002}) to obtain\n                <div class=\"scroll-wrapper\">\n                    @@math:11:84975e@@\n                </div>\n\n                ",
+      "raw_len": 826,
+      "placeholder": "@@text:158:4f7fd6@@",
+      "byte_start": 969,
+      "byte_end": 1795
+    },
+    {
+      "id": "block_10",
+      "tag": "p",
+      "text": "\n                    If we plot equation (\\ref{quad001}) we can observe geometrically that\n                    it represents the intersection of the parabola @@math:31:dab5cf@@ with the line @@math:32:5f0b02@@\n                    This can be appreciated in the following applet. Drag the sliders below and\n                    observe what happens with the intersection points @@math:33:0f82d2@@ and @@math:34:96967c@@\n                ",
+      "raw_len": 434,
+      "placeholder": "@@text:157:6eeb62@@",
+      "byte_start": 1821,
+      "byte_end": 2255
+    },
+    {
+      "id": "block_11",
+      "tag": "p",
+      "text": "\n                    As you already noticed, we have three cases:\n                <ol>\n                    <li>There are two points of intersection, i. e. two solutions.</li>\n                    <li>There is only one intersection point, i. e. one solution.</li>\n                    <li>There are no intersection points, i. e. there are no solutions.</li>\n                </ol>\n                ",
+      "raw_len": 393,
+      "placeholder": "@@text:156:70ca1d@@",
+      "byte_start": 2420,
+      "byte_end": 2813
+    },
+    {
+      "id": "block_12",
+      "tag": "p",
+      "text": "\n                    Surprisingly this has been known since ancient times,\n                    even without the use of mathematical symbols or computers.\n                    We know from clay tablets dated from around 2000 BCE that the Babylonian\n                    civilization possessed the quadratic formula, enabling them (in verbal form) to solve quadratic\n                    equations.\n                    Because the concept of negative numbers had to wait until the sixteenth century\n                    to appear, the Babylonians did not consider negative\n                    solutions\n                    [[span style=\"white-space: nowrap;\"]][[[a href=\"#merzbach-boyer\" alt=\"Merzbach-Boyer\"\n                            title=\"Merzbach-Boyer\"]]9[[/a]],\n                        pp. 29-30][[/span]].\n                    We can also find implicitly equations\n                    in the geometry developed by the\n                    ancient Greeks, as we would expect when circles, parabolas, and the like\n                    are being investigated, but we do not demand that every geometric problem have a solution\n                    [[[a href=\"#merzbach-boyer\" alt=\"Merzbach-Boyer\" title=\"Merzbach-Boyer\"]]9[[/a]], Ch. 4].\n                    @@verbatim:2:701a6a@@\n                ",
+      "raw_len": 1279,
+      "placeholder": "@@text:155:a9a94c@@",
+      "byte_start": 2838,
+      "byte_end": 4117
+    },
+    {
+      "id": "block_13",
+      "tag": "p",
+      "text": "\n                    Now let's go back to the quadratic equation @@math:35:ae67ff@@\n                    Consider the values @@math:36:41c8ab@@ and @@math:37:9bc964@@\n                    If we use formula (\\ref{quad004}), we obtain that\n                    @@math:19:6e2c40@@\n                    What is going on here?\n                    Most of you have learned from calculus, or elementary school, that we cannot\n                    take the square root of a negative number.\n                    Then, how do we interpret this value? Geometrically speaking,\n                    we can relate the solution @@math:38:f88ad9@@ to the fact that\n                    the parabola @@math:39:23e87f@@ and the line @@math:40:bc6b8f@@ do\n                    not intersect each other, see Figure 1. In other words, there is no solution.\n                    In general, if @@math:41:ada93d@@\n                    then equation @@math:42:839d88@@ has no solutions.\n                ",
+      "raw_len": 969,
+      "placeholder": "@@text:154:a740d9@@",
+      "byte_start": 4142,
+      "byte_end": 5111
+    },
+    {
+      "id": "block_14",
+      "tag": "figcaption",
+      "text": "@@math:43:324815@@",
+      "raw_len": 18,
+      "placeholder": "@@text:153:70db6c@@",
+      "byte_start": 5290,
+      "byte_end": 5308
+    },
+    {
+      "id": "block_15",
+      "tag": "p",
+      "text": "\n                    It is argued that this led to the invention of a new number denoted by @@math:44:aef0af@@\n                    which is equal to @@math:45:e3399f@@ and it was given the name \"imaginary\".\n                    If we use @@math:46:b9fe44@@ as a number such that @@math:47:841a7c@@\n                    then this value is the solution of the equation @@math:48:c6f08a@@\n                ",
+      "raw_len": 400,
+      "placeholder": "@@text:152:86df01@@",
+      "byte_start": 5369,
+      "byte_end": 5769
+    },
+    {
+      "id": "block_16",
+      "tag": "p",
+      "text": "\n                    It is also a common practice to point out in courses of mathematics that\n                    [[em]]complex numbers[[/em]], denoted as @@math:49:6abc47@@ are needed to solve certain\n                    quadratic equations, such as @@math:50:15f72c@@\n                    However, complex numbers emerged, in fact, from the need to solve cubic equations.\n                    Furthermore, when quadratic and cubic equations first appeared,\n                    at that time, there was no need to have solutions for all equations.\n                ",
+      "raw_len": 558,
+      "placeholder": "@@text:151:2b0592@@",
+      "byte_start": 5794,
+      "byte_end": 6352
+    },
+    {
+      "id": "block_17",
+      "tag": "p",
+      "text": "\n                    So where did complex numbers really come into importance? To answer this let's\n                    consider the cubic equation\n                    @@math:12:53cf61@@\n                    Geometrically, this equation represents the intersection of the cubic\n                    @@math:51:96843f@@ with the line @@math:52:5719a3@@\n                    as shown in the following applet. Drag sliders below and observe what happens.\n                ",
+      "raw_len": 464,
+      "placeholder": "@@text:150:7c335d@@",
+      "byte_start": 6377,
+      "byte_end": 6841
+    },
+    {
+      "id": "block_18",
+      "tag": "p",
+      "text": "\n                    As you can observe no matter what line is defined by the parameters @@math:53:d7220e@@ and @@math:54:8375bf@@\n                    it will always intersect the cubic somewhere, even when the line\n                    @@math:55:8c6a2c@@ is perpendicular to the @@math:56:3d4400@@-axis and far from the origin (i. e. when\n                    @@math:57:656e7b@@ and @@math:58:a5ac15@@ are both very large positive/negative numbers).\n                    This is because the cubic\n                    goes all the way from @@math:59:ccc99c@@ to @@math:60:ad5b12@@\n                    Thus, there is no line you can draw that won't intersect this cubic.\n                    This example is very different from the quadratic case which was a parabola @@math:61:ff979d@@\n                    and you could define a line @@math:62:d5faf2@@ such that it won't intersect the parabola.\n                ",
+      "raw_len": 908,
+      "placeholder": "@@text:149:c1f7b5@@",
+      "byte_start": 6996,
+      "byte_end": 7904
+    },
+    {
+      "id": "block_19",
+      "tag": "h2",
+      "text": "Solution to cubic equations",
+      "raw_len": 27,
+      "placeholder": "@@text:148:ac7a7b@@",
+      "byte_start": 8005,
+      "byte_end": 8032
+    },
+    {
+      "id": "block_20",
+      "tag": "p",
+      "text": "\n                    It is well known that the solution of the cubic @@math:63:780c61@@\n                    was developed in the Renaissance (15th and 16th centuries) by Italian\n                    mathematicians. Scipione del Ferro (1465-1526) and Niccolò Tartaglia (1500-1557),\n                    followed by Girolamo Cardano (1501-1576), showed that @@math:64:7256ea@@\n                    has a solution given by\n                <div class=\"scroll-wrapper\">\n                    @@math:13:45ba7d@@\n                </div>\n\n                This is known as Cardano's formula and here we are using modern notation.\n                ",
+      "raw_len": 631,
+      "placeholder": "@@text:147:721377@@",
+      "byte_start": 8059,
+      "byte_end": 8690
+    },
+    {
+      "id": "block_21",
+      "tag": "figcaption",
+      "text": "\n                            Tartaglia.\n                        ",
+      "raw_len": 64,
+      "placeholder": "@@text:146:c593fb@@",
+      "byte_start": 8989,
+      "byte_end": 9053
+    },
+    {
+      "id": "block_22",
+      "tag": "figcaption",
+      "text": "\n                            Cardano.\n                        ",
+      "raw_len": 62,
+      "placeholder": "@@text:145:e5af42@@",
+      "byte_start": 9324,
+      "byte_end": 9386
+    },
+    {
+      "id": "block_23",
+      "tag": "p",
+      "text": "\n                    To see how this works consider the\n                    equation @@math:65:8550db@@\n                    In this case @@math:66:6d83ca@@ and @@math:67:50bf56@@ If we plug these numbers into\n                    (\\ref{cubic002}), we obtain the solution\n                <div class=\"scroll-wrapper\">\n                    @@math:20:0b374b@@\n                </div>\n                Simplifying we obtain @@math:68:e2bfa9@@ a solution of the given equation since\n                <div class=\"scroll-wrapper\">\n                    @@math:21:ad665a@@\n                </div>\n\n                Thus, this formula seems to work very well, at least for this case.\n                ",
+      "raw_len": 681,
+      "placeholder": "@@text:144:b9ba58@@",
+      "byte_start": 9473,
+      "byte_end": 10154
+    },
+    {
+      "id": "block_24",
+      "tag": "p",
+      "text": "[[strong]]Exercise:[[/strong]] Try to solve @@math:69:ec0c81@@ using Cardano's formula.",
+      "raw_len": 83,
+      "placeholder": "@@text:143:589599@@",
+      "byte_start": 10222,
+      "byte_end": 10305
+    },
+    {
+      "id": "block_25",
+      "tag": "h2",
+      "text": "The genesis of imaginary numbers",
+      "raw_len": 32,
+      "placeholder": "@@text:142:e2f3ee@@",
+      "byte_start": 10429,
+      "byte_end": 10461
+    },
+    {
+      "id": "block_26",
+      "tag": "p",
+      "text": "\n                    A few years later after the discovery of Cardano's formula,\n                    the Italian engineer-architect Rafael Bombelli (1526-1572)\n                    recognized that there was something strange and paradoxical about this formula.\n                    He considered the equation\n                    @@math:14:2156dc@@\n                    and, with perhaps just a little\n                    pondering, you can see that @@math:70:927e27@@ is a solution. This can also\n                    be seen in Figure 4. In fact there are three solutions, but\n                    Bombelli did not consider negative values, so we won't either.\n                ",
+      "raw_len": 673,
+      "placeholder": "@@text:141:bb8039@@",
+      "byte_start": 10487,
+      "byte_end": 11160
+    },
+    {
+      "id": "block_27",
+      "tag": "figcaption",
+      "text": "\n                        @@math:71:450265@@\n                    ",
+      "raw_len": 64,
+      "placeholder": "@@text:140:deb6e6@@",
+      "byte_start": 11339,
+      "byte_end": 11403
+    },
+    {
+      "id": "block_28",
+      "tag": "p",
+      "text": "\n                        Then Bombelli used Cardano's formula to solve @@math:72:a5360f@@\n                        Thus, considering @@math:73:ea12a7@@ and @@math:74:568212@@\n                        he obtained\n                    <div class=\"scroll-wrapper\">\n                        @@math:15:515fe8@@\n                    </div>\n\n                    Here he encountered a very unusual value. If Cardano's formula\n                    is correct, this number must be equal to 4.\n                    Yet this must be nonsense and the value cannot be real,\n                    because inside the cube root we are taking\n                    the square root of a negative number, an absolute impossibility\n                    at that time (and also nowadays).\n                    Cardano also encountered this difficulty but he did not face it up.\n                    He did once mention imaginary numbers, but in connection\n                    with a quadratic equation and accompanied by the comment that\n                    these numbers were \"as subtle as they are useless\"\n                    [[[a href=\"#cardano\" alt=\"Cardano\" title=\"Cardano\"]]2[[/a]], Ch.\n                    37, Rule II].\n                    ",
+      "raw_len": 1207,
+      "placeholder": "@@text:139:005fc7@@",
+      "byte_start": 11511,
+      "byte_end": 12718
+    },
+    {
+      "id": "block_29",
+      "tag": "p",
+      "text": "\n                    However, Bombelli overcomes this difficulty\n                    by seeing that the weird expression (\\ref{cubic004})\n                    that Cardano's formula gives for @@math:75:858f08@@ is actually real,\n                    but expressed in a very unfamiliar manner. This\n                    insight did not come easily. As Bombelli wrote in his book [[em]]L'Algebra[[/em]]:\n                <div style=\"margin-left: 30px;margin-right: 30px;\">\n                    <p>\n                        And although to many this will appear an extravagant thing,\n                        because even I held this opinion some time ago, since it appeared\n                        to me more sophistic than true, nevertheless I searched hard and\n                        found the demonstration, which will be noted below. ... But let\n                        the reader apply all his strength of mind, for [otherwise]\n                        even he will find himself deceived.\n                        [[[a href=\"bombelli\" alt=\"Bombelli\" title=\"Bombelli\"]]1[[/a]], pp. 293-294;\n                        [[a href=\"#oconnor-robertson\" alt=\"O'Connor-Robertson\" title=\"O'Connor-Robertson\"]]10[[/a]]]\n                    </p>\n                </div>\n\n                <figure>\n                    <img src=\"../images/chp01/algebra-bombelli.jpg\" alt=\"L'Algebra\" title=\"L'Algebra\"\n                        style=\"width:45%;\">\n                    <figcaption>\n                        [[em]]L'Algebra[[/em]] by Rafael Bombelli: frontispiece of\n                        the Bologna edition of 1579.\n                    </figcaption>\n                </figure>\n                ",
+      "raw_len": 1651,
+      "placeholder": "@@text:138:53e969@@",
+      "byte_start": 12766,
+      "byte_end": 14417
+    },
+    {
+      "id": "block_30",
+      "tag": "p",
+      "text": "\n                        Bombelli's great insight was simply to treat @@math:76:a7ab18@@ as a number and to operate with\n                        it following some specific arithmetic rules (the same kind of rules that we use nowadays).\n                        Thus he discovered that\n                    <div class=\"scroll-wrapper\">\n                        @@math:22:8746b7@@\n                    </div>\n                    By substituting these values in (\\ref{cubic004}) Bombelli obtained\n                    <div class=\"scroll-wrapper\">\n                        @@math:23:93e47a@@\n                    </div>\n                    Then he showed that the squared roots of negative numbers cancel each other\n                    [[[a href=\"#bombelli\" alt=\"Bombelli\" title=\"Bombelli\"]]1[[/a]], p. 169;\n                    [[a href=\"#gonzalez-velasco\" alt=\"González-velasco\" title=\"González-Velasco\"]]7[[/a]], p. 164]. That\n                    is\n                    <div class=\"scroll-wrapper\">\n                        @@math:24:717fa9@@\n                    </div>\n                    And concluded that @@math:77:a30fc4@@ is actually the solution of @@math:78:cce483@@\n                    obtained from Cardano's formula [[[a href=\"#bombelli\" alt=\"Bombelli\" title=\"Bombelli\"]]1[[/a]], p.\n                    294],\n                    see Figure 6.\n                    This trick works in only a few cases, however, it helped to\n                    understand imaginary numbers and to take their cube roots or\n                    manipulate them when they appear aside real numbers.\n                    ",
+      "raw_len": 1586,
+      "placeholder": "@@text:137:51f10a@@",
+      "byte_start": 14468,
+      "byte_end": 16054
+    },
+    {
+      "id": "block_31",
+      "tag": "figcaption",
+      "text": "\n                            Bombelli's original solution.\n                        ",
+      "raw_len": 83,
+      "placeholder": "@@text:136:947061@@",
+      "byte_start": 16376,
+      "byte_end": 16459
+    },
+    {
+      "id": "block_32",
+      "tag": "p",
+      "text": "\n                            @@math:16:0f307c@@\n                            @@math:17:42436a@@\n                            @@math:18:b8e9a8@@\n\n                        ",
+      "raw_len": 167,
+      "placeholder": "@@text:135:8c9417@@",
+      "byte_start": 16560,
+      "byte_end": 16727
+    },
+    {
+      "id": "block_33",
+      "tag": "figcaption",
+      "text": "\n                            Solution in modern algebra.\n                        ",
+      "raw_len": 81,
+      "placeholder": "@@text:134:d10bf0@@",
+      "byte_start": 16768,
+      "byte_end": 16849
+    },
+    {
+      "id": "block_34",
+      "tag": "p",
+      "text": "\n                    Of course, as you can see in Figure 6,\n                    Bombelli did not have at his disposal the power of today's algebraic notation\n                    (neither computers) and his computations were limited to numbers in \"real domain\".\n                    In fact, most of Italian mathematicians at that time tended to think of cubes or squares\n                    as geometric objects rather than algebraic quantities. However, he is credited for\n                    proving the reality of the roots of the cubic @@math:79:b0d96a@@\n                    since he demonstrated the extraordinary fact that real numbers could be\n                    engendered by imaginary numbers.\n                ",
+      "raw_len": 719,
+      "placeholder": "@@text:133:576c37@@",
+      "byte_start": 16942,
+      "byte_end": 17661
+    },
+    {
+      "id": "block_35",
+      "tag": "p",
+      "text": "\n                    Cardano's formula forced mathematicians\n                    to confront square roots of negative numbers.\n\n                    This historical incident is another example that negates the widespread\n                    view that mathematics is \"made up\" by mathematicians. As is often the case, it is\n                    the mathematics itself that speaks to us.\n                    From this time on, imaginary numbers lost some of their mystical\n                    character, although their full acceptance as [[em]]bona fide[[/em]]\n                    numbers came only in the 1800s.\n                ",
+      "raw_len": 621,
+      "placeholder": "@@text:132:f19173@@",
+      "byte_start": 17686,
+      "byte_end": 18307
+    },
+    {
+      "id": "block_36",
+      "tag": "p",
+      "text": "[[strong]]Exercise:[[/strong]] Verify that @@math:80:b87ead@@",
+      "raw_len": 57,
+      "placeholder": "@@text:131:13e437@@",
+      "byte_start": 18375,
+      "byte_end": 18432
+    },
+    {
+      "id": "block_37",
+      "tag": "h2",
+      "text": "The maturing of complex numbers",
+      "raw_len": 31,
+      "placeholder": "@@text:130:a90bb2@@",
+      "byte_start": 18558,
+      "byte_end": 18589
+    },
+    {
+      "id": "block_38",
+      "tag": "p",
+      "text": "\n                    Many mathematicians after Cardano and Bombelli made important contributions to\n                    imaginary (or complex) numbers. For example René Descartes (1596-1650)\n                    coined the term \"imaginary\" in his book in [[em]]La Géométrie[[/em]] of 1637 as follows:\n\n                ",
+      "raw_len": 313,
+      "placeholder": "@@text:129:1b165b@@",
+      "byte_start": 18615,
+      "byte_end": 18928
+    },
+    {
+      "id": "block_39",
+      "tag": "p",
+      "text": "Neither the true nor the false [negative] roots are always real; but sometimes\n                        only imaginary. [[[a href=\"#descartes\" alt=\"Descartes\" title=\"Descartes\"]]4[[/a]], p. 380]\n                    ",
+      "raw_len": 210,
+      "placeholder": "@@text:128:85798c@@",
+      "byte_start": 19025,
+      "byte_end": 19235
+    },
+    {
+      "id": "block_40",
+      "tag": "p",
+      "text": "\n                    John Wallis (1616-1703) showed how to represent geometrically complex\n                    roots of a quadratic equation with real coefficients\n                    [[[a href=\"#kline\" alt=\"Kline\" title=\"Kline\"]]8[[/a]], p. 594].\n                    Caspar Wessel (1745-1818) and\n                    [[span style=\"white-space: nowrap;\"]]Jean-Robert[[/span]]\n                    Argan (1768-1822)\n                    provided geometric representations of complex numbers as vectors\n                    [[[a href=\"#gonzalez-velasco\" alt=\"González-Velasco\" title=\"González-Velasco\"]]7[[/a]], pp. 185-190].\n                ",
+      "raw_len": 625,
+      "placeholder": "@@text:127:14515b@@",
+      "byte_start": 19283,
+      "byte_end": 19908
+    },
+    {
+      "id": "block_41",
+      "tag": "figcaption",
+      "text": "\n                        Euler.\n                    ",
+      "raw_len": 52,
+      "placeholder": "@@text:126:26b900@@",
+      "byte_start": 20146,
+      "byte_end": 20198
+    },
+    {
+      "id": "block_42",
+      "tag": "p",
+      "text": "\n                    Leonard Euler (1707-1783) standardized the notation \"@@math:81:7ad690@@\"\n                    [[[a href=#euleri]]6[[/a]], p. 184] and used imaginary numbers to solve\n                    quadratic and cubic equations, in spite of the fact that he\n                    was still suspicious of these numbers.\n                    In his [[em]]Algebra[[/em]], for example, he mentioned:\n                ",
+      "raw_len": 409,
+      "placeholder": "@@text:125:b77fc8@@",
+      "byte_start": 20258,
+      "byte_end": 20667
+    },
+    {
+      "id": "block_43",
+      "tag": "p",
+      "text": "[...] since all numbers which it is possible to conceive\n                        are either greater or less than 0, or are 0 itself, it is\n                        evident that we cannot rank the square root of a negative\n                        number amongst possible numbers, and we must therefore\n                        say that it is an impossible quantity. In this manner we are\n                        led to the idea of numbers, which from their nature are impossible;\n                        and therefore they are usually called imaginary\n                        quantities, because they exist merely in the imagination.\n                        [[[a href=\"#euler-algebra\" alt=\"Euler-Algebra\" title=\"Euler-Algebra\"]]5[[/a]], p. 43]\n                    ",
+      "raw_len": 757,
+      "placeholder": "@@text:124:da5cad@@",
+      "byte_start": 20764,
+      "byte_end": 21521
+    },
+    {
+      "id": "block_44",
+      "tag": "p",
+      "text": "\n                    Lest anyone takes this as a condemnation, he continued:\n                ",
+      "raw_len": 93,
+      "placeholder": "@@text:123:ba52a7@@",
+      "byte_start": 21569,
+      "byte_end": 21662
+    },
+    {
+      "id": "block_45",
+      "tag": "p",
+      "text": "notwithstanding this, these numbers present\n                        themselves to the mind; they exist in our\n                        imagination, and we still have a sufficient idea of\n                        them; [...] nothing prevents us from making use of these\n                        imaginary numbers, and employing them in calculation.\n                        [[span style=\"white-space: nowrap;\"]][[[a href=\"#euler-algebra\" alt=\"Euler\" title=\"Euler\"]]5[[/a]], p.\n                            43][[/span]]\n\n                    ",
+      "raw_len": 526,
+      "placeholder": "@@text:122:e4a3aa@@",
+      "byte_start": 21759,
+      "byte_end": 22285
+    },
+    {
+      "id": "block_46",
+      "tag": "p",
+      "text": "\n                    Later Carl Friedrich Gauss (1777-1855) introduced the term \"complex number\"\n                    referring to numbers of the form @@math:82:8b62ea@@\n                    [[[a href=\"#gonzalez-velasco\" alt=\"González-Velasco\" title=\"González-Velasco\"]]7[[/a]], p. 191].\n                    He also gave four proofs of the [[em]]fundamental theorem of algebra[[/em]] over the course of\n                    his long career. This theorem tells us that\n                    any @@math:83:9aba78@@th-degree polynomial has @@math:84:e0d0c4@@ roots, some or all of which\n                    may be imaginary. The first proof that Gauss gave was in his doctoral\n                    dissertation of 1799. The last (and perhaps the most elegant)\n                    allows the use of complex numbers not only for the variable but\n                    for the coefficients as well. Since this necessarily depended on the recognition\n                    of complex numbers, Gauss helped to solidify the position of these\n                    numbers [[[a href=\"#kline\" alt=\"Kline\" title=\"Kline\"]]8[[/a]], Vol. 2, p. 595].\n                ",
+      "raw_len": 1127,
+      "placeholder": "@@text:121:07bf9f@@",
+      "byte_start": 22333,
+      "byte_end": 23460
+    },
+    {
+      "id": "block_47",
+      "tag": "p",
+      "text": "\n                    The first rigorous definition of complex numbers was given\n                    by William Rowan Hamilton (1805-1865). In 1833 he proposed to the Irish Academy\n                    that a complex number @@math:85:461dde@@ can be considered as a [[em]]couple[[/em]] @@math:86:822276@@\n                    with @@math:87:0ed12e@@ real numbers\n                    [[span style=\"white-space: nowrap;\"]][[[a href=\"#gonzalez-velasco\" alt=\"González-Velasco\"\n                            title=\"González-Velasco\"]]7[[/a]], pp. 192-193].[[/span]]\n                    Then he defined addition and multiplication\n                    of [[em]]couples[[/em]] as follows:\n                <div class=\"scroll-wrapper\">\n                    @@math:25:acb373@@\n                </div>\n                and\n                <div class=\"scroll-wrapper\">\n                    @@math:26:93cbb4@@\n                </div>\n                ",
+      "raw_len": 910,
+      "placeholder": "@@text:120:578a0c@@",
+      "byte_start": 23486,
+      "byte_end": 24396
+    },
+    {
+      "id": "block_48",
+      "tag": "p",
+      "text": "\n                    This is in fact an algebraic definition of complex numbers.\n\n                    From the didactic and heuristic points of view it is preferable to have\n                    complex numbers introduced through a geometrical interpretation.\n                    But from the logical point of view the theory of [[em]]couples[[/em]]\n                    is much more satisfying, since it shows the consistency of the\n                    theory of complex numbers starting from the consistency of\n                    the real numbers [[[a href=\"#carrucio\" alt=\"Carrucio\" title=\"Carrucio\"]]3[[/a]], pág. 175].\n                ",
+      "raw_len": 631,
+      "placeholder": "@@text:119:09e4c7@@",
+      "byte_start": 24420,
+      "byte_end": 25051
+    },
+    {
+      "id": "block_49",
+      "tag": "figcaption",
+      "text": "\n                            Hamilton.\n                        ",
+      "raw_len": 63,
+      "placeholder": "@@text:118:76d2a7@@",
+      "byte_start": 25416,
+      "byte_end": 25479
+    },
+    {
+      "id": "block_50",
+      "tag": "figcaption",
+      "text": "\n                            Cauchy.\n                        ",
+      "raw_len": 61,
+      "placeholder": "@@text:117:93cc51@@",
+      "byte_start": 25814,
+      "byte_end": 25875
+    },
+    {
+      "id": "block_51",
+      "tag": "p",
+      "text": "\n                    Among the many mathematicians and scientists who contributed,\n                    there are three who stand out as having influenced decisively the course of\n                    development of complex analysis\n                    [[[a href=\"#kline\" alt=\"Kline\" title=\"Kline\"]]8[[/a]], Vol.2, Ch. 27].\n                    The first is Augustin-Louis Cauchy (1789-1857), who\n                    developed the theory of the complex integral calculus.\n                    By using imaginary numbers Cauchy was able to\n                    evaluate \"real integrals\" that heretofore could not be evaluated,\n                    obtaining stunning results such as\n                <div class=\"scroll-wrapper\">\n                    @@math:27:7ced54@@\n                </div>\n                and\n                <div class=\"scroll-wrapper\">\n                    @@math:28:625aae@@\n                </div>\n                The evaluation of real integrals, in addition to the solution of\n                the cubic equation and the fundamental theorem of algebra,\n                proved how valuable it was to consider imaginary numbers.\n                ",
+      "raw_len": 1152,
+      "placeholder": "@@text:116:5032e1@@",
+      "byte_start": 25964,
+      "byte_end": 27116
+    },
+    {
+      "id": "block_52",
+      "tag": "figcaption",
+      "text": "\n                            Weierstrass.\n                        ",
+      "raw_len": 66,
+      "placeholder": "@@text:115:ff65e7@@",
+      "byte_start": 27440,
+      "byte_end": 27506
+    },
+    {
+      "id": "block_53",
+      "tag": "figcaption",
+      "text": "\n                            Riemann.\n                        ",
+      "raw_len": 62,
+      "placeholder": "@@text:114:65ec4b@@",
+      "byte_start": 27897,
+      "byte_end": 27959
+    },
+    {
+      "id": "block_54",
+      "tag": "p",
+      "text": "\n                    Finally, the other two important mathematicians are Karl Weierstrass\n                    (1815-1897) and Bernhard Riemann (1826-1866), who appeared on the\n                    mathematical scene about the middle of the nineteenth century. Weierstrass\n                    developed the theory from a starting point of convergent power series, and\n                    this approach led towards more formal algebraic developments. Riemann\n                    contributed a more geometric point of view on the study of\n                    complex functions. His ideas had a tremendous\n                    impact not only on complex analysis but upon mathematics as a whole,\n                    though his views took hold only gradually.\n                ",
+      "raw_len": 769,
+      "placeholder": "@@text:113:1e0ccb@@",
+      "byte_start": 28049,
+      "byte_end": 28818
+    },
+    {
+      "id": "block_55",
+      "tag": "h2",
+      "text": "Final comments",
+      "raw_len": 14,
+      "placeholder": "@@text:112:3582c4@@",
+      "byte_start": 28921,
+      "byte_end": 28935
+    },
+    {
+      "id": "block_56",
+      "tag": "p",
+      "text": "\n                    The foregoing descriptions of complex numbers are not the end of the story.\n                    Various developments in the nineteenth and twentieth centuries enabled us\n                    to gain a deeper insight into the role of complex numbers not only in mathematics,\n                    but also in engineering and physics.\n                    The history of complex numbers is fascinating and I highly encourage\n                    the reader to consult the primary sources cited here which\n                    could serve as a starting point to delve into the historical\n                    details that allowed the emergence and development of complex numbers.\n                ",
+      "raw_len": 707,
+      "placeholder": "@@text:111:bdb220@@",
+      "byte_start": 28961,
+      "byte_end": 29668
+    },
+    {
+      "id": "block_57",
+      "tag": "h2",
+      "text": "References",
+      "raw_len": 10,
+      "placeholder": "@@text:110:e81c45@@",
+      "byte_start": 29810,
+      "byte_end": 29820
+    },
+    {
+      "id": "block_58",
+      "tag": "li",
+      "text": "Bombelli, R. (1579). [[em]]L'Algebra.[[/em]] Bologna. [[a\n                            href=\"https://archive.org/details/lalgebra00bomb/page/n3/mode/2up\" target=\"_blank\"]][[i\n                                class=\"fas fa-external-link-alt\"]][[/i]][[/a]]",
+      "raw_len": 240,
+      "placeholder": "@@text:109:37a391@@",
+      "byte_start": 29905,
+      "byte_end": 30145
+    },
+    {
+      "id": "block_59",
+      "tag": "li",
+      "text": "Cardano, H. (1545). [[em]]Artis magnae, sive de regulis algebraicis, liber\n                            unus.[[/em]] (n.p.): Joh.\n                        Petreius.\n                        [[a href=\"https://www.google.com.au/books/edition/Artis_magnae_sive_de_regulis_algebraicis/-k5ZAAAAcAAJ?hl=en&gbpv=1&pg=PA66&printsec=frontcover&bsq=cuius%20hoc%20extremum%20ut%20dixi%2C%20adeo%20est%20subtile%2C%20ut%20sit%20inutile\"\n                            target=\"_blank\"]][[i class=\"fas fa-external-link-alt\"]][[/i]][[/a]]\n                    ",
+      "raw_len": 526,
+      "placeholder": "@@text:108:97a4ac@@",
+      "byte_start": 30189,
+      "byte_end": 30715
+    },
+    {
+      "id": "block_60",
+      "tag": "li",
+      "text": "Carrucio, E. (2009). [[em]]Mathematics and Logic in History and Contemporary\n                            Thought[[/em]].\n                        (I. Quigly, Trans.) USA: Aldine Transaction. (Original work published 1964).",
+      "raw_len": 217,
+      "placeholder": "@@text:107:54f2f8@@",
+      "byte_start": 30759,
+      "byte_end": 30976
+    },
+    {
+      "id": "block_61",
+      "tag": "li",
+      "text": "Descartes, R. (1637). [[em]]La Géométrie.[[/em]] Paris: A. Herman, Librairie\n                        Scientifique. [[a\n                            href=\"https://archive.org/details/geometryofrene00desc/page/174/mode/2up?q=imaginary\"\n                            target=\"_blank\"]][[i class=\"fas fa-external-link-alt\"]][[/i]][[/a]]",
+      "raw_len": 316,
+      "placeholder": "@@text:106:2be693@@",
+      "byte_start": 31021,
+      "byte_end": 31337
+    },
+    {
+      "id": "block_62",
+      "tag": "li",
+      "text": "Euler, L. (1972). [[em]]Elements of Algebra.[[/em]] (Rev. John Hewlett, B.D.\n                        F.A.S. &c,\n                        Trans.). Springer-Verlag.\n                        (Original work published 1770). [[a href=\"https://www.springer.com/gp/book/9781461385134\"\n                            target=\"_blank\"]][[i class=\"fas fa-external-link-alt\"]][[/i]][[/a]]",
+      "raw_len": 359,
+      "placeholder": "@@text:105:fea0a1@@",
+      "byte_start": 31386,
+      "byte_end": 31745
+    },
+    {
+      "id": "block_63",
+      "tag": "li",
+      "text": "Euleri, L. (1845). [[em]]Instituitionum Calculi Integralis.[[/em]] Volumen Quartum.\n                        Petropoli. Impensis Academia Imperialis Scientarum. [[a\n                            href=\"https://books.google.it/books?id=rCNRAAAAYAAJ&pg=PA184#v=onepage&q&f=false\"\n                            target=\"_blank\"]][[i class=\"fas fa-external-link-alt\"]][[/i]][[/a]]\n                    ",
+      "raw_len": 378,
+      "placeholder": "@@text:104:b9cf7f@@",
+      "byte_start": 31787,
+      "byte_end": 32165
+    },
+    {
+      "id": "block_64",
+      "tag": "li",
+      "text": "González-Velasco, A. E. (2011) [[em]]Journey through Mathematics.[[/em]]\n                        Springer Science+Business Media. [[a href=\"https://www.springer.com/gp/book/9780387921532\"\n                            target=\"_blank\"]][[i class=\"fas fa-external-link-alt\"]][[/i]][[/a]]",
+      "raw_len": 271,
+      "placeholder": "@@text:103:074987@@",
+      "byte_start": 32217,
+      "byte_end": 32488
+    },
+    {
+      "id": "block_65",
+      "tag": "li",
+      "text": "Kline, M. (1972). [[em]]Mathematical Thought from Ancient to Modern Times.[[/em]] Vols.\n                        1-3. New York:\n                        Oxford University Press.",
+      "raw_len": 171,
+      "placeholder": "@@text:102:e38f31@@",
+      "byte_start": 32529,
+      "byte_end": 32700
+    },
+    {
+      "id": "block_66",
+      "tag": "li",
+      "text": "Merzbach, U. C & Boyer, C. B. (2011). [[em]]A history of mathematics.[[/em]] 3rd\n                        ed.\n                        John Wiley & Sons, Inc., Hoboken, New Jersey.",
+      "raw_len": 174,
+      "placeholder": "@@text:101:3535b0@@",
+      "byte_start": 32750,
+      "byte_end": 32924
+    },
+    {
+      "id": "block_67",
+      "tag": "li",
+      "text": "O'Connor, J. J. & Robertson, E. F. (2000). [[em]]Rafael Bombelli.[[/em]]\n                        [[a href=\"https://mathshistory.st-andrews.ac.uk/Biographies/Bombelli/\" target=\"_blank\"]][[i\n                                class=\"fas fa-external-link-alt\"]][[/i]][[/a]]\n                    ",
+      "raw_len": 276,
+      "placeholder": "@@text:100:5dbfcd@@",
+      "byte_start": 32977,
+      "byte_end": 33253
+    },
+    {
+      "id": "block_68",
+      "tag": "p",
+      "text": "\n                    [[strong]]Further reading[[/strong]]\n                ",
+      "raw_len": 70,
+      "placeholder": "@@text:99:a5aba9@@",
+      "byte_start": 33342,
+      "byte_end": 33412
+    },
+    {
+      "id": "block_69",
+      "tag": "li",
+      "text": "Bagni, G. T. (2009). Bombelli's Algebra (1572) and a New Mathematical Object.\n                        [[em]]For the Learning of Mathematics.[[/em]] Vol. 29, No. 2, pp.\n                        29-31.\n                        [[a href=\"https://www.jstor.org/stable/40248647\" target=\"_blank\"]][[i\n                                class=\"fas fa-external-link-alt\"]][[/i]][[/a]]\n                    ",
+      "raw_len": 380,
+      "placeholder": "@@text:98:5847f0@@",
+      "byte_start": 33499,
+      "byte_end": 33879
+    },
+    {
+      "id": "block_70",
+      "tag": "li",
+      "text": "Buehler, D. (2014). Incomplete understanding of complex numbers\n                        Girolamo Cardano: a case study in the acquisition\n                        of mathematical concepts. [[em]]Synthese [[/em]] 191:4231-4252.\n                        [[a href=\"https://link.springer.com/article/10.1007/s11229-014-0527-x\" target=\"_blank\"]][[i\n                                class=\"fas fa-external-link-alt\"]][[/i]][[/a]]\n                    ",
+      "raw_len": 429,
+      "placeholder": "@@text:97:5c155a@@",
+      "byte_start": 33922,
+      "byte_end": 34351
+    },
+    {
+      "id": "block_71",
+      "tag": "li",
+      "text": "Burton, D. M. (1995). [[em]]The history of mathematics: An introduction[[/em]] (6th ed.)\n                        (2005). New York: McGraw-Hill.",
+      "raw_len": 139,
+      "placeholder": "@@text:96:a36dc7@@",
+      "byte_start": 34393,
+      "byte_end": 34532
+    },
+    {
+      "id": "block_72",
+      "tag": "li",
+      "text": "Gindikin, S. (2007). [[em]]Tales of Mathematicians and Physicists[[/em]]. Second English edition\n                        Springer Science+\n                        Business Media, LLC.\n                        [[a href=\"https://link.springer.com/book/10.1007/978-0-387-48811-0\" target=\"_blank\"]][[i\n                                class=\"fas fa-external-link-alt\"]][[/i]][[/a]]\n                    ",
+      "raw_len": 384,
+      "placeholder": "@@text:95:f37d7e@@",
+      "byte_start": 34563,
+      "byte_end": 34947
+    },
+    {
+      "id": "block_73",
+      "tag": "li",
+      "text": "Nahim, P. J. (1998). [[em]]An imaginary tale: The story of @@math:88:d847a8@@[[/em]]. USA:\n                        Princeton\n                        University Press.\n                    ",
+      "raw_len": 183,
+      "placeholder": "@@text:94:c2ab54@@",
+      "byte_start": 34988,
+      "byte_end": 35171
+    },
+    {
+      "id": "block_74",
+      "tag": "li",
+      "text": "Huffman, C. J. (2019). Mathematical Treasure: Raphael Bombelli's L'algebra.\n                        [[em]]Convergence.[[/em]]\n                        [[a href=\"https://www.maa.org/press/periodicals/convergence/mathematical-treasure-raphael-bombellis-lalgebra\"\n                            target=\"_blank\"]][[i class=\"fas fa-external-link-alt\"]][[/i]][[/a]]\n                    ",
+      "raw_len": 364,
+      "placeholder": "@@text:93:f977eb@@",
+      "byte_start": 35214,
+      "byte_end": 35578
+    },
+    {
+      "id": "block_75",
+      "tag": "li",
+      "text": "Marsden, J. E. & Tromba, A. J. (2003). [[em]]Vector Calculus.[[/em]] USA: W. H.\n                        Freeman and\n                        Company.",
+      "raw_len": 144,
+      "placeholder": "@@text:92:b49f4a@@",
+      "byte_start": 35628,
+      "byte_end": 35772
+    },
+    {
+      "id": "block_76",
+      "tag": "li",
+      "text": "Merino, O. (2006). [[em]]A Short History of Complex Numbers.[[/em]]\n                        [[a href=\"http://www.math.uri.edu/~merino/spring06/mth562/ShortHistoryComplexNumbers2006.pdf\"\n                            target=\"_blank\"]][[i class=\"fas fa-external-link-alt\"]][[/i]][[/a]]\n                    ",
+      "raw_len": 290,
+      "placeholder": "@@text:91:c5d7ce@@",
+      "byte_start": 35814,
+      "byte_end": 36104
+    },
+    {
+      "id": "block_77",
+      "tag": "li",
+      "text": "Stillwell, J. (2010). [[em]]Mathematics and Its History.[[/em]] Springer Science.\n\n                        [[a href=\"https://www.springer.com/gp/book/9781441960528\" target=\"_blank\"]][[i\n                                class=\"fas fa-external-link-alt\"]][[/i]][[/a]]\n                    ",
+      "raw_len": 273,
+      "placeholder": "@@text:90:00e727@@",
+      "byte_start": 36149,
+      "byte_end": 36422
+    },
+    {
+      "id": "block_78",
+      "tag": "p",
+      "text": "Terminology and Notation [[i class=\"fa-solid fa-angles-right\"]][[/i]]",
+      "raw_len": 65,
+      "placeholder": "@@text:89:6fa163@@",
+      "byte_start": 36705,
+      "byte_end": 36770
+    }
+  ],
+  "reassembly_template": "<section data-type=\"chapter\" id=\"brief-history\">\n\n    @@verbatim:0:e1d1cc@@\n\n    <div w3-include-html=\"small_screen_message.html\"></div>\n\n    <div class=\"toc-chapter\" id=\"toc-chapter\">\n        <p>@@text:167:08d355@@</p>\n        <ul>\n            <li>@@text:166:5bf025@@</li>\n            <li>@@text:165:9eb9dd@@</li>\n            <li>@@text:164:b0f099@@</li>\n            <li>@@text:163:86f22f@@</li>\n            <li>@@text:162:acca75@@</li>\n            <li>@@text:161:bd298f@@</li>\n            @@verbatim:1:7a7d39@@\n        </ul>\n    </div>\n\n    <br><br>\n\n    <main>\n        <article>\n\n            <h1>@@text:160:1e5090@@</h1>\n\n            <div id=\"section1\">\n\n                <hr>\n\n                <h2>@@text:159:c61504@@</h2>\n\n\n                <p>@@text:158:4f7fd6@@</p>\n\n\n                <p>@@text:157:6eeb62@@</p>\n                <div>\n                    <div style=\"display:block;\" class=\"ggbElement\" id=\"ggb-element-01\"></div>\n                </div>\n\n\n                <p>@@text:156:70ca1d@@</p>\n\n                <p>@@text:155:a9a94c@@</p>\n\n                <p>@@text:154:a740d9@@</p>\n\n\n                <figure>\n                    <img src=\"../images/chp01/quadraticminus1.svg\" alt=\"x^2=-1\" title=\"x^2=-1\" style=\"width:75%;\">\n                    <figcaption>@@text:153:70db6c@@</figcaption>\n                </figure>\n\n\n                <p>@@text:152:86df01@@</p>\n\n                <p>@@text:151:2b0592@@</p>\n\n                <p>@@text:150:7c335d@@</p>\n\n\n                <div class=\"ggbElement\" style=\"display:block;width:798;height:516;\" id=\"ggb-element-02\"></div>\n                \n\n                <p>@@text:149:c1f7b5@@</p>\n\n                <hr>\n\n            </div>\n\n            <div id=\"section2\">\n\n                <h2>@@text:148:ac7a7b@@</h2>\n\n\n                <p>@@text:147:721377@@</p>\n\n                <div class=\"figure-container\">\n                    <figure>\n                        <img src=\"../images/chp01/tartaglia.jpg\" alt=\"Niccolò Fontana Tartaglia\"\n                            title=\"Niccolò Fontana Tartaglia\" style=\"width:220px;\">\n                        <figcaption>@@text:146:c593fb@@</figcaption>\n                    </figure>\n\n                    <figure>\n                        <img src=\"../images/chp01/cardano.jpg\" alt=\"Gerolamo Cardano\" title=\"Gerolamo Cardano\"\n                            style=\"width:250px;\">\n                        <figcaption>@@text:145:e5af42@@</figcaption>\n                    </figure>\n                </div>\n\n                <p>@@text:144:b9ba58@@</p>\n\n                <div class=\"practice\">\n                    <p>@@text:143:589599@@</p>\n                </div>\n\n                <hr>\n\n            </div>\n\n            <div id=\"section3\">\n\n                <h2>@@text:142:e2f3ee@@</h2>\n\n                <p>@@text:141:bb8039@@</p>\n\n                <figure>\n                    <img src=\"../images/chp01/cubic-line.svg\" alt=\"x^3=15x+4\" title=\"x^3=15x+4\" style=\"width:70%;\">\n                    <figcaption>@@text:140:deb6e6@@</figcaption>\n                </figure>\n\n                <div class=\"w3-responsive\">\n                    <p>@@text:139:005fc7@@</p>\n                </div>\n\n                <p>@@text:138:53e969@@</p>\n\n                <div>\n                    <p>@@text:137:51f10a@@</p>\n                </div>\n\n\n\n                <div class=\"figure-container\">\n\n\n                    <figure>\n                        <img src=\"../images/chp01/bombelli-solution.jpg\" alt=\"Bombelli's solution\"\n                            title=\"Bombelli's solution\" style=\"width:100%;\">\n\n                        <figcaption>@@text:136:947061@@</figcaption>\n                    </figure>\n\n                    <figure>\n                        <p>@@text:135:8c9417@@</p>\n                        <figcaption>@@text:134:d10bf0@@</figcaption>\n                    </figure>\n\n\n\n\n                </div>\n\n\n\n                <p>@@text:133:576c37@@</p>\n\n                <p>@@text:132:f19173@@</p>\n\n                <div class=\"practice\">\n                    <p>@@text:131:13e437@@</p>\n                </div>\n\n                <hr>\n\n\n            </div>\n\n            <div id=\"section4\">\n\n\n                <h2>@@text:130:a90bb2@@</h2>\n\n                <p>@@text:129:1b165b@@</p>\n\n                <div style=\"margin-left: 30px;margin-right: 30px;\">\n                    <p>@@text:128:85798c@@</p>\n                </div>\n\n                <p>@@text:127:14515b@@</p>\n\n\n\n\n                <figure>\n                    <img src=\"https://upload.wikimedia.org/wikipedia/commons/d/d7/Leonhard_Euler.jpg\" alt=\"Euler\"\n                        title=\"Euler\" style=\"width:30%;\">\n                    <figcaption>@@text:126:26b900@@</figcaption>\n                </figure>\n\n                <p>@@text:125:b77fc8@@</p>\n\n                <div style=\"margin-left: 30px;margin-right: 30px;\">\n                    <p>@@text:124:da5cad@@</p>\n                </div>\n\n                <p>@@text:123:ba52a7@@</p>\n\n                <div style=\"margin-left: 30px;margin-right: 30px;\">\n                    <p>@@text:122:e4a3aa@@</p>\n                </div>\n\n                <p>@@text:121:07bf9f@@</p>\n\n\n                <p>@@text:120:578a0c@@</p>\n                <p>@@text:119:09e4c7@@</p>\n\n\n\n                <div class=\"figure-container\">\n                    <figure>\n                        <img src=\"https://upload.wikimedia.org/wikipedia/commons/f/f6/William_Rowan_Hamilton_portrait_oval_combined.png\"\n                            alt=\"William Rowan Hamilton\" title=\"William Rowan Hamilton\" style=\"width:50%;\">\n                        <figcaption>@@text:118:76d2a7@@</figcaption>\n                    </figure>\n\n\n                    <figure>\n                        <img src=\"https://upload.wikimedia.org/wikipedia/commons/d/d3/Augustin-Louis_Cauchy_1901.jpg\"\n                            alt=\"Augustin-Louis Cauchy\" title=\"Augustin-Louis Cauchy\" style=\"width:50%;\">\n                        <figcaption>@@text:117:93cc51@@</figcaption>\n                    </figure>\n                </div>\n\n\n\n                <p>@@text:116:5032e1@@</p>\n\n\n\n                <div class=\"figure-container\">\n                    <figure>\n                        <img src=\"https://upload.wikimedia.org/wikipedia/commons/f/f1/Karl_Weierstrass.jpg\"\n                            alt=\"Karl Weierstrass\" title=\"Karl Weierstrass\" style=\"width:50%;\">\n                        <figcaption>@@text:115:ff65e7@@</figcaption>\n                    </figure>\n\n                    <figure>\n                        <img src=\"https://upload.wikimedia.org/wikipedia/commons/8/82/Georg_Friedrich_Bernhard_Riemann.jpeg\"\n                            alt=\"Georg Friedrich Bernhard Riemann\" title=\"Georg Friedrich Bernhard Riemann\"\n                            style=\"width:65%;\">\n                        <figcaption>@@text:114:65ec4b@@</figcaption>\n                    </figure>\n                </div>\n\n\n\n\n                <p>@@text:113:1e0ccb@@</p>\n\n\n                <hr>\n\n\n            </div>\n\n            <div id=\"section5\">\n\n                <h2>@@text:112:3582c4@@</h2>\n\n                <p>@@text:111:bdb220@@</p>\n\n                @@verbatim:3:dd5707@@\n\n\n                <hr>\n\n\n            </div>\n\n            <div id=\"section6\">\n\n                <h2>@@text:110:e81c45@@</h2>\n\n                <ol class=\"bbtex-list\">\n                    <li id=\"bombelli\">@@text:109:37a391@@</li>\n\n                    <li id=\"cardano\">@@text:108:97a4ac@@</li>\n                    <li id=\"carrucio\">@@text:107:54f2f8@@</li>\n                    <li id=\"descartes\">@@text:106:2be693@@</li>\n                    <li id=\"euler-algebra\">@@text:105:fea0a1@@</li>\n                    <li id=\"euleri\">@@text:104:b9cf7f@@</li>\n                    <li id=\"gonzalez-velasco\">@@text:103:074987@@</li>\n                    <li id=\"kline\">@@text:102:e38f31@@</li>\n                    <li id=\"merzbach-boyer\">@@text:101:3535b0@@</li>\n                    <li id=\"oconnor-robertson\">@@text:100:5dbfcd@@</li>\n                </ol>\n\n                <p class=\"w3-center\" style=\"font-size:24px\">@@text:99:a5aba9@@</p>\n\n                <ul style=\"line-height:28px\">\n                    <li id=\"bagni\">@@text:98:5847f0@@</li>\n                    <li id=\"buehler\">@@text:97:5c155a@@</li>\n                    <li id=\"burton\">@@text:96:a36dc7@@</li>\n\n                    <li>@@text:95:f37d7e@@</li>\n                    <li id=\"nahim\">@@text:94:c2ab54@@</li>\n                    <li id=\"huffman\">@@text:93:f977eb@@</li>\n                    <li id=\"marsden-tromba\">@@text:92:b49f4a@@</li>\n                    <li id=\"merino\">@@text:91:c5d7ce@@</li>\n                    <li id=\"stillwell\">@@text:90:00e727@@</li>\n\n                </ul>\n\n            </div>\n\n\n            <br />\n\n\n        </article>\n    </main>\n\n    @@verbatim:4:98ade6@@\n    @@verbatim:6:34ab3b@@\n    @@verbatim:7:10e027@@\n\n    <a href=\"terminology_notation.html\" style=\"text-decoration: none;\">\n        <p class=\"nextPage\">@@text:89:6fa163@@</p>\n    </a>\n    @@verbatim:5:903566@@\n\n</section>",
+  "_protected_html": "<section data-type=\"chapter\" id=\"brief-history\">\n\n    @@verbatim:0:e1d1cc@@\n\n    <div w3-include-html=\"small_screen_message.html\"></div>\n\n    <div class=\"toc-chapter\" id=\"toc-chapter\">\n        <p><i class=\"fa-solid fa-list\"></i>Contents</p>\n        <ul>\n            <li><a href=\"#section1\">Geometric interpretation</a></li>\n            <li><a href=\"#section2\">Solution to cubic equations</a></li>\n            <li><a href=\"#section3\">The genesis of imaginary numbers</a></li>\n            <li><a href=\"#section4\">The maturing of complex numbers</a></li>\n            <li><a href=\"#section5\">Final comments</a></li>\n            <li><a href=\"#section6\">References</a></li>\n            @@verbatim:1:7a7d39@@\n        </ul>\n    </div>\n\n    <br><br>\n\n    <main>\n        <article>\n\n            <h1>A Brief History</h1>\n\n            <div id=\"section1\">\n\n                <hr>\n\n                <h2>Geometric interpretation of quadratic and cubic equations</h2>\n\n\n                <p>Consider a quadratic equation\n                    @@math:8:37c1ff@@\n                    From elementary school we have learned how to find its solutions,\n                    that is, all the values of @@math:29:d65e60@@ that satisfy equation\n                    (\\ref{quad001}). To do so we just need to use the widely known\n                    <em>quadratic formula</em>\n                <div class=\"scroll-wrapper\">\n                    @@math:9:bca18a@@\n                </div>\n                of the <em>general quadratic equation </em>\n                @@math:10:de68ee@@\n                By rewriting equation (\\ref{quad001}) as @@math:30:e11b08@@ we can\n                use (\\ref{quad002}) to obtain\n                <div class=\"scroll-wrapper\">\n                    @@math:11:84975e@@\n                </div>\n\n                </p>\n\n\n                <p>\n                    If we plot equation (\\ref{quad001}) we can observe geometrically that\n                    it represents the intersection of the parabola @@math:31:dab5cf@@ with the line @@math:32:5f0b02@@\n                    This can be appreciated in the following applet. Drag the sliders below and\n                    observe what happens with the intersection points @@math:33:0f82d2@@ and @@math:34:96967c@@\n                </p>\n                <div>\n                    <div style=\"display:block;\" class=\"ggbElement\" id=\"ggb-element-01\"></div>\n                </div>\n\n\n                <p>\n                    As you already noticed, we have three cases:\n                <ol>\n                    <li>There are two points of intersection, i. e. two solutions.</li>\n                    <li>There is only one intersection point, i. e. one solution.</li>\n                    <li>There are no intersection points, i. e. there are no solutions.</li>\n                </ol>\n                </p>\n\n                <p>\n                    Surprisingly this has been known since ancient times,\n                    even without the use of mathematical symbols or computers.\n                    We know from clay tablets dated from around 2000 BCE that the Babylonian\n                    civilization possessed the quadratic formula, enabling them (in verbal form) to solve quadratic\n                    equations.\n                    Because the concept of negative numbers had to wait until the sixteenth century\n                    to appear, the Babylonians did not consider negative\n                    solutions\n                    <span style=\"white-space: nowrap;\">[<a href=\"#merzbach-boyer\" alt=\"Merzbach-Boyer\"\n                            title=\"Merzbach-Boyer\">9</a>,\n                        pp. 29-30]</span>.\n                    We can also find implicitly equations\n                    in the geometry developed by the\n                    ancient Greeks, as we would expect when circles, parabolas, and the like\n                    are being investigated, but we do not demand that every geometric problem have a solution\n                    [<a href=\"#merzbach-boyer\" alt=\"Merzbach-Boyer\" title=\"Merzbach-Boyer\">9</a>, Ch. 4].\n                    @@verbatim:2:701a6a@@\n                </p>\n\n                <p>\n                    Now let's go back to the quadratic equation @@math:35:ae67ff@@\n                    Consider the values @@math:36:41c8ab@@ and @@math:37:9bc964@@\n                    If we use formula (\\ref{quad004}), we obtain that\n                    @@math:19:6e2c40@@\n                    What is going on here?\n                    Most of you have learned from calculus, or elementary school, that we cannot\n                    take the square root of a negative number.\n                    Then, how do we interpret this value? Geometrically speaking,\n                    we can relate the solution @@math:38:f88ad9@@ to the fact that\n                    the parabola @@math:39:23e87f@@ and the line @@math:40:bc6b8f@@ do\n                    not intersect each other, see Figure 1. In other words, there is no solution.\n                    In general, if @@math:41:ada93d@@\n                    then equation @@math:42:839d88@@ has no solutions.\n                </p>\n\n\n                <figure>\n                    <img src=\"../images/chp01/quadraticminus1.svg\" alt=\"x^2=-1\" title=\"x^2=-1\" style=\"width:75%;\">\n                    <figcaption>@@math:43:324815@@</figcaption>\n                </figure>\n\n\n                <p>\n                    It is argued that this led to the invention of a new number denoted by @@math:44:aef0af@@\n                    which is equal to @@math:45:e3399f@@ and it was given the name \"imaginary\".\n                    If we use @@math:46:b9fe44@@ as a number such that @@math:47:841a7c@@\n                    then this value is the solution of the equation @@math:48:c6f08a@@\n                </p>\n\n                <p>\n                    It is also a common practice to point out in courses of mathematics that\n                    <em>complex numbers</em>, denoted as @@math:49:6abc47@@ are needed to solve certain\n                    quadratic equations, such as @@math:50:15f72c@@\n                    However, complex numbers emerged, in fact, from the need to solve cubic equations.\n                    Furthermore, when quadratic and cubic equations first appeared,\n                    at that time, there was no need to have solutions for all equations.\n                </p>\n\n                <p>\n                    So where did complex numbers really come into importance? To answer this let's\n                    consider the cubic equation\n                    @@math:12:53cf61@@\n                    Geometrically, this equation represents the intersection of the cubic\n                    @@math:51:96843f@@ with the line @@math:52:5719a3@@\n                    as shown in the following applet. Drag sliders below and observe what happens.\n                </p>\n\n\n                <div class=\"ggbElement\" style=\"display:block;width:798;height:516;\" id=\"ggb-element-02\"></div>\n                \n\n                <p>\n                    As you can observe no matter what line is defined by the parameters @@math:53:d7220e@@ and @@math:54:8375bf@@\n                    it will always intersect the cubic somewhere, even when the line\n                    @@math:55:8c6a2c@@ is perpendicular to the @@math:56:3d4400@@-axis and far from the origin (i. e. when\n                    @@math:57:656e7b@@ and @@math:58:a5ac15@@ are both very large positive/negative numbers).\n                    This is because the cubic\n                    goes all the way from @@math:59:ccc99c@@ to @@math:60:ad5b12@@\n                    Thus, there is no line you can draw that won't intersect this cubic.\n                    This example is very different from the quadratic case which was a parabola @@math:61:ff979d@@\n                    and you could define a line @@math:62:d5faf2@@ such that it won't intersect the parabola.\n                </p>\n\n                <hr>\n\n            </div>\n\n            <div id=\"section2\">\n\n                <h2>Solution to cubic equations</h2>\n\n\n                <p>\n                    It is well known that the solution of the cubic @@math:63:780c61@@\n                    was developed in the Renaissance (15th and 16th centuries) by Italian\n                    mathematicians. Scipione del Ferro (1465-1526) and Niccolò Tartaglia (1500-1557),\n                    followed by Girolamo Cardano (1501-1576), showed that @@math:64:7256ea@@\n                    has a solution given by\n                <div class=\"scroll-wrapper\">\n                    @@math:13:45ba7d@@\n                </div>\n\n                This is known as Cardano's formula and here we are using modern notation.\n                </p>\n\n                <div class=\"figure-container\">\n                    <figure>\n                        <img src=\"../images/chp01/tartaglia.jpg\" alt=\"Niccolò Fontana Tartaglia\"\n                            title=\"Niccolò Fontana Tartaglia\" style=\"width:220px;\">\n                        <figcaption>\n                            Tartaglia.\n                        </figcaption>\n                    </figure>\n\n                    <figure>\n                        <img src=\"../images/chp01/cardano.jpg\" alt=\"Gerolamo Cardano\" title=\"Gerolamo Cardano\"\n                            style=\"width:250px;\">\n                        <figcaption>\n                            Cardano.\n                        </figcaption>\n                    </figure>\n                </div>\n\n                <p>\n                    To see how this works consider the\n                    equation @@math:65:8550db@@\n                    In this case @@math:66:6d83ca@@ and @@math:67:50bf56@@ If we plug these numbers into\n                    (\\ref{cubic002}), we obtain the solution\n                <div class=\"scroll-wrapper\">\n                    @@math:20:0b374b@@\n                </div>\n                Simplifying we obtain @@math:68:e2bfa9@@ a solution of the given equation since\n                <div class=\"scroll-wrapper\">\n                    @@math:21:ad665a@@\n                </div>\n\n                Thus, this formula seems to work very well, at least for this case.\n                </p>\n\n                <div class=\"practice\">\n                    <p><strong>Exercise:</strong> Try to solve @@math:69:ec0c81@@ using Cardano's formula.</p>\n                </div>\n\n                <hr>\n\n            </div>\n\n            <div id=\"section3\">\n\n                <h2>The genesis of imaginary numbers</h2>\n\n                <p>\n                    A few years later after the discovery of Cardano's formula,\n                    the Italian engineer-architect Rafael Bombelli (1526-1572)\n                    recognized that there was something strange and paradoxical about this formula.\n                    He considered the equation\n                    @@math:14:2156dc@@\n                    and, with perhaps just a little\n                    pondering, you can see that @@math:70:927e27@@ is a solution. This can also\n                    be seen in Figure 4. In fact there are three solutions, but\n                    Bombelli did not consider negative values, so we won't either.\n                </p>\n\n                <figure>\n                    <img src=\"../images/chp01/cubic-line.svg\" alt=\"x^3=15x+4\" title=\"x^3=15x+4\" style=\"width:70%;\">\n                    <figcaption>\n                        @@math:71:450265@@\n                    </figcaption>\n                </figure>\n\n                <div class=\"w3-responsive\">\n                    <p>\n                        Then Bombelli used Cardano's formula to solve @@math:72:a5360f@@\n                        Thus, considering @@math:73:ea12a7@@ and @@math:74:568212@@\n                        he obtained\n                    <div class=\"scroll-wrapper\">\n                        @@math:15:515fe8@@\n                    </div>\n\n                    Here he encountered a very unusual value. If Cardano's formula\n                    is correct, this number must be equal to 4.\n                    Yet this must be nonsense and the value cannot be real,\n                    because inside the cube root we are taking\n                    the square root of a negative number, an absolute impossibility\n                    at that time (and also nowadays).\n                    Cardano also encountered this difficulty but he did not face it up.\n                    He did once mention imaginary numbers, but in connection\n                    with a quadratic equation and accompanied by the comment that\n                    these numbers were \"as subtle as they are useless\"\n                    [<a href=\"#cardano\" alt=\"Cardano\" title=\"Cardano\">2</a>, Ch.\n                    37, Rule II].\n                    </p>\n                </div>\n\n                <p>\n                    However, Bombelli overcomes this difficulty\n                    by seeing that the weird expression (\\ref{cubic004})\n                    that Cardano's formula gives for @@math:75:858f08@@ is actually real,\n                    but expressed in a very unfamiliar manner. This\n                    insight did not come easily. As Bombelli wrote in his book <em>L'Algebra</em>:\n                <div style=\"margin-left: 30px;margin-right: 30px;\">\n                    <p>\n                        And although to many this will appear an extravagant thing,\n                        because even I held this opinion some time ago, since it appeared\n                        to me more sophistic than true, nevertheless I searched hard and\n                        found the demonstration, which will be noted below. ... But let\n                        the reader apply all his strength of mind, for [otherwise]\n                        even he will find himself deceived.\n                        [<a href=\"bombelli\" alt=\"Bombelli\" title=\"Bombelli\">1</a>, pp. 293-294;\n                        <a href=\"#oconnor-robertson\" alt=\"O'Connor-Robertson\" title=\"O'Connor-Robertson\">10</a>]\n                    </p>\n                </div>\n\n                <figure>\n                    <img src=\"../images/chp01/algebra-bombelli.jpg\" alt=\"L'Algebra\" title=\"L'Algebra\"\n                        style=\"width:45%;\">\n                    <figcaption>\n                        <em>L'Algebra</em> by Rafael Bombelli: frontispiece of\n                        the Bologna edition of 1579.\n                    </figcaption>\n                </figure>\n                </p>\n\n                <div>\n                    <p>\n                        Bombelli's great insight was simply to treat @@math:76:a7ab18@@ as a number and to operate with\n                        it following some specific arithmetic rules (the same kind of rules that we use nowadays).\n                        Thus he discovered that\n                    <div class=\"scroll-wrapper\">\n                        @@math:22:8746b7@@\n                    </div>\n                    By substituting these values in (\\ref{cubic004}) Bombelli obtained\n                    <div class=\"scroll-wrapper\">\n                        @@math:23:93e47a@@\n                    </div>\n                    Then he showed that the squared roots of negative numbers cancel each other\n                    [<a href=\"#bombelli\" alt=\"Bombelli\" title=\"Bombelli\">1</a>, p. 169;\n                    <a href=\"#gonzalez-velasco\" alt=\"González-velasco\" title=\"González-Velasco\">7</a>, p. 164]. That\n                    is\n                    <div class=\"scroll-wrapper\">\n                        @@math:24:717fa9@@\n                    </div>\n                    And concluded that @@math:77:a30fc4@@ is actually the solution of @@math:78:cce483@@\n                    obtained from Cardano's formula [<a href=\"#bombelli\" alt=\"Bombelli\" title=\"Bombelli\">1</a>, p.\n                    294],\n                    see Figure 6.\n                    This trick works in only a few cases, however, it helped to\n                    understand imaginary numbers and to take their cube roots or\n                    manipulate them when they appear aside real numbers.\n                    </p>\n                </div>\n\n\n\n                <div class=\"figure-container\">\n\n\n                    <figure>\n                        <img src=\"../images/chp01/bombelli-solution.jpg\" alt=\"Bombelli's solution\"\n                            title=\"Bombelli's solution\" style=\"width:100%;\">\n\n                        <figcaption>\n                            Bombelli's original solution.\n                        </figcaption>\n                    </figure>\n\n                    <figure>\n                        <p>\n                            @@math:16:0f307c@@\n                            @@math:17:42436a@@\n                            @@math:18:b8e9a8@@\n\n                        </p>\n                        <figcaption>\n                            Solution in modern algebra.\n                        </figcaption>\n                    </figure>\n\n\n\n\n                </div>\n\n\n\n                <p>\n                    Of course, as you can see in Figure 6,\n                    Bombelli did not have at his disposal the power of today's algebraic notation\n                    (neither computers) and his computations were limited to numbers in \"real domain\".\n                    In fact, most of Italian mathematicians at that time tended to think of cubes or squares\n                    as geometric objects rather than algebraic quantities. However, he is credited for\n                    proving the reality of the roots of the cubic @@math:79:b0d96a@@\n                    since he demonstrated the extraordinary fact that real numbers could be\n                    engendered by imaginary numbers.\n                </p>\n\n                <p>\n                    Cardano's formula forced mathematicians\n                    to confront square roots of negative numbers.\n\n                    This historical incident is another example that negates the widespread\n                    view that mathematics is \"made up\" by mathematicians. As is often the case, it is\n                    the mathematics itself that speaks to us.\n                    From this time on, imaginary numbers lost some of their mystical\n                    character, although their full acceptance as <em>bona fide</em>\n                    numbers came only in the 1800s.\n                </p>\n\n                <div class=\"practice\">\n                    <p><strong>Exercise:</strong> Verify that @@math:80:b87ead@@</p>\n                </div>\n\n                <hr>\n\n\n            </div>\n\n            <div id=\"section4\">\n\n\n                <h2>The maturing of complex numbers</h2>\n\n                <p>\n                    Many mathematicians after Cardano and Bombelli made important contributions to\n                    imaginary (or complex) numbers. For example René Descartes (1596-1650)\n                    coined the term \"imaginary\" in his book in <em>La Géométrie</em> of 1637 as follows:\n\n                </p>\n\n                <div style=\"margin-left: 30px;margin-right: 30px;\">\n                    <p>Neither the true nor the false [negative] roots are always real; but sometimes\n                        only imaginary. [<a href=\"#descartes\" alt=\"Descartes\" title=\"Descartes\">4</a>, p. 380]\n                    </p>\n                </div>\n\n                <p>\n                    John Wallis (1616-1703) showed how to represent geometrically complex\n                    roots of a quadratic equation with real coefficients\n                    [<a href=\"#kline\" alt=\"Kline\" title=\"Kline\">8</a>, p. 594].\n                    Caspar Wessel (1745-1818) and\n                    <span style=\"white-space: nowrap;\">Jean-Robert</span>\n                    Argan (1768-1822)\n                    provided geometric representations of complex numbers as vectors\n                    [<a href=\"#gonzalez-velasco\" alt=\"González-Velasco\" title=\"González-Velasco\">7</a>, pp. 185-190].\n                </p>\n\n\n\n\n                <figure>\n                    <img src=\"https://upload.wikimedia.org/wikipedia/commons/d/d7/Leonhard_Euler.jpg\" alt=\"Euler\"\n                        title=\"Euler\" style=\"width:30%;\">\n                    <figcaption>\n                        Euler.\n                    </figcaption>\n                </figure>\n\n                <p>\n                    Leonard Euler (1707-1783) standardized the notation \"@@math:81:7ad690@@\"\n                    [<a href=#euleri>6</a>, p. 184] and used imaginary numbers to solve\n                    quadratic and cubic equations, in spite of the fact that he\n                    was still suspicious of these numbers.\n                    In his <em>Algebra</em>, for example, he mentioned:\n                </p>\n\n                <div style=\"margin-left: 30px;margin-right: 30px;\">\n                    <p>[...] since all numbers which it is possible to conceive\n                        are either greater or less than 0, or are 0 itself, it is\n                        evident that we cannot rank the square root of a negative\n                        number amongst possible numbers, and we must therefore\n                        say that it is an impossible quantity. In this manner we are\n                        led to the idea of numbers, which from their nature are impossible;\n                        and therefore they are usually called imaginary\n                        quantities, because they exist merely in the imagination.\n                        [<a href=\"#euler-algebra\" alt=\"Euler-Algebra\" title=\"Euler-Algebra\">5</a>, p. 43]\n                    </p>\n                </div>\n\n                <p>\n                    Lest anyone takes this as a condemnation, he continued:\n                </p>\n\n                <div style=\"margin-left: 30px;margin-right: 30px;\">\n                    <p>notwithstanding this, these numbers present\n                        themselves to the mind; they exist in our\n                        imagination, and we still have a sufficient idea of\n                        them; [...] nothing prevents us from making use of these\n                        imaginary numbers, and employing them in calculation.\n                        <span style=\"white-space: nowrap;\">[<a href=\"#euler-algebra\" alt=\"Euler\" title=\"Euler\">5</a>, p.\n                            43]</span>\n\n                    </p>\n                </div>\n\n                <p>\n                    Later Carl Friedrich Gauss (1777-1855) introduced the term \"complex number\"\n                    referring to numbers of the form @@math:82:8b62ea@@\n                    [<a href=\"#gonzalez-velasco\" alt=\"González-Velasco\" title=\"González-Velasco\">7</a>, p. 191].\n                    He also gave four proofs of the <em>fundamental theorem of algebra</em> over the course of\n                    his long career. This theorem tells us that\n                    any @@math:83:9aba78@@th-degree polynomial has @@math:84:e0d0c4@@ roots, some or all of which\n                    may be imaginary. The first proof that Gauss gave was in his doctoral\n                    dissertation of 1799. The last (and perhaps the most elegant)\n                    allows the use of complex numbers not only for the variable but\n                    for the coefficients as well. Since this necessarily depended on the recognition\n                    of complex numbers, Gauss helped to solidify the position of these\n                    numbers [<a href=\"#kline\" alt=\"Kline\" title=\"Kline\">8</a>, Vol. 2, p. 595].\n                </p>\n\n\n                <p>\n                    The first rigorous definition of complex numbers was given\n                    by William Rowan Hamilton (1805-1865). In 1833 he proposed to the Irish Academy\n                    that a complex number @@math:85:461dde@@ can be considered as a <em>couple</em> @@math:86:822276@@\n                    with @@math:87:0ed12e@@ real numbers\n                    <span style=\"white-space: nowrap;\">[<a href=\"#gonzalez-velasco\" alt=\"González-Velasco\"\n                            title=\"González-Velasco\">7</a>, pp. 192-193].</span>\n                    Then he defined addition and multiplication\n                    of <em>couples</em> as follows:\n                <div class=\"scroll-wrapper\">\n                    @@math:25:acb373@@\n                </div>\n                and\n                <div class=\"scroll-wrapper\">\n                    @@math:26:93cbb4@@\n                </div>\n                </p>\n                <p>\n                    This is in fact an algebraic definition of complex numbers.\n\n                    From the didactic and heuristic points of view it is preferable to have\n                    complex numbers introduced through a geometrical interpretation.\n                    But from the logical point of view the theory of <em>couples</em>\n                    is much more satisfying, since it shows the consistency of the\n                    theory of complex numbers starting from the consistency of\n                    the real numbers [<a href=\"#carrucio\" alt=\"Carrucio\" title=\"Carrucio\">3</a>, pág. 175].\n                </p>\n\n\n\n                <div class=\"figure-container\">\n                    <figure>\n                        <img src=\"https://upload.wikimedia.org/wikipedia/commons/f/f6/William_Rowan_Hamilton_portrait_oval_combined.png\"\n                            alt=\"William Rowan Hamilton\" title=\"William Rowan Hamilton\" style=\"width:50%;\">\n                        <figcaption>\n                            Hamilton.\n                        </figcaption>\n                    </figure>\n\n\n                    <figure>\n                        <img src=\"https://upload.wikimedia.org/wikipedia/commons/d/d3/Augustin-Louis_Cauchy_1901.jpg\"\n                            alt=\"Augustin-Louis Cauchy\" title=\"Augustin-Louis Cauchy\" style=\"width:50%;\">\n                        <figcaption>\n                            Cauchy.\n                        </figcaption>\n                    </figure>\n                </div>\n\n\n\n                <p>\n                    Among the many mathematicians and scientists who contributed,\n                    there are three who stand out as having influenced decisively the course of\n                    development of complex analysis\n                    [<a href=\"#kline\" alt=\"Kline\" title=\"Kline\">8</a>, Vol.2, Ch. 27].\n                    The first is Augustin-Louis Cauchy (1789-1857), who\n                    developed the theory of the complex integral calculus.\n                    By using imaginary numbers Cauchy was able to\n                    evaluate \"real integrals\" that heretofore could not be evaluated,\n                    obtaining stunning results such as\n                <div class=\"scroll-wrapper\">\n                    @@math:27:7ced54@@\n                </div>\n                and\n                <div class=\"scroll-wrapper\">\n                    @@math:28:625aae@@\n                </div>\n                The evaluation of real integrals, in addition to the solution of\n                the cubic equation and the fundamental theorem of algebra,\n                proved how valuable it was to consider imaginary numbers.\n                </p>\n\n\n\n                <div class=\"figure-container\">\n                    <figure>\n                        <img src=\"https://upload.wikimedia.org/wikipedia/commons/f/f1/Karl_Weierstrass.jpg\"\n                            alt=\"Karl Weierstrass\" title=\"Karl Weierstrass\" style=\"width:50%;\">\n                        <figcaption>\n                            Weierstrass.\n                        </figcaption>\n                    </figure>\n\n                    <figure>\n                        <img src=\"https://upload.wikimedia.org/wikipedia/commons/8/82/Georg_Friedrich_Bernhard_Riemann.jpeg\"\n                            alt=\"Georg Friedrich Bernhard Riemann\" title=\"Georg Friedrich Bernhard Riemann\"\n                            style=\"width:65%;\">\n                        <figcaption>\n                            Riemann.\n                        </figcaption>\n                    </figure>\n                </div>\n\n\n\n\n                <p>\n                    Finally, the other two important mathematicians are Karl Weierstrass\n                    (1815-1897) and Bernhard Riemann (1826-1866), who appeared on the\n                    mathematical scene about the middle of the nineteenth century. Weierstrass\n                    developed the theory from a starting point of convergent power series, and\n                    this approach led towards more formal algebraic developments. Riemann\n                    contributed a more geometric point of view on the study of\n                    complex functions. His ideas had a tremendous\n                    impact not only on complex analysis but upon mathematics as a whole,\n                    though his views took hold only gradually.\n                </p>\n\n\n                <hr>\n\n\n            </div>\n\n            <div id=\"section5\">\n\n                <h2>Final comments</h2>\n\n                <p>\n                    The foregoing descriptions of complex numbers are not the end of the story.\n                    Various developments in the nineteenth and twentieth centuries enabled us\n                    to gain a deeper insight into the role of complex numbers not only in mathematics,\n                    but also in engineering and physics.\n                    The history of complex numbers is fascinating and I highly encourage\n                    the reader to consult the primary sources cited here which\n                    could serve as a starting point to delve into the historical\n                    details that allowed the emergence and development of complex numbers.\n                </p>\n\n                @@verbatim:3:dd5707@@\n\n\n                <hr>\n\n\n            </div>\n\n            <div id=\"section6\">\n\n                <h2>References</h2>\n\n                <ol class=\"bbtex-list\">\n                    <li id=\"bombelli\">Bombelli, R. (1579). <em>L'Algebra.</em> Bologna. <a\n                            href=\"https://archive.org/details/lalgebra00bomb/page/n3/mode/2up\" target=\"_blank\"><i\n                                class=\"fas fa-external-link-alt\"></i></a></li>\n\n                    <li id=\"cardano\">Cardano, H. (1545). <em>Artis magnae, sive de regulis algebraicis, liber\n                            unus.</em> (n.p.): Joh.\n                        Petreius.\n                        <a href=\"https://www.google.com.au/books/edition/Artis_magnae_sive_de_regulis_algebraicis/-k5ZAAAAcAAJ?hl=en&gbpv=1&pg=PA66&printsec=frontcover&bsq=cuius%20hoc%20extremum%20ut%20dixi%2C%20adeo%20est%20subtile%2C%20ut%20sit%20inutile\"\n                            target=\"_blank\"><i class=\"fas fa-external-link-alt\"></i></a>\n                    </li>\n                    <li id=\"carrucio\">Carrucio, E. (2009). <em>Mathematics and Logic in History and Contemporary\n                            Thought</em>.\n                        (I. Quigly, Trans.) USA: Aldine Transaction. (Original work published 1964).</li>\n                    <li id=\"descartes\">Descartes, R. (1637). <em>La Géométrie.</em> Paris: A. Herman, Librairie\n                        Scientifique. <a\n                            href=\"https://archive.org/details/geometryofrene00desc/page/174/mode/2up?q=imaginary\"\n                            target=\"_blank\"><i class=\"fas fa-external-link-alt\"></i></a></li>\n                    <li id=\"euler-algebra\">Euler, L. (1972). <em>Elements of Algebra.</em> (Rev. John Hewlett, B.D.\n                        F.A.S. &c,\n                        Trans.). Springer-Verlag.\n                        (Original work published 1770). <a href=\"https://www.springer.com/gp/book/9781461385134\"\n                            target=\"_blank\"><i class=\"fas fa-external-link-alt\"></i></a></li>\n                    <li id=\"euleri\">Euleri, L. (1845). <em>Instituitionum Calculi Integralis.</em> Volumen Quartum.\n                        Petropoli. Impensis Academia Imperialis Scientarum. <a\n                            href=\"https://books.google.it/books?id=rCNRAAAAYAAJ&pg=PA184#v=onepage&q&f=false\"\n                            target=\"_blank\"><i class=\"fas fa-external-link-alt\"></i></a>\n                    </li>\n                    <li id=\"gonzalez-velasco\">González-Velasco, A. E. (2011) <em>Journey through Mathematics.</em>\n                        Springer Science+Business Media. <a href=\"https://www.springer.com/gp/book/9780387921532\"\n                            target=\"_blank\"><i class=\"fas fa-external-link-alt\"></i></a></li>\n                    <li id=\"kline\">Kline, M. (1972). <em>Mathematical Thought from Ancient to Modern Times.</em> Vols.\n                        1-3. New York:\n                        Oxford University Press.</li>\n                    <li id=\"merzbach-boyer\">Merzbach, U. C & Boyer, C. B. (2011). <em>A history of mathematics.</em> 3rd\n                        ed.\n                        John Wiley & Sons, Inc., Hoboken, New Jersey.</li>\n                    <li id=\"oconnor-robertson\">O'Connor, J. J. & Robertson, E. F. (2000). <em>Rafael Bombelli.</em>\n                        <a href=\"https://mathshistory.st-andrews.ac.uk/Biographies/Bombelli/\" target=\"_blank\"><i\n                                class=\"fas fa-external-link-alt\"></i></a>\n                    </li>\n                </ol>\n\n                <p class=\"w3-center\" style=\"font-size:24px\">\n                    <strong>Further reading</strong>\n                </p>\n\n                <ul style=\"line-height:28px\">\n                    <li id=\"bagni\">Bagni, G. T. (2009). Bombelli's Algebra (1572) and a New Mathematical Object.\n                        <em>For the Learning of Mathematics.</em> Vol. 29, No. 2, pp.\n                        29-31.\n                        <a href=\"https://www.jstor.org/stable/40248647\" target=\"_blank\"><i\n                                class=\"fas fa-external-link-alt\"></i></a>\n                    </li>\n                    <li id=\"buehler\">Buehler, D. (2014). Incomplete understanding of complex numbers\n                        Girolamo Cardano: a case study in the acquisition\n                        of mathematical concepts. <em>Synthese </em> 191:4231-4252.\n                        <a href=\"https://link.springer.com/article/10.1007/s11229-014-0527-x\" target=\"_blank\"><i\n                                class=\"fas fa-external-link-alt\"></i></a>\n                    </li>\n                    <li id=\"burton\">Burton, D. M. (1995). <em>The history of mathematics: An introduction</em> (6th ed.)\n                        (2005). New York: McGraw-Hill.</li>\n\n                    <li>Gindikin, S. (2007). <em>Tales of Mathematicians and Physicists</em>. Second English edition\n                        Springer Science+\n                        Business Media, LLC.\n                        <a href=\"https://link.springer.com/book/10.1007/978-0-387-48811-0\" target=\"_blank\"><i\n                                class=\"fas fa-external-link-alt\"></i></a>\n                    </li>\n                    <li id=\"nahim\">Nahim, P. J. (1998). <em>An imaginary tale: The story of @@math:88:d847a8@@</em>. USA:\n                        Princeton\n                        University Press.\n                    </li>\n                    <li id=\"huffman\">Huffman, C. J. (2019). Mathematical Treasure: Raphael Bombelli's L'algebra.\n                        <em>Convergence.</em>\n                        <a href=\"https://www.maa.org/press/periodicals/convergence/mathematical-treasure-raphael-bombellis-lalgebra\"\n                            target=\"_blank\"><i class=\"fas fa-external-link-alt\"></i></a>\n                    </li>\n                    <li id=\"marsden-tromba\">Marsden, J. E. & Tromba, A. J. (2003). <em>Vector Calculus.</em> USA: W. H.\n                        Freeman and\n                        Company.</li>\n                    <li id=\"merino\">Merino, O. (2006). <em>A Short History of Complex Numbers.</em>\n                        <a href=\"http://www.math.uri.edu/~merino/spring06/mth562/ShortHistoryComplexNumbers2006.pdf\"\n                            target=\"_blank\"><i class=\"fas fa-external-link-alt\"></i></a>\n                    </li>\n                    <li id=\"stillwell\">Stillwell, J. (2010). <em>Mathematics and Its History.</em> Springer Science.\n\n                        <a href=\"https://www.springer.com/gp/book/9781441960528\" target=\"_blank\"><i\n                                class=\"fas fa-external-link-alt\"></i></a>\n                    </li>\n\n                </ul>\n\n            </div>\n\n\n            <br />\n\n\n        </article>\n    </main>\n\n    @@verbatim:4:98ade6@@\n    @@verbatim:6:34ab3b@@\n    @@verbatim:7:10e027@@\n\n    <a href=\"terminology_notation.html\" style=\"text-decoration: none;\">\n        <p class=\"nextPage\">Terminology and Notation <i class=\"fa-solid fa-angles-right\"></i></p>\n    </a>\n    @@verbatim:5:903566@@\n\n</section>"
+}

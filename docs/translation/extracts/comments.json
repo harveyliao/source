@@ -1,0 +1,810 @@
+{
+  "file": "comments.html",
+  "original_length": 57975,
+  "num_text_blocks": 88,
+  "num_verbatim": 4,
+  "verbatim_map": {
+    "@@verbatim:0:8c3a4a@@": "<!-- Starts main content -->",
+    "@@verbatim:1:3cf110@@": "<!--#survey ends-->",
+    "@@verbatim:2:f88179@@": "<!-- Ends main content -->",
+    "@@verbatim:3:2033f1@@": "<iframe width=\"100%\" height=\"470px\" src=\"../applets/maps-info/colors\"></iframe>",
+    "@@math:4:cb08f7@@": "$f(z)$",
+    "@@math:5:fef3d4@@": "$\\LaTeX$"
+  },
+  "text_blocks": [
+    {
+      "id": "block_0",
+      "tag": "h1",
+      "text": "Reader's Comments",
+      "raw_len": 17,
+      "placeholder": "@@text:93:cd3c72@@",
+      "byte_start": 132,
+      "byte_end": 149
+    },
+    {
+      "id": "block_1",
+      "tag": "p",
+      "text": "570K Visitors from around the world since\n                2020",
+      "raw_len": 62,
+      "placeholder": "@@text:92:caf842@@",
+      "byte_start": 251,
+      "byte_end": 313
+    },
+    {
+      "id": "block_2",
+      "tag": "p",
+      "text": "\n                Many thanks to all the people around the world who have kindly shared their thoughts about\n                this educational resource.\n                Thanks!\n            ",
+      "raw_len": 187,
+      "placeholder": "@@text:91:40fc9c@@",
+      "byte_start": 406,
+      "byte_end": 593
+    },
+    {
+      "id": "block_3",
+      "tag": "p",
+      "text": "\n                This helped me understand the concepts REALLY well. \n                Extremely extremely useful. I love that it's free \n                and so helpful. Don't know how I'd have passed my \n                course without it. Thank you so much!! \n                 [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>—  Student (India)</strong>[[/span]]\n                    \n                ",
+      "raw_len": 405,
+      "placeholder": "@@text:90:4f74b1@@",
+      "byte_start": 711,
+      "byte_end": 1116
+    },
+    {
+      "id": "block_4",
+      "tag": "p",
+      "text": "\n                This is nothing short of a mathematical work of art. Every element \n                of this text fosters understanding to an unparalleled level, with \n                the writing and the interactable models working in tandem to explain \n                one of the hardest math subjects with gracious ease. \n                 [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>— Gabriel Liscano, @saint.gabriel2, (Student, Georgia, USA)</strong>[[/span]]\n                    \n                ",
+      "raw_len": 510,
+      "placeholder": "@@text:89:c162ad@@",
+      "byte_start": 1253,
+      "byte_end": 1763
+    },
+    {
+      "id": "block_5",
+      "tag": "p",
+      "text": "\n                 This is very interactive eBook than traditional eBook...\n                 The concept building in mathematics becomes easy now. Hope \n                 we find all other branches in mathematics in similar format...!!!\n                 I am civil Engineering student with know-how of computer programming in \n                 Python and R. If I can contribute for the development of subject matter, \n                 It would be great satisfaction for me...\n                 [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>— Radha Krishna Mallik (Teacher, Nepal)</strong>[[/span]]\n                    \n                ",
+      "raw_len": 640,
+      "placeholder": "@@text:88:b3eb3a@@",
+      "byte_start": 1901,
+      "byte_end": 2541
+    },
+    {
+      "id": "block_6",
+      "tag": "p",
+      "text": "\n                  I think it is a complete, well explained and very easy to \n                  understand resource. Thank you! \n                    [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>— Teresa Castiñeira (Paraguay)</strong>[[/span]]\n                    \n                ",
+      "raw_len": 289,
+      "placeholder": "@@text:87:9d887c@@",
+      "byte_start": 2678,
+      "byte_end": 2967
+    },
+    {
+      "id": "block_7",
+      "tag": "p",
+      "text": "\n                  I really appreciate the fact that the information is free, usually \n                  I have to search in books, It's not a problem, but sometimes I \n                  have to pay for information, and find a website where there is \n                  correct information of a mathematic subject, it helps a lot. \n                  I'm very thankful. \n                    [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>— Fedra (Chile)</strong>[[/span]]\n                    \n                ",
+      "raw_len": 514,
+      "placeholder": "@@text:86:32adf1@@",
+      "byte_start": 3103,
+      "byte_end": 3617
+    },
+    {
+      "id": "block_8",
+      "tag": "p",
+      "text": "\n                   I actually have an Exam tomorrow on Complex Analysis [Bachelors MechE]. \n                   I have a mind which always wanders around, sometimes affecting my own \n                   academics, that's why my grades are either really good or F. I \n                   know that it's bad thing but that's the way it goes for me. I \n                   have an intuitive understanding of Mathematics from Linear \n                   Algebra to Calculus to Topology including Complex Functions \n                   because I somehow supported myself enough to understand that \n                   the First Principle applies here as well just like it does \n                   in Single or Multivariable Calculus except it is @@math:4:cb08f7@@ if you \n                   respect the Notations. And its midnight with Exam tomorrow \n                   morning and I am reading this only to understand things from \n                   ground and it's absolutely bonkers that you have created this. \n                   I love it. I had a few misconceptions about Cauchy's \n                   Integral and Laurent's Series but it's all clear not only \n                   \"Equationally\" but also intuitively. It's insane. \n                   I'm broke to give you money, but I will definitely in \n                   the future when I have gotten enough money. But do keep \n                   up this work. It's just as amazing as Grant's Videos [3B-1B] \n                   while being different because sometimes you can learn more \n                   by reading than by watching. He nailed the video part and \n                   you nailed the reading part. Maybe add a few more topics \n                   if possible, like, Riemann Mapping, Residue Theorem etc. \n                   making it a little bit more textbook alternative. \n                   I know that it is a hard thing to actually replace a \n                   good textbook, but I think it will work out. Cheers \n                   anyway for this and keep up the good work. All the best.🥂 \n                    [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>— Student</strong>[[/span]]\n                    \n\n                ",
+      "raw_len": 2200,
+      "placeholder": "@@text:85:b0e392@@",
+      "byte_start": 3754,
+      "byte_end": 5954
+    },
+    {
+      "id": "block_9",
+      "tag": "p",
+      "text": "\n                   I think this website is an AMAZING learning resource. \n                   It covers almost everything I need for my studies and \n                   keeps updating all the time. It has very good explanations, \n                   including interactive visualizations that are desperately \n                   needed in this subject. I would definitely recommend anyone \n                   who struggles with this subject to use this website.\n                    [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>— Shahar (Israel)</strong>[[/span]]\n                    \n\n                ",
+      "raw_len": 607,
+      "placeholder": "@@text:84:eb8dfb@@",
+      "byte_start": 6092,
+      "byte_end": 6699
+    },
+    {
+      "id": "block_10",
+      "tag": "p",
+      "text": "\n                   The website really helped me understanding the concepts \n                   beyond mere definitions. If I could I'd support the author\n                   but due to international payment barrier unfortunately I cannot. \n                   That being said, I wouldn't mind ads on this website \n                   because it is so worth it. \n                   The concepts I learnt here were a fraction of \n                   my syllabus but definitely glued to my memory!\n                   Big thanks to the author and best wishes, always! 😊 ❤️\n                    [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>— Student (India)</strong>[[/span]]\n                    \n\n                ",
+      "raw_len": 714,
+      "placeholder": "@@text:83:c291e5@@",
+      "byte_start": 6848,
+      "byte_end": 7562
+    },
+    {
+      "id": "block_11",
+      "tag": "p",
+      "text": "\n                    I think this is God's gift to undergraduate students \n                    like me. Thank you so much for making this. \n                    I LOVE that you include a summary of the history \n                    of the mathematicians who pioneered the field, \n                    and the references to more detailed sources. \n                    Complex analysis is becoming a passion of mine, \n                    and excellent educational resources like this \n                    is broadening my horizons.\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>— Joel (Student, Detroit)</strong>[[/span]]\n                    \n\n                ",
+      "raw_len": 684,
+      "placeholder": "@@text:82:412f00@@",
+      "byte_start": 7699,
+      "byte_end": 8383
+    },
+    {
+      "id": "block_12",
+      "tag": "p",
+      "text": "\n                    After I was finished with differential equations, \n                    I wanted to learn more about more advanced math. \n                    As someone who has relied primarily on online \n                    resources to learn math outside of class \n                    (Desmos, PaulsOnlineMathNotes), this website is \n                    like a dream come true for learning complex analysis. \n                    I won't be able to take the class my university \n                    offers until much later, so I've been using this \n                    resource to teach myself the subject before then. \n                    I cannot express how amazing it is to have access \n                    to a resources like this as a university student.\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>— Student</strong>[[/span]]\n                    \n\n                ",
+      "raw_len": 907,
+      "placeholder": "@@text:81:00ac5f@@",
+      "byte_start": 8508,
+      "byte_end": 9415
+    },
+    {
+      "id": "block_13",
+      "tag": "p",
+      "text": "\n                    This resource has been extremely helpful for both \n                    learning and visualizing the abstractness of the \n                    topics. The material is not tough to understand \n                    and most importantly it provides clear concept \n                    about the matter and the things written here \n                    looks very interesting to read, for its nice \n                    and charming appearance, unlike most of the \n                    resources... Thanks a lot...\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>— Sattwik Pradhan (IISER Kolkata, India)</strong>[[/span]]\n                    \n\n                ",
+      "raw_len": 697,
+      "placeholder": "@@text:80:819341@@",
+      "byte_start": 9541,
+      "byte_end": 10238
+    },
+    {
+      "id": "block_14",
+      "tag": "p",
+      "text": "\n                    I think it is great, it has excellent visual aids to help \n                    you understand certain topics. I also think the structure \n                    is very logical, the @@math:5:fef3d4@@ is embedded nicely and the \n                    chapters are short enough as to be engaging but not boring.\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>— Felix Scott (QLD, Australia)</strong>[[/span]]\n                    \n\n                ",
+      "raw_len": 488,
+      "placeholder": "@@text:79:87bf27@@",
+      "byte_start": 10364,
+      "byte_end": 10852
+    },
+    {
+      "id": "block_15",
+      "tag": "p",
+      "text": "\n                    This learning resource is very well made! It explains concepts \n                    simply and effectively, while still going through the working \n                    out and rigour of the subject. \n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>— Student (Australia)</strong>[[/span]]\n                    \n\n                ",
+      "raw_len": 373,
+      "placeholder": "@@text:78:66273b@@",
+      "byte_start": 10978,
+      "byte_end": 11351
+    },
+    {
+      "id": "block_16",
+      "tag": "p",
+      "text": "\n                    I came across your complex-analysis website \n                    in the last few days and just wanted \n                    to say thanks for making it! It's a great resource. I am a PhD \n                    student in hypersonics at UniSQ in Toowoomba and was \n                    looking for an approachable introduction to potential flows. \n                    I have tried a few different textbooks though never found \n                    anything that really clicked. The build up to the \n                    Joukowski Transform using superposition of basic \n                    functions was a big help, and I also found the \n                    section on complex differentiation easier to understand \n                    than I've found elsewhere. Thanks again!\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>— Student (Australia)</strong>[[/span]]\n                    \n\n                ",
+      "raw_len": 943,
+      "placeholder": "@@text:77:7c3be2@@",
+      "byte_start": 11476,
+      "byte_end": 12419
+    },
+    {
+      "id": "block_17",
+      "tag": "p",
+      "text": "\n                    Thank you for this gift to the math-learners! Slick and elegant arguments are \n                    satisfying to watch, but often they offer little understanding. On the other \n                    hand, playing with and visualizing examples can make us feel the theory in\n                     our blood! Your work has and will enrich the minds (and hearts) of many people.\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>— Orestis Plevrakis  (Greece)</strong>[[/span]]\n                    \n\n                ",
+      "raw_len": 555,
+      "placeholder": "@@text:76:5fa0b1@@",
+      "byte_start": 12545,
+      "byte_end": 13100
+    },
+    {
+      "id": "block_18",
+      "tag": "p",
+      "text": "\n                    Simplemente agradecerte el increíble trabajo que has hecho con el \n                    libro de Complex Analysis que tienes en tu página web.\n                    Estoy en segundo del grado de Matemática Aplicada y Computación \n                    en la UC3M, y la asignatura de Variable Compleja se me está atascando \n                    un poco, pero he encontrado tu libro y lo he entendido todo con solo \n                    leerlo (curves, contours, integration..).\n                    De tu libro me encanta que vas al grano, no usas términos \n                    complejos innecesarios y que pones ejemplos frecuentes, que \n                    ayudan (no te imaginas cuanto) a entender en qué se aplica \n                    lo que estoy leyendo. Las ilustraciones y animaciones, junto \n                    con los scripts interactivos de geogebra son de otro mundo.\n                     Lo he pasado por el grupo de mis amigos de la carrera y \n                     están flipando! Y no sabes la alegría que da que un trabajo\n                      tan bien hecho lo haya hecho un hispanohablante (la mayoría de \n                      recursos que encuentro son de profesores americanos o indios).\n                       Por eso y todo el trabajo que hay detrás, mil gracias, de verdad.\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; E. S.,  Estudiante de la Universidad Carlos III de Madrid</strong>[[/span]]\n                    \n\n                ",
+      "raw_len": 1510,
+      "placeholder": "@@text:75:bad095@@",
+      "byte_start": 13226,
+      "byte_end": 14736
+    },
+    {
+      "id": "block_19",
+      "tag": "p",
+      "text": "\n                    Juan Carlos es uno de esos locos profesores que pretenden hacernos creer \n                    que es posible aprender sin aburrirnos soberanamente. Afortunadamente, \n                    ya no somos unas rara avis aquellos que no solamente opinamos que \n                    puede hacerse, sino que estamos absolutamente convencidos de que \n                    debe hacerse. O al menos, intentarse. En el caso de este libro, \n                    Juan Carlos lo consigue con creces. ¡Gracias por este interesante, \n                    ameno, dinámico, interactivo y necesario trabajo!  \n                    (Al leerlo, me ha entrado algo de nostalgia, no sé qué hubiera \n                    dado por tener a mi alcance recursos como este cuando estaba en la facultad...)\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; Rafael Losada Liste [[a\n                                href=\"https://www.geogebra.org/u/rafael\"\n                                target=\"_blank\"]]GeoGebra Ambassador[[/a]]</strong>[[/span]]\n\n                ",
+      "raw_len": 1076,
+      "placeholder": "@@text:74:bc44b9@@",
+      "byte_start": 14862,
+      "byte_end": 15938
+    },
+    {
+      "id": "block_20",
+      "tag": "p",
+      "text": "\n                    This looks fantastically useful for anyone who is teaching or\n                    taking a course in complex analysis. Thank you, Juan Carlos!\n                    Beautiful work! And very generous of you to share it with the\n                    world 👏\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; Steven Strogatz [[a\n                                href=\"https://twitter.com/stevenstrogatz/status/1432296625431617542\"\n                                target=\"_blank\"]]@stevenstrogatz[[/a]]</strong>[[/span]]\n\n                ",
+      "raw_len": 581,
+      "placeholder": "@@text:73:b3a22c@@",
+      "byte_start": 16065,
+      "byte_end": 16646
+    },
+    {
+      "id": "block_21",
+      "tag": "p",
+      "text": "\n                    I have just came across the beautiful website you have created on\n                    the topic of Complex Analysis. This website is a fantastic way to\n                    learn Complex Analysis. You have intricately used the tools needed\n                    to make the learning experience as smooth and easy as possible.\n                    I am currently doing a bachelor's in computer engineering and I\n                    have been having a very hard time making a good connection with\n                    math.\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; Milad Zarei Maleki\n                            (Iran)\n                        </strong>\n                    [[/span]]\n\n                ",
+      "raw_len": 757,
+      "placeholder": "@@text:72:9a5655@@",
+      "byte_start": 16771,
+      "byte_end": 17528
+    },
+    {
+      "id": "block_22",
+      "tag": "p",
+      "text": "\n                    I like the way each page has careful and readable descriptions of the maths, while not shying\n                    away from the technical details. The particular strength here is that alongside the readable\n                    mathematics are regular interactive animations in Geogebra or p5.js (on every page!?). These\n                    really help the reader *literally* get to grips with the material. It's lovely stuff. I\n                    believe that making maths *move* in this way is the key for any of us trying to understand\n                    this subject better.\n                     [[br]] \n                    [[span class=\"w3-right\"]]&#x2014; <strong>[[a href=\"https://www.bensparks.co.uk/\" target=\"_blank\"]] Ben\n                                Sparks[[/a]]</strong>\n                    [[/span]]\n                ",
+      "raw_len": 842,
+      "placeholder": "@@text:71:7ff1b4@@",
+      "byte_start": 17653,
+      "byte_end": 18495
+    },
+    {
+      "id": "block_23",
+      "tag": "p",
+      "text": "\n                    The applets are beautiful! You found the right amount of interactivity:\n                    some sites have too much (overwhelming, or clunky),\n                    most have too little. It's also a great service to provide\n                    the source code on GitHub.\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]&#x2014;\n                        <strong>[[a\n                                href=\"https://www.kau.se/en/about-university/about-karlstad-university/ceremonies/marcus-berg-professor-physics\"\n                                target=\"_blank\"]]Marcus Berg[[/a]]</strong>[[/span]]\n\n                ",
+      "raw_len": 646,
+      "placeholder": "@@text:70:71f041@@",
+      "byte_start": 18620,
+      "byte_end": 19266
+    },
+    {
+      "id": "block_24",
+      "tag": "p",
+      "text": "\n                    There might be some select few who are able to learn more advanced\n                    areas of math purely from interaction with symbols and equations,\n                    but for the rest of us (like me), mathematical intuition develops\n                    best from tangible examples and playful exploration.\n                    The presented content is a great first sight-seeing\n                    tour of the beautiful landscapes of complex analysis,\n                    and the well-chosen illustrations and interactive widgets\n                    are essential for bringing the equations alive.\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; [[a href=\"\" target=\"_blank\"]]Anton Pirogov[[/a]]</strong>\n                    [[/span]]\n\n                ",
+      "raw_len": 810,
+      "placeholder": "@@text:69:813237@@",
+      "byte_start": 19392,
+      "byte_end": 20202
+    },
+    {
+      "id": "block_25",
+      "tag": "p",
+      "text": "\n                    Just found it, Completely blown away. Fantastic work done\n                    by the team. Great resource indeed, I honestly believe\n                    these kind of educational resources truly change students\n                    perspective and attract them towards an otherwise boring subject.\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; [[a]]Geek (Australia)[[/a]]</strong> [[/span]]\n\n                ",
+      "raw_len": 462,
+      "placeholder": "@@text:68:b96e51@@",
+      "byte_start": 20327,
+      "byte_end": 20789
+    },
+    {
+      "id": "block_26",
+      "tag": "p",
+      "text": "\n                    A clean-looking website that describes complex analysis\n                    concepts in a pretty straigthforward manner, good addition to textbook\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; [[a]]Jennifer (Sweden)[[/a]]</strong> [[/span]]\n\n                ",
+      "raw_len": 313,
+      "placeholder": "@@text:67:0f4b1d@@",
+      "byte_start": 20914,
+      "byte_end": 21227
+    },
+    {
+      "id": "block_27",
+      "tag": "p",
+      "text": "\n                    Very helpful. I am an engineer with previous\n                    knowledge and is very appropriate to brush up on it.\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; [[a]]Interested person (Germany)[[/a]]</strong>[[/span]]\n\n                ",
+      "raw_len": 293,
+      "placeholder": "@@text:66:8af568@@",
+      "byte_start": 21352,
+      "byte_end": 21645
+    },
+    {
+      "id": "block_28",
+      "tag": "p",
+      "text": "\n                    It is very innovative as there are customizable graphs\n                    and software that allow me to visualize the concepts.\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; [[a]]Student (US)[[/a]]</strong>[[/span]]\n\n                ",
+      "raw_len": 289,
+      "placeholder": "@@text:65:5b7eef@@",
+      "byte_start": 21770,
+      "byte_end": 22059
+    },
+    {
+      "id": "block_29",
+      "tag": "p",
+      "text": "\n                    I'm barely in and it already seems fantastic. It seems\n                    like the future of education, and already represents\n                    lucidly the model that I want instruction to look like.\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; [[a]]Nate English (Standford)[[/a]]</strong> [[/span]]\n\n                ",
+      "raw_len": 377,
+      "placeholder": "@@text:64:ef4226@@",
+      "byte_start": 22184,
+      "byte_end": 22561
+    },
+    {
+      "id": "block_30",
+      "tag": "p",
+      "text": "\n                    This is the best mathematical resource I have ever come across! The visualisations are so helpful\n                    and\n                    the content is presented in a way that is concise and easy to understand. I wish all of my modules\n                    taught in this way!\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; [[a]]Callum Barnett[[/a]]</strong> [[/span]]\n\n                ",
+      "raw_len": 444,
+      "placeholder": "@@text:63:54d392@@",
+      "byte_start": 22686,
+      "byte_end": 23130
+    },
+    {
+      "id": "block_31",
+      "tag": "p",
+      "text": "\n                    It's very good. Being able to fully visualise abstract\n                    concepts is incredibly fulfilling. Hope you continue\n                    to add to this wonderful site.\n                     [[br]] \n                    [[span class=\"w3-right\"]]<strong>[[a]]&#x2014; Niaz (London, UK)[[/a]]</strong>[[/span]]\n                ",
+      "raw_len": 342,
+      "placeholder": "@@text:62:7c3cb9@@",
+      "byte_start": 23255,
+      "byte_end": 23597
+    },
+    {
+      "id": "block_32",
+      "tag": "p",
+      "text": "\n                    I am a fourth-year undergrad (BS Physics). We deal with complex analysis at several junctures.\n                    Although\n                    I have managed to have some understanding of it, I just wish that I had come across your resource\n                    earlier. I just spent 3 hours devouring your book, and I must\n                    say - I feel like I know complex analysis like the back of my hand.\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; [[a href=\"https://visualize-it.github.io/\" target=\"_blank\"]]\n                                Chandan Relekar[[/a]]</strong>[[/span]]\n\n                ",
+      "raw_len": 663,
+      "placeholder": "@@text:61:56d55e@@",
+      "byte_start": 23723,
+      "byte_end": 24386
+    },
+    {
+      "id": "block_33",
+      "tag": "p",
+      "text": "\n                    Was super helpful for checking what the Principal Argument was.\n                    Loved the visualisation of the different branches \"spreading out\"\n                    or \"expanding\" to represent the branch cuts. Helped with my intuitive\n                    understanding of a branch cut, and the issues that arise with\n                    multifunction's in the complex plane.\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; [[a]]Blake Urban[[/a]]</strong> [[/span]]\n\n                ",
+      "raw_len": 540,
+      "placeholder": "@@text:60:da3e1b@@",
+      "byte_start": 24511,
+      "byte_end": 25051
+    },
+    {
+      "id": "block_34",
+      "tag": "p",
+      "text": "\n                    I'm very grateful for the work that has been done on this website.\n                    It helps me to understand the potential complex theory easily.\n                    The way the creators of this elegant website worked is something\n                    to appreciate a lot. I hope that all courses teach us like this\n                    website does, especially with the applications that are facility\n                    the understanding of the equations and physical phenomena.\n                    Thank you very much.\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; [[a]]ESSAHRAOUI MAROUANE[[/a]]</strong> [[/span]]\n\n                ",
+      "raw_len": 692,
+      "placeholder": "@@text:59:b0082a@@",
+      "byte_start": 25176,
+      "byte_end": 25868
+    },
+    {
+      "id": "block_35",
+      "tag": "p",
+      "text": "\n                    Pretty good example of *right* use of *right* computing\n                    powers and open-source technologies for teaching people\n                    some interesting topics and overcoming some difficulties\n                    that aren't easily being \"tackled\" using \"common ways\" of studying! :)\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; [[a href=\"https://github.com/geothecode\"\n                                target=\"_blank\"]]Georgy (Russia)[[/a]]</strong> [[/span]]\n\n                ",
+      "raw_len": 549,
+      "placeholder": "@@text:58:333c4a@@",
+      "byte_start": 25993,
+      "byte_end": 26542
+    },
+    {
+      "id": "block_36",
+      "tag": "p",
+      "text": "\n                    Absolutely beautiful, elegant and removes the complexity of complex numbers.\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; [[a]]Aedan Yates (South Africa)[[/a]]\n                        </strong> [[/span]]\n\n                ",
+      "raw_len": 277,
+      "placeholder": "@@text:57:43333c@@",
+      "byte_start": 26667,
+      "byte_end": 26944
+    },
+    {
+      "id": "block_37",
+      "tag": "p",
+      "text": "\n                    Briefly, what came up immediately was exactly the help I needed.\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; [[a]]Paul St. Jean (Michigan)[[/a]]</strong> [[/span]]\n\n                ",
+      "raw_len": 238,
+      "placeholder": "@@text:56:6d5b67@@",
+      "byte_start": 27069,
+      "byte_end": 27307
+    },
+    {
+      "id": "block_38",
+      "tag": "p",
+      "text": "\n                    Absolutely beautiful. Being able to interact with visual\n                    representations is very helpful with understand what\n                    actually happens. Also the notes are well written and\n                    clear, so are very to understand. It does everything\n                    that a website about maths should do.\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; [[a]]Student (England)[[/a]]</strong> [[/span]]\n\n                ",
+      "raw_len": 501,
+      "placeholder": "@@text:55:8a24bf@@",
+      "byte_start": 27433,
+      "byte_end": 27934
+    },
+    {
+      "id": "block_39",
+      "tag": "p",
+      "text": "\n                    It was hard to find online resources for complex analysis\n                    when I was looking, and they usually would only state\n                    rules or theorems that I didn't understand the reasoning\n                    behind. I've only used this site for a few days, but it's\n                    been an easy way to start learning about complex series.\n                    The explanations flow nicely, and I like that the first\n                    example of something is put in a basic form to show\n                    what's happening. The web design & layout are great\n                    and are probably what first caught my attention and\n                    made me stay. The only thing I can think of in terms\n                    of improvement would be adding small expandable\n                    sections for something that might be related or notable,\n                    but not necessarily needed or at a different level of\n                    complexity that wouldn't match the topic.\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; [[a]]Student (Oregon, USA)[[/a]]</strong>\n                    [[/span]]\n\n                ",
+      "raw_len": 1200,
+      "placeholder": "@@text:54:c21de0@@",
+      "byte_start": 28061,
+      "byte_end": 29261
+    },
+    {
+      "id": "block_40",
+      "tag": "p",
+      "text": "\n                    I think it's absolutely fantastic; it's written so well, and\n                    it covers an impressive breadth of complex analysis. I find this\n                    resource to be more quality, more valuable than most textbooks I\n                    buy for my university courses. Thank you for providing such a great resource.\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; [[a]]Michael[[/a]]</strong> [[/span]]\n\n                ",
+      "raw_len": 485,
+      "placeholder": "@@text:53:ba0e3f@@",
+      "byte_start": 29386,
+      "byte_end": 29871
+    },
+    {
+      "id": "block_41",
+      "tag": "p",
+      "text": "\n                    I think this is a fantastic resource for teaching Complex Analysis.\n                    I am an educator and currently working on an algorithm to turn\n                    musical excerpts into mathematical functions and vice versa and\n                    complex numbers are at the center of the treatise. Each pitch\n                    is represented as a cosine wave with a frequency phi representing\n                    the interval the particular note is from the key and a phase\n                    shift delta representing the key of the excerpt. This pitch\n                    is a Fourier series of the normal modes comprising the pitch\n                    keeping the instruments timbre in mind. Each rhythm is\n                    represented as a rational exponential with time signature\n                    in the numerator represented as a rational function tau = n/d\n                    and the subdivision of the beat in the denominator represented\n                    as a rational logarithmic function beta = ln(n)/ln(d).\n                    Therefore, each note N is equal to (p,r) = int(p(phi,delta)*r(tau,beta).\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; [[a]]Dominic Ellis[[/a]]</strong> [[/span]]\n\n                ",
+      "raw_len": 1293,
+      "placeholder": "@@text:52:1dd8c8@@",
+      "byte_start": 29996,
+      "byte_end": 31289
+    },
+    {
+      "id": "block_42",
+      "tag": "p",
+      "text": "\n                    Brilliant work! It is a true honor to be included within it.\n\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; [[a href=\"https://twitter.com/geogebra/status/1216162738415849472?s=20\"\n                                target=\"_blank\"]]GeoGebra team[[/a]]\n                        </strong>[[/span]]\n\n                ",
+      "raw_len": 364,
+      "placeholder": "@@text:51:b4c1f2@@",
+      "byte_start": 31417,
+      "byte_end": 31781
+    },
+    {
+      "id": "block_43",
+      "tag": "p",
+      "text": "\n                    This is great. Would love to see more sections/chapters on other topics.\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; Sultan Sial, Teacher</strong>[[/span]]\n\n                ",
+      "raw_len": 234,
+      "placeholder": "@@text:50:910bbb@@",
+      "byte_start": 31906,
+      "byte_end": 32140
+    },
+    {
+      "id": "block_44",
+      "tag": "p",
+      "text": "\n                    Handy to see all kind of topics , especialy now i am struggling with the notion of a branch.\n                    Using also Maple for doing math there\n                    I am looking now on the website and it can be used for training some exercises, and study.\n                    Lets say for the geomatrical meaning of the complex differentation is too much for explaining\n                    Good example : The logarithmic function to get a idea what a multi-valued function stands for\n                    Its only that i like to see the logarithmic function at the Riemann Surfaces examples too.\n                    Thanks for your website, very helpful to go into complex analysis\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; Jan Douma,\n                            B Ed math</strong>[[/span]]\n\n                ",
+      "raw_len": 876,
+      "placeholder": "@@text:49:9cd438@@",
+      "byte_start": 32265,
+      "byte_end": 33141
+    },
+    {
+      "id": "block_45",
+      "tag": "p",
+      "text": "\n                    Love it!\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; Thomas Blackwell, Engineer</strong>[[/span]]\n\n                ",
+      "raw_len": 176,
+      "placeholder": "@@text:48:914db3@@",
+      "byte_start": 33266,
+      "byte_end": 33442
+    },
+    {
+      "id": "block_46",
+      "tag": "p",
+      "text": "\n                    It is a really good job, that helps me understand better the whole concept of complex analysis.\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; Student</strong>[[/span]]\n\n                ",
+      "raw_len": 244,
+      "placeholder": "@@text:47:b4803c@@",
+      "byte_start": 33567,
+      "byte_end": 33811
+    },
+    {
+      "id": "block_47",
+      "tag": "p",
+      "text": "\n                    It was the best in complex analysis intuition so far(for me).\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; Student</strong>[[/span]]\n\n                ",
+      "raw_len": 210,
+      "placeholder": "@@text:46:512783@@",
+      "byte_start": 33936,
+      "byte_end": 34146
+    },
+    {
+      "id": "block_48",
+      "tag": "p",
+      "text": "\n                    I have been trying to figure out how Complex Numbers worked and how\n                    they represented all three values of a 3D grid while only being given (x,y)\n                    or (r,t) for the longest time now. I believe I have now completed my search\n                    and onto going further with it! (I'd say about a 2-year self-journey at\n                    least. Though I've learned so much Math along the way.) Thank you so much!\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; Matthew, Student</strong>[[/span]]\n\n                ",
+      "raw_len": 604,
+      "placeholder": "@@text:45:7a4299@@",
+      "byte_start": 34271,
+      "byte_end": 34875
+    },
+    {
+      "id": "block_49",
+      "tag": "p",
+      "text": "\n                    It looks lovely! I really like the interactive style and the approachable text style.\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; Student</strong>[[/span]]\n\n                ",
+      "raw_len": 234,
+      "placeholder": "@@text:44:1696a6@@",
+      "byte_start": 35000,
+      "byte_end": 35234
+    },
+    {
+      "id": "block_50",
+      "tag": "p",
+      "text": "\n                    It's great, speacially the applets.\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; Luana, Student</strong>[[/span]]\n\n                ",
+      "raw_len": 191,
+      "placeholder": "@@text:43:2453f6@@",
+      "byte_start": 35359,
+      "byte_end": 35550
+    },
+    {
+      "id": "block_51",
+      "tag": "p",
+      "text": "\n                    I developed an intuition about the complex surfaces.\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; Oded Kafri, Physicist</strong>[[/span]]\n\n                ",
+      "raw_len": 215,
+      "placeholder": "@@text:42:911f35@@",
+      "byte_start": 35675,
+      "byte_end": 35890
+    },
+    {
+      "id": "block_52",
+      "tag": "p",
+      "text": "\n                    Probably the best alternative for classical\n                    textbooks on complex analysis. Concise and\n                    playfull. Love the examples and interactive plots.\n                    This has something what \"mainstream books\" lacks,\n                    it is suitable for modern students.\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; Teacher</strong>[[/span]]\n\n                ",
+      "raw_len": 452,
+      "placeholder": "@@text:41:e6355e@@",
+      "byte_start": 36015,
+      "byte_end": 36467
+    },
+    {
+      "id": "block_53",
+      "tag": "p",
+      "text": "\n                    Clear and aesthetically beautiful.\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; Teacher</strong>[[/span]]\n\n                ",
+      "raw_len": 183,
+      "placeholder": "@@text:40:eb3be9@@",
+      "byte_start": 36592,
+      "byte_end": 36775
+    },
+    {
+      "id": "block_54",
+      "tag": "p",
+      "text": "\n                    Absolutely wonderful.\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; Anonymous</strong>[[/span]]\n\n                ",
+      "raw_len": 172,
+      "placeholder": "@@text:39:d22716@@",
+      "byte_start": 36900,
+      "byte_end": 37072
+    },
+    {
+      "id": "block_55",
+      "tag": "p",
+      "text": "\n                    This looks like a great book. Thank you for making it available!\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; George Sipos</strong>[[/span]]\n\n                ",
+      "raw_len": 218,
+      "placeholder": "@@text:38:ba2bae@@",
+      "byte_start": 37197,
+      "byte_end": 37415
+    },
+    {
+      "id": "block_56",
+      "tag": "p",
+      "text": "\n                    Fantastic! Keep adding more content, specially graduate level topics.\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; Teacher & Student (Malaysia)</strong>[[/span]]\n\n                ",
+      "raw_len": 239,
+      "placeholder": "@@text:37:49cc4c@@",
+      "byte_start": 37540,
+      "byte_end": 37779
+    },
+    {
+      "id": "block_57",
+      "tag": "p",
+      "text": "\n                    Great way to learn about a difficult topic.\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; Secondary School Student</strong>[[/span]]\n\n                ",
+      "raw_len": 209,
+      "placeholder": "@@text:36:ed0b52@@",
+      "byte_start": 37904,
+      "byte_end": 38113
+    },
+    {
+      "id": "block_58",
+      "tag": "p",
+      "text": "\n                    Really well made website. wish there were more.\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; Saurabh Dhingra</strong>[[/span]]\n\n                ",
+      "raw_len": 204,
+      "placeholder": "@@text:35:be3cf8@@",
+      "byte_start": 38238,
+      "byte_end": 38442
+    },
+    {
+      "id": "block_59",
+      "tag": "p",
+      "text": "\n                    IT'S GOOD\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; Teacher</strong>[[/span]]\n\n                ",
+      "raw_len": 158,
+      "placeholder": "@@text:34:f50a20@@",
+      "byte_start": 38567,
+      "byte_end": 38725
+    },
+    {
+      "id": "block_60",
+      "tag": "p",
+      "text": "\n                    Very good, high quality, highly recommend\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; Maya</strong>[[/span]]\n\n                ",
+      "raw_len": 187,
+      "placeholder": "@@text:33:5d5d51@@",
+      "byte_start": 38850,
+      "byte_end": 39037
+    },
+    {
+      "id": "block_61",
+      "tag": "p",
+      "text": "\n                    It is incredible. Great visuals, examples, and gives\n                    intuition on how complex analysis works.\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; Sam Sepiol</strong>[[/span]]\n\n                ",
+      "raw_len": 265,
+      "placeholder": "@@text:32:3ac569@@",
+      "byte_start": 39162,
+      "byte_end": 39427
+    },
+    {
+      "id": "block_62",
+      "tag": "p",
+      "text": "\n                    Fantastic concise introduction to the concepts, great to brush up on before lecture\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; Student</strong>[[/span]]\n\n                ",
+      "raw_len": 232,
+      "placeholder": "@@text:31:971bbd@@",
+      "byte_start": 39552,
+      "byte_end": 39784
+    },
+    {
+      "id": "block_63",
+      "tag": "p",
+      "text": "\n                    Excellent - and my students agree!!\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; [[a\n                                href=\"https://las.touro.edu/faculty/faculty-members/wohl-david.php\"\n                                target=\"_blank\"]]David\n                                Wohl[[/a]]</strong> [[/span]]\n\n                ",
+      "raw_len": 375,
+      "placeholder": "@@text:30:f3f7e7@@",
+      "byte_start": 39909,
+      "byte_end": 40284
+    },
+    {
+      "id": "block_64",
+      "tag": "p",
+      "text": "\n                    Very nice! It has embedded graphics/visualization, which are something\n                    conventional books could not afford.\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; Student</strong>[[/span]]\n\n                ",
+      "raw_len": 276,
+      "placeholder": "@@text:29:423ed8@@",
+      "byte_start": 40410,
+      "byte_end": 40686
+    },
+    {
+      "id": "block_65",
+      "tag": "p",
+      "text": "\n                    This learning resource is very well made! It explains concepts simply and effectively,\n                    while still going through the working out and rigour of the subject.\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; Student</strong>[[/span]]\n\n                ",
+      "raw_len": 324,
+      "placeholder": "@@text:28:2dbe1c@@",
+      "byte_start": 40811,
+      "byte_end": 41135
+    },
+    {
+      "id": "block_66",
+      "tag": "p",
+      "text": "\n                    I’m amazed at the availability and quality of such material.\n                    We live in such a wonderful time for learning.\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; Matthew Mansfield</strong> [[a\n                            href=\"https://twitter.com/drunkengrass/status/1432456027010580480\"\n                            target=\"_blank\"]]@drunkengrass\n                        [[/a]][[/span]]\n\n                ",
+      "raw_len": 471,
+      "placeholder": "@@text:27:341600@@",
+      "byte_start": 41295,
+      "byte_end": 41766
+    },
+    {
+      "id": "block_67",
+      "tag": "p",
+      "text": "\n                    Wow thank you @jcponcemath! I wish I had this when I\n                    took Complex Analysis ~20 years ago. Instead I treated a\n                    grad student friend to a meal so I could ask them 100\n                    questions about how to visualize what we had to do for class.\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; Federico Chialvo [[a\n                                href=\"https://twitter.com/FedericoChialvo/status/1432362694187778053\"\n                                target=\"_blank\"]]@FedericoChialvo[[/a]]</strong> [[/span]]\n\n                ",
+      "raw_len": 618,
+      "placeholder": "@@text:26:5425cc@@",
+      "byte_start": 41891,
+      "byte_end": 42509
+    },
+    {
+      "id": "block_68",
+      "tag": "p",
+      "text": "\n                    Complex analysis is imho perhaps the most “magical” corner of math,\n                    where the right amount of assumptions gives a counterintuitive amount\n                    of results... but for the same reason it is not easy to learn.\n                    This type of resources are really helpful!\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; Fernando Rosas\n                            [[a href=\"https://twitter.com/_fernando_rosas/status/1432338563115405313\"\n                                target=\"_blank\"]]@_fernando_rosas[[/a]]</strong> [[/span]]\n\n                ",
+      "raw_len": 630,
+      "placeholder": "@@text:25:c275b1@@",
+      "byte_start": 42634,
+      "byte_end": 43264
+    },
+    {
+      "id": "block_69",
+      "tag": "p",
+      "text": "\n                    Te quería comentar nomas que estuve ojeando tu libro y me gustó mucho.\n                    Justamente este cuatrimestre estoy cursando una materia de análisis\n                    complejo y es un lindo complemento visual para muchas de las temáticas\n                    que vemos. En particular me fascinó el graficador interactivo de series\n                    de Taylor con domain coloring, resultó muy didáctico para entender el\n                    concepto de radio de convergencia!!!\n                     [[br]]  [[br]] \n\n                    Te quería agradecer por hacerlo material de libre acceso,\n                    lo compartiré con mis compañeros y docentes :)\n                     [[br]] \n\n\n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; Agustín Brusco\n                            [[a href=\"https://twitter.com/fisplot\" target=\"_blank\"]]@fisplot[[/a]]</strong> [[/span]]\n\n                ",
+      "raw_len": 917,
+      "placeholder": "@@text:24:01819e@@",
+      "byte_start": 43389,
+      "byte_end": 44306
+    },
+    {
+      "id": "block_70",
+      "tag": "p",
+      "text": "\n                    He leído tu libro de análisis complejo y me ha gustado mucho.\n                    Trata los contenidos de esta materia de una manera muy asequible\n                    que complementa visualmente con applets interactivos. Me parece\n                    idóneo para docentes, investigadores y estudiantes de ingenierías\n                    y matemáticas.\n                    Muchas gracias por esta aportación.\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; Débora Pereiro\n                            [[a href=\"https://twitter.com/debora_pereiro\" target=\"_blank\"]]@debora_pereiro[[/a]]</strong>\n                    [[/span]]\n\n                ",
+      "raw_len": 693,
+      "placeholder": "@@text:23:39bdc1@@",
+      "byte_start": 44431,
+      "byte_end": 45124
+    },
+    {
+      "id": "block_71",
+      "tag": "p",
+      "text": "\n                    As Web-based open-access textbooks gain wider visibility, we need pioneers to\n                    demonstrate the possibilities of this emerging medium. In [[em]]Complex Analysis:\n                        A Visual and Interactive Introduction[[/em]], Juan Carlos Ponce Campuzano has already\n                    done something that was previously impossible: he’s seamlessly embedded beautiful,\n                    dynamic, interactive visualizations into the body of a math text.\n                     [[br]]  [[br]] \n                    Not only are these visualizations created with open-source software,\n                    but also the book itself is open to continual improvements. There is simply no\n                    need to wait for a new edition, and the contents are available to everyone with\n                    an internet connection. Authors, take note! This is how it’s done.\n\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; Greg Stanton\n                            [[a href=\"https://twitter.com/HigherMathNotes\" target=\"_blank\"]]@HigherMathNotes[[/a]]</strong>\n                    [[/span]]\n\n                ",
+      "raw_len": 1169,
+      "placeholder": "@@text:22:a56a9a@@",
+      "byte_start": 45249,
+      "byte_end": 46418
+    },
+    {
+      "id": "block_72",
+      "tag": "p",
+      "text": "\n                    En mi opinión, este proyecto consigue el equilibrio perfecto entre\n                    el rigor matemático y la claridad. Está muy bien estructurado, pero\n                    lo que realmente le distingue de los libros al uso son sus applets\n                    interactivos, que permiten a los lectores ir jugando con distintos\n                    parámetros y ver el resultado que estos cambios provocan. De esta\n                    forma, es mucho más fácil para el lector entender la teoría que\n                    subyace y, sin duda, mucho más atractivo. Los gráficos interactivos\n                    se van haciendo cada vez más espectaculares a medida que avanza el\n                    libro y hacen justicia a lo fascinante que es esta rama de las matemáticas.\n                     [[br]]  [[br]] \n                    Mención especial merece también el hecho de que todas las animaciones\n                    hayan sido creadas con software libre, como GeoGebra, entre otros.\n                     [[br]]  [[br]] \n                    Lo recomiendo tanto para aquellos que vayan a impartir un curso\n                    en análisis complejo como para quienes quieran estudiarlo.\n\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>[[a href=\"https://twitter.com/javiarrospide\" target=\"_blank\"]]&#x2014;\n                                Javier\n                                Arrospide Laborda[[/a]]</strong>[[/span]]\n\n                ",
+      "raw_len": 1462,
+      "placeholder": "@@text:21:242c15@@",
+      "byte_start": 46543,
+      "byte_end": 48005
+    },
+    {
+      "id": "block_73",
+      "tag": "p",
+      "text": "\n                    El tema de los números complejos es realmente apasionante y Juan Carlos Ponce\n                    nos organiza un recorrido por el mismo de manera clara, concisa y muy visual,\n                    incorporando aplicaciones con el programa GeoGebra para explicar\n                    los diferentes conceptos. El formato y la presentación hacen que la\n                    lectura sea muy amena, lejos de textos sobrecargados, densos y con\n                    demasiada información, muchas veces innecesaria. El lector puede ir\n                    descubriendo el mundo fascinante del análisis complejo interactuando\n                    con las aplicaciones del libro. Al final te acabas sintiendo como un\n                    viajero descubriendo un mundo nuevo... ¡y son matemáticas!\n\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; [[a href=\"https://www.geogebra.org/u/bernat_geogebra\"\n                                target=\"_blank\"]]\n                                Bernat Ancochea Millet[[/a]]</strong>[[/span]]\n\n                ",
+      "raw_len": 1083,
+      "placeholder": "@@text:20:6d23e1@@",
+      "byte_start": 48130,
+      "byte_end": 49213
+    },
+    {
+      "id": "block_74",
+      "tag": "p",
+      "text": "\n                    The applets and flow are a splendid way to get exposure to complex numbers and analysis. I have\n                    enjoyed\n                    reviewing a topic I haven't played with in a long time.\n\n                    There are enthusiastic and eye-catching visuals throughout. Even if math is not your thing, I\n                    recommend\n                    that you take a look and play with the applets. This is a great book for anyone interested the\n                    complex\n                    plane, imaginary numbers, and jumping into some of the wonders of math.\n\n\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; Sophia Wood [[a href=\"https://fractalkitty.com/\"\n                                target=\"_blank\"]] @fractalkitty[[/a]]</strong>[[/span]]\n\n                ",
+      "raw_len": 837,
+      "placeholder": "@@text:19:e0587a@@",
+      "byte_start": 49338,
+      "byte_end": 50175
+    },
+    {
+      "id": "block_75",
+      "tag": "p",
+      "text": "\n                    A book (site) that explains mathematical theory that is difficult to understand\n                    intuitively with tools that can create interactive content such as GeoGebra and p5.js.\n                    You can actually move the parameters and see how they change.\n\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; [[a\n                                href=\"https://twitter.com/icoxfog417/status/1215090997484408832?s=20\"\n                                target=\"_blank\"]]piqcy[[/a]]</strong>[[/span]]\n\n                ",
+      "raw_len": 573,
+      "placeholder": "@@text:18:b1c1ef@@",
+      "byte_start": 50300,
+      "byte_end": 50873
+    },
+    {
+      "id": "block_76",
+      "tag": "p",
+      "text": "\n                    Ideal para mi curso de Análisis Complejo. Gracias por compartirlo.\n\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; [[a\n                                href=\"https://twitter.com/amtlucca/status/1214919877716250626?s=20\"\n                                target=\"_blank\"]]Ana María Lucca[[/a]]</strong>[[/span]]\n\n                ",
+      "raw_len": 379,
+      "placeholder": "@@text:17:a926c8@@",
+      "byte_start": 50998,
+      "byte_end": 51377
+    },
+    {
+      "id": "block_77",
+      "tag": "p",
+      "text": "\n                    Por si alguno está estudiando análisis complejo, esta introducción está fetén.\n\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; [[a\n                                href=\"https://twitter.com/PurpleSensati0n/status/1214981843029766150?s=20\"\n                                target=\"_blank\"]]ThePurpleSensation[[/a]]</strong>[[/span]]\n\n                ",
+      "raw_len": 401,
+      "placeholder": "@@text:16:a73f8e@@",
+      "byte_start": 51502,
+      "byte_end": 51903
+    },
+    {
+      "id": "block_78",
+      "tag": "p",
+      "text": "\n                    A neat interactive approach to learning about complex analysis.\n\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; [[a\n                                href=\"https://twitter.com/SeanWal49402031/status/1216145653010706437?s=20\"\n                                target=\"_blank\"]]Sean Walker[[/a]]</strong>[[/span]]\n\n                ",
+      "raw_len": 379,
+      "placeholder": "@@text:15:195327@@",
+      "byte_start": 52028,
+      "byte_end": 52407
+    },
+    {
+      "id": "block_79",
+      "tag": "p",
+      "text": "\n                    Las matemáticas viven en el razonamiento del ser humano y, dado su nivel de abstracción, una simple\n                    lectura no es suficiente para comprender y asimilar los conceptos. Todo resulta más fácil cuando\n                    dichos\n                    conceptos vienen acompañados por ilustraciones y explicaciones breves y sencillas. Pues bien, Juan\n                    Carlos consigue en este libro precisamente eso. Nadie como él para sacar partido a todos los\n                    recursos\n                    visuales posibles en forma de aplicaciones e ilustraciones interactivas para ilustrar la magia de\n                    los\n                    números imaginarios. Alégrense la vista y la mente con este fantástico libro.\n\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; [[a href=\"https://elultimoversodefermat.wordpress.com/\"\n                                target=\"_blank\"]]\n                                Julio Mulero[[/a]]</strong>[[/span]]\n\n                ",
+      "raw_len": 1039,
+      "placeholder": "@@text:14:ecdff6@@",
+      "byte_start": 52532,
+      "byte_end": 53571
+    },
+    {
+      "id": "block_80",
+      "tag": "p",
+      "text": "\n                    I was just wanting to learn more about these holomorphic functions of the complex plane\n                    and conformal mapping and how this stuff relates to fluid flow myself, THANK YOU for\n                    making this!\n\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; [[a\n                                href=\"https://twitter.com/c010011012/status/1214981437784375296?s=20\"\n                                target=\"_blank\"]]C010011012[[/a]]</strong>[[/span]]\n\n                ",
+      "raw_len": 535,
+      "placeholder": "@@text:13:2a5557@@",
+      "byte_start": 53697,
+      "byte_end": 54232
+    },
+    {
+      "id": "block_81",
+      "tag": "p",
+      "text": "\n                    Awesome work, thanks for sharing this! The maths is clearly written and - no surprise -\n                    the @geogebra applets are just perfect.\n\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; [[a\n                                href=\"https://twitter.com/panlepan/status/1216137495206924299?s=20\"\n                                target=\"_blank\"]]Vincent Pantaloni[[/a]]</strong>[[/span]]\n\n                ",
+      "raw_len": 462,
+      "placeholder": "@@text:12:196827@@",
+      "byte_start": 54357,
+      "byte_end": 54819
+    },
+    {
+      "id": "block_82",
+      "tag": "p",
+      "text": "\n                    Complex Analysis: A visual and Interactive Introduction is like a virtual or imaginary\n                    candy-store for those interested in mathematical visualizations in general or complex\n                    numbers in particular. I have never seen so many mesmerizing applets in one place.\n                    The tools given to the user to explore the mathematics beyond the text and the attention\n                    to detail make a very captivating adventure.\n\n                ",
+      "raw_len": 508,
+      "placeholder": "@@text:11:d9c18b@@",
+      "byte_start": 54945,
+      "byte_end": 55453
+    },
+    {
+      "id": "block_83",
+      "tag": "p",
+      "text": "\n                    Anyone interested in the Mandelbrot Set (which is probably just about everyone)\n                    should check out the chapter with the interactive Mandelbrot illustrations. I\n                    particularly like the applet that shows the changing character of the iterate\n                    orbitals as one moves among the various buds of the Mandelbrot set and another applet\n                    that connects the Mandelbrot set to the Julian sets.\n\n                ",
+      "raw_len": 493,
+      "placeholder": "@@text:10:b6a00f@@",
+      "byte_start": 55477,
+      "byte_end": 55970
+    },
+    {
+      "id": "block_84",
+      "tag": "p",
+      "text": "\n                    After whetting one's appetite on the Mandelbrot chapter, if you are like me,\n                    you will want to explore further. The colorful analytic landscapes and domain\n                    coloring apps are awesome. And don't miss the cool conformal mapping applications\n                    in the last chapter!\n\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; [[a\n                                href=\"https://www.johnpauliihs.org/about-us/staff-directory?deptId=27475&gId=5305&letter=T\"\n                                target=\"_blank\"]] Ken Thele[[/a]]</strong>[[/span]]\n                ",
+      "raw_len": 648,
+      "placeholder": "@@text:9:1afc38@@",
+      "byte_start": 55995,
+      "byte_end": 56643
+    },
+    {
+      "id": "block_85",
+      "tag": "p",
+      "text": "\n                    Extraordinary....this will help a lot of guys.\n\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; [[a\n                                href=\"https://twitter.com/AustinRousan/status/1214873904310673408?s=20\"\n                                target=\"_blank\"]]Azazaya[[/a]]</strong>[[/span]]\n\n                ",
+      "raw_len": 355,
+      "placeholder": "@@text:8:610530@@",
+      "byte_start": 56768,
+      "byte_end": 57123
+    },
+    {
+      "id": "block_86",
+      "tag": "p",
+      "text": "\n                    This is indeed one of the best educational content. Let's study. Thank you.\n\n                     [[br]] \n\n                    [[span class=\"w3-right\"]]<strong>&#x2014; [[a\n                                href=\"https://twitter.com/ayushthakur0/status/1215275965409976321?s=20\"\n                                target=\"_blank\"]]ayush thakur[[/a]]</strong>\n                    [[/span]]\n\n                ",
+      "raw_len": 410,
+      "placeholder": "@@text:7:28d05f@@",
+      "byte_start": 57248,
+      "byte_end": 57658
+    },
+    {
+      "id": "block_87",
+      "tag": "p",
+      "text": "A Brief History [[i class=\"fa-solid fa-angles-right\"]][[/i]]",
+      "raw_len": 56,
+      "placeholder": "@@text:6:3de87f@@",
+      "byte_start": 57820,
+      "byte_end": 57876
+    }
+  ],
+  "reassembly_template": "<section data-type=\"chapter\" id=\"comments\">\n\n    @@verbatim:0:8c3a4a@@\n\n    <br><br>\n\n    <main>\n        <article>\n\n            <h1>@@text:93:cd3c72@@</h1>\n\n            <hr>\n            <p style=\"text-align:center;font-weight:bold;margin-bottom:-30px\">@@text:92:caf842@@</p>\n            <br />\n            @@verbatim:3:2033f1@@\n            <hr />\n\n            <p>@@text:91:40fc9c@@</p>\n\n            <hr>\n            <br>\n            \n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:90:4f74b1@@</p>\n            </div>\n\n            <hr>\n            <br>\n            \n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:89:c162ad@@</p>\n            </div>\n\n             <hr>\n            <br>\n            \n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:88:b3eb3a@@</p>\n            </div>\n\n            <hr>\n            <br>\n            \n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:87:9d887c@@</p>\n            </div>\n            <hr>\n            <br>\n            \n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:86:32adf1@@</p>\n            </div>\n\n            <hr>\n            <br>\n            \n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:85:b0e392@@</p>\n            </div>\n\n            <hr>\n            <br>\n             \n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:84:eb8dfb@@</p>\n            </div>\n            \n            <hr>\n            <br>\n            \n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:83:c291e5@@</p>\n            </div>\n\n            <hr>\n            <br>\n            \n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:82:412f00@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:81:00ac5f@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:80:819341@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:79:87bf27@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:78:66273b@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:77:7c3be2@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:76:5fa0b1@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:75:bad095@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:74:bc44b9@@</p>\n            </div>\n\n\n            <hr>\n\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:73:b3a22c@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:72:9a5655@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:71:7ff1b4@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:70:71f041@@</p>\n            </div>\n\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:69:813237@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:68:b96e51@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:67:0f4b1d@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:66:8af568@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:65:5b7eef@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:64:ef4226@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:63:54d392@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:62:7c3cb9@@</p>\n            </div>\n\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:61:56d55e@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:60:da3e1b@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:59:b0082a@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:58:333c4a@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:57:43333c@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:56:6d5b67@@</p>\n            </div>\n\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:55:8a24bf@@</p>\n            </div>\n\n\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:54:c21de0@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:53:ba0e3f@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:52:1dd8c8@@</p>\n            </div>\n\n\n\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:51:b4c1f2@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:50:910bbb@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:49:9cd438@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:48:914db3@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:47:b4803c@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:46:512783@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:45:7a4299@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:44:1696a6@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:43:2453f6@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:42:911f35@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:41:e6355e@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:40:eb3be9@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:39:d22716@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:38:ba2bae@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:37:49cc4c@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:36:ed0b52@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:35:be3cf8@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:34:f50a20@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:33:5d5d51@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:32:3ac569@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:31:971bbd@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:30:f3f7e7@@</p>\n            </div>\n\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:29:423ed8@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:28:2dbe1c@@</p>\n            </div>\n\n            @@verbatim:1:3cf110@@\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:27:341600@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:26:5425cc@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:25:c275b1@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:24:01819e@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:23:39bdc1@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:22:a56a9a@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:21:242c15@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:20:6d23e1@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:19:e0587a@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:18:b1c1ef@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:17:a926c8@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:16:a73f8e@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:15:195327@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:14:ecdff6@@</p>\n            </div>\n\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:13:2a5557@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:12:196827@@</p>\n            </div>\n\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:11:d9c18b@@</p>\n                <p>@@text:10:b6a00f@@</p>\n\n                <p>@@text:9:1afc38@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:8:610530@@</p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>@@text:7:28d05f@@</p>\n            </div>\n\n        </article>\n    </main>\n\n    <br />\n\n    <a href=\"brief_history.html\" style=\"text-decoration: none;\">\n        <p class=\"nextPage\">@@text:6:3de87f@@</p>\n    </a>\n    @@verbatim:2:f88179@@\n\n</section>",
+  "_protected_html": "<section data-type=\"chapter\" id=\"comments\">\n\n    @@verbatim:0:8c3a4a@@\n\n    <br><br>\n\n    <main>\n        <article>\n\n            <h1>Reader's Comments</h1>\n\n            <hr>\n            <p style=\"text-align:center;font-weight:bold;margin-bottom:-30px\">570K Visitors from around the world since\n                2020</p>\n            <br />\n            @@verbatim:3:2033f1@@\n            <hr />\n\n            <p>\n                Many thanks to all the people around the world who have kindly shared their thoughts about\n                this educational resource.\n                Thanks!\n            </p>\n\n            <hr>\n            <br>\n            \n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                This helped me understand the concepts REALLY well. \n                Extremely extremely useful. I love that it's free \n                and so helpful. Don't know how I'd have passed my \n                course without it. Thank you so much!! \n                <br>\n\n                    <span class=\"w3-right\"><strong>—  Student (India)</strong></span>\n                    \n                </p>\n            </div>\n\n            <hr>\n            <br>\n            \n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                This is nothing short of a mathematical work of art. Every element \n                of this text fosters understanding to an unparalleled level, with \n                the writing and the interactable models working in tandem to explain \n                one of the hardest math subjects with gracious ease. \n                <br>\n\n                    <span class=\"w3-right\"><strong>— Gabriel Liscano, @saint.gabriel2, (Student, Georgia, USA)</strong></span>\n                    \n                </p>\n            </div>\n\n             <hr>\n            <br>\n            \n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                 This is very interactive eBook than traditional eBook...\n                 The concept building in mathematics becomes easy now. Hope \n                 we find all other branches in mathematics in similar format...!!!\n                 I am civil Engineering student with know-how of computer programming in \n                 Python and R. If I can contribute for the development of subject matter, \n                 It would be great satisfaction for me...\n                <br>\n\n                    <span class=\"w3-right\"><strong>— Radha Krishna Mallik (Teacher, Nepal)</strong></span>\n                    \n                </p>\n            </div>\n\n            <hr>\n            <br>\n            \n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                  I think it is a complete, well explained and very easy to \n                  understand resource. Thank you! \n                   <br>\n\n                    <span class=\"w3-right\"><strong>— Teresa Castiñeira (Paraguay)</strong></span>\n                    \n                </p>\n            </div>\n            <hr>\n            <br>\n            \n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                  I really appreciate the fact that the information is free, usually \n                  I have to search in books, It's not a problem, but sometimes I \n                  have to pay for information, and find a website where there is \n                  correct information of a mathematic subject, it helps a lot. \n                  I'm very thankful. \n                   <br>\n\n                    <span class=\"w3-right\"><strong>— Fedra (Chile)</strong></span>\n                    \n                </p>\n            </div>\n\n            <hr>\n            <br>\n            \n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                   I actually have an Exam tomorrow on Complex Analysis [Bachelors MechE]. \n                   I have a mind which always wanders around, sometimes affecting my own \n                   academics, that's why my grades are either really good or F. I \n                   know that it's bad thing but that's the way it goes for me. I \n                   have an intuitive understanding of Mathematics from Linear \n                   Algebra to Calculus to Topology including Complex Functions \n                   because I somehow supported myself enough to understand that \n                   the First Principle applies here as well just like it does \n                   in Single or Multivariable Calculus except it is @@math:4:cb08f7@@ if you \n                   respect the Notations. And its midnight with Exam tomorrow \n                   morning and I am reading this only to understand things from \n                   ground and it's absolutely bonkers that you have created this. \n                   I love it. I had a few misconceptions about Cauchy's \n                   Integral and Laurent's Series but it's all clear not only \n                   \"Equationally\" but also intuitively. It's insane. \n                   I'm broke to give you money, but I will definitely in \n                   the future when I have gotten enough money. But do keep \n                   up this work. It's just as amazing as Grant's Videos [3B-1B] \n                   while being different because sometimes you can learn more \n                   by reading than by watching. He nailed the video part and \n                   you nailed the reading part. Maybe add a few more topics \n                   if possible, like, Riemann Mapping, Residue Theorem etc. \n                   making it a little bit more textbook alternative. \n                   I know that it is a hard thing to actually replace a \n                   good textbook, but I think it will work out. Cheers \n                   anyway for this and keep up the good work. All the best.🥂 \n                   <br>\n\n                    <span class=\"w3-right\"><strong>— Student</strong></span>\n                    \n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n             \n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                   I think this website is an AMAZING learning resource. \n                   It covers almost everything I need for my studies and \n                   keeps updating all the time. It has very good explanations, \n                   including interactive visualizations that are desperately \n                   needed in this subject. I would definitely recommend anyone \n                   who struggles with this subject to use this website.\n                   <br>\n\n                    <span class=\"w3-right\"><strong>— Shahar (Israel)</strong></span>\n                    \n\n                </p>\n            </div>\n            \n            <hr>\n            <br>\n            \n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                   The website really helped me understanding the concepts \n                   beyond mere definitions. If I could I'd support the author\n                   but due to international payment barrier unfortunately I cannot. \n                   That being said, I wouldn't mind ads on this website \n                   because it is so worth it. \n                   The concepts I learnt here were a fraction of \n                   my syllabus but definitely glued to my memory!\n                   Big thanks to the author and best wishes, always! 😊 ❤️\n                   <br>\n\n                    <span class=\"w3-right\"><strong>— Student (India)</strong></span>\n                    \n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n            \n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    I think this is God's gift to undergraduate students \n                    like me. Thank you so much for making this. \n                    I LOVE that you include a summary of the history \n                    of the mathematicians who pioneered the field, \n                    and the references to more detailed sources. \n                    Complex analysis is becoming a passion of mine, \n                    and excellent educational resources like this \n                    is broadening my horizons.\n                    <br>\n\n                    <span class=\"w3-right\"><strong>— Joel (Student, Detroit)</strong></span>\n                    \n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    After I was finished with differential equations, \n                    I wanted to learn more about more advanced math. \n                    As someone who has relied primarily on online \n                    resources to learn math outside of class \n                    (Desmos, PaulsOnlineMathNotes), this website is \n                    like a dream come true for learning complex analysis. \n                    I won't be able to take the class my university \n                    offers until much later, so I've been using this \n                    resource to teach myself the subject before then. \n                    I cannot express how amazing it is to have access \n                    to a resources like this as a university student.\n                    <br>\n\n                    <span class=\"w3-right\"><strong>— Student</strong></span>\n                    \n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    This resource has been extremely helpful for both \n                    learning and visualizing the abstractness of the \n                    topics. The material is not tough to understand \n                    and most importantly it provides clear concept \n                    about the matter and the things written here \n                    looks very interesting to read, for its nice \n                    and charming appearance, unlike most of the \n                    resources... Thanks a lot...\n                    <br>\n\n                    <span class=\"w3-right\"><strong>— Sattwik Pradhan (IISER Kolkata, India)</strong></span>\n                    \n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    I think it is great, it has excellent visual aids to help \n                    you understand certain topics. I also think the structure \n                    is very logical, the @@math:5:fef3d4@@ is embedded nicely and the \n                    chapters are short enough as to be engaging but not boring.\n                    <br>\n\n                    <span class=\"w3-right\"><strong>— Felix Scott (QLD, Australia)</strong></span>\n                    \n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    This learning resource is very well made! It explains concepts \n                    simply and effectively, while still going through the working \n                    out and rigour of the subject. \n                    <br>\n\n                    <span class=\"w3-right\"><strong>— Student (Australia)</strong></span>\n                    \n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    I came across your complex-analysis website \n                    in the last few days and just wanted \n                    to say thanks for making it! It's a great resource. I am a PhD \n                    student in hypersonics at UniSQ in Toowoomba and was \n                    looking for an approachable introduction to potential flows. \n                    I have tried a few different textbooks though never found \n                    anything that really clicked. The build up to the \n                    Joukowski Transform using superposition of basic \n                    functions was a big help, and I also found the \n                    section on complex differentiation easier to understand \n                    than I've found elsewhere. Thanks again!\n                    <br>\n\n                    <span class=\"w3-right\"><strong>— Student (Australia)</strong></span>\n                    \n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    Thank you for this gift to the math-learners! Slick and elegant arguments are \n                    satisfying to watch, but often they offer little understanding. On the other \n                    hand, playing with and visualizing examples can make us feel the theory in\n                     our blood! Your work has and will enrich the minds (and hearts) of many people.\n                    <br>\n\n                    <span class=\"w3-right\"><strong>— Orestis Plevrakis  (Greece)</strong></span>\n                    \n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    Simplemente agradecerte el increíble trabajo que has hecho con el \n                    libro de Complex Analysis que tienes en tu página web.\n                    Estoy en segundo del grado de Matemática Aplicada y Computación \n                    en la UC3M, y la asignatura de Variable Compleja se me está atascando \n                    un poco, pero he encontrado tu libro y lo he entendido todo con solo \n                    leerlo (curves, contours, integration..).\n                    De tu libro me encanta que vas al grano, no usas términos \n                    complejos innecesarios y que pones ejemplos frecuentes, que \n                    ayudan (no te imaginas cuanto) a entender en qué se aplica \n                    lo que estoy leyendo. Las ilustraciones y animaciones, junto \n                    con los scripts interactivos de geogebra son de otro mundo.\n                     Lo he pasado por el grupo de mis amigos de la carrera y \n                     están flipando! Y no sabes la alegría que da que un trabajo\n                      tan bien hecho lo haya hecho un hispanohablante (la mayoría de \n                      recursos que encuentro son de profesores americanos o indios).\n                       Por eso y todo el trabajo que hay detrás, mil gracias, de verdad.\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; E. S.,  Estudiante de la Universidad Carlos III de Madrid</strong></span>\n                    \n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    Juan Carlos es uno de esos locos profesores que pretenden hacernos creer \n                    que es posible aprender sin aburrirnos soberanamente. Afortunadamente, \n                    ya no somos unas rara avis aquellos que no solamente opinamos que \n                    puede hacerse, sino que estamos absolutamente convencidos de que \n                    debe hacerse. O al menos, intentarse. En el caso de este libro, \n                    Juan Carlos lo consigue con creces. ¡Gracias por este interesante, \n                    ameno, dinámico, interactivo y necesario trabajo!  \n                    (Al leerlo, me ha entrado algo de nostalgia, no sé qué hubiera \n                    dado por tener a mi alcance recursos como este cuando estaba en la facultad...)\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; Rafael Losada Liste <a\n                                href=\"https://www.geogebra.org/u/rafael\"\n                                target=\"_blank\">GeoGebra Ambassador</a></strong></span>\n\n                </p>\n            </div>\n\n\n            <hr>\n\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    This looks fantastically useful for anyone who is teaching or\n                    taking a course in complex analysis. Thank you, Juan Carlos!\n                    Beautiful work! And very generous of you to share it with the\n                    world 👏\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; Steven Strogatz <a\n                                href=\"https://twitter.com/stevenstrogatz/status/1432296625431617542\"\n                                target=\"_blank\">@stevenstrogatz</a></strong></span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    I have just came across the beautiful website you have created on\n                    the topic of Complex Analysis. This website is a fantastic way to\n                    learn Complex Analysis. You have intricately used the tools needed\n                    to make the learning experience as smooth and easy as possible.\n                    I am currently doing a bachelor's in computer engineering and I\n                    have been having a very hard time making a good connection with\n                    math.\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; Milad Zarei Maleki\n                            (Iran)\n                        </strong>\n                    </span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    I like the way each page has careful and readable descriptions of the maths, while not shying\n                    away from the technical details. The particular strength here is that alongside the readable\n                    mathematics are regular interactive animations in Geogebra or p5.js (on every page!?). These\n                    really help the reader *literally* get to grips with the material. It's lovely stuff. I\n                    believe that making maths *move* in this way is the key for any of us trying to understand\n                    this subject better.\n                    <br>\n                    <span class=\"w3-right\">&#x2014; <strong><a href=\"https://www.bensparks.co.uk/\" target=\"_blank\"> Ben\n                                Sparks</a></strong>\n                    </span>\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    The applets are beautiful! You found the right amount of interactivity:\n                    some sites have too much (overwhelming, or clunky),\n                    most have too little. It's also a great service to provide\n                    the source code on GitHub.\n                    <br>\n\n                    <span class=\"w3-right\">&#x2014;\n                        <strong><a\n                                href=\"https://www.kau.se/en/about-university/about-karlstad-university/ceremonies/marcus-berg-professor-physics\"\n                                target=\"_blank\">Marcus Berg</a></strong></span>\n\n                </p>\n            </div>\n\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    There might be some select few who are able to learn more advanced\n                    areas of math purely from interaction with symbols and equations,\n                    but for the rest of us (like me), mathematical intuition develops\n                    best from tangible examples and playful exploration.\n                    The presented content is a great first sight-seeing\n                    tour of the beautiful landscapes of complex analysis,\n                    and the well-chosen illustrations and interactive widgets\n                    are essential for bringing the equations alive.\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; <a href=\"\" target=\"_blank\">Anton Pirogov</a></strong>\n                    </span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    Just found it, Completely blown away. Fantastic work done\n                    by the team. Great resource indeed, I honestly believe\n                    these kind of educational resources truly change students\n                    perspective and attract them towards an otherwise boring subject.\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; <a>Geek (Australia)</a></strong> </span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    A clean-looking website that describes complex analysis\n                    concepts in a pretty straigthforward manner, good addition to textbook\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; <a>Jennifer (Sweden)</a></strong> </span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    Very helpful. I am an engineer with previous\n                    knowledge and is very appropriate to brush up on it.\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; <a>Interested person (Germany)</a></strong></span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    It is very innovative as there are customizable graphs\n                    and software that allow me to visualize the concepts.\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; <a>Student (US)</a></strong></span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    I'm barely in and it already seems fantastic. It seems\n                    like the future of education, and already represents\n                    lucidly the model that I want instruction to look like.\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; <a>Nate English (Standford)</a></strong> </span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    This is the best mathematical resource I have ever come across! The visualisations are so helpful\n                    and\n                    the content is presented in a way that is concise and easy to understand. I wish all of my modules\n                    taught in this way!\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; <a>Callum Barnett</a></strong> </span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    It's very good. Being able to fully visualise abstract\n                    concepts is incredibly fulfilling. Hope you continue\n                    to add to this wonderful site.\n                    <br>\n                    <span class=\"w3-right\"><strong><a>&#x2014; Niaz (London, UK)</a></strong></span>\n                </p>\n            </div>\n\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    I am a fourth-year undergrad (BS Physics). We deal with complex analysis at several junctures.\n                    Although\n                    I have managed to have some understanding of it, I just wish that I had come across your resource\n                    earlier. I just spent 3 hours devouring your book, and I must\n                    say - I feel like I know complex analysis like the back of my hand.\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; <a href=\"https://visualize-it.github.io/\" target=\"_blank\">\n                                Chandan Relekar</a></strong></span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    Was super helpful for checking what the Principal Argument was.\n                    Loved the visualisation of the different branches \"spreading out\"\n                    or \"expanding\" to represent the branch cuts. Helped with my intuitive\n                    understanding of a branch cut, and the issues that arise with\n                    multifunction's in the complex plane.\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; <a>Blake Urban</a></strong> </span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    I'm very grateful for the work that has been done on this website.\n                    It helps me to understand the potential complex theory easily.\n                    The way the creators of this elegant website worked is something\n                    to appreciate a lot. I hope that all courses teach us like this\n                    website does, especially with the applications that are facility\n                    the understanding of the equations and physical phenomena.\n                    Thank you very much.\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; <a>ESSAHRAOUI MAROUANE</a></strong> </span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    Pretty good example of *right* use of *right* computing\n                    powers and open-source technologies for teaching people\n                    some interesting topics and overcoming some difficulties\n                    that aren't easily being \"tackled\" using \"common ways\" of studying! :)\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; <a href=\"https://github.com/geothecode\"\n                                target=\"_blank\">Georgy (Russia)</a></strong> </span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    Absolutely beautiful, elegant and removes the complexity of complex numbers.\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; <a>Aedan Yates (South Africa)</a>\n                        </strong> </span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    Briefly, what came up immediately was exactly the help I needed.\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; <a>Paul St. Jean (Michigan)</a></strong> </span>\n\n                </p>\n            </div>\n\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    Absolutely beautiful. Being able to interact with visual\n                    representations is very helpful with understand what\n                    actually happens. Also the notes are well written and\n                    clear, so are very to understand. It does everything\n                    that a website about maths should do.\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; <a>Student (England)</a></strong> </span>\n\n                </p>\n            </div>\n\n\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    It was hard to find online resources for complex analysis\n                    when I was looking, and they usually would only state\n                    rules or theorems that I didn't understand the reasoning\n                    behind. I've only used this site for a few days, but it's\n                    been an easy way to start learning about complex series.\n                    The explanations flow nicely, and I like that the first\n                    example of something is put in a basic form to show\n                    what's happening. The web design & layout are great\n                    and are probably what first caught my attention and\n                    made me stay. The only thing I can think of in terms\n                    of improvement would be adding small expandable\n                    sections for something that might be related or notable,\n                    but not necessarily needed or at a different level of\n                    complexity that wouldn't match the topic.\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; <a>Student (Oregon, USA)</a></strong>\n                    </span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    I think it's absolutely fantastic; it's written so well, and\n                    it covers an impressive breadth of complex analysis. I find this\n                    resource to be more quality, more valuable than most textbooks I\n                    buy for my university courses. Thank you for providing such a great resource.\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; <a>Michael</a></strong> </span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    I think this is a fantastic resource for teaching Complex Analysis.\n                    I am an educator and currently working on an algorithm to turn\n                    musical excerpts into mathematical functions and vice versa and\n                    complex numbers are at the center of the treatise. Each pitch\n                    is represented as a cosine wave with a frequency phi representing\n                    the interval the particular note is from the key and a phase\n                    shift delta representing the key of the excerpt. This pitch\n                    is a Fourier series of the normal modes comprising the pitch\n                    keeping the instruments timbre in mind. Each rhythm is\n                    represented as a rational exponential with time signature\n                    in the numerator represented as a rational function tau = n/d\n                    and the subdivision of the beat in the denominator represented\n                    as a rational logarithmic function beta = ln(n)/ln(d).\n                    Therefore, each note N is equal to (p,r) = int(p(phi,delta)*r(tau,beta).\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; <a>Dominic Ellis</a></strong> </span>\n\n                </p>\n            </div>\n\n\n\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    Brilliant work! It is a true honor to be included within it.\n\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; <a href=\"https://twitter.com/geogebra/status/1216162738415849472?s=20\"\n                                target=\"_blank\">GeoGebra team</a>\n                        </strong></span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    This is great. Would love to see more sections/chapters on other topics.\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; Sultan Sial, Teacher</strong></span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    Handy to see all kind of topics , especialy now i am struggling with the notion of a branch.\n                    Using also Maple for doing math there\n                    I am looking now on the website and it can be used for training some exercises, and study.\n                    Lets say for the geomatrical meaning of the complex differentation is too much for explaining\n                    Good example : The logarithmic function to get a idea what a multi-valued function stands for\n                    Its only that i like to see the logarithmic function at the Riemann Surfaces examples too.\n                    Thanks for your website, very helpful to go into complex analysis\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; Jan Douma,\n                            B Ed math</strong></span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    Love it!\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; Thomas Blackwell, Engineer</strong></span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    It is a really good job, that helps me understand better the whole concept of complex analysis.\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; Student</strong></span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    It was the best in complex analysis intuition so far(for me).\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; Student</strong></span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    I have been trying to figure out how Complex Numbers worked and how\n                    they represented all three values of a 3D grid while only being given (x,y)\n                    or (r,t) for the longest time now. I believe I have now completed my search\n                    and onto going further with it! (I'd say about a 2-year self-journey at\n                    least. Though I've learned so much Math along the way.) Thank you so much!\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; Matthew, Student</strong></span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    It looks lovely! I really like the interactive style and the approachable text style.\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; Student</strong></span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    It's great, speacially the applets.\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; Luana, Student</strong></span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    I developed an intuition about the complex surfaces.\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; Oded Kafri, Physicist</strong></span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    Probably the best alternative for classical\n                    textbooks on complex analysis. Concise and\n                    playfull. Love the examples and interactive plots.\n                    This has something what \"mainstream books\" lacks,\n                    it is suitable for modern students.\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; Teacher</strong></span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    Clear and aesthetically beautiful.\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; Teacher</strong></span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    Absolutely wonderful.\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; Anonymous</strong></span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    This looks like a great book. Thank you for making it available!\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; George Sipos</strong></span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    Fantastic! Keep adding more content, specially graduate level topics.\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; Teacher & Student (Malaysia)</strong></span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    Great way to learn about a difficult topic.\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; Secondary School Student</strong></span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    Really well made website. wish there were more.\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; Saurabh Dhingra</strong></span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    IT'S GOOD\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; Teacher</strong></span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    Very good, high quality, highly recommend\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; Maya</strong></span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    It is incredible. Great visuals, examples, and gives\n                    intuition on how complex analysis works.\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; Sam Sepiol</strong></span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    Fantastic concise introduction to the concepts, great to brush up on before lecture\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; Student</strong></span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    Excellent - and my students agree!!\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; <a\n                                href=\"https://las.touro.edu/faculty/faculty-members/wohl-david.php\"\n                                target=\"_blank\">David\n                                Wohl</a></strong> </span>\n\n                </p>\n            </div>\n\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    Very nice! It has embedded graphics/visualization, which are something\n                    conventional books could not afford.\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; Student</strong></span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    This learning resource is very well made! It explains concepts simply and effectively,\n                    while still going through the working out and rigour of the subject.\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; Student</strong></span>\n\n                </p>\n            </div>\n\n            @@verbatim:1:3cf110@@\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    I’m amazed at the availability and quality of such material.\n                    We live in such a wonderful time for learning.\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; Matthew Mansfield</strong> <a\n                            href=\"https://twitter.com/drunkengrass/status/1432456027010580480\"\n                            target=\"_blank\">@drunkengrass\n                        </a></span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    Wow thank you @jcponcemath! I wish I had this when I\n                    took Complex Analysis ~20 years ago. Instead I treated a\n                    grad student friend to a meal so I could ask them 100\n                    questions about how to visualize what we had to do for class.\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; Federico Chialvo <a\n                                href=\"https://twitter.com/FedericoChialvo/status/1432362694187778053\"\n                                target=\"_blank\">@FedericoChialvo</a></strong> </span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    Complex analysis is imho perhaps the most “magical” corner of math,\n                    where the right amount of assumptions gives a counterintuitive amount\n                    of results... but for the same reason it is not easy to learn.\n                    This type of resources are really helpful!\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; Fernando Rosas\n                            <a href=\"https://twitter.com/_fernando_rosas/status/1432338563115405313\"\n                                target=\"_blank\">@_fernando_rosas</a></strong> </span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    Te quería comentar nomas que estuve ojeando tu libro y me gustó mucho.\n                    Justamente este cuatrimestre estoy cursando una materia de análisis\n                    complejo y es un lindo complemento visual para muchas de las temáticas\n                    que vemos. En particular me fascinó el graficador interactivo de series\n                    de Taylor con domain coloring, resultó muy didáctico para entender el\n                    concepto de radio de convergencia!!!\n                    <br><br>\n\n                    Te quería agradecer por hacerlo material de libre acceso,\n                    lo compartiré con mis compañeros y docentes :)\n                    <br>\n\n\n\n                    <span class=\"w3-right\"><strong>&#x2014; Agustín Brusco\n                            <a href=\"https://twitter.com/fisplot\" target=\"_blank\">@fisplot</a></strong> </span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    He leído tu libro de análisis complejo y me ha gustado mucho.\n                    Trata los contenidos de esta materia de una manera muy asequible\n                    que complementa visualmente con applets interactivos. Me parece\n                    idóneo para docentes, investigadores y estudiantes de ingenierías\n                    y matemáticas.\n                    Muchas gracias por esta aportación.\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; Débora Pereiro\n                            <a href=\"https://twitter.com/debora_pereiro\" target=\"_blank\">@debora_pereiro</a></strong>\n                    </span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    As Web-based open-access textbooks gain wider visibility, we need pioneers to\n                    demonstrate the possibilities of this emerging medium. In <em>Complex Analysis:\n                        A Visual and Interactive Introduction</em>, Juan Carlos Ponce Campuzano has already\n                    done something that was previously impossible: he’s seamlessly embedded beautiful,\n                    dynamic, interactive visualizations into the body of a math text.\n                    <br /><br />\n                    Not only are these visualizations created with open-source software,\n                    but also the book itself is open to continual improvements. There is simply no\n                    need to wait for a new edition, and the contents are available to everyone with\n                    an internet connection. Authors, take note! This is how it’s done.\n\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; Greg Stanton\n                            <a href=\"https://twitter.com/HigherMathNotes\" target=\"_blank\">@HigherMathNotes</a></strong>\n                    </span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    En mi opinión, este proyecto consigue el equilibrio perfecto entre\n                    el rigor matemático y la claridad. Está muy bien estructurado, pero\n                    lo que realmente le distingue de los libros al uso son sus applets\n                    interactivos, que permiten a los lectores ir jugando con distintos\n                    parámetros y ver el resultado que estos cambios provocan. De esta\n                    forma, es mucho más fácil para el lector entender la teoría que\n                    subyace y, sin duda, mucho más atractivo. Los gráficos interactivos\n                    se van haciendo cada vez más espectaculares a medida que avanza el\n                    libro y hacen justicia a lo fascinante que es esta rama de las matemáticas.\n                    <br><br>\n                    Mención especial merece también el hecho de que todas las animaciones\n                    hayan sido creadas con software libre, como GeoGebra, entre otros.\n                    <br><br>\n                    Lo recomiendo tanto para aquellos que vayan a impartir un curso\n                    en análisis complejo como para quienes quieran estudiarlo.\n\n                    <br>\n\n                    <span class=\"w3-right\"><strong><a href=\"https://twitter.com/javiarrospide\" target=\"_blank\">&#x2014;\n                                Javier\n                                Arrospide Laborda</a></strong></span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    El tema de los números complejos es realmente apasionante y Juan Carlos Ponce\n                    nos organiza un recorrido por el mismo de manera clara, concisa y muy visual,\n                    incorporando aplicaciones con el programa GeoGebra para explicar\n                    los diferentes conceptos. El formato y la presentación hacen que la\n                    lectura sea muy amena, lejos de textos sobrecargados, densos y con\n                    demasiada información, muchas veces innecesaria. El lector puede ir\n                    descubriendo el mundo fascinante del análisis complejo interactuando\n                    con las aplicaciones del libro. Al final te acabas sintiendo como un\n                    viajero descubriendo un mundo nuevo... ¡y son matemáticas!\n\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; <a href=\"https://www.geogebra.org/u/bernat_geogebra\"\n                                target=\"_blank\">\n                                Bernat Ancochea Millet</a></strong></span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    The applets and flow are a splendid way to get exposure to complex numbers and analysis. I have\n                    enjoyed\n                    reviewing a topic I haven't played with in a long time.\n\n                    There are enthusiastic and eye-catching visuals throughout. Even if math is not your thing, I\n                    recommend\n                    that you take a look and play with the applets. This is a great book for anyone interested the\n                    complex\n                    plane, imaginary numbers, and jumping into some of the wonders of math.\n\n\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; Sophia Wood <a href=\"https://fractalkitty.com/\"\n                                target=\"_blank\"> @fractalkitty</a></strong></span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    A book (site) that explains mathematical theory that is difficult to understand\n                    intuitively with tools that can create interactive content such as GeoGebra and p5.js.\n                    You can actually move the parameters and see how they change.\n\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; <a\n                                href=\"https://twitter.com/icoxfog417/status/1215090997484408832?s=20\"\n                                target=\"_blank\">piqcy</a></strong></span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    Ideal para mi curso de Análisis Complejo. Gracias por compartirlo.\n\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; <a\n                                href=\"https://twitter.com/amtlucca/status/1214919877716250626?s=20\"\n                                target=\"_blank\">Ana María Lucca</a></strong></span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    Por si alguno está estudiando análisis complejo, esta introducción está fetén.\n\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; <a\n                                href=\"https://twitter.com/PurpleSensati0n/status/1214981843029766150?s=20\"\n                                target=\"_blank\">ThePurpleSensation</a></strong></span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    A neat interactive approach to learning about complex analysis.\n\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; <a\n                                href=\"https://twitter.com/SeanWal49402031/status/1216145653010706437?s=20\"\n                                target=\"_blank\">Sean Walker</a></strong></span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    Las matemáticas viven en el razonamiento del ser humano y, dado su nivel de abstracción, una simple\n                    lectura no es suficiente para comprender y asimilar los conceptos. Todo resulta más fácil cuando\n                    dichos\n                    conceptos vienen acompañados por ilustraciones y explicaciones breves y sencillas. Pues bien, Juan\n                    Carlos consigue en este libro precisamente eso. Nadie como él para sacar partido a todos los\n                    recursos\n                    visuales posibles en forma de aplicaciones e ilustraciones interactivas para ilustrar la magia de\n                    los\n                    números imaginarios. Alégrense la vista y la mente con este fantástico libro.\n\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; <a href=\"https://elultimoversodefermat.wordpress.com/\"\n                                target=\"_blank\">\n                                Julio Mulero</a></strong></span>\n\n                </p>\n            </div>\n\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    I was just wanting to learn more about these holomorphic functions of the complex plane\n                    and conformal mapping and how this stuff relates to fluid flow myself, THANK YOU for\n                    making this!\n\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; <a\n                                href=\"https://twitter.com/c010011012/status/1214981437784375296?s=20\"\n                                target=\"_blank\">C010011012</a></strong></span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    Awesome work, thanks for sharing this! The maths is clearly written and - no surprise -\n                    the @geogebra applets are just perfect.\n\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; <a\n                                href=\"https://twitter.com/panlepan/status/1216137495206924299?s=20\"\n                                target=\"_blank\">Vincent Pantaloni</a></strong></span>\n\n                </p>\n            </div>\n\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    Complex Analysis: A visual and Interactive Introduction is like a virtual or imaginary\n                    candy-store for those interested in mathematical visualizations in general or complex\n                    numbers in particular. I have never seen so many mesmerizing applets in one place.\n                    The tools given to the user to explore the mathematics beyond the text and the attention\n                    to detail make a very captivating adventure.\n\n                </p>\n                <p>\n                    Anyone interested in the Mandelbrot Set (which is probably just about everyone)\n                    should check out the chapter with the interactive Mandelbrot illustrations. I\n                    particularly like the applet that shows the changing character of the iterate\n                    orbitals as one moves among the various buds of the Mandelbrot set and another applet\n                    that connects the Mandelbrot set to the Julian sets.\n\n                </p>\n\n                <p>\n                    After whetting one's appetite on the Mandelbrot chapter, if you are like me,\n                    you will want to explore further. The colorful analytic landscapes and domain\n                    coloring apps are awesome. And don't miss the cool conformal mapping applications\n                    in the last chapter!\n\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; <a\n                                href=\"https://www.johnpauliihs.org/about-us/staff-directory?deptId=27475&gId=5305&letter=T\"\n                                target=\"_blank\"> Ken Thele</a></strong></span>\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    Extraordinary....this will help a lot of guys.\n\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; <a\n                                href=\"https://twitter.com/AustinRousan/status/1214873904310673408?s=20\"\n                                target=\"_blank\">Azazaya</a></strong></span>\n\n                </p>\n            </div>\n\n            <hr>\n            <br>\n\n            <div class=\"w3-panel w3-leftbar\">\n                <p>\n                    This is indeed one of the best educational content. Let's study. Thank you.\n\n                    <br>\n\n                    <span class=\"w3-right\"><strong>&#x2014; <a\n                                href=\"https://twitter.com/ayushthakur0/status/1215275965409976321?s=20\"\n                                target=\"_blank\">ayush thakur</a></strong>\n                    </span>\n\n                </p>\n            </div>\n\n        </article>\n    </main>\n\n    <br />\n\n    <a href=\"brief_history.html\" style=\"text-decoration: none;\">\n        <p class=\"nextPage\">A Brief History <i class=\"fa-solid fa-angles-right\"></i></p>\n    </a>\n    @@verbatim:2:f88179@@\n\n</section>"
+}

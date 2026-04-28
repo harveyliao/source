@@ -1,0 +1,241 @@
+{
+  "file": "riemann_surfaces.html",
+  "original_length": 33313,
+  "num_text_blocks": 22,
+  "num_verbatim": 24,
+  "verbatim_map": {
+    "@@verbatim:0:02dfe7@@": "<!-- Starts main content -->",
+    "@@verbatim:1:f68794@@": "<!-- Add more sections as needed -->",
+    "@@verbatim:2:964f26@@": "<!--Ends mathcell-->",
+    "@@verbatim:3:da3c47@@": "<!--Ends mathcell-->",
+    "@@verbatim:4:b48d07@@": "<!--Ends mathcell-->",
+    "@@verbatim:5:a75f3a@@": "<!--Ends mathcell-->",
+    "@@verbatim:6:8f6134@@": "<!--Ends mathcell-->",
+    "@@verbatim:7:f45ab7@@": "<!--Ends mathcell-->",
+    "@@verbatim:8:e62ebb@@": "<!--Ends mathcell-->",
+    "@@verbatim:9:227ca6@@": "<!--Ends mathcell-->",
+    "@@verbatim:10:70e6cd@@": "<!--Ends mathcell-->",
+    "@@verbatim:11:6b1186@@": "<!--Ends mathcell-->",
+    "@@verbatim:12:45a2b1@@": "<!-- Ends main content -->",
+    "@@verbatim:13:498e8f@@": "<script src=\"js/mathcell.js\"></script>",
+    "@@verbatim:14:4acc3a@@": "<script>\n                        var parent = document.currentScript.parentNode;\n\n                        var id = generateId();\n                        parent.id = id;\n\n                        MathCell(id, []);\n\n                        parent.update = function (id) {\n\n                            //(x x + y y)^(1 / 4) cos(1 / 2 atan2(y,x))\n                            //u cos(v), u sin(v),\n\n                            var pi = Math.PI;\n\n                            var Re1 = (x, y) => Math.pow(x * x + y * y, 1 / 4) * Math.cos(1 / 2 * Math.atan2(y, x));\n\n                            var Re2 = (x, y) => Math.pow(x * x + y * y, 1 / 4) * Math.cos(1 / 2 * (Math.atan2(y, x) + 2 * pi));\n\n                            var data = [];\n\n                            var s = parametric((u, v) => [u * Math.cos(v),\n                            u * Math.sin(v),\n                            Re1(u * Math.cos(v), u * Math.sin(v))\n                            ],\n                                [0, 2], [-pi, pi], {\n                                color: '#80aaff',\n                                opacity: 0.9\n                            }\n                            );\n                            var t = parametric((u, v) => [u * Math.cos(v),\n                            u * Math.sin(v),\n                            Re2(u * Math.cos(v), u * Math.sin(v))\n                            ],\n                                [0, 2], [-pi, pi], {\n                                color: '#cc99ff',\n                                opacity: 0.9\n                            }\n                            );\n\n                            data.push(s);\n                            data.push(t);\n\n                            var config = {\n                                type: 'threejs',\n                                frame: true,\n                                viewpoint: [1, -1, 0.5]\n                            };\n\n                            evaluate(id, data, config);\n\n                        }\n\n                        parent.update(id);\n                    </script>",
+    "@@verbatim:15:3b63f9@@": "<script>\n                        var parent = document.currentScript.parentNode;\n\n                        var id = generateId();\n                        parent.id = id;\n\n                        MathCell(id, []);\n\n                        parent.update = function (id) {\n\n                            //(x x + y y)^(1 / 4) cos(1 / 2 atan2(y,x))\n                            //u cos(v), u sin(v),\n\n                            var pi = Math.PI;\n\n                            var Im1 = (x, y) => Math.pow(x * x + y * y, 1 / 4) * Math.sin(1 / 2 * Math.atan2(y, x));\n\n                            var Im2 = (x, y) => Math.pow(x * x + y * y, 1 / 4) * Math.sin(1 / 2 * (Math.atan2(y, x) + 2 * pi));\n\n                            var data = [];\n\n                            var s = parametric((u, v) => [u * Math.cos(v),\n                            u * Math.sin(v),\n                            Im1(u * Math.cos(v), u * Math.sin(v))\n                            ],\n                                [0, 2], [-pi, pi - pi / 100000], {\n                                color: '#ff1a1a'\n                            }\n                            );\n                            var t = parametric((u, v) => [u * Math.cos(v),\n                            u * Math.sin(v),\n                            Im2(u * Math.cos(v), u * Math.sin(v))\n                            ],\n                                [0, 2], [-pi, pi - pi / 100000], {\n                                color: '#339933',\n                                opacity: 0.9\n                            }\n                            );\n\n                            data.push(s);\n                            data.push(t);\n\n                            var config = {\n                                type: 'threejs',\n                                frame: true,\n                                viewpoint: [1, -1, 0.5]\n                            };\n\n                            evaluate(id, data, config);\n\n                        }\n\n                        parent.update(id);\n                    </script>",
+    "@@verbatim:16:6afe8d@@": "<script>\n                        var parent = document.currentScript.parentNode;\n\n                        var id = generateId();\n                        parent.id = id;\n\n                        MathCell(id, []);\n\n                        parent.update = function (id) {\n\n                            //(x² + y²)^(1 / (2n)) cos(1 / n atan2(y,x) + 1 / n 2 π k)\n                            //u cos(v), u sin(v),\n\n                            var pi = Math.PI;\n\n                            var Re = (x, y, n, k) => Math.pow(x * x + y * y, 1 / (2 * n)) * Math.cos(1 / n * Math.atan2(y, x) +\n                                1 / n * 2 * pi * k);\n\n\n                            var data = [];\n\n                            var s = parametric((u, v) => [u * Math.cos(v),\n                            u * Math.sin(v),\n                            Re(u * Math.cos(v), u * Math.sin(v), 3, 0)\n                            ],\n                                [0, 2], [-pi, pi - pi / 100000], {\n                                color: '#80aaff',\n                                opacity: 0.9\n                            }\n                            );\n                            var t = parametric((u, v) => [u * Math.cos(v),\n                            u * Math.sin(v),\n                            Re(u * Math.cos(v), u * Math.sin(v), 3, 1)\n                            ],\n                                [0, 2], [-pi, pi - pi / 100000], {\n                                color: '#ff99cc',\n                                opacity: 0.9\n                            }\n                            );\n                            var w = parametric((u, v) => [u * Math.cos(v),\n                            u * Math.sin(v),\n                            Re(u * Math.cos(v), u * Math.sin(v), 3, 2)\n                            ],\n                                [0, 2], [-pi, pi - pi / 100000], {\n                                color: '#339933',\n                                opacity: 0.9\n                            }\n                            );\n\n                            data.push(s);\n                            data.push(t);\n                            data.push(w);\n\n                            var config = {\n                                type: 'threejs',\n                                frame: true,\n                                viewpoint: [1, -1, 0.5]\n                            };\n\n                            evaluate(id, data, config);\n\n                        }\n\n                        parent.update(id);\n                    </script>",
+    "@@verbatim:17:67b531@@": "<script>\n                        var parent = document.currentScript.parentNode;\n\n                        var id = generateId();\n                        parent.id = id;\n\n                        MathCell(id, []);\n\n                        parent.update = function (id) {\n\n                            //(x² + y²)^(1 / (2n)) cos(1 / n atan2(y,x) + 1 / n 2 π k)\n                            //u cos(v), u sin(v),\n\n                            var pi = Math.PI;\n\n                            var Im = (x, y, n, k) => Math.pow(x * x + y * y, 1 / (2 * n)) * Math.sin(1 / n * Math.atan2(y, x) +\n                                1 / n * 2 * pi * k);\n\n\n\n                            var data = [];\n\n                            var s = parametric((u, v) => [u * Math.cos(v),\n                            u * Math.sin(v),\n                            Im(u * Math.cos(v), u * Math.sin(v), 3, 0)\n                            ],\n                                [0, 2], [-pi, pi - pi / 100000], {\n                                color: '#4d79ff',\n                                opacity: 0.9\n                            }\n                            );\n                            var t = parametric((u, v) => [u * Math.cos(v),\n                            u * Math.sin(v),\n                            Im(u * Math.cos(v), u * Math.sin(v), 3, 1)\n                            ],\n                                [0, 2], [-pi, pi - pi / 100000], {\n                                color: '#ac00e6',\n                                opacity: 0.9\n                            }\n                            );\n                            var w = parametric((u, v) => [u * Math.cos(v),\n                            u * Math.sin(v),\n                            Im(u * Math.cos(v), u * Math.sin(v), 3, 2)\n                            ],\n                                [0, 2], [-pi, pi - pi / 100000], {\n                                color: '#ff6600',\n                                opacity: 0.9\n                            }\n                            );\n\n                            data.push(s);\n                            data.push(t);\n                            data.push(w);\n\n                            var config = {\n                                type: 'threejs',\n                                frame: true,\n                                viewpoint: [1, -1, 0.5]\n                            };\n\n                            evaluate(id, data, config);\n\n                        }\n\n                        parent.update(id);\n                    </script>",
+    "@@verbatim:18:bd897a@@": "<script>\n                        var parent = document.currentScript.parentNode;\n\n                        var id = generateId();\n                        parent.id = id;\n\n                        MathCell(id, []);\n\n                        parent.update = function (id) {\n\n                            //((1 - x² + y²)² + (-2x y)²)^(1 / (2n)) cos(1 / n atan2(-2x y,1 - x² + y²) + 1 / n 2 π k)\n                            //u cos(v), u sin(v),\n\n                            var pi = Math.PI;\n\n                            var Re = (x, y, n, k) => Math.pow((1 - x * x + y * y) * (1 - x * x + y * y) + (-2 * x * y) * (-2 *\n                                x * y), 1 / (2 * n)) * Math.cos(1 / n * Math.atan2(-2 * x * y, 1 - x * x + y * y) + 1 / n * 2 *\n                                    pi * k);\n\n\n\n                            var data = [];\n\n                            var s = parametric((u, v) => [u * Math.cos(v),\n                            u * Math.sin(v),\n                            Re(u * Math.cos(v), u * Math.sin(v), 2, 0)\n                            ],\n                                [0, 2], [-pi, pi - pi / 100000], {\n                                color: '#53c653',\n                                opacity: 0.9\n                            }\n                            );\n                            var t = parametric((u, v) => [u * Math.cos(v),\n                            u * Math.sin(v),\n                            Re(u * Math.cos(v), u * Math.sin(v), 2, 1)\n                            ],\n                                [0, 2], [-pi, pi - pi / 100000], {\n                                color: '#cc6699',\n                                opacity: 0.9\n                            }\n                            );\n\n\n                            data.push(s);\n                            data.push(t);\n\n                            var config = {\n                                type: 'threejs',\n                                frame: true,\n                                viewpoint: [1, -1, 0.5]\n                            };\n\n                            evaluate(id, data, config);\n\n                        }\n\n                        parent.update(id);\n                    </script>",
+    "@@verbatim:19:cd6ac9@@": "<script>\n                            var parent = document.currentScript.parentNode;\n\n                            var id = generateId();\n                            parent.id = id;\n\n                            MathCell(id, []);\n\n                            parent.update = function (id) {\n\n                                //u cos(v), u sin(v),\n\n                                var pi = Math.PI;\n\n                                var Im = (x, y, n, k) => Math.pow((1 - x * x + y * y) * (1 - x * x + y * y) + (-2 * x * y) * (-2 *\n                                    x * y), 1 / (2 * n)) * Math.sin(1 / n * Math.atan2(-2 * x * y, 1 - x * x + y * y) + 1 / n *\n                                        2 * pi * k);\n\n                                var data = [];\n\n                                var s = parametric((u, v) => [u * Math.cos(v),\n                                u * Math.sin(v),\n                                Im(u * Math.cos(v), u * Math.sin(v), 2, 0)\n                                ],\n                                    [0, 2], [0 + pi / 10000, pi - pi / 10000], {\n                                    color: '#cc0000',\n                                    opacity: 0.9\n                                }\n                                );\n                                var t = parametric((u, v) => [u * Math.cos(v),\n                                u * Math.sin(v),\n                                Im(u * Math.cos(v), u * Math.sin(v), 2, 1)\n                                ],\n                                    [0, 2], [0 + pi / 10000, pi - pi / 10000], {\n                                    color: '#6699ff',\n                                    opacity: 0.9\n                                }\n                                );\n\n                                var s1 = parametric((u, v) => [u * Math.cos(v),\n                                u * Math.sin(v),\n                                Im(u * Math.cos(v), u * Math.sin(v), 2, 0)\n                                ],\n                                    [0, 2], [-pi + pi / 10000, -pi / 10000], {\n                                    color: '#cc0000',\n                                    opacity: 0.9\n                                }\n                                );\n                                var t1 = parametric((u, v) => [u * Math.cos(v),\n                                u * Math.sin(v),\n                                Im(u * Math.cos(v), u * Math.sin(v), 2, 1)\n                                ],\n                                    [0, 2], [-pi + pi / 10000, -pi / 10000], {\n                                    color: '#6699ff',\n                                    opacity: 0.9\n                                }\n                                );\n\n                                data.push(s);\n                                data.push(t);\n                                data.push(s1);\n                                data.push(t1);\n\n                                var config = {\n                                    type: 'threejs',\n                                    frame: true,\n                                    viewpoint: [1, -1, 0.5]\n                                };\n\n                                evaluate(id, data, config);\n\n                            }\n\n                            parent.update(id);\n                        </script>",
+    "@@verbatim:20:3201a1@@": "<script>\n                        var parent = document.currentScript.parentNode;\n\n                        var id = generateId();\n                        parent.id = id;\n\n                        MathCell(id, []);\n\n                        parent.update = function (id) {\n\n                            /*\n                             C1(x,y)=y² - x² + 1\n                             C2(x,y)=-2 x y\n        \n                             D(x,y) = C1(x, y)² + C2(x, y)²\n        \n                             R(x,y) = sqrt(C1(x, y)² + C2(x, y)²)\n        \n                             T(x,y) = atan2(C2(x, y),C1(x, y))\n        \n        \n                             M(x,y)=(C1(x, y) sqrt(R(x, y)) cos(T(x, y) / 2) + sqrt(R(x, y)) sin(T(x, y) / 2) C2(x, y)) / D(x, y)\n        \n                             N(x,y)=(C1(x, y) sqrt(R(x, y)) cos(T(x, y) / 2 + pi ) + sqrt(R(x, y)) sin(T(x, y) / 2 + pi ) C2(x, y)) / D(x, y)\n        \n                             */\n                            //u cos(v), u sin(v),\n\n                            var pi = Math.PI;\n\n                            var C1 = (x, y) => y * y - x * x + 1;\n                            var C2 = (x, y) => -2 * x * y;\n\n                            var D = (x, y) => Math.pow(C1(x, y), 2) + Math.pow(C2(x, y), 2);\n\n                            var R = (x, y) => Math.sqrt(Math.pow(C1(x, y), 2) + Math.pow(C2(x, y), 2));\n\n                            var T = (x, y) => Math.atan2(C2(x, y), C1(x, y));\n\n                            var M = (x, y) => (C1(x, y) * Math.sqrt(R(x, y)) * Math.cos(T(x, y) / 2) + Math.sqrt(R(x, y)) * Math.sin(T(\n                                x, y) / 2) * C2(x, y)) / D(x, y);\n\n\n                            var N = (x, y) => (C1(x, y) * Math.sqrt(R(x, y)) * Math.cos(T(x, y) / 2 + pi) + Math.sqrt(R(x, y)) *\n                                Math.sin(T(x, y) / 2 + pi) * C2(x, y)) / D(x, y);\n\n                            var data = [];\n\n                            var s = parametric((u, v) => [u * Math.cos(v),\n                            u * Math.sin(v),\n                            M(u * Math.cos(v), u * Math.sin(v))\n                            ],\n                                [0.0001, 2], [-pi, pi], {\n                                color: '#cc0066',\n                                opacity: 0.9\n                            }\n                            );\n                            var t = parametric((u, v) => [u * Math.cos(v),\n                            u * Math.sin(v),\n                            N(u * Math.cos(v), u * Math.sin(v))\n                            ],\n                                [0.0001, 2], [-pi, pi], {\n                                color: '#6666ff',\n                                opacity: 0.9\n                            }\n                            );\n\n                            data.push(s);\n                            data.push(t);\n\n                            var config = {\n                                type: 'threejs',\n                                frame: true,\n                                viewpoint: [1, -1, 0.5]\n                            };\n\n                            evaluate(id, data, config);\n\n                        }\n\n                        parent.update(id);\n                    </script>",
+    "@@verbatim:21:068748@@": "<script>\n                            var parent = document.currentScript.parentNode;\n\n                            var id = generateId();\n                            parent.id = id;\n\n                            MathCell(id, []);\n\n                            parent.update = function (id) {\n\n                                /*\n                                 C1(x,y)=y² - x² + 1\n                                 C2(x,y)=-2 x y\n          \n                                 D(x,y) = C1(x, y)² + C2(x, y)²\n          \n                                 R(x,y) = sqrt(C1(x, y)² + C2(x, y)²)\n          \n                                 T(x,y) = atan2(C2(x, y),C1(x, y))\n          \n          \n                                 M(x,y)=(C1(x, y) sqrt(R(x, y)) cos(T(x, y) / 2) + sqrt(R(x, y)) sin(T(x, y) / 2) C2(x, y)) / D(x, y)\n          \n                                 N(x,y)=(C1(x, y) sqrt(R(x, y)) cos(T(x, y) / 2 + pi ) + sqrt(R(x, y)) sin(T(x, y) / 2 + pi ) C2(x, y)) / D(x, y)\n          \n                                 */\n                                //u cos(v), u sin(v),\n\n                                var pi = Math.PI;\n\n                                var C1 = (x, y) => y * y - x * x + 1;\n                                var C2 = (x, y) => -2 * x * y;\n\n                                var D = (x, y) => Math.pow(C1(x, y), 2) + Math.pow(C2(x, y), 2);\n\n                                var R = (x, y) => Math.sqrt(Math.pow(C1(x, y), 2) + Math.pow(C2(x, y), 2));\n\n                                var T = (x, y) => Math.atan2(C2(x, y), C1(x, y));\n\n                                var M = (x, y) => (C1(x, y) * Math.sqrt(R(x, y)) * Math.sin(T(x, y) / 2) - Math.sqrt(R(x, y)) * Math.cos(\n                                    T(x, y) / 2) * C2(x, y)) / D(x, y);\n\n                                var N = (x, y) => (C1(x, y) * Math.sqrt(R(x, y)) * Math.sin(T(x, y) / 2 + pi) - Math.sqrt(R(x, y)) *\n                                Math.cos(T(x, y) / 2 + pi) * C2(x, y)) / D(x, y);\n\n                                var data = [];\n\n                                var den = 1200;\n\n                                var s = parametric((u, v) => [u * Math.cos(v),\n                                u * Math.sin(v),\n                                M(u * Math.cos(v), u * Math.sin(v))\n                                ],\n                                    [0.0001, 2], [-pi + pi / den, -pi / den], {\n                                    color: '#b3b3b3',\n                                    opacity: 0.9\n                                }\n                                );\n                                var t = parametric((u, v) => [u * Math.cos(v),\n                                u * Math.sin(v),\n                                N(u * Math.cos(v), u * Math.sin(v))\n                                ],\n                                    [0.0001, 2], [-pi + pi / den, -pi / den], {\n                                    color: '#408000',\n                                    opacity: 0.9\n                                }\n                                );\n\n                                var s1 = parametric((u, v) => [u * Math.cos(v),\n                                u * Math.sin(v),\n                                M(u * Math.cos(v), u * Math.sin(v))\n                                ],\n                                    [0.0001, 2], [pi / den, pi - pi / den], {\n                                    color: '#b3b3b3',\n                                    opacity: 0.9\n                                }\n                                );\n                                var t1 = parametric((u, v) => [u * Math.cos(v),\n                                u * Math.sin(v),\n                                N(u * Math.cos(v), u * Math.sin(v))\n                                ],\n                                    [0.0001, 2], [pi / den, pi - pi / den], {\n                                    color: '#408000',\n                                    opacity: 0.9\n                                }\n                                );\n\n\n                                data.push(s);\n                                data.push(t);\n                                data.push(s1);\n                                data.push(t1);\n\n                                var config = {\n                                    type: 'threejs',\n                                    frame: true,\n                                    viewpoint: [1, -1, 0.5]\n                                };\n\n                                evaluate(id, data, config);\n\n                            }\n\n                            parent.update(id);\n                        </script>",
+    "@@verbatim:22:1c2a81@@": "<script>\n                        var parent = document.currentScript.parentNode;\n\n                        var id = generateId();\n                        parent.id = id;\n\n                        MathCell(id, []);\n\n                        parent.update = function (id) {\n\n                            /*\n                             F(x,y)= (1 - y² - x²) / (x² + (1 - y)²)\n                             G(x,y)= (-2x) / (x² + (1 - y)²)\n      \n                             Re(x,y) = -1 / 2 atan2(G(x, y),F(x, y))\n      \n                             */\n                            //u cos(v), u sin(v),\n\n                            var pi = Math.PI;\n\n                            var F = (x, y) => (1 - y * y - x * x) / (x * x + (1 - y) * (1 - y));\n                            var G = (x, y) => (-2 * x) / (x * x + (1 - y) * (1 - y));\n\n                            var Re = (x, y, n) => -1 / 2 * Math.atan2(G(x, y), F(x, y)) + n;\n\n\n                            var data = [];\n\n                            var s = parametric((u, v) => [u * Math.cos(v),\n                            u * Math.sin(v),\n                            Re(u * Math.cos(v), u * Math.sin(v), 0)\n                            ],\n                                [0.0001, 2], [(-pi) / 2, pi / 2 - pi / 10000], {\n                                color: '#cc0066',\n                                opacity: 0.9\n                            }\n                            );\n                            var t = parametric((u, v) => [u * Math.cos(v),\n                            u * Math.sin(v),\n                            Re(u * Math.cos(v), u * Math.sin(v), 0)\n                            ],\n                                [0.0001, 2], [pi / 2 + pi / 10000, 3 * pi / 2 - pi / 10000], {\n                                color: '#cc0066',\n                                opacity: 0.9\n                            }\n                            );\n                            var s1 = parametric((u, v) => [u * Math.cos(v),\n                            u * Math.sin(v),\n                            Re(u * Math.cos(v), u * Math.sin(v), pi)\n                            ],\n                                [0.0001, 2], [(-pi) / 2, pi / 2 - pi / 10000], {\n                                color: '#6666ff',\n                                opacity: 0.9\n                            }\n                            );\n                            var t1 = parametric((u, v) => [u * Math.cos(v),\n                            u * Math.sin(v),\n                            Re(u * Math.cos(v), u * Math.sin(v), pi)\n                            ],\n                                [0.0001, 2], [pi / 2 + pi / 10000, 3 * pi / 2 - pi / 10000], {\n                                color: '#6666ff',\n                                opacity: 0.9\n                            }\n                            );\n                            var s2 = parametric((u, v) => [u * Math.cos(v),\n                            u * Math.sin(v),\n                            Re(u * Math.cos(v), u * Math.sin(v), -pi)\n                            ],\n                                [0.0001, 2], [(-pi) / 2, pi / 2 - pi / 10000], {\n                                color: '#00b3b3',\n                                opacity: 0.9\n                            }\n                            );\n                            var t2 = parametric((u, v) => [u * Math.cos(v),\n                            u * Math.sin(v),\n                            Re(u * Math.cos(v), u * Math.sin(v), -pi)\n                            ],\n                                [0.0001, 2], [pi / 2 + pi / 10000, 3 * pi / 2 - pi / 10000], {\n                                color: '#00b3b3',\n                                opacity: 0.9\n                            }\n                            );\n\n                            data.push(s);\n                            data.push(t);\n                            data.push(s1);\n                            data.push(t1);\n                            data.push(s2);\n                            data.push(t2);\n\n                            var config = {\n                                type: 'threejs',\n                                frame: true,\n                                viewpoint: [1, -1, 0.5]\n                            };\n\n                            evaluate(id, data, config);\n\n                        }\n\n                        parent.update(id);\n                    </script>",
+    "@@verbatim:23:a02886@@": "<script>\n                            var parent = document.currentScript.parentNode;\n\n                            var id = generateId();\n                            parent.id = id;\n\n                            MathCell(id, []);\n\n                            parent.update = function (id) {\n\n                                //u cos(v), u sin(v),\n\n                                var pi = Math.PI;\n\n                                var F = (x, y) => (1 - y * y - x * x) / (x * x + (1 - y) * (1 - y));\n                                var G = (x, y) => (-2 * x) / (x * x + (1 - y) * (1 - y));\n\n                                var Im = (x, y) => Math.log(Math.sqrt(F(x, y) * F(x, y) + G(x, y) * G(x, y)));\n\n\n                                var data = [];\n\n                                var s = parametric((u, v) => [u * Math.cos(v),\n                                u * Math.sin(v),\n                                Im(u * Math.cos(v), u * Math.sin(v))\n                                ],\n                                    [0.0001, 2], [-pi, pi - pi / 10000], {\n                                    color: '#0099cc',\n                                    opacity: 0.9\n                                }\n                                );\n\n                                data.push(s);\n\n\n                                var config = {\n                                    type: 'threejs',\n                                    frame: true,\n                                    viewpoint: [1, -1, 0.5]\n                                };\n\n                                evaluate(id, data, config);\n\n                            }\n\n                            parent.update(id);\n                        </script>",
+    "@@math:24:2cfbcb@@": "$f(z)=z^{1/2}$",
+    "@@math:25:3ee4da@@": "$f(z)=z^{1/3}$",
+    "@@math:26:4bb2d1@@": "$f(z)=\\sqrt{1-z^2}$",
+    "@@math:27:aa0030@@": "$f(z)=1/\\sqrt{1-z^2}$",
+    "@@math:28:8bd685@@": "$f(z)=\\arctan(z)$",
+    "@@math:29:b8348d@@": "$f(z)=z^{1/3}$",
+    "@@math:30:9d5745@@": "$f(z)=z^{1/3}$"
+  },
+  "text_blocks": [
+    {
+      "id": "block_0",
+      "tag": "p",
+      "text": "[[i class=\"fa-solid fa-list\"]][[/i]]Contents",
+      "raw_len": 40,
+      "placeholder": "@@text:52:06e8b9@@",
+      "byte_start": 191,
+      "byte_end": 231
+    },
+    {
+      "id": "block_1",
+      "tag": "li",
+      "text": "[[a href=\"#section1\"]]Examples[[/a]]",
+      "raw_len": 32,
+      "placeholder": "@@text:51:c3ee85@@",
+      "byte_start": 265,
+      "byte_end": 297
+    },
+    {
+      "id": "block_2",
+      "tag": "li",
+      "text": "[[a href=\"#section2\"]]@@math:24:2cfbcb@@[[/a]]",
+      "raw_len": 42,
+      "placeholder": "@@text:50:013dd6@@",
+      "byte_start": 319,
+      "byte_end": 361
+    },
+    {
+      "id": "block_3",
+      "tag": "li",
+      "text": "[[a href=\"#section3\"]]@@math:25:3ee4da@@[[/a]]",
+      "raw_len": 42,
+      "placeholder": "@@text:49:8bc9ad@@",
+      "byte_start": 383,
+      "byte_end": 425
+    },
+    {
+      "id": "block_4",
+      "tag": "li",
+      "text": "[[a href=\"#section4\"]]@@math:26:4bb2d1@@[[/a]]",
+      "raw_len": 42,
+      "placeholder": "@@text:48:6c6990@@",
+      "byte_start": 447,
+      "byte_end": 489
+    },
+    {
+      "id": "block_5",
+      "tag": "li",
+      "text": "[[a href=\"#section5\"]]@@math:27:aa0030@@[[/a]]",
+      "raw_len": 42,
+      "placeholder": "@@text:47:39f4be@@",
+      "byte_start": 511,
+      "byte_end": 553
+    },
+    {
+      "id": "block_6",
+      "tag": "li",
+      "text": "[[a href=\"#section6\"]]@@math:28:8bd685@@[[/a]]",
+      "raw_len": 42,
+      "placeholder": "@@text:46:45cb5b@@",
+      "byte_start": 575,
+      "byte_end": 617
+    },
+    {
+      "id": "block_7",
+      "tag": "h1",
+      "text": "Riemann Surfaces",
+      "raw_len": 16,
+      "placeholder": "@@text:45:44c1a6@@",
+      "byte_start": 747,
+      "byte_end": 763
+    },
+    {
+      "id": "block_8",
+      "tag": "h2",
+      "text": "Examples",
+      "raw_len": 8,
+      "placeholder": "@@text:44:68737c@@",
+      "byte_start": 840,
+      "byte_end": 848
+    },
+    {
+      "id": "block_9",
+      "tag": "p",
+      "text": "The following are some examples of multiple-valued functions. In each case, the branch is identified\n                    with a different color. \n                    Click on either the top-right menu or\n                    the following functions to explore.\n                ",
+      "raw_len": 276,
+      "placeholder": "@@text:43:e49371@@",
+      "byte_start": 874,
+      "byte_end": 1150
+    },
+    {
+      "id": "block_10",
+      "tag": "p",
+      "text": "[[a href=\"#ex1\"]]\\(f(z) = z^{1/2}\\)[[/a]] &nbsp;&nbsp; [[a\n                        href=\"#ex2\"]]\\(f(z) =\n                        z^{1/3}\\)[[/a]] &nbsp;&nbsp; [[a href=\"#ex3\"]]\\(f(z) = \\sqrt{1-z^2}\\)[[/a]] &nbsp;&nbsp;\n                    [[a href=\"#ex4\"]]\\(f(z) = \\dfrac{1}{\\sqrt{1-z^2}}\\)[[/a]] &nbsp;&nbsp; [[a href=\"#ex5\"]]\\(f(z) =\n                        \\arctan(z)\\)[[/a]]\n                ",
+      "raw_len": 374,
+      "placeholder": "@@text:42:c8e9c6@@",
+      "byte_start": 1202,
+      "byte_end": 1576
+    },
+    {
+      "id": "block_11",
+      "tag": "h3",
+      "text": "Real component of \\(f(z)=z^{1/2}\\)",
+      "raw_len": 34,
+      "placeholder": "@@text:41:e8c9dd@@",
+      "byte_start": 1700,
+      "byte_end": 1734
+    },
+    {
+      "id": "block_12",
+      "tag": "h3",
+      "text": "Imaginary component of \\(f(z)=z^{1/2}\\)",
+      "raw_len": 39,
+      "placeholder": "@@text:40:c2cdd4@@",
+      "byte_start": 1996,
+      "byte_end": 2035
+    },
+    {
+      "id": "block_13",
+      "tag": "h3",
+      "text": "Real component of @@math:29:b8348d@@",
+      "raw_len": 36,
+      "placeholder": "@@text:39:c11397@@",
+      "byte_start": 2341,
+      "byte_end": 2377
+    },
+    {
+      "id": "block_14",
+      "tag": "h3",
+      "text": "Imaginary component of @@math:30:9d5745@@",
+      "raw_len": 41,
+      "placeholder": "@@text:38:3b881b@@",
+      "byte_start": 2583,
+      "byte_end": 2624
+    },
+    {
+      "id": "block_15",
+      "tag": "h3",
+      "text": "Real component of \\(f(z)=\\sqrt{1-z^2}\\)",
+      "raw_len": 39,
+      "placeholder": "@@text:37:8d3553@@",
+      "byte_start": 2930,
+      "byte_end": 2969
+    },
+    {
+      "id": "block_16",
+      "tag": "h3",
+      "text": "Imaginary component of \\(f(z)=\\sqrt{1-z^2}\\)",
+      "raw_len": 44,
+      "placeholder": "@@text:36:472a5a@@",
+      "byte_start": 3177,
+      "byte_end": 3221
+    },
+    {
+      "id": "block_17",
+      "tag": "h3",
+      "text": "Real component of \\(f(z)=\\frac{1}{\\sqrt{1-z^2}}\\)",
+      "raw_len": 49,
+      "placeholder": "@@text:35:635d63@@",
+      "byte_start": 3543,
+      "byte_end": 3592
+    },
+    {
+      "id": "block_18",
+      "tag": "h3",
+      "text": "Imaginary component of \\(f(z)=\\frac{1}{\\sqrt{1-z^2}}\\)",
+      "raw_len": 54,
+      "placeholder": "@@text:34:b8e2d3@@",
+      "byte_start": 3800,
+      "byte_end": 3854
+    },
+    {
+      "id": "block_19",
+      "tag": "h3",
+      "text": "Real component of \\(f(z)=\\arctan(z)\\)",
+      "raw_len": 37,
+      "placeholder": "@@text:33:0d2010@@",
+      "byte_start": 4177,
+      "byte_end": 4214
+    },
+    {
+      "id": "block_20",
+      "tag": "h3",
+      "text": "Imaginary component of \\(f(z)=\\arctan(z)\\)",
+      "raw_len": 42,
+      "placeholder": "@@text:32:e3d9b4@@",
+      "byte_start": 4439,
+      "byte_end": 4481
+    },
+    {
+      "id": "block_21",
+      "tag": "p",
+      "text": "Mappings [[i class=\"fa-solid fa-angles-right\"]][[/i]]",
+      "raw_len": 49,
+      "placeholder": "@@text:31:70d454@@",
+      "byte_start": 4827,
+      "byte_end": 4876
+    }
+  ],
+  "reassembly_template": "<section data-type=\"chapter\" id=\"template\">\n\n    @@verbatim:0:02dfe7@@\n\n    <div w3-include-html=\"small_screen_message.html\"></div>\n\n    <div class=\"toc-chapter\" id=\"toc-chapter\">\n        <p>@@text:52:06e8b9@@</p>\n        <ul>\n            <li>@@text:51:c3ee85@@</li>\n            <li>@@text:50:013dd6@@</li>\n            <li>@@text:49:8bc9ad@@</li>\n            <li>@@text:48:6c6990@@</li>\n            <li>@@text:47:39f4be@@</li>\n            <li>@@text:46:45cb5b@@</li>\n            @@verbatim:1:f68794@@\n        </ul>\n    </div>\n\n    <br/><br/>\n\n    <main>\n        <article>\n\n\n\n            <h1>@@text:45:44c1a6@@</h1>\n            <hr>\n\n            <div id=\"section1\">\n\n                <h2>@@text:44:68737c@@</h2>\n\n                <p>@@text:43:e49371@@</p>\n\n                <p style=\"text-align:center;\">@@text:42:c8e9c6@@</p>\n\n            </div>\n            <br/>\n\n            <hr>\n\n            <div id=\"section2\">\n\n                <h3 id=\"ex1\">@@text:41:e8c9dd@@</h3>\n\n               \n                @@verbatim:13:498e8f@@\n\n                <div class=\"mathcell\" style=\"width: 100%; height: 500px\">\n                    @@verbatim:14:4acc3a@@\n                </div>\n                @@verbatim:2:964f26@@\n\n                <h3>@@text:40:c2cdd4@@</h3>\n\n                <div class=\"mathcell\" style=\"width: 100%; height: 500px\">\n                    @@verbatim:15:3b63f9@@\n\n                </div>\n                @@verbatim:3:da3c47@@\n\n            </div>\n            <br />\n\n            <hr>\n\n            <div id=\"section3\">\n\n                <h3 id=\"ex2\">@@text:39:c11397@@</h3>\n\n                <div class=\"mathcell\" style=\"width: 100%; height: 500px\">\n                    @@verbatim:16:6afe8d@@\n                </div>\n                @@verbatim:4:b48d07@@\n\n                <h3>@@text:38:3b881b@@</h3>\n\n                <div class=\"mathcell\" style=\"width: 100%; height: 500px\">\n                    @@verbatim:17:67b531@@\n\n                </div>\n                @@verbatim:5:a75f3a@@\n\n            </div>\n            <br />\n\n            <hr>\n\n            <div id=\"section4\">\n\n                <h3 id=\"ex3\">@@text:37:8d3553@@</h3>\n\n                <div class=\"mathcell\" style=\"width: 100%; height: 500px\">\n                    @@verbatim:18:bd897a@@\n                </div>\n                @@verbatim:6:8f6134@@\n\n\n\n                <h3>@@text:36:472a5a@@</h3>\n\n                    <div class=\"mathcell\" style=\"width: 100%; height: 500px\">\n                        @@verbatim:19:cd6ac9@@\n\n                    </div>\n                    @@verbatim:7:f45ab7@@\n\n            </div>\n            <br />\n\n            <hr>\n\n            <div id=\"section5\">\n\n                <h3 id=\"ex4\">@@text:35:635d63@@</h3>\n\n                <div class=\"mathcell\" style=\"width: 100%; height: 500px\">\n                    @@verbatim:20:3201a1@@\n                </div>\n                @@verbatim:8:e62ebb@@\n\n\n\n                <h3>@@text:34:b8e2d3@@</h3>\n\n                    <div class=\"mathcell\" style=\"width: 100%; height: 500px\">\n                        @@verbatim:21:068748@@\n\n                    </div>\n                    @@verbatim:9:227ca6@@\n\n\n            </div>\n            <br />\n\n            <hr>\n\n            <div id=\"section6\">\n\n                <h3 id=\"ex5\">@@text:33:0d2010@@</h3>\n\n                <div class=\"mathcell\" style=\"width: 100%; height: 500px\">\n                    @@verbatim:22:1c2a81@@\n                </div>\n                @@verbatim:10:70e6cd@@\n\n                \n\n                <h3>@@text:32:e3d9b4@@</h3>\n\n                    <div class=\"mathcell\" style=\"width: 100%; height: 500px\">\n                        @@verbatim:23:a02886@@\n\n                    </div>\n                    @@verbatim:11:6b1186@@\n\n            </div>\n\n\n\n        </article>\n    </main>\n\n    <a href=\"mappings.html\" style=\"text-decoration: none;\">\n        <p class=\"nextPage\">@@text:31:70d454@@</p>\n    </a>\n    @@verbatim:12:45a2b1@@\n\n</section>",
+  "_protected_html": "<section data-type=\"chapter\" id=\"template\">\n\n    @@verbatim:0:02dfe7@@\n\n    <div w3-include-html=\"small_screen_message.html\"></div>\n\n    <div class=\"toc-chapter\" id=\"toc-chapter\">\n        <p><i class=\"fa-solid fa-list\"></i>Contents</p>\n        <ul>\n            <li><a href=\"#section1\">Examples</a></li>\n            <li><a href=\"#section2\">@@math:24:2cfbcb@@</a></li>\n            <li><a href=\"#section3\">@@math:25:3ee4da@@</a></li>\n            <li><a href=\"#section4\">@@math:26:4bb2d1@@</a></li>\n            <li><a href=\"#section5\">@@math:27:aa0030@@</a></li>\n            <li><a href=\"#section6\">@@math:28:8bd685@@</a></li>\n            @@verbatim:1:f68794@@\n        </ul>\n    </div>\n\n    <br/><br/>\n\n    <main>\n        <article>\n\n\n\n            <h1>Riemann Surfaces</h1>\n            <hr>\n\n            <div id=\"section1\">\n\n                <h2>Examples</h2>\n\n                <p>The following are some examples of multiple-valued functions. In each case, the branch is identified\n                    with a different color. \n                    Click on either the top-right menu or\n                    the following functions to explore.\n                </p>\n\n                <p style=\"text-align:center;\"><a href=\"#ex1\">\\(f(z) = z^{1/2}\\)</a> &nbsp;&nbsp; <a\n                        href=\"#ex2\">\\(f(z) =\n                        z^{1/3}\\)</a> &nbsp;&nbsp; <a href=\"#ex3\">\\(f(z) = \\sqrt{1-z^2}\\)</a> &nbsp;&nbsp;\n                    <a href=\"#ex4\">\\(f(z) = \\dfrac{1}{\\sqrt{1-z^2}}\\)</a> &nbsp;&nbsp; <a href=\"#ex5\">\\(f(z) =\n                        \\arctan(z)\\)</a>\n                </p>\n\n            </div>\n            <br/>\n\n            <hr>\n\n            <div id=\"section2\">\n\n                <h3 id=\"ex1\">Real component of \\(f(z)=z^{1/2}\\)</h3>\n\n               \n                @@verbatim:13:498e8f@@\n\n                <div class=\"mathcell\" style=\"width: 100%; height: 500px\">\n                    @@verbatim:14:4acc3a@@\n                </div>\n                @@verbatim:2:964f26@@\n\n                <h3>Imaginary component of \\(f(z)=z^{1/2}\\)</h3>\n\n                <div class=\"mathcell\" style=\"width: 100%; height: 500px\">\n                    @@verbatim:15:3b63f9@@\n\n                </div>\n                @@verbatim:3:da3c47@@\n\n            </div>\n            <br />\n\n            <hr>\n\n            <div id=\"section3\">\n\n                <h3 id=\"ex2\">Real component of @@math:29:b8348d@@</h3>\n\n                <div class=\"mathcell\" style=\"width: 100%; height: 500px\">\n                    @@verbatim:16:6afe8d@@\n                </div>\n                @@verbatim:4:b48d07@@\n\n                <h3>Imaginary component of @@math:30:9d5745@@</h3>\n\n                <div class=\"mathcell\" style=\"width: 100%; height: 500px\">\n                    @@verbatim:17:67b531@@\n\n                </div>\n                @@verbatim:5:a75f3a@@\n\n            </div>\n            <br />\n\n            <hr>\n\n            <div id=\"section4\">\n\n                <h3 id=\"ex3\">Real component of \\(f(z)=\\sqrt{1-z^2}\\)</h3>\n\n                <div class=\"mathcell\" style=\"width: 100%; height: 500px\">\n                    @@verbatim:18:bd897a@@\n                </div>\n                @@verbatim:6:8f6134@@\n\n\n\n                <h3>Imaginary component of \\(f(z)=\\sqrt{1-z^2}\\)</h3>\n\n                    <div class=\"mathcell\" style=\"width: 100%; height: 500px\">\n                        @@verbatim:19:cd6ac9@@\n\n                    </div>\n                    @@verbatim:7:f45ab7@@\n\n            </div>\n            <br />\n\n            <hr>\n\n            <div id=\"section5\">\n\n                <h3 id=\"ex4\">Real component of \\(f(z)=\\frac{1}{\\sqrt{1-z^2}}\\)</h3>\n\n                <div class=\"mathcell\" style=\"width: 100%; height: 500px\">\n                    @@verbatim:20:3201a1@@\n                </div>\n                @@verbatim:8:e62ebb@@\n\n\n\n                <h3>Imaginary component of \\(f(z)=\\frac{1}{\\sqrt{1-z^2}}\\)</h3>\n\n                    <div class=\"mathcell\" style=\"width: 100%; height: 500px\">\n                        @@verbatim:21:068748@@\n\n                    </div>\n                    @@verbatim:9:227ca6@@\n\n\n            </div>\n            <br />\n\n            <hr>\n\n            <div id=\"section6\">\n\n                <h3 id=\"ex5\">Real component of \\(f(z)=\\arctan(z)\\)</h3>\n\n                <div class=\"mathcell\" style=\"width: 100%; height: 500px\">\n                    @@verbatim:22:1c2a81@@\n                </div>\n                @@verbatim:10:70e6cd@@\n\n                \n\n                <h3>Imaginary component of \\(f(z)=\\arctan(z)\\)</h3>\n\n                    <div class=\"mathcell\" style=\"width: 100%; height: 500px\">\n                        @@verbatim:23:a02886@@\n\n                    </div>\n                    @@verbatim:11:6b1186@@\n\n            </div>\n\n\n\n        </article>\n    </main>\n\n    <a href=\"mappings.html\" style=\"text-decoration: none;\">\n        <p class=\"nextPage\">Mappings <i class=\"fa-solid fa-angles-right\"></i></p>\n    </a>\n    @@verbatim:12:45a2b1@@\n\n</section>"
+}

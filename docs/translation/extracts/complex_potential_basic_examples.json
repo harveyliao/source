@@ -1,0 +1,307 @@
+{
+  "file": "complex_potential_basic_examples.html",
+  "original_length": 10388,
+  "num_text_blocks": 28,
+  "num_verbatim": 8,
+  "verbatim_map": {
+    "@@verbatim:0:b644a4@@": "<!-- Starts main content -->",
+    "@@verbatim:1:635e0b@@": "<!-- Add more sections as needed -->",
+    "@@verbatim:2:e2a760@@": "<!-- Ends main content -->",
+    "@@verbatim:3:a23b63@@": "<iframe loading=\"lazy\" name=\"uniform\" src=\"../applets/p5js/uniform/index.html\" width=\"700px\" height=\"500px\"\n                        style=\"border:none;overflow:hidden;\"></iframe>",
+    "@@verbatim:4:701923@@": "<iframe loading=\"lazy\" name=\"nearawall\" src=\"../applets/p5js/nearawall/index.html\" width=\"700px\" height=\"500px\"\n                        style=\"border:none;overflow:hidden;\"></iframe>",
+    "@@verbatim:5:d27fe4@@": "<iframe loading=\"lazy\" name=\"sourcesink\" src=\"../applets/p5js/sourcesink/index.html\" width=\"700px\" height=\"500px\"\n                        style=\"border:none;\" style=\"overflow:hidden;\"></iframe>",
+    "@@verbatim:6:1199c5@@": "<iframe loading=\"lazy\" name=\"vortex\" src=\"../applets/p5js/vortex/index.html\" width=\"700px\" height=\"500px\"\n                        style=\"border:none;overflow:hidden;\"></iframe>",
+    "@@verbatim:7:8a6fb0@@": "<iframe loading=\"lazy\" name=\"source-uniform\" src=\"../applets/p5js/source-uniform/index.html\" width=\"700px\"\n                        height=\"500px\" style=\"border:none;overflow:hidden;\"></iframe>",
+    "@@math:8:8c26cf@@": "\\begin{eqnarray}\\label{uniform}\n                    F(z)=Ue^{-i\\alpha}z\n                    \\end{eqnarray}",
+    "@@math:9:8eff4f@@": "\\begin{eqnarray*}\n                    F(z)&amp;=&amp; Ue^{-i\\alpha}z \\\\\n                    &amp;=&amp; U\\left( \\cos \\alpha - i \\sin \\alpha \\right)\\left( x+iy\\right) \\\\\n                    &amp;=&amp; U\\left( x\\cos \\alpha + y \\sin \\alpha \\right) + i U\\left( y\\cos \\alpha - x \\sin\n                    \\alpha \\right).\n                    \\end{eqnarray*}",
+    "@@math:10:0f76c5@@": "\\begin{eqnarray*}\n                    \\psi = U\\left( y\\cos \\alpha - x \\sin \\alpha \\right).\n                    \\end{eqnarray*}",
+    "@@math:11:6e10fe@@": "\\begin{eqnarray*}\n                    u=U \\cos \\alpha ,\\quad v=U\\sin \\alpha.\n                    \\end{eqnarray*}",
+    "@@math:12:1c5681@@": "\\begin{eqnarray*}\n                    F(z)=\\frac{k z^2}{2}\n                    \\end{eqnarray*}",
+    "@@math:13:a96cc2@@": "\\begin{eqnarray}\\label{source-sink}\n                    F(z)=\\frac{Q}{2\\pi}\\log z .\n                    \\end{eqnarray}",
+    "@@math:14:6c98d4@@": "\\begin{eqnarray*}\n                    F(z)=\\frac{Q}{2\\pi}\\log(z-c).\n                    \\end{eqnarray*}",
+    "@@math:15:e7dc79@@": "\\begin{eqnarray*}\n                    F(z)=\\frac{-iC}{2\\pi}\\log z .\n                    \\end{eqnarray*}",
+    "@@math:16:79cc9a@@": "\\begin{eqnarray*}\n                    F(z)=\\frac{-iC}{2\\pi}\\log(z-c).\n                    \\end{eqnarray*}",
+    "@@math:17:a53fb7@@": "\\begin{eqnarray}\\label{comb}\n                    F(z)=Uz+\\frac{Q}{2\\pi}\\log z .\n                    \\end{eqnarray}",
+    "@@math:18:29972c@@": "$$\\mathbf V = \\left(u(x,y), v(x,y)\\right).$$",
+    "@@math:19:56f399@@": "$U$",
+    "@@math:20:cfd0cd@@": "$x$",
+    "@@math:21:ddf3ba@@": "$\\psi,$",
+    "@@math:22:a744cc@@": "$\\ref{uniform}$",
+    "@@math:23:e2a66a@@": "$\\ref{uniform}$",
+    "@@math:24:14d8ca@@": "$u=\\dfrac{\\partial \\psi}{\\partial y}$",
+    "@@math:25:669c25@@": "$v=-\\dfrac{\\partial \\psi}{\\partial x},$",
+    "@@math:26:6672da@@": "$k\\geq 0.$",
+    "@@math:27:7ac897@@": "$Q>0$",
+    "@@math:28:992954@@": "$Q&lt;0,$",
+    "@@math:29:369c99@@": "$(a, b)$",
+    "@@math:30:3d0be4@@": "$c= a+ib.$",
+    "@@math:31:7cab4e@@": "$C$",
+    "@@math:32:0e0b2c@@": "$C>0,$",
+    "@@math:33:c2ba56@@": "$C &lt; 0$",
+    "@@math:34:79e292@@": "$c\\in \\mathbb C$",
+    "@@math:35:0ae00c@@": "$c= a+ib.$",
+    "@@math:36:231a7d@@": "$Uz,$",
+    "@@math:37:87fa40@@": "$U\\ge 0,$",
+    "@@math:38:e3e3b9@@": "$\\frac{Q}{2\\pi}\\log z ,$",
+    "@@math:39:2d4e6d@@": "$Q\\ge 0.$",
+    "@@math:40:3cbc5a@@": "$Q$",
+    "@@math:41:f67ade@@": "$U$",
+    "@@math:42:114ae0@@": "$x$"
+  },
+  "text_blocks": [
+    {
+      "id": "block_0",
+      "tag": "p",
+      "text": "[[i class=\"fa-solid fa-list\"]][[/i]]Contents",
+      "raw_len": 40,
+      "placeholder": "@@text:70:c03752@@",
+      "byte_start": 200,
+      "byte_end": 240
+    },
+    {
+      "id": "block_1",
+      "tag": "li",
+      "text": "[[a href=\"#section1\"]]Uniform flow[[/a]]",
+      "raw_len": 36,
+      "placeholder": "@@text:69:7a38de@@",
+      "byte_start": 274,
+      "byte_end": 310
+    },
+    {
+      "id": "block_2",
+      "tag": "li",
+      "text": "[[a href=\"#section2\"]]Stagnation point flow[[/a]]",
+      "raw_len": 45,
+      "placeholder": "@@text:68:5bc809@@",
+      "byte_start": 332,
+      "byte_end": 377
+    },
+    {
+      "id": "block_3",
+      "tag": "li",
+      "text": "[[a href=\"#section3\"]]Source & Sink[[/a]]",
+      "raw_len": 37,
+      "placeholder": "@@text:67:d35fc6@@",
+      "byte_start": 399,
+      "byte_end": 436
+    },
+    {
+      "id": "block_4",
+      "tag": "li",
+      "text": "[[a href=\"#section4\"]]Vortex[[/a]]",
+      "raw_len": 30,
+      "placeholder": "@@text:66:8106d0@@",
+      "byte_start": 458,
+      "byte_end": 488
+    },
+    {
+      "id": "block_5",
+      "tag": "li",
+      "text": "[[a href=\"#section5\"]]Combining complex potentials[[/a]]",
+      "raw_len": 52,
+      "placeholder": "@@text:65:af350e@@",
+      "byte_start": 510,
+      "byte_end": 562
+    },
+    {
+      "id": "block_6",
+      "tag": "h1",
+      "text": "Complex Potential",
+      "raw_len": 17,
+      "placeholder": "@@text:64:745275@@",
+      "byte_start": 689,
+      "byte_end": 706
+    },
+    {
+      "id": "block_7",
+      "tag": "h2",
+      "text": "Basic examples",
+      "raw_len": 14,
+      "placeholder": "@@text:63:831783@@",
+      "byte_start": 774,
+      "byte_end": 788
+    },
+    {
+      "id": "block_8",
+      "tag": "h2",
+      "text": "Uniform flow",
+      "raw_len": 12,
+      "placeholder": "@@text:62:2473cb@@",
+      "byte_start": 865,
+      "byte_end": 877
+    },
+    {
+      "id": "block_9",
+      "tag": "p",
+      "text": "The complex potential\n                    @@math:8:8c26cf@@\n                    corresponds to uniform flow at speed @@math:19:56f399@@ in a direction making an angle\n                    with the @@math:20:cfd0cd@@-axis.\n                ",
+      "raw_len": 237,
+      "placeholder": "@@text:61:a88b3e@@",
+      "byte_start": 903,
+      "byte_end": 1140
+    },
+    {
+      "id": "block_10",
+      "tag": "p",
+      "text": "Here we are interested in finding the velocity field @@math:18:29972c@@\n                    But first we need to obtain the stream function @@math:21:ddf3ba@@ which is the\n                    imaginary component of (@@math:22:a744cc@@). ",
+      "raw_len": 237,
+      "placeholder": "@@text:60:8ab902@@",
+      "byte_start": 1165,
+      "byte_end": 1402
+    },
+    {
+      "id": "block_11",
+      "tag": "p",
+      "text": "Rewriting (@@math:23:e2a66a@@)\n                    we obtain\n                    @@math:9:8eff4f@@\n                    Thus\n                    @@math:10:0f76c5@@\n                ",
+      "raw_len": 179,
+      "placeholder": "@@text:59:145f98@@",
+      "byte_start": 1428,
+      "byte_end": 1607
+    },
+    {
+      "id": "block_12",
+      "tag": "p",
+      "text": "Finally, since @@math:24:14d8ca@@ and\n                    @@math:25:669c25@@\n                    we have that\n                    @@math:11:6e10fe@@\n                ",
+      "raw_len": 165,
+      "placeholder": "@@text:58:0a3487@@",
+      "byte_start": 1633,
+      "byte_end": 1798
+    },
+    {
+      "id": "block_13",
+      "tag": "p",
+      "text": "The applet below shows a simulation of the uniform flow. Drag the sliders to\n                    change parameters. Click on [[code]]Trace[[/code]] button to show streamlines. Click on\n                    [[code]]Field[[/code]] button to show vector field.\n                ",
+      "raw_len": 265,
+      "placeholder": "@@text:57:196990@@",
+      "byte_start": 1823,
+      "byte_end": 2088
+    },
+    {
+      "id": "block_14",
+      "tag": "h2",
+      "text": "Stagnation point flow",
+      "raw_len": 21,
+      "placeholder": "@@text:56:5d2e0b@@",
+      "byte_start": 2792,
+      "byte_end": 2813
+    },
+    {
+      "id": "block_15",
+      "tag": "p",
+      "text": "The complex potential\n                    @@math:12:1c5681@@\n                    corresponds to the stagnation point flow with strength @@math:26:6672da@@\n                ",
+      "raw_len": 171,
+      "placeholder": "@@text:55:76628c@@",
+      "byte_start": 2839,
+      "byte_end": 3010
+    },
+    {
+      "id": "block_16",
+      "tag": "h2",
+      "text": "Source &amp; Sink",
+      "raw_len": 17,
+      "placeholder": "@@text:54:2a17e4@@",
+      "byte_start": 3695,
+      "byte_end": 3712
+    },
+    {
+      "id": "block_17",
+      "tag": "p",
+      "text": "A source of strength @@math:27:7ac897@@ at the origin is represented\n                    by the complex potential\n                    @@math:13:a96cc2@@\n                    Note that this is a multi-valued function, with a branch point\n                    at the origin. If @@math:28:992954@@ then the complex potential corresponds to a sink.\n                ",
+      "raw_len": 359,
+      "placeholder": "@@text:53:c253f0@@",
+      "byte_start": 3738,
+      "byte_end": 4097
+    },
+    {
+      "id": "block_18",
+      "tag": "p",
+      "text": "It is easy to generalize (\\ref{source-sink}) for an arbitrary point @@math:29:369c99@@ in the complex\n                    plane. The required complex potential is\n                    @@math:14:6c98d4@@\n                    where @@math:30:3d0be4@@\n                ",
+      "raw_len": 263,
+      "placeholder": "@@text:52:fd5a1f@@",
+      "byte_start": 4751,
+      "byte_end": 5014
+    },
+    {
+      "id": "block_19",
+      "tag": "h2",
+      "text": "Vortex",
+      "raw_len": 6,
+      "placeholder": "@@text:51:7c3b5f@@",
+      "byte_start": 5110,
+      "byte_end": 5116
+    },
+    {
+      "id": "block_20",
+      "tag": "p",
+      "text": "A vortex of strength @@math:31:7cab4e@@ at the origin is represented\n                    by the complex potential\n                    @@math:15:e7dc79@@\n                    This is again a multi-valued function. For @@math:32:0e0b2c@@ rotation is anticlockwise,\n                    and for @@math:33:c2ba56@@ rotation is clockwise.\n                ",
+      "raw_len": 348,
+      "placeholder": "@@text:50:a83335@@",
+      "byte_start": 5142,
+      "byte_end": 5490
+    },
+    {
+      "id": "block_21",
+      "tag": "p",
+      "text": "A vortex at an arbitrary point @@math:34:79e292@@ is represented by the\n                    complex potential\n                    @@math:16:79cc9a@@\n                    where @@math:35:0ae00c@@\n                ",
+      "raw_len": 210,
+      "placeholder": "@@text:49:d3c46d@@",
+      "byte_start": 6119,
+      "byte_end": 6329
+    },
+    {
+      "id": "block_22",
+      "tag": "p",
+      "text": "[[strong]]Exercise:[[/strong]] Find the velocity fields of the Stagnation point,\n                        Source &amp; Sink and Vortex flows.",
+      "raw_len": 136,
+      "placeholder": "@@text:48:04f913@@",
+      "byte_start": 6398,
+      "byte_end": 6534
+    },
+    {
+      "id": "block_23",
+      "tag": "h2",
+      "text": "Combining complex potentials",
+      "raw_len": 28,
+      "placeholder": "@@text:47:25a2e3@@",
+      "byte_start": 6653,
+      "byte_end": 6681
+    },
+    {
+      "id": "block_24",
+      "tag": "p",
+      "text": "\n                    The basic flows presented above can be combined by simply superimposing the corresponding\n                    complex potentials.",
+      "raw_len": 150,
+      "placeholder": "@@text:46:6d49b3@@",
+      "byte_start": 6706,
+      "byte_end": 6856
+    },
+    {
+      "id": "block_25",
+      "tag": "p",
+      "text": "For example, consider a uniform flow @@math:36:231a7d@@ with speed @@math:37:87fa40@@ and a source\n                    @@math:38:e3e3b9@@ with @@math:39:2d4e6d@@ Thus we can produce the complex potential\n                    @@math:17:a53fb7@@\n                    The following applet shows the flow produced by (\\ref{comb}). Drag the sliders to\n                    change parameters.",
+      "raw_len": 383,
+      "placeholder": "@@text:45:ad36a3@@",
+      "byte_start": 6881,
+      "byte_end": 7264
+    },
+    {
+      "id": "block_26",
+      "tag": "p",
+      "text": "[[strong]]Exercise:[[/strong]] Find the velocity field of the flow produced\n                        by a source of strength @@math:40:3cbc5a@@ in a uniform flow at speed @@math:41:f67ade@@ in the\n                        @@math:42:114ae0@@-direction.",
+      "raw_len": 245,
+      "placeholder": "@@text:44:f5d067@@",
+      "byte_start": 7967,
+      "byte_end": 8212
+    },
+    {
+      "id": "block_27",
+      "tag": "p",
+      "text": "Uniform flow around circle [[i class=\"fa-solid fa-angles-right\"]][[/i]]",
+      "raw_len": 67,
+      "placeholder": "@@text:43:0e2a54@@",
+      "byte_start": 8417,
+      "byte_end": 8484
+    }
+  ],
+  "reassembly_template": "<section data-type=\"chapter\" id=\"complex-potential\">\n\n    @@verbatim:0:b644a4@@\n\n    <div w3-include-html=\"small_screen_message.html\"></div>\n\n    <div class=\"toc-chapter\" id=\"toc-chapter\">\n        <p>@@text:70:c03752@@</p>\n        <ul>\n            <li>@@text:69:7a38de@@</li>\n            <li>@@text:68:5bc809@@</li>\n            <li>@@text:67:d35fc6@@</li>\n            <li>@@text:66:8106d0@@</li>\n            <li>@@text:65:af350e@@</li>\n            @@verbatim:1:635e0b@@\n        </ul>\n    </div>\n\n    <br><br>\n\n\n    <main>\n        <article>\n\n            <h1>@@text:64:745275@@</h1>\n            <h2 style=\"text-align: center;margin-top: -10px;\">@@text:63:831783@@</h2>\n            <hr>\n\n            <div id=\"section1\">\n\n                <h2>@@text:62:2473cb@@</h2>\n\n                <p>@@text:61:a88b3e@@</p>\n\n                <p>@@text:60:8ab902@@</p>\n\n\n                <p>@@text:59:145f98@@</p>\n\n\n                <p>@@text:58:0a3487@@</p>\n\n                <p>@@text:57:196990@@</p>\n\n                <br/>\n\n                <div class=\"hide-small hide-medium\" style=\"text-align: center;\">\n                    @@verbatim:3:a23b63@@\n\n                    \n                    <div style=\"text-align: center;\">\n                        <button onclick=\"var ifr=document.getElementsByName('uniform')[0]; ifr.src=ifr.src;\"\n                         style=\"cursor: pointer;font-weight: bold;\">Reset</button>\n                    </div>\n                </div>\n\n                <div class=\"hide-large\">\n                    <div w3-include-html=\"fixed_applets_message.html\"></div>\n                </div>\n\n\n            </div>\n\n            <hr>\n            <div id=\"section2\">\n\n                <h2>@@text:56:5d2e0b@@</h2>\n\n                <p>@@text:55:76628c@@</p>\n\n                <br/>\n\n                <div class=\"hide-small hide-medium\" style=\"text-align: center;\">\n                    @@verbatim:4:701923@@\n\n                    <div style=\"text-align: center;\">\n                        <button onclick=\"var ifr=document.getElementsByName('nearawall')[0]; ifr.src=ifr.src;\"\n                        style=\"cursor: pointer;font-weight: bold;\">Reset</button>\n\n                    </div>\n                </div>\n\n                <div class=\"hide-large\">\n                    <div w3-include-html=\"fixed_applets_message.html\"></div>\n                </div>\n\n\n            </div>\n\n            <hr>\n            <div id=\"section3\">\n\n                <h2>@@text:54:2a17e4@@</h2>\n\n                <p>@@text:53:c253f0@@</p>\n\n                <br/>\n\n                <div class=\"hide-small hide-medium \" style=\"text-align: center;\">\n                    @@verbatim:5:d27fe4@@\n\n                    \n                    <div style=\"text-align: center;\">\n                        <button onclick=\"var ifr=document.getElementsByName('sourcesink')[0]; ifr.src=ifr.src;\"\n                        style=\"cursor: pointer;font-weight: bold;\">Reset</button>\n\n                    </div>\n                </div>\n\n                <div class=\"hide-large\">\n                    <div w3-include-html=\"fixed_applets_message.html\"></div>\n                </div>\n\n                \n\n                <p>@@text:52:fd5a1f@@</p>\n\n            </div>\n\n            <hr>\n            <div id=\"section4\">\n\n                <h2>@@text:51:7c3b5f@@</h2>\n\n                <p>@@text:50:a83335@@</p>\n                <br/>\n\n                <div class=\"hide-small hide-medium \" style=\"text-align: center;\">\n                    @@verbatim:6:1199c5@@\n\n                    <div style=\"text-align: center;\">\n                        <button onclick=\"var ifr=document.getElementsByName('vortex')[0]; ifr.src=ifr.src;\"\n                        style=\"cursor: pointer;font-weight: bold;\">Reset</button>\n\n                    </div>\n                </div>\n\n                <div class=\"hide-large \">\n                    <div w3-include-html=\"fixed_applets_message.html\"></div>\n                </div>\n\n                \n\n                <p>@@text:49:d3c46d@@</p>\n\n\n                <div class=\"practice\">\n                    <p>@@text:48:04f913@@</p>\n                </div>\n\n            </div>\n\n            <hr>\n            <div id=\"section5\">\n\n                <h2>@@text:47:25a2e3@@</h2>\n                <p>@@text:46:6d49b3@@</p>\n\n                <p>@@text:45:ad36a3@@</p>\n\n                    <br/>\n\n                <div class=\"hide-small hide-medium \" style=\"text-align: center;\">\n                    @@verbatim:7:8a6fb0@@\n\n                   \n                    <div style=\"text-align: center;\">\n                        <button onclick=\"var ifr=document.getElementsByName('source-uniform')[0]; ifr.src=ifr.src;\"\n                        style=\"cursor: pointer;font-weight: bold;\">Reset</button>\n\n                    </div>\n                </div>\n\n                <div class=\"hide-large\">\n                    <div w3-include-html=\"fixed_applets_message.html\"></div>\n                </div>\n\n               \n\n                <div class=\"practice\">\n                    <p>@@text:44:f5d067@@</p>\n                </div>\n\n\n                <br />\n\n            </div>\n\n\n        </article>\n    </main>\n\n    <a href=\"flow_around_circle.html\" style=\"text-decoration: none;\">\n        <p class=\"nextPage\">@@text:43:0e2a54@@</p>\n    </a>\n    @@verbatim:2:e2a760@@\n\n</section>",
+  "_protected_html": "<section data-type=\"chapter\" id=\"complex-potential\">\n\n    @@verbatim:0:b644a4@@\n\n    <div w3-include-html=\"small_screen_message.html\"></div>\n\n    <div class=\"toc-chapter\" id=\"toc-chapter\">\n        <p><i class=\"fa-solid fa-list\"></i>Contents</p>\n        <ul>\n            <li><a href=\"#section1\">Uniform flow</a></li>\n            <li><a href=\"#section2\">Stagnation point flow</a></li>\n            <li><a href=\"#section3\">Source & Sink</a></li>\n            <li><a href=\"#section4\">Vortex</a></li>\n            <li><a href=\"#section5\">Combining complex potentials</a></li>\n            @@verbatim:1:635e0b@@\n        </ul>\n    </div>\n\n    <br><br>\n\n\n    <main>\n        <article>\n\n            <h1>Complex Potential</h1>\n            <h2 style=\"text-align: center;margin-top: -10px;\">Basic examples</h2>\n            <hr>\n\n            <div id=\"section1\">\n\n                <h2>Uniform flow</h2>\n\n                <p>The complex potential\n                    @@math:8:8c26cf@@\n                    corresponds to uniform flow at speed @@math:19:56f399@@ in a direction making an angle\n                    with the @@math:20:cfd0cd@@-axis.\n                </p>\n\n                <p>Here we are interested in finding the velocity field @@math:18:29972c@@\n                    But first we need to obtain the stream function @@math:21:ddf3ba@@ which is the\n                    imaginary component of (@@math:22:a744cc@@). </p>\n\n\n                <p>Rewriting (@@math:23:e2a66a@@)\n                    we obtain\n                    @@math:9:8eff4f@@\n                    Thus\n                    @@math:10:0f76c5@@\n                </p>\n\n\n                <p>Finally, since @@math:24:14d8ca@@ and\n                    @@math:25:669c25@@\n                    we have that\n                    @@math:11:6e10fe@@\n                </p>\n\n                <p>The applet below shows a simulation of the uniform flow. Drag the sliders to\n                    change parameters. Click on <code>Trace</code> button to show streamlines. Click on\n                    <code>Field</code> button to show vector field.\n                </p>\n\n                <br/>\n\n                <div class=\"hide-small hide-medium\" style=\"text-align: center;\">\n                    @@verbatim:3:a23b63@@\n\n                    \n                    <div style=\"text-align: center;\">\n                        <button onclick=\"var ifr=document.getElementsByName('uniform')[0]; ifr.src=ifr.src;\"\n                         style=\"cursor: pointer;font-weight: bold;\">Reset</button>\n                    </div>\n                </div>\n\n                <div class=\"hide-large\">\n                    <div w3-include-html=\"fixed_applets_message.html\"></div>\n                </div>\n\n\n            </div>\n\n            <hr>\n            <div id=\"section2\">\n\n                <h2>Stagnation point flow</h2>\n\n                <p>The complex potential\n                    @@math:12:1c5681@@\n                    corresponds to the stagnation point flow with strength @@math:26:6672da@@\n                </p>\n\n                <br/>\n\n                <div class=\"hide-small hide-medium\" style=\"text-align: center;\">\n                    @@verbatim:4:701923@@\n\n                    <div style=\"text-align: center;\">\n                        <button onclick=\"var ifr=document.getElementsByName('nearawall')[0]; ifr.src=ifr.src;\"\n                        style=\"cursor: pointer;font-weight: bold;\">Reset</button>\n\n                    </div>\n                </div>\n\n                <div class=\"hide-large\">\n                    <div w3-include-html=\"fixed_applets_message.html\"></div>\n                </div>\n\n\n            </div>\n\n            <hr>\n            <div id=\"section3\">\n\n                <h2>Source &amp; Sink</h2>\n\n                <p>A source of strength @@math:27:7ac897@@ at the origin is represented\n                    by the complex potential\n                    @@math:13:a96cc2@@\n                    Note that this is a multi-valued function, with a branch point\n                    at the origin. If @@math:28:992954@@ then the complex potential corresponds to a sink.\n                </p>\n\n                <br/>\n\n                <div class=\"hide-small hide-medium \" style=\"text-align: center;\">\n                    @@verbatim:5:d27fe4@@\n\n                    \n                    <div style=\"text-align: center;\">\n                        <button onclick=\"var ifr=document.getElementsByName('sourcesink')[0]; ifr.src=ifr.src;\"\n                        style=\"cursor: pointer;font-weight: bold;\">Reset</button>\n\n                    </div>\n                </div>\n\n                <div class=\"hide-large\">\n                    <div w3-include-html=\"fixed_applets_message.html\"></div>\n                </div>\n\n                \n\n                <p>It is easy to generalize (\\ref{source-sink}) for an arbitrary point @@math:29:369c99@@ in the complex\n                    plane. The required complex potential is\n                    @@math:14:6c98d4@@\n                    where @@math:30:3d0be4@@\n                </p>\n\n            </div>\n\n            <hr>\n            <div id=\"section4\">\n\n                <h2>Vortex</h2>\n\n                <p>A vortex of strength @@math:31:7cab4e@@ at the origin is represented\n                    by the complex potential\n                    @@math:15:e7dc79@@\n                    This is again a multi-valued function. For @@math:32:0e0b2c@@ rotation is anticlockwise,\n                    and for @@math:33:c2ba56@@ rotation is clockwise.\n                </p>\n                <br/>\n\n                <div class=\"hide-small hide-medium \" style=\"text-align: center;\">\n                    @@verbatim:6:1199c5@@\n\n                    <div style=\"text-align: center;\">\n                        <button onclick=\"var ifr=document.getElementsByName('vortex')[0]; ifr.src=ifr.src;\"\n                        style=\"cursor: pointer;font-weight: bold;\">Reset</button>\n\n                    </div>\n                </div>\n\n                <div class=\"hide-large \">\n                    <div w3-include-html=\"fixed_applets_message.html\"></div>\n                </div>\n\n                \n\n                <p>A vortex at an arbitrary point @@math:34:79e292@@ is represented by the\n                    complex potential\n                    @@math:16:79cc9a@@\n                    where @@math:35:0ae00c@@\n                </p>\n\n\n                <div class=\"practice\">\n                    <p><strong>Exercise:</strong> Find the velocity fields of the Stagnation point,\n                        Source &amp; Sink and Vortex flows.</p>\n                </div>\n\n            </div>\n\n            <hr>\n            <div id=\"section5\">\n\n                <h2>Combining complex potentials</h2>\n                <p>\n                    The basic flows presented above can be combined by simply superimposing the corresponding\n                    complex potentials.</p>\n\n                <p>For example, consider a uniform flow @@math:36:231a7d@@ with speed @@math:37:87fa40@@ and a source\n                    @@math:38:e3e3b9@@ with @@math:39:2d4e6d@@ Thus we can produce the complex potential\n                    @@math:17:a53fb7@@\n                    The following applet shows the flow produced by (\\ref{comb}). Drag the sliders to\n                    change parameters.</p>\n\n                    <br/>\n\n                <div class=\"hide-small hide-medium \" style=\"text-align: center;\">\n                    @@verbatim:7:8a6fb0@@\n\n                   \n                    <div style=\"text-align: center;\">\n                        <button onclick=\"var ifr=document.getElementsByName('source-uniform')[0]; ifr.src=ifr.src;\"\n                        style=\"cursor: pointer;font-weight: bold;\">Reset</button>\n\n                    </div>\n                </div>\n\n                <div class=\"hide-large\">\n                    <div w3-include-html=\"fixed_applets_message.html\"></div>\n                </div>\n\n               \n\n                <div class=\"practice\">\n                    <p><strong>Exercise:</strong> Find the velocity field of the flow produced\n                        by a source of strength @@math:40:3cbc5a@@ in a uniform flow at speed @@math:41:f67ade@@ in the\n                        @@math:42:114ae0@@-direction.</p>\n                </div>\n\n\n                <br />\n\n            </div>\n\n\n        </article>\n    </main>\n\n    <a href=\"flow_around_circle.html\" style=\"text-decoration: none;\">\n        <p class=\"nextPage\">Uniform flow around circle <i class=\"fa-solid fa-angles-right\"></i></p>\n    </a>\n    @@verbatim:2:e2a760@@\n\n</section>"
+}

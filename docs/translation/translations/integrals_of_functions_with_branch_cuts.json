@@ -1,0 +1,23 @@
+[
+  "含分支切割的函数的积分",
+  "\n                当我们考虑多值函数时，围道积分中的路径可能包含被积函数分支切割上的一个点。接下来的两个例子说明了这一点。\n            ",
+  "例 1",
+  "\n                设 @@math:17:f17e6e@@ 是从 @@math:18:e2c755@@ 到 @@math:19:e8f438@@ 的半圆路径。即\n                @@math:20:4d3c96@@ 其中 @@math:21:4338c1@@\n                这里我们想要求积分\n                @@math:7:9d0a2c@@\n                为此，我们需要选择多值函数 @@math:22:9011fd@@ 的一个特定分支。例如，我们将使用主支\n                @@math:8:ccc069@@\n            ",
+  "\n                在这种情况下，注意虽然 @@math:23:6396e5@@ 的主支\n                在围道 @@math:25:005e8b@@ 的端点 @@math:25:005e8b@@ 处没有定义，但积分 @@math:26:010624@@ 仍然存在。\n            ",
+  "\n                使用下面的小程序探索给定围道 @@math:28:05cc42@@ 的 @@math:28:05cc42@@ 值。\n                只需将点 @@math:29:26ca36@@ 和 @@math:30:a71ac1@@ 拖到相应的值。\n                您也可以选择其他围道并探索当它们穿过分支切割 @@math:31:444958@@ 时会发生什么。\n            ",
+  "\n                正如您已经想到的，积分 (\\ref{ex-01}) 存在是因为被积函数在 @@math:32:b84298@@ 上是\n                [[a href=\"curves_in_the_complex_plane.html\" target=\"_blank\"]]分段连续[[/a]]的。\n                为确认这一点，注意到当 @@math:33:ba52a4@@ 时\n                @@math:15:f8be2d@@\n            ",
+  "\n                函数的实部和虚部在 @@math:34:380082@@ 处的左极限\n            <div class=\"scroll-wrapper\">\n                @@math:34:380082@@\n            </div>\n            存在。即\n            <div class=\"scroll-wrapper\">\n                @@math:10:ae453b@@\n            </div>\n            这意味着当 @@math:35:b8300c@@ 在 @@math:38:cdb828@@ 处的值定义为 @@math:37:a91ac8@@ 时，它在闭区间 @@math:38:cdb828@@ 上连续。\n            因此\n            <div class=\"scroll-wrapper\">\n                @@math:11:851e49@@\n            </div>\n            ",
+  "[[strong]]练习 1：[[/strong]] 求围道 @@math:41:486d0d@@ 其中 @@math:40:386a17@@ 的 @@math:41:486d0d@@。\n                    您可以使用小程序确认您的结果。\n                ",
+  "[[strong]]注：[[/strong]]\n                注意，对于任何不与分支切割 @@math:43:fab9fe@@ 相交的圆，都有 @@math:43:fab9fe@@。为什么？\n            ",
+  "例 2",
+  "\n                考虑主支\n            <div class=\"scroll-wrapper\">\n                @@math:12:128082@@\n            </div>\n\n            且 @@math:44:4fd6b1@@ 是从 @@math:45:80a79c@@ 到 @@math:46:92ed3d@@ 的上半圆；即 @@math:47:365017@@ 其中\n            @@math:48:8f15e3@@\n            ",
+  "\n                    @@math:49:ff52ac@@ 其中\n                    @@math:50:cf1ec1@@\n                ",
+  "\n                不难验证\n                @@math:13:3df227@@\n                使用下面的小程序来确认这一点。您也可以分析其他围道的 @@math:51:c1f179@@。\n            ",
+  "\n                [[strong]]注：[[/strong]]\n                注意，对于任何不与分支切割 @@math:53:8ac995@@ 相交的圆，都有 @@math:53:8ac995@@。为什么？\n            ",
+  "\n                一般地，我们可以计算从 @@math:57:93ee13@@ 到 @@math:56:d9276a@@ 且位于实轴上方的任意围道 @@math:56:d9276a@@ 的 @@math:57:93ee13@@。\n                我们只需要找到 @@math:58:7ab9b3@@ 的一个原函数。\n                不幸的是，我们[[em]]不能[[/em]]使用 (\\ref{br}) 中定义的主支，因为该分支甚至在 @@math:59:ed46d0@@ 处都没有定义。\n                但被积函数可以替换为分支\n            <div class=\"scroll-wrapper\">\n                @@math:16:5a0f0f@@\n            </div>\n\n            因为它沿 @@math:60:7d79b4@@ 与被积函数一致。\n            ",
+  "\n                            主支。\n                        ",
+  "\n                            合适的分支。\n                        ",
+  "\n                利用这个新分支的原函数，我们得到\n            <div class=\"scroll-wrapper\">\n                @@math:14:26c73a@@\n            </div>\n\n            这与 (\\ref{ex-02}) 的值相同。\n            ",
+  "[[strong]]练习 2：[[/strong]] 求 @@math:61:738793@@ 以确认 (\\ref{value}) 的值。\n                ",
+  "柯西-古尔萨定理 [[i class=\"fa-solid fa-angles-right\"]][[/i]]"
+]

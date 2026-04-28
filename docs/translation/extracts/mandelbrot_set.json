@@ -1,0 +1,353 @@
+{
+  "file": "mandelbrot_set.html",
+  "original_length": 16669,
+  "num_text_blocks": 33,
+  "num_verbatim": 10,
+  "verbatim_map": {
+    "@@verbatim:0:a85228@@": "<!-- Starts main content -->",
+    "@@verbatim:1:c8c365@@": "<!-- Add more sections as needed -->",
+    "@@verbatim:2:749050@@": "<!--<div class=\"w3-center w3-hide-small\">\n        <iframe  name=\"Mandelbrot\" src=\"../applets/p5js/mandelbrot/index.html\"  width=\"550px\" height=\"550px\" style=\"border:none;\" style=\"overflow:hidden;\" scrolling=\"no\"></iframe>\n        <p class=\"w3-text-grey w3-medium\"><strong>+:</strong> Zoom In &nbsp; &nbsp; &nbsp; &nbsp; <strong>-:</strong> Zoom Out &nbsp; &nbsp; &nbsp; &nbsp; <strong>Bar Space</strong>=Reset view &nbsp; &nbsp; &nbsp; &nbsp; <strong>O</strong>=Show/Hide Orbit</p>\n        <div class=\"w3-container w3-center\">\n            <button onclick=\"var ifr=document.getElementsByName('Mandelbrot')[0]; ifr.src=ifr.src;\" class=\"w3-btn w3-ripple w3-light-grey\">Reset</button>\n        </div>\n        \n        <p><strong>Note:</strong> This applet was made with <a href=\"https://p5js.org\">p5.js</a> and the source code can be found in <a href=\"../../applets/p5js/mandelbrotexplorer\">GitHub</a>. You can also access an online version here: <a >Mandelbrot Set</a> </p>\n    </div>\n    \n    <div class=\"w3-hide-large w3-hide-medium\">\n        <p class=\"callout\"><strong>Oops!</strong> Sorry, the applet is  not supported for small screens.</p>\n    </div>\n    \n    <hr>-->",
+    "@@verbatim:3:d1294c@@": "<!--GeoGebra embedding-->",
+    "@@verbatim:4:95ec15@@": "<!--GeoGebra embedding ends-->",
+    "@@verbatim:5:c85287@@": "<!-- Ends main content -->",
+    "@@verbatim:6:df35db@@": "<script src=\"https://www.geogebra.org/apps/deployggb.js\"></script>",
+    "@@verbatim:7:dd23b1@@": "<script>\n        let params = {\n            \"width\": 800,\n            \"height\": 594,\n            \"material_id\": \"hvuaudu6\",\n            \"borderColor\": \"888888\",\n            \"playButton\": true,\n            \"showFullscreenButton\": true,\n            \"enableShiftDragZoom\": false,\n            \"showResetIcon\": true\n        };\n        let ggbApplet = new GGBApplet(params, true);\n        window.addEventListener(\"load\", () => {\n            ggbApplet.inject('ggb-element');\n        });\n    </script>",
+    "@@verbatim:8:9b7c40@@": "<iframe name=\"Mandelbrot\" src=\"../applets/p5js/mandelbrot-content/index.html\" width=\"770px\"\n                        height=\"590px\" style=\"border:none;\" style=\"overflow:hidden;\" scrolling=\"no\"></iframe>",
+    "@@verbatim:9:bd9bed@@": "<iframe  loading=\"lazy\" src=\"../applets/p5js/mandel-zoom/\" scrolling=\"no\" width=\"400px\" height=\"400px\" style=\"border:0px;border:1px solid black\"></iframe>",
+    "@@math:10:3fb483@@": "$$z_{n+1}=z_{n}^2+z_0$$",
+    "@@math:11:c69a20@@": "$z \\rightarrow z ^2+c,$",
+    "@@math:12:ad2c00@@": "$z_0$",
+    "@@math:13:ff3c00@@": "$z_n$",
+    "@@math:14:039584@@": "$n=0, 1, 2, \\ldots.$",
+    "@@math:15:440ffa@@": "$z_n$",
+    "@@math:16:67a202@@": "$z_0,$",
+    "@@math:17:a6cf5d@@": "$M,$",
+    "@@math:18:e42348@@": "$z_n$",
+    "@@math:19:9c050e@@": "$z_0$",
+    "@@math:20:8f0a59@@": "$M.$",
+    "@@math:21:683925@@": "$z_n$",
+    "@@math:22:df03d1@@": "$z_0$",
+    "@@math:23:6f8be2@@": "$M.$",
+    "@@math:24:1b273f@@": "$z_0=1.$",
+    "@@math:25:c293e3@@": "\\[\n                    \\begin{array}{rcl}\n                    %\\hline\n                    %\\text{ } & z_{n+1}=z_{n}^2+z_0 \\\\\n                    %\\hline\n                    z_0 &=& 1 \\\\\n                    %\\hline\n                    z_1 &=& 1^2 + 1 = 2 \\\\\n                    %\\hline\n                    z_2 &=& 2^2 + 1 = 5\\\\\n                    %\\hline\n                    z_3 &=& 5^2 + 1 = 26 \\\\\n                    %\\hline\n                    z_4 &=& 26^2 + 1 = 677 \\\\\n                    %\\hline\n                    &\\vdots&\n                    \\end{array}\n                    \\]",
+    "@@math:26:701933@@": "$z_n$",
+    "@@math:27:c1e5e2@@": "$z_0=1$",
+    "@@math:28:bce82b@@": "$z_0$",
+    "@@math:29:641f97@@": "$z_0=i.$",
+    "@@math:30:b4d799@@": "\\[\n                    \\begin{array}{rcl}\n                    %\\hline\n                    % \\text{ } &=& z_{n+1}=z_{n}^2+z_0 \\\\\n                    %\\hline\n                    z_0 &=& i \\\\\n                    %\\hline\n                    z_1 &=& i^2 + i = -1 + i \\\\\n                    %\\hline\n                    z_2 &=& (-1+i)^2 + i = -2i+i = -i\\\\\n                    %\\hline\n                    z_3 &=& (-i)^2 + i = -1+i \\\\\n                    %\\hline\n                    z_4 &=& (-1+i)^2 + i = -i \\\\\n                    %\\hline\n                    &\\vdots&\n                    \\end{array}\n\n                    \\]",
+    "@@math:31:574958@@": "$-1+i$",
+    "@@math:32:0c1562@@": "$-i.$",
+    "@@math:33:8207d8@@": "$z_0=i$",
+    "@@math:34:376002@@": "$z_0$",
+    "@@math:35:ebd3a0@@": "$10^8$",
+    "@@math:36:a81ad5@@": "$z_n$",
+    "@@math:37:a93b25@@": "$10^8,$",
+    "@@math:38:0d0717@@": "$z_0$",
+    "@@math:39:ab72f7@@": "$z_n$",
+    "@@math:40:6929de@@": "$z_0$",
+    "@@math:41:975636@@": "$x,$",
+    "@@math:42:633f37@@": "$y$",
+    "@@math:43:78590a@@": "$z_0$"
+  },
+  "text_blocks": [
+    {
+      "id": "block_0",
+      "tag": "p",
+      "text": "[[i class=\"fa-solid fa-list\"]][[/i]]Contents",
+      "raw_len": 40,
+      "placeholder": "@@text:76:ca2b03@@",
+      "byte_start": 192,
+      "byte_end": 232
+    },
+    {
+      "id": "block_1",
+      "tag": "li",
+      "text": "[[a href=\"#section1\"]]The Mandelbrot set[[/a]]",
+      "raw_len": 42,
+      "placeholder": "@@text:75:fd2af3@@",
+      "byte_start": 266,
+      "byte_end": 308
+    },
+    {
+      "id": "block_2",
+      "tag": "li",
+      "text": "[[a href=\"#section2\"]]Constructing the Mandelbrot set[[/a]]",
+      "raw_len": 55,
+      "placeholder": "@@text:74:302c31@@",
+      "byte_start": 330,
+      "byte_end": 385
+    },
+    {
+      "id": "block_3",
+      "tag": "li",
+      "text": "[[a href=\"#section3\"]]Colorful Mandelbrot set[[/a]]",
+      "raw_len": 47,
+      "placeholder": "@@text:73:00ebd9@@",
+      "byte_start": 407,
+      "byte_end": 454
+    },
+    {
+      "id": "block_4",
+      "tag": "li",
+      "text": "[[a href=\"#section4\"]]Further reading[[/a]]",
+      "raw_len": 39,
+      "placeholder": "@@text:72:588839@@",
+      "byte_start": 476,
+      "byte_end": 515
+    },
+    {
+      "id": "block_5",
+      "tag": "h1",
+      "text": "The Mandelbrot set",
+      "raw_len": 18,
+      "placeholder": "@@text:71:cb93c5@@",
+      "byte_start": 679,
+      "byte_end": 697
+    },
+    {
+      "id": "block_6",
+      "tag": "p",
+      "text": "Essentially, the Mandelbrot set is generated by iterating a simple function\n                    on the points of the complex plane. The points that produce a cycle (the\n                    same value over and over again) fall in the set, whereas the points that\n                    diverge (give ever-growing values) lie outside it. When plotted on a computer\n                    screen in many colors (different colors for different rates of divergence),\n                    the points outside the set can produce pictures of great beauty.\n                    The boundary of the Mandelbrot set is a fractal curve of infinite complexity, any\n                    portion of which can be blown up to reveal ever more outstanding detail,\n                    including miniature replicas of the whole set itself.",
+      "raw_len": 809,
+      "placeholder": "@@text:70:a169b9@@",
+      "byte_start": 744,
+      "byte_end": 1553
+    },
+    {
+      "id": "block_7",
+      "tag": "p",
+      "text": "The Mandelbrot set is certainly the most popular fractal,\n                    and perhaps the most popular object of contemporary mathematics of all.\n                    Since [[a href=\"https://users.math.yale.edu/mandelbrot/\" target=\"_blank\"]]Benoi&#770;t B.\n                        Mandelbrot[[/a]]\n                    (1924-2010) discovered it in 1979-1980, while he was investigating\n                    the mapping @@math:11:c69a20@@ it has been duplicated by tens\n                    of thousands of people around the world (including myself).",
+      "raw_len": 545,
+      "placeholder": "@@text:69:2e3e5b@@",
+      "byte_start": 1578,
+      "byte_end": 2123
+    },
+    {
+      "id": "block_8",
+      "tag": "h2",
+      "text": "Constructing the Mandelbrot set",
+      "raw_len": 31,
+      "placeholder": "@@text:68:b0e3bd@@",
+      "byte_start": 2221,
+      "byte_end": 2252
+    },
+    {
+      "id": "block_9",
+      "tag": "p",
+      "text": "Here is how the Mandelbrot set is constructed. Take a starting point @@math:12:ad2c00@@ in the complex plane. Then\n                    we use the quadratic recurrence equation\n                    @@math:10:3fb483@@\n                    to obtain a sequence of complex numbers @@math:13:ff3c00@@ with @@math:14:039584@@ The points @@math:15:440ffa@@ are said to\n                    form the [[em]]orbit[[/em]] of @@math:16:67a202@@ and the Mandelbrot set, denoted by @@math:17:a6cf5d@@ is defined as follows:",
+      "raw_len": 502,
+      "placeholder": "@@text:67:173dde@@",
+      "byte_start": 2278,
+      "byte_end": 2780
+    },
+    {
+      "id": "block_10",
+      "tag": "p",
+      "text": "If the orbit @@math:18:e42348@@ fails to go to infinity, we say that @@math:19:9c050e@@ is contained within the set @@math:20:8f0a59@@ If\n                        the orbit @@math:21:683925@@ does go to infinity, we say that the point @@math:22:df03d1@@ is outside @@math:23:6f8be2@@",
+      "raw_len": 282,
+      "placeholder": "@@text:66:6e4240@@",
+      "byte_start": 2847,
+      "byte_end": 3129
+    },
+    {
+      "id": "block_11",
+      "tag": "p",
+      "text": "Take, for example, @@math:24:1b273f@@ Then we have\n                    @@math:25:c293e3@@\n                    As you can see, @@math:26:701933@@ just keeps getting bigger and bigger. Thus @@math:27:c1e5e2@@ is [[em]]not[[/em]] in the\n                    Mandelbrot\n                    set. But if we choose different values for @@math:28:bce82b@@ this won't always be the case. Consider now the\n                    value @@math:29:641f97@@ In this case, we obtain:\n                    @@math:30:b4d799@@\n                    It is clear that in this case further iterations will just repeat the values @@math:31:574958@@ and @@math:32:0c1562@@ All of\n                    these complex numbers lie within distance 3 of the origin. So they stay in a bounded subset of the\n                    plane; they do not run out to infinity. So the number @@math:33:8207d8@@ is [[em]]in[[/em]] the Mandelbrot set.\n                ",
+      "raw_len": 909,
+      "placeholder": "@@text:65:fd7342@@",
+      "byte_start": 3177,
+      "byte_end": 4086
+    },
+    {
+      "id": "block_12",
+      "tag": "p",
+      "text": "It is great fun to calculate elements of the Mandelbrot set and to plot them. The resulting set is\n                    endlessly complicated. And for this purpose we can use the power of the computer. In the applet\n                    below a point @@math:34:376002@@ is defined on the complex plane. Since the computer can not handle infinity, it\n                    will be enough to calculate 500 iterations and use the number @@math:35:ebd3a0@@ (instead of infinity) to\n                    generate the Mandelbrot set:",
+      "raw_len": 522,
+      "placeholder": "@@text:64:32bc1b@@",
+      "byte_start": 4111,
+      "byte_end": 4633
+    },
+    {
+      "id": "block_13",
+      "tag": "p",
+      "text": "If the orbit @@math:36:a81ad5@@ is outside a disk of radius @@math:37:a93b25@@ then @@math:38:0d0717@@ is [[em]]not[[/em]] in the\n                        Mandelbrot Set and its color will be [[em]]WHITE[[/em]]. If the orbit @@math:39:ab72f7@@ is inside that disk,\n                        then @@math:40:6929de@@ is [[em]]in[[/em]] the Mandelbrot Set and its color will be [[em]]BLACK[[/em]].",
+      "raw_len": 375,
+      "placeholder": "@@text:63:017208@@",
+      "byte_start": 4701,
+      "byte_end": 5076
+    },
+    {
+      "id": "block_14",
+      "tag": "p",
+      "text": "Now explore the iteration orbits in the applet. Observe its behaviour while dragging the point.\n                    Activate the [[code]]Trace[[/code]] box to sketch the Mandelbrot set or drag the slider.",
+      "raw_len": 200,
+      "placeholder": "@@text:62:67117a@@",
+      "byte_start": 5124,
+      "byte_end": 5324
+    },
+    {
+      "id": "block_15",
+      "tag": "h2",
+      "text": "Colorful Mandelbrot set",
+      "raw_len": 23,
+      "placeholder": "@@text:61:560357@@",
+      "byte_start": 5519,
+      "byte_end": 5542
+    },
+    {
+      "id": "block_16",
+      "tag": "p",
+      "text": "In the previous applet the Mandelbrot set is sketched using only one single point. However, it is\n                    possible to plot it considering a particular region of pixels on the screen. The simplest algorithm\n                    for generating a representation of the Mandelbrot set is known as the [[a\n                        href=\"https://www.mi.sanu.ac.rs/vismath/javier/b2.htm\"]]escape time algorithm[[/a]]. A repeating\n                    calculation is performed for each @@math:41:975636@@ @@math:42:633f37@@ point in the plot area and based on the behavior of that\n                    calculation, a color is chosen for that pixel.",
+      "raw_len": 644,
+      "placeholder": "@@text:60:a6ee04@@",
+      "byte_start": 5568,
+      "byte_end": 6212
+    },
+    {
+      "id": "block_17",
+      "tag": "p",
+      "text": "In the following applet, the [[a\n                        href=\"http://learn.leighcotnoir.com/artspeak/elements-color/hue-value-saturation/\"]]HSV[[/a]] color\n                    scheme is used and depends on the distance from point @@math:43:78590a@@ (in exterior or interior)\n                    to the nearest point on the boundary of the Mandelbrot set. In other words, provided that the\n                    maximal number of iterations is sufficiently high, we can obtain a picture of the Mandelbrot set\n                    with the following properties:\n                <ol>\n                    <li>Every pixel that contains a point of the Mandelbrot set is colored black.</li>\n                    <li>Every pixel that does not contain a point of the Mandelbrot set is colored using [[a\n                            href=\"https://en.wikipedia.org/wiki/Hue\"]]hue[[/a]] values depending on how close that point is\n                        to the Mandelbrot set.</li>\n                </ol>\n                ",
+      "raw_len": 997,
+      "placeholder": "@@text:59:371f43@@",
+      "byte_start": 6238,
+      "byte_end": 7235
+    },
+    {
+      "id": "block_18",
+      "tag": "p",
+      "text": "Now explore the Mandelbrot set. Zoom in or out in different regions. Change the number of iterations\n                    and observe what happens to the plot. You can also plot the orbit.\n                ",
+      "raw_len": 204,
+      "placeholder": "@@text:58:9a1908@@",
+      "byte_start": 7260,
+      "byte_end": 7464
+    },
+    {
+      "id": "block_19",
+      "tag": "h2",
+      "text": "Further reading",
+      "raw_len": 15,
+      "placeholder": "@@text:57:e559cb@@",
+      "byte_start": 9175,
+      "byte_end": 9190
+    },
+    {
+      "id": "block_20",
+      "tag": "p",
+      "text": "Although the Mandelbrot set is defined by a very simple rule, it possesses interesting and complex\n                    properties that can be seen graphically if we pay close attention to the computer-generated\n                    pictures. For example, a geometric question we can ask: Is it connected? That is, is it\n                    just of one piece? This turns out to be true, and was proved by\n                    [[a href=\"http://pi.math.cornell.edu/~hubbard/OrsayFrench.pdf\" target=\"_blank\"]]Adrien Douady and John\n                        H. Hubbard[[/a]] in the 80's.\n                ",
+      "raw_len": 592,
+      "placeholder": "@@text:56:a7493f@@",
+      "byte_start": 9216,
+      "byte_end": 9808
+    },
+    {
+      "id": "block_21",
+      "tag": "p",
+      "text": "The Mandelbrot set has been widely studied and I do not intend to cover all its\n                    fascinating properties here. However, if you want to learn more details I\n                    recommend you to consult B. B. Mandelbrot's works:",
+      "raw_len": 244,
+      "placeholder": "@@text:55:45b1d9@@",
+      "byte_start": 9833,
+      "byte_end": 10077
+    },
+    {
+      "id": "block_22",
+      "tag": "li",
+      "text": "\n                        [[a href=\"https://www.amazon.com/Fractal-Geometry-Nature-Benoit-Mandelbrot/dp/0716711869\"\n                            target=\"_blank\"]]The Fractal Geometry of Nature.[[/a]] New York: W. H. Freeman, 1983.\n                    ",
+      "raw_len": 245,
+      "placeholder": "@@text:54:b80098@@",
+      "byte_start": 10127,
+      "byte_end": 10372
+    },
+    {
+      "id": "block_23",
+      "tag": "li",
+      "text": "\n                        [[a href=\"https://www.springer.com/gp/book/9780387201580\" target=\"_blank\"]]Fractals and Chaos: The\n                            Mandelbrot Set and Beyond.[[/a]] New York: Springer-Verlang, 2004.\n                    ",
+      "raw_len": 235,
+      "placeholder": "@@text:53:062082@@",
+      "byte_start": 10402,
+      "byte_end": 10637
+    },
+    {
+      "id": "block_24",
+      "tag": "p",
+      "text": "I also recommend you these [[em]]Numberphile[[/em]] videos:",
+      "raw_len": 55,
+      "placeholder": "@@text:52:e0b5ca@@",
+      "byte_start": 10685,
+      "byte_end": 10740
+    },
+    {
+      "id": "block_25",
+      "tag": "li",
+      "text": "\n                        [[a href=\"https://www.youtube.com/watch?v=NGMRB4O922I&list=PLt5AfwLFPxWJ8GCgpFo5_OSyfl7j0nOiu\"\n                            target=\"_blank\"]]The Mandelbrot Set[[/a]] by [[a href=\"https://twitter.com/hollykrieger\"\n                            target=\"_blank\"]]Holly Krieger[[/a]].\n                    ",
+      "raw_len": 315,
+      "placeholder": "@@text:51:5f0f9b@@",
+      "byte_start": 10790,
+      "byte_end": 11105
+    },
+    {
+      "id": "block_26",
+      "tag": "li",
+      "text": "\n                        [[a href=\"https://youtu.be/FFftmWSzgmk\" target=\"_blank\"]]What's so special about the Mandelbrot\n                            Set?[[/a]] by [[a href=\"https://www.bensparks.co.uk/\" target=\"_blank\"]]Ben Sparks[[/a]].\n                    ",
+      "raw_len": 250,
+      "placeholder": "@@text:50:2fdd15@@",
+      "byte_start": 11135,
+      "byte_end": 11385
+    },
+    {
+      "id": "block_27",
+      "tag": "p",
+      "text": "The applets were made with [[a href=\"https://www.geogebra.org\" target=\"_blank\"]]GeoGebra[[/a]] and [[a\n                        href=\"https://p5js.org\" target=\"_blank\"]]p5.js[[/a]]. The source code is available in the following\n                    links:",
+      "raw_len": 245,
+      "placeholder": "@@text:49:9f24a3@@",
+      "byte_start": 11434,
+      "byte_end": 11679
+    },
+    {
+      "id": "block_28",
+      "tag": "li",
+      "text": "\n                        [[a href=\"https://www.geogebra.org/material/show/id/xtgsqyka\" target=\"_blank\"]]Mandelbrot\n                            iteration orbits[[/a]]\n                    ",
+      "raw_len": 182,
+      "placeholder": "@@text:48:399cbb@@",
+      "byte_start": 11730,
+      "byte_end": 11912
+    },
+    {
+      "id": "block_29",
+      "tag": "li",
+      "text": "\n                        [[a href=\"https://github.com/complex-analysis/complex-analysis.github.io/tree/master/applets/p5js/mandelbrot\"\n                            target=\"_blank\"]]Mandelbrot set[[/a]]\n                    ",
+      "raw_len": 217,
+      "placeholder": "@@text:47:97eac2@@",
+      "byte_start": 11942,
+      "byte_end": 12159
+    },
+    {
+      "id": "block_30",
+      "tag": "li",
+      "text": "\n                        [[a href=\"https://thecodingtrain.com/CodingChallenges/021-mandelbrot-p5.html\"\n                            target=\"_blank\"]]Coding Challenge: Mandelbrot set[[/a]]\n                    ",
+      "raw_len": 203,
+      "placeholder": "@@text:46:27addd@@",
+      "byte_start": 12331,
+      "byte_end": 12534
+    },
+    {
+      "id": "block_31",
+      "tag": "p",
+      "text": "Finally, if you are adept at programming, then you can easily translate the pseudocode below into\n                    [[code]]C++[[/code]], [[code]]Python[[/code]], [[code]]JavaScript[[/code]], or any other language. For each pixel on the screen perform this operation:\n                ",
+      "raw_len": 274,
+      "placeholder": "@@text:45:969396@@",
+      "byte_start": 12582,
+      "byte_end": 12856
+    },
+    {
+      "id": "block_32",
+      "tag": "p",
+      "text": "The Julia Set [[i class=\"fa-solid fa-angles-right\"]][[/i]]",
+      "raw_len": 54,
+      "placeholder": "@@text:44:b5bbcd@@",
+      "byte_start": 13739,
+      "byte_end": 13793
+    }
+  ],
+  "reassembly_template": "<section data-type=\"chapter\" id=\"madelbrot\">\n\n    @@verbatim:0:a85228@@\n\n    <div w3-include-html=\"small_screen_message.html\"></div>\n\n    <div class=\"toc-chapter\" id=\"toc-chapter\">\n        <p>@@text:76:ca2b03@@</p>\n        <ul>\n            <li>@@text:75:fd2af3@@</li>\n            <li>@@text:74:302c31@@</li>\n            <li>@@text:73:00ebd9@@</li>\n            <li>@@text:72:588839@@</li>\n            @@verbatim:1:c8c365@@\n        </ul>\n    </div>\n\n    <br><br>\n\n\n    <main>\n        <article>\n\n            <div id=\"section1\">\n\n                <h1>@@text:71:cb93c5@@</h1>\n                <hr>\n\n                <p>@@text:70:a169b9@@</p>\n\n                <p>@@text:69:2e3e5b@@</p>\n\n\n            </div>\n\n            <hr>\n\n            <div id=\"section2\">\n\n                <h2>@@text:68:b0e3bd@@</h2>\n\n                <p>@@text:67:173dde@@</p>\n                <div class=\"practice\">\n                    <p>@@text:66:6e4240@@</p>\n                </div>\n\n                <p>@@text:65:fd7342@@</p>\n\n                <p>@@text:64:32bc1b@@</p>\n\n                <div class=\"practice\">\n                    <p>@@text:63:017208@@</p>\n                </div>\n\n                <p>@@text:62:67117a@@</p>\n\n                \n                <div class=\"ggbElement\" id=\"ggb-element\"></div>\n                \n            </div>\n\n            <hr>\n\n            <div id=\"section3\">\n\n                <h2>@@text:61:560357@@</h2>\n\n                <p>@@text:60:a6ee04@@</p>\n\n\n                <p>@@text:59:371f43@@</p>\n\n                <p>@@text:58:9a1908@@</p>\n\n\n                <div class=\"hide-small hide-medium\" style=\"text-align: center;\">\n                    \n                    <div id=\"iframeContainer1\" class=\"iframeContainer\">\n                        @@verbatim:8:9b7c40@@\n                    </div>\n\n                    <div class=\"w3-text-grey \" style=\"display: flex; justify-content: space-between; width: 800px;\">\n                        <div><strong>Control keys:</strong></div>\n                        <div><strong>+</strong> (Zoom In)</div>\n                        <div><strong>-</strong> (Zoom Out)</div>\n                        <div><strong>R</strong> (Reset view)</div>\n                        <div><strong>O</strong> (Orbit)</div>\n                        <div><strong>I</strong> (Info &amp; Frame)</div>\n                    </div> <br />\n                   \n                    <div style=\"text-align: center;margin-top: -20px;\">\n                        <button onclick=\"var ifr=document.getElementsByName('Mandelbrot')[0]; ifr.src=ifr.src;\"\n                            style=\"cursor: pointer;\"><strong>Reset</strong></button>\n                        &nbsp;&nbsp;\n                        <button ><a href=\"../applets/p5js/mandelbrot/\" target=\"_blank\"\n                            style=\"color: black;font-weight: bold;outline: none;text-decoration: none; \">Fullscreen</a></button>\n                        \n                    </div>\n                </div>\n\n\n                <div class=\"hide-large\">\n                    <div w3-include-html=\"fixed_applets_message.html\"></div>\n                </div>\n\n                \n                @@verbatim:2:749050@@\n\n            </div>\n\n            <hr>\n\n            <div id=\"section4\">\n\n                <h2>@@text:57:e559cb@@</h2>\n\n                <p>@@text:56:a7493f@@</p>\n\n                <p>@@text:55:45b1d9@@</p>\n                <ul>\n                    <li>@@text:54:b80098@@</li>\n                    <li>@@text:53:062082@@</li>\n                </ul>\n\n                <p>@@text:52:e0b5ca@@</p>\n                <ul>\n                    <li>@@text:51:5f0f9b@@</li>\n                    <li>@@text:50:2fdd15@@</li>\n                </ul>\n\n\n                <p>@@text:49:9f24a3@@</p>\n\n                <ul>\n                    <li>@@text:48:399cbb@@</li>\n                    <li>@@text:47:97eac2@@</li>\n                </ul>\n\n                <p>If you want to learn how to program it yourself, I recommend you this tutorial\n                <ul>\n                    <li>@@text:46:27addd@@</li>\n                </ul>\n\n                <p>@@text:45:969396@@</p>\n\n\n                <pre><code class=\"language-clike\">{\n  x0 = x //coordinate of pixel\n  y0 = y //coordinate of pixel\n  \n  x = 0\n  y = 0\n  \n  iteration = 0\n  max_iteration = 1000\n  \n  while ( x*x + y*y &lt;= (2*2) AND iteration &lt; max_iteration )\n  {\n    xtemp = x*x - y*y + x0\n    y = 2*x*y + y0\n    \n    x = xtemp\n    \n    iteration = iteration + 1\n  }\n  \n  if ( iteration == max_iteration )\n  then\n    color = black\n  plot(x0, y0, color)\n  else\n    color = iteration\n  \n  plot(x0, y0, color)\n}\n</code></pre>\n\n\n                <div style=\"text-align: center;\">\n                    @@verbatim:9:bd9bed@@\n                </div>\n\n            </div>\n\n\n\n        </article>\n    </main>\n\n    @@verbatim:3:d1294c@@\n    @@verbatim:6:df35db@@\n\n    @@verbatim:7:dd23b1@@\n    @@verbatim:4:95ec15@@\n\n    <a href=\"julia_set.html\" style=\"text-decoration: none;\">\n        <p class=\"nextPage\">@@text:44:b5bbcd@@</p>\n    </a>\n    @@verbatim:5:c85287@@\n\n</section>",
+  "_protected_html": "<section data-type=\"chapter\" id=\"madelbrot\">\n\n    @@verbatim:0:a85228@@\n\n    <div w3-include-html=\"small_screen_message.html\"></div>\n\n    <div class=\"toc-chapter\" id=\"toc-chapter\">\n        <p><i class=\"fa-solid fa-list\"></i>Contents</p>\n        <ul>\n            <li><a href=\"#section1\">The Mandelbrot set</a></li>\n            <li><a href=\"#section2\">Constructing the Mandelbrot set</a></li>\n            <li><a href=\"#section3\">Colorful Mandelbrot set</a></li>\n            <li><a href=\"#section4\">Further reading</a></li>\n            @@verbatim:1:c8c365@@\n        </ul>\n    </div>\n\n    <br><br>\n\n\n    <main>\n        <article>\n\n            <div id=\"section1\">\n\n                <h1>The Mandelbrot set</h1>\n                <hr>\n\n                <p>Essentially, the Mandelbrot set is generated by iterating a simple function\n                    on the points of the complex plane. The points that produce a cycle (the\n                    same value over and over again) fall in the set, whereas the points that\n                    diverge (give ever-growing values) lie outside it. When plotted on a computer\n                    screen in many colors (different colors for different rates of divergence),\n                    the points outside the set can produce pictures of great beauty.\n                    The boundary of the Mandelbrot set is a fractal curve of infinite complexity, any\n                    portion of which can be blown up to reveal ever more outstanding detail,\n                    including miniature replicas of the whole set itself.</p>\n\n                <p>The Mandelbrot set is certainly the most popular fractal,\n                    and perhaps the most popular object of contemporary mathematics of all.\n                    Since <a href=\"https://users.math.yale.edu/mandelbrot/\" target=\"_blank\">Benoi&#770;t B.\n                        Mandelbrot</a>\n                    (1924-2010) discovered it in 1979-1980, while he was investigating\n                    the mapping @@math:11:c69a20@@ it has been duplicated by tens\n                    of thousands of people around the world (including myself).</p>\n\n\n            </div>\n\n            <hr>\n\n            <div id=\"section2\">\n\n                <h2>Constructing the Mandelbrot set</h2>\n\n                <p>Here is how the Mandelbrot set is constructed. Take a starting point @@math:12:ad2c00@@ in the complex plane. Then\n                    we use the quadratic recurrence equation\n                    @@math:10:3fb483@@\n                    to obtain a sequence of complex numbers @@math:13:ff3c00@@ with @@math:14:039584@@ The points @@math:15:440ffa@@ are said to\n                    form the <em>orbit</em> of @@math:16:67a202@@ and the Mandelbrot set, denoted by @@math:17:a6cf5d@@ is defined as follows:</p>\n                <div class=\"practice\">\n                    <p>If the orbit @@math:18:e42348@@ fails to go to infinity, we say that @@math:19:9c050e@@ is contained within the set @@math:20:8f0a59@@ If\n                        the orbit @@math:21:683925@@ does go to infinity, we say that the point @@math:22:df03d1@@ is outside @@math:23:6f8be2@@</p>\n                </div>\n\n                <p>Take, for example, @@math:24:1b273f@@ Then we have\n                    @@math:25:c293e3@@\n                    As you can see, @@math:26:701933@@ just keeps getting bigger and bigger. Thus @@math:27:c1e5e2@@ is <em>not</em> in the\n                    Mandelbrot\n                    set. But if we choose different values for @@math:28:bce82b@@ this won't always be the case. Consider now the\n                    value @@math:29:641f97@@ In this case, we obtain:\n                    @@math:30:b4d799@@\n                    It is clear that in this case further iterations will just repeat the values @@math:31:574958@@ and @@math:32:0c1562@@ All of\n                    these complex numbers lie within distance 3 of the origin. So they stay in a bounded subset of the\n                    plane; they do not run out to infinity. So the number @@math:33:8207d8@@ is <em>in</em> the Mandelbrot set.\n                </p>\n\n                <p>It is great fun to calculate elements of the Mandelbrot set and to plot them. The resulting set is\n                    endlessly complicated. And for this purpose we can use the power of the computer. In the applet\n                    below a point @@math:34:376002@@ is defined on the complex plane. Since the computer can not handle infinity, it\n                    will be enough to calculate 500 iterations and use the number @@math:35:ebd3a0@@ (instead of infinity) to\n                    generate the Mandelbrot set:</p>\n\n                <div class=\"practice\">\n                    <p>If the orbit @@math:36:a81ad5@@ is outside a disk of radius @@math:37:a93b25@@ then @@math:38:0d0717@@ is <em>not</em> in the\n                        Mandelbrot Set and its color will be <em>WHITE</em>. If the orbit @@math:39:ab72f7@@ is inside that disk,\n                        then @@math:40:6929de@@ is <em>in</em> the Mandelbrot Set and its color will be <em>BLACK</em>.</p>\n                </div>\n\n                <p>Now explore the iteration orbits in the applet. Observe its behaviour while dragging the point.\n                    Activate the <code>Trace</code> box to sketch the Mandelbrot set or drag the slider.</p>\n\n                \n                <div class=\"ggbElement\" id=\"ggb-element\"></div>\n                \n            </div>\n\n            <hr>\n\n            <div id=\"section3\">\n\n                <h2>Colorful Mandelbrot set</h2>\n\n                <p>In the previous applet the Mandelbrot set is sketched using only one single point. However, it is\n                    possible to plot it considering a particular region of pixels on the screen. The simplest algorithm\n                    for generating a representation of the Mandelbrot set is known as the <a\n                        href=\"https://www.mi.sanu.ac.rs/vismath/javier/b2.htm\">escape time algorithm</a>. A repeating\n                    calculation is performed for each @@math:41:975636@@ @@math:42:633f37@@ point in the plot area and based on the behavior of that\n                    calculation, a color is chosen for that pixel.</p>\n\n\n                <p>In the following applet, the <a\n                        href=\"http://learn.leighcotnoir.com/artspeak/elements-color/hue-value-saturation/\">HSV</a> color\n                    scheme is used and depends on the distance from point @@math:43:78590a@@ (in exterior or interior)\n                    to the nearest point on the boundary of the Mandelbrot set. In other words, provided that the\n                    maximal number of iterations is sufficiently high, we can obtain a picture of the Mandelbrot set\n                    with the following properties:\n                <ol>\n                    <li>Every pixel that contains a point of the Mandelbrot set is colored black.</li>\n                    <li>Every pixel that does not contain a point of the Mandelbrot set is colored using <a\n                            href=\"https://en.wikipedia.org/wiki/Hue\">hue</a> values depending on how close that point is\n                        to the Mandelbrot set.</li>\n                </ol>\n                </p>\n\n                <p>Now explore the Mandelbrot set. Zoom in or out in different regions. Change the number of iterations\n                    and observe what happens to the plot. You can also plot the orbit.\n                </p>\n\n\n                <div class=\"hide-small hide-medium\" style=\"text-align: center;\">\n                    \n                    <div id=\"iframeContainer1\" class=\"iframeContainer\">\n                        @@verbatim:8:9b7c40@@\n                    </div>\n\n                    <div class=\"w3-text-grey \" style=\"display: flex; justify-content: space-between; width: 800px;\">\n                        <div><strong>Control keys:</strong></div>\n                        <div><strong>+</strong> (Zoom In)</div>\n                        <div><strong>-</strong> (Zoom Out)</div>\n                        <div><strong>R</strong> (Reset view)</div>\n                        <div><strong>O</strong> (Orbit)</div>\n                        <div><strong>I</strong> (Info &amp; Frame)</div>\n                    </div> <br />\n                   \n                    <div style=\"text-align: center;margin-top: -20px;\">\n                        <button onclick=\"var ifr=document.getElementsByName('Mandelbrot')[0]; ifr.src=ifr.src;\"\n                            style=\"cursor: pointer;\"><strong>Reset</strong></button>\n                        &nbsp;&nbsp;\n                        <button ><a href=\"../applets/p5js/mandelbrot/\" target=\"_blank\"\n                            style=\"color: black;font-weight: bold;outline: none;text-decoration: none; \">Fullscreen</a></button>\n                        \n                    </div>\n                </div>\n\n\n                <div class=\"hide-large\">\n                    <div w3-include-html=\"fixed_applets_message.html\"></div>\n                </div>\n\n                \n                @@verbatim:2:749050@@\n\n            </div>\n\n            <hr>\n\n            <div id=\"section4\">\n\n                <h2>Further reading</h2>\n\n                <p>Although the Mandelbrot set is defined by a very simple rule, it possesses interesting and complex\n                    properties that can be seen graphically if we pay close attention to the computer-generated\n                    pictures. For example, a geometric question we can ask: Is it connected? That is, is it\n                    just of one piece? This turns out to be true, and was proved by\n                    <a href=\"http://pi.math.cornell.edu/~hubbard/OrsayFrench.pdf\" target=\"_blank\">Adrien Douady and John\n                        H. Hubbard</a> in the 80's.\n                </p>\n\n                <p>The Mandelbrot set has been widely studied and I do not intend to cover all its\n                    fascinating properties here. However, if you want to learn more details I\n                    recommend you to consult B. B. Mandelbrot's works:</p>\n                <ul>\n                    <li>\n                        <a href=\"https://www.amazon.com/Fractal-Geometry-Nature-Benoit-Mandelbrot/dp/0716711869\"\n                            target=\"_blank\">The Fractal Geometry of Nature.</a> New York: W. H. Freeman, 1983.\n                    </li>\n                    <li>\n                        <a href=\"https://www.springer.com/gp/book/9780387201580\" target=\"_blank\">Fractals and Chaos: The\n                            Mandelbrot Set and Beyond.</a> New York: Springer-Verlang, 2004.\n                    </li>\n                </ul>\n\n                <p>I also recommend you these <em>Numberphile</em> videos:</p>\n                <ul>\n                    <li>\n                        <a href=\"https://www.youtube.com/watch?v=NGMRB4O922I&list=PLt5AfwLFPxWJ8GCgpFo5_OSyfl7j0nOiu\"\n                            target=\"_blank\">The Mandelbrot Set</a> by <a href=\"https://twitter.com/hollykrieger\"\n                            target=\"_blank\">Holly Krieger</a>.\n                    </li>\n                    <li>\n                        <a href=\"https://youtu.be/FFftmWSzgmk\" target=\"_blank\">What's so special about the Mandelbrot\n                            Set?</a> by <a href=\"https://www.bensparks.co.uk/\" target=\"_blank\">Ben Sparks</a>.\n                    </li>\n                </ul>\n\n\n                <p>The applets were made with <a href=\"https://www.geogebra.org\" target=\"_blank\">GeoGebra</a> and <a\n                        href=\"https://p5js.org\" target=\"_blank\">p5.js</a>. The source code is available in the following\n                    links:</p>\n\n                <ul>\n                    <li>\n                        <a href=\"https://www.geogebra.org/material/show/id/xtgsqyka\" target=\"_blank\">Mandelbrot\n                            iteration orbits</a>\n                    </li>\n                    <li>\n                        <a href=\"https://github.com/complex-analysis/complex-analysis.github.io/tree/master/applets/p5js/mandelbrot\"\n                            target=\"_blank\">Mandelbrot set</a>\n                    </li>\n                </ul>\n\n                <p>If you want to learn how to program it yourself, I recommend you this tutorial\n                <ul>\n                    <li>\n                        <a href=\"https://thecodingtrain.com/CodingChallenges/021-mandelbrot-p5.html\"\n                            target=\"_blank\">Coding Challenge: Mandelbrot set</a>\n                    </li>\n                </ul>\n\n                <p>Finally, if you are adept at programming, then you can easily translate the pseudocode below into\n                    <code>C++</code>, <code>Python</code>, <code>JavaScript</code>, or any other language. For each pixel on the screen perform this operation:\n                </p>\n\n\n                <pre><code class=\"language-clike\">{\n  x0 = x //coordinate of pixel\n  y0 = y //coordinate of pixel\n  \n  x = 0\n  y = 0\n  \n  iteration = 0\n  max_iteration = 1000\n  \n  while ( x*x + y*y &lt;= (2*2) AND iteration &lt; max_iteration )\n  {\n    xtemp = x*x - y*y + x0\n    y = 2*x*y + y0\n    \n    x = xtemp\n    \n    iteration = iteration + 1\n  }\n  \n  if ( iteration == max_iteration )\n  then\n    color = black\n  plot(x0, y0, color)\n  else\n    color = iteration\n  \n  plot(x0, y0, color)\n}\n</code></pre>\n\n\n                <div style=\"text-align: center;\">\n                    @@verbatim:9:bd9bed@@\n                </div>\n\n            </div>\n\n\n\n        </article>\n    </main>\n\n    @@verbatim:3:d1294c@@\n    @@verbatim:6:df35db@@\n\n    @@verbatim:7:dd23b1@@\n    @@verbatim:4:95ec15@@\n\n    <a href=\"julia_set.html\" style=\"text-decoration: none;\">\n        <p class=\"nextPage\">The Julia Set <i class=\"fa-solid fa-angles-right\"></i></p>\n    </a>\n    @@verbatim:5:c85287@@\n\n</section>"
+}

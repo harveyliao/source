@@ -1,0 +1,475 @@
+{
+  "file": "table_of_contents.html",
+  "original_length": 5213,
+  "num_text_blocks": 51,
+  "num_verbatim": 3,
+  "verbatim_map": {
+    "@@verbatim:0:b338be@@": "<!-- Starts main content -->",
+    "@@verbatim:1:7d13bc@@": "<!--<li><a href=\"what_you_should_already_know.html\">What You Should Already Know</a></li>-->",
+    "@@verbatim:2:840b66@@": "<!-- Ends main content -->",
+    "@@math:3:1b0e8b@@": "$1/z$"
+  },
+  "text_blocks": [
+    {
+      "id": "block_0",
+      "tag": "p",
+      "text": "\n                [[em]]You can get back to this page any time by clicking on the[[/em]] [[strong]]Complex Analysis[[/strong]] [[em]]text\n                    at the top![[/em]]\n            ",
+      "raw_len": 176,
+      "placeholder": "@@text:54:ca2122@@",
+      "byte_start": 175,
+      "byte_end": 351
+    },
+    {
+      "id": "block_1",
+      "tag": "h3",
+      "text": "Preamble",
+      "raw_len": 8,
+      "placeholder": "@@text:53:7c7ed7@@",
+      "byte_start": 595,
+      "byte_end": 603
+    },
+    {
+      "id": "block_2",
+      "tag": "li",
+      "text": "[[a href=\"../\"]]Introduction[[/a]] ",
+      "raw_len": 31,
+      "placeholder": "@@text:52:2e5895@@",
+      "byte_start": 654,
+      "byte_end": 685
+    },
+    {
+      "id": "block_3",
+      "tag": "li",
+      "text": "[[a href=\"license.html\"]]License[[/a]] ",
+      "raw_len": 35,
+      "placeholder": "@@text:51:3137b5@@",
+      "byte_start": 715,
+      "byte_end": 750
+    },
+    {
+      "id": "block_4",
+      "tag": "li",
+      "text": "[[a href=\"thanks.html\"]]Acknowledgements[[/a]]",
+      "raw_len": 42,
+      "placeholder": "@@text:50:a12b9d@@",
+      "byte_start": 780,
+      "byte_end": 822
+    },
+    {
+      "id": "block_5",
+      "tag": "li",
+      "text": "[[a href=\"comments.html\"]]Reader's Comments[[/a]]",
+      "raw_len": 45,
+      "placeholder": "@@text:49:6c52d8@@",
+      "byte_start": 852,
+      "byte_end": 897
+    },
+    {
+      "id": "block_6",
+      "tag": "h3",
+      "text": "Chapter 1",
+      "raw_len": 9,
+      "placeholder": "@@text:48:8990c7@@",
+      "byte_start": 988,
+      "byte_end": 997
+    },
+    {
+      "id": "block_7",
+      "tag": "li",
+      "text": "[[a href=\"brief_history.html\"]]A Brief History[[/a]]",
+      "raw_len": 48,
+      "placeholder": "@@text:47:98ebb9@@",
+      "byte_start": 1048,
+      "byte_end": 1096
+    },
+    {
+      "id": "block_8",
+      "tag": "li",
+      "text": "[[a href=\"terminology_notation.html\"]]Terminology and Notation[[/a]]",
+      "raw_len": 64,
+      "placeholder": "@@text:46:a9848f@@",
+      "byte_start": 1126,
+      "byte_end": 1190
+    },
+    {
+      "id": "block_9",
+      "tag": "li",
+      "text": "[[a href=\"geometric_interpretation_add_mult.html\"]]Geometric Interpretation[[/a]]",
+      "raw_len": 77,
+      "placeholder": "@@text:45:99c8f8@@",
+      "byte_start": 1220,
+      "byte_end": 1297
+    },
+    {
+      "id": "block_10",
+      "tag": "li",
+      "text": "[[a href=\"principal_argument.html\"]]The Principal Argument[[/a]]",
+      "raw_len": 60,
+      "placeholder": "@@text:44:5d9be2@@",
+      "byte_start": 1327,
+      "byte_end": 1387
+    },
+    {
+      "id": "block_11",
+      "tag": "li",
+      "text": "[[a href=\"roots_complex_numbers.html\"]]Roots of Complex Numbers[[/a]]",
+      "raw_len": 65,
+      "placeholder": "@@text:43:2bcc50@@",
+      "byte_start": 1417,
+      "byte_end": 1482
+    },
+    {
+      "id": "block_12",
+      "tag": "li",
+      "text": "[[a href=\"topology_complex_plane.html\"]]Topology of the Complex Plane[[/a]]",
+      "raw_len": 71,
+      "placeholder": "@@text:42:35066a@@",
+      "byte_start": 1512,
+      "byte_end": 1583
+    },
+    {
+      "id": "block_13",
+      "tag": "h3",
+      "text": "Chapter 2",
+      "raw_len": 9,
+      "placeholder": "@@text:41:d4cab7@@",
+      "byte_start": 1632,
+      "byte_end": 1641
+    },
+    {
+      "id": "block_14",
+      "tag": "li",
+      "text": "[[a href=\"complex_functions.html\"]]Complex Functions[[/a]]",
+      "raw_len": 54,
+      "placeholder": "@@text:40:504360@@",
+      "byte_start": 1692,
+      "byte_end": 1746
+    },
+    {
+      "id": "block_15",
+      "tag": "li",
+      "text": "[[a href=\"limits.html\"]]Limits[[/a]]",
+      "raw_len": 32,
+      "placeholder": "@@text:39:b49997@@",
+      "byte_start": 1776,
+      "byte_end": 1808
+    },
+    {
+      "id": "block_16",
+      "tag": "li",
+      "text": "[[a href=\"riemann_sphere.html\"]]Riemann Sphere[[/a]]",
+      "raw_len": 48,
+      "placeholder": "@@text:38:c0bae1@@",
+      "byte_start": 1838,
+      "byte_end": 1886
+    },
+    {
+      "id": "block_17",
+      "tag": "li",
+      "text": "[[a href=\"continuity.html\"]]Continuity[[/a]]",
+      "raw_len": 40,
+      "placeholder": "@@text:37:fc5528@@",
+      "byte_start": 1916,
+      "byte_end": 1956
+    },
+    {
+      "id": "block_18",
+      "tag": "li",
+      "text": "[[a href=\"complex_differentiation.html\"]]Complex Differentiation[[/a]]",
+      "raw_len": 66,
+      "placeholder": "@@text:36:5dd006@@",
+      "byte_start": 1986,
+      "byte_end": 2052
+    },
+    {
+      "id": "block_19",
+      "tag": "li",
+      "text": "[[a href=\"logarithmic_function.html\"]]The Logarithmic Function[[/a]]",
+      "raw_len": 64,
+      "placeholder": "@@text:35:892777@@",
+      "byte_start": 2082,
+      "byte_end": 2146
+    },
+    {
+      "id": "block_20",
+      "tag": "li",
+      "text": "[[a href=\"riemann_surfaces.html\"]]Riemann surfaces: Examples[[/a]]",
+      "raw_len": 62,
+      "placeholder": "@@text:34:b328ce@@",
+      "byte_start": 2176,
+      "byte_end": 2238
+    },
+    {
+      "id": "block_21",
+      "tag": "h3",
+      "text": "Chapter 3",
+      "raw_len": 9,
+      "placeholder": "@@text:33:a85a4d@@",
+      "byte_start": 2288,
+      "byte_end": 2297
+    },
+    {
+      "id": "block_22",
+      "tag": "li",
+      "text": "[[a href=\"mappings.html\"]]Mappings[[/a]]",
+      "raw_len": 36,
+      "placeholder": "@@text:32:e31509@@",
+      "byte_start": 2348,
+      "byte_end": 2384
+    },
+    {
+      "id": "block_23",
+      "tag": "li",
+      "text": "[[a href=\"mapping_1overz.html\"]]The Transformation @@math:3:1b0e8b@@[[/a]]",
+      "raw_len": 70,
+      "placeholder": "@@text:31:09a725@@",
+      "byte_start": 2414,
+      "byte_end": 2484
+    },
+    {
+      "id": "block_24",
+      "tag": "li",
+      "text": "[[a href=\"analytic_landscapes.html\"]]Analytic Landscapes[[/a]] ",
+      "raw_len": 59,
+      "placeholder": "@@text:30:6bda88@@",
+      "byte_start": 2514,
+      "byte_end": 2573
+    },
+    {
+      "id": "block_25",
+      "tag": "li",
+      "text": "[[a href=\"domain_coloring.html\"]]Domain Coloring[[/a]]",
+      "raw_len": 50,
+      "placeholder": "@@text:29:868dfc@@",
+      "byte_start": 2603,
+      "byte_end": 2653
+    },
+    {
+      "id": "block_26",
+      "tag": "li",
+      "text": "[[a href=\"power_function.html\"]]The Complex Power Function[[/a]]",
+      "raw_len": 60,
+      "placeholder": "@@text:28:4be36f@@",
+      "byte_start": 2683,
+      "byte_end": 2743
+    },
+    {
+      "id": "block_27",
+      "tag": "h3",
+      "text": "Chapter 4",
+      "raw_len": 9,
+      "placeholder": "@@text:27:5f2559@@",
+      "byte_start": 2793,
+      "byte_end": 2802
+    },
+    {
+      "id": "block_28",
+      "tag": "li",
+      "text": "[[a href=\"curves_in_the_complex_plane.html\"]]Curves in the Complex Plane[[/a]]",
+      "raw_len": 74,
+      "placeholder": "@@text:26:e021ec@@",
+      "byte_start": 2853,
+      "byte_end": 2927
+    },
+    {
+      "id": "block_29",
+      "tag": "li",
+      "text": "[[a href=\"complex_integration.html\"]]Complex Integration[[/a]]",
+      "raw_len": 58,
+      "placeholder": "@@text:25:833f03@@",
+      "byte_start": 2957,
+      "byte_end": 3015
+    },
+    {
+      "id": "block_30",
+      "tag": "li",
+      "text": "[[a href=\"integrals_of_functions_with_branch_cuts.html\"]]Integrals of Functions with Branch Cuts[[/a]]",
+      "raw_len": 98,
+      "placeholder": "@@text:24:80426e@@",
+      "byte_start": 3045,
+      "byte_end": 3143
+    },
+    {
+      "id": "block_31",
+      "tag": "li",
+      "text": "[[a href=\"cauchy_goursat_theorem.html\"]]Cauchy-Goursat Theorem[[/a]]",
+      "raw_len": 64,
+      "placeholder": "@@text:23:e2b4fb@@",
+      "byte_start": 3173,
+      "byte_end": 3237
+    },
+    {
+      "id": "block_32",
+      "tag": "li",
+      "text": "[[a href=\"cauchy_integral_formula.html\"]]Cauchy Integral Formula[[/a]]",
+      "raw_len": 66,
+      "placeholder": "@@text:22:29120f@@",
+      "byte_start": 3267,
+      "byte_end": 3333
+    },
+    {
+      "id": "block_33",
+      "tag": "li",
+      "text": "[[a href=\"fundamental_theorem_of_algebra.html\"]]The Fundamental Theorem of Algebra[[/a]]",
+      "raw_len": 84,
+      "placeholder": "@@text:21:250522@@",
+      "byte_start": 3363,
+      "byte_end": 3447
+    },
+    {
+      "id": "block_34",
+      "tag": "h3",
+      "text": "Chapter 5",
+      "raw_len": 9,
+      "placeholder": "@@text:20:271640@@",
+      "byte_start": 3496,
+      "byte_end": 3505
+    },
+    {
+      "id": "block_35",
+      "tag": "li",
+      "text": "[[a href=\"series.html\"]]Series[[/a]]",
+      "raw_len": 32,
+      "placeholder": "@@text:19:29259f@@",
+      "byte_start": 3556,
+      "byte_end": 3588
+    },
+    {
+      "id": "block_36",
+      "tag": "li",
+      "text": "[[a href=\"taylor_series.html\"]]Taylor Series[[/a]]",
+      "raw_len": 46,
+      "placeholder": "@@text:18:102932@@",
+      "byte_start": 3618,
+      "byte_end": 3664
+    },
+    {
+      "id": "block_37",
+      "tag": "li",
+      "text": "[[a href=\"laurent_series.html\"]]Laurent Series[[/a]]",
+      "raw_len": 48,
+      "placeholder": "@@text:17:6e7c90@@",
+      "byte_start": 3694,
+      "byte_end": 3742
+    },
+    {
+      "id": "block_38",
+      "tag": "li",
+      "text": "[[a href=\"classification_of_singularities.html\"]]Classification of Singularities[[/a]]",
+      "raw_len": 82,
+      "placeholder": "@@text:16:002e45@@",
+      "byte_start": 3772,
+      "byte_end": 3854
+    },
+    {
+      "id": "block_39",
+      "tag": "li",
+      "text": "[[a href=\"mandelbrot_set.html\"]]The Mandelbrot Set[[/a]]",
+      "raw_len": 52,
+      "placeholder": "@@text:15:bdd1d4@@",
+      "byte_start": 3884,
+      "byte_end": 3936
+    },
+    {
+      "id": "block_40",
+      "tag": "li",
+      "text": "[[a href=\"julia_set.html\"]]The Julia Set[[/a]]",
+      "raw_len": 42,
+      "placeholder": "@@text:14:3d8dce@@",
+      "byte_start": 3966,
+      "byte_end": 4008
+    },
+    {
+      "id": "block_41",
+      "tag": "h3",
+      "text": "Chapter 6",
+      "raw_len": 9,
+      "placeholder": "@@text:13:835557@@",
+      "byte_start": 4057,
+      "byte_end": 4066
+    },
+    {
+      "id": "block_42",
+      "tag": "li",
+      "text": "[[a href=\"conformal_mapping.html\"]]Conformal Mapping[[/a]]",
+      "raw_len": 54,
+      "placeholder": "@@text:12:c2ea08@@",
+      "byte_start": 4117,
+      "byte_end": 4171
+    },
+    {
+      "id": "block_43",
+      "tag": "li",
+      "text": "[[a href=\"linear_fractional_transformations.html\"]]Linear Fractional Transformations[[/a]]",
+      "raw_len": 86,
+      "placeholder": "@@text:11:eb7263@@",
+      "byte_start": 4201,
+      "byte_end": 4287
+    },
+    {
+      "id": "block_44",
+      "tag": "li",
+      "text": "[[a href=\"applications_conformal.html\"]]Applications of Conformal Mappings[[/a]] ",
+      "raw_len": 77,
+      "placeholder": "@@text:10:4579eb@@",
+      "byte_start": 4317,
+      "byte_end": 4394
+    },
+    {
+      "id": "block_45",
+      "tag": "li",
+      "text": "[[a href=\"complex_potential_basic_examples.html\"]]Complex Potential: Basic examples[[/a]] ",
+      "raw_len": 86,
+      "placeholder": "@@text:9:948891@@",
+      "byte_start": 4424,
+      "byte_end": 4510
+    },
+    {
+      "id": "block_46",
+      "tag": "li",
+      "text": "[[a href=\"flow_around_circle.html\"]]Uniform Flow Around a Circle[[/a]] ",
+      "raw_len": 67,
+      "placeholder": "@@text:8:eeb9c3@@",
+      "byte_start": 4540,
+      "byte_end": 4607
+    },
+    {
+      "id": "block_47",
+      "tag": "li",
+      "text": "[[a href=\"joukowsky_airfoil.html\"]]Joukowsky Airfoil[[/a]] ",
+      "raw_len": 55,
+      "placeholder": "@@text:7:223949@@",
+      "byte_start": 4637,
+      "byte_end": 4692
+    },
+    {
+      "id": "block_48",
+      "tag": "h3",
+      "text": "Further Reading",
+      "raw_len": 15,
+      "placeholder": "@@text:6:9f9e6a@@",
+      "byte_start": 4741,
+      "byte_end": 4756
+    },
+    {
+      "id": "block_49",
+      "tag": "li",
+      "text": "[[a href=\"bibliography.html\"]]Bibliography[[/a]]",
+      "raw_len": 44,
+      "placeholder": "@@text:5:827abc@@",
+      "byte_start": 4807,
+      "byte_end": 4851
+    },
+    {
+      "id": "block_50",
+      "tag": "p",
+      "text": "License [[i class=\"fa-solid fa-angles-right\"]][[/i]]",
+      "raw_len": 48,
+      "placeholder": "@@text:4:f6a037@@",
+      "byte_start": 5043,
+      "byte_end": 5091
+    }
+  ],
+  "reassembly_template": "<section data-type=\"chapter\" id=\"table-of-contents\">\n\n    @@verbatim:0:b338be@@\n\n    <br>\n\n    <main>\n        <article>\n\n            <h1>Table of Contents</h2>\n            <p>@@text:54:ca2122@@</p>\n            \n            <div class=\"language-link\">\n                <a href=\"../contenido/tabla_de_contenidos.html\">- Español -</a>\n            </div>\n\n            <div style=\"margin-left: 10vw;\" id=\"tableOfContents\">\n                <h3>@@text:53:7c7ed7@@</h3>\n                <ul>\n                    <li>@@text:52:2e5895@@</li>\n                    <li>@@text:51:3137b5@@</li>\n                    <li>@@text:50:a12b9d@@</li>\n                    <li>@@text:49:6c52d8@@</li>\n                    @@verbatim:1:7d13bc@@\n                </ul>\n\n                <h3>@@text:48:8990c7@@</h3>\n                <ul>\n                    <li>@@text:47:98ebb9@@</li>\n                    <li>@@text:46:a9848f@@</li>\n                    <li>@@text:45:99c8f8@@</li>\n                    <li>@@text:44:5d9be2@@</li>\n                    <li>@@text:43:2bcc50@@</li>\n                    <li>@@text:42:35066a@@</li>\n                </ul>\n\n                <h3>@@text:41:d4cab7@@</h3>\n                <ul>\n                    <li>@@text:40:504360@@</li>\n                    <li>@@text:39:b49997@@</li>\n                    <li>@@text:38:c0bae1@@</li>\n                    <li>@@text:37:fc5528@@</li>\n                    <li>@@text:36:5dd006@@</li>\n                    <li>@@text:35:892777@@</li>\n                    <li>@@text:34:b328ce@@</li>\n                </ul>\n\n\n                <h3>@@text:33:a85a4d@@</h3>\n                <ul>\n                    <li>@@text:32:e31509@@</li>\n                    <li>@@text:31:09a725@@</li>\n                    <li>@@text:30:6bda88@@</li>\n                    <li>@@text:29:868dfc@@</li>\n                    <li>@@text:28:4be36f@@</li>\n\n                </ul>\n\n                <h3>@@text:27:5f2559@@</h3>\n                <ul>\n                    <li>@@text:26:e021ec@@</li>\n                    <li>@@text:25:833f03@@</li>\n                    <li>@@text:24:80426e@@</li>\n                    <li>@@text:23:e2b4fb@@</li>\n                    <li>@@text:22:29120f@@</li>\n                    <li>@@text:21:250522@@</li>\n                </ul>\n\n                <h3>@@text:20:271640@@</h3>\n                <ul>\n                    <li>@@text:19:29259f@@</li>\n                    <li>@@text:18:102932@@</li>\n                    <li>@@text:17:6e7c90@@</li>\n                    <li>@@text:16:002e45@@</li>\n                    <li>@@text:15:bdd1d4@@</li>\n                    <li>@@text:14:3d8dce@@</li>\n                </ul>\n\n                <h3>@@text:13:835557@@</h3>\n                <ul>\n                    <li>@@text:12:c2ea08@@</li>\n                    <li>@@text:11:eb7263@@</li>\n                    <li>@@text:10:4579eb@@</li>\n                    <li>@@text:9:948891@@</li>\n                    <li>@@text:8:eeb9c3@@</li>\n                    <li>@@text:7:223949@@</li>\n                </ul>\n\n                <h3>@@text:6:9f9e6a@@</h3>\n                <ul>\n                    <li>@@text:5:827abc@@</li>\n                </ul>\n\n                <br/>\n\n\n            </div>\n\n        </article>\n    </main>\n\n    <a href=\"license.html\" style=\"text-decoration: none;\">\n        <p class=\"nextPage\">@@text:4:f6a037@@</p>\n    </a>\n    @@verbatim:2:840b66@@\n\n</section>",
+  "_protected_html": "<section data-type=\"chapter\" id=\"table-of-contents\">\n\n    @@verbatim:0:b338be@@\n\n    <br>\n\n    <main>\n        <article>\n\n            <h1>Table of Contents</h2>\n            <p>\n                <em>You can get back to this page any time by clicking on the</em> <strong>Complex Analysis</Strong> <em>text\n                    at the top!</em>\n            </p>\n            \n            <div class=\"language-link\">\n                <a href=\"../contenido/tabla_de_contenidos.html\">- Español -</a>\n            </div>\n\n            <div style=\"margin-left: 10vw;\" id=\"tableOfContents\">\n                <h3>Preamble</h3>\n                <ul>\n                    <li><a href=\"../\">Introduction</a> </li>\n                    <li><a href=\"license.html\">License</a> </li>\n                    <li><a href=\"thanks.html\">Acknowledgements</a></li>\n                    <li><a href=\"comments.html\">Reader's Comments</a></li>\n                    @@verbatim:1:7d13bc@@\n                </ul>\n\n                <h3>Chapter 1</h3>\n                <ul>\n                    <li><a href=\"brief_history.html\">A Brief History</a></li>\n                    <li><a href=\"terminology_notation.html\">Terminology and Notation</a></li>\n                    <li><a href=\"geometric_interpretation_add_mult.html\">Geometric Interpretation</a></li>\n                    <li><a href=\"principal_argument.html\">The Principal Argument</a></li>\n                    <li><a href=\"roots_complex_numbers.html\">Roots of Complex Numbers</a></li>\n                    <li><a href=\"topology_complex_plane.html\">Topology of the Complex Plane</a></li>\n                </ul>\n\n                <h3>Chapter 2</h3>\n                <ul>\n                    <li><a href=\"complex_functions.html\">Complex Functions</a></li>\n                    <li><a href=\"limits.html\">Limits</a></li>\n                    <li><a href=\"riemann_sphere.html\">Riemann Sphere</a></li>\n                    <li><a href=\"continuity.html\">Continuity</a></li>\n                    <li><a href=\"complex_differentiation.html\">Complex Differentiation</a></li>\n                    <li><a href=\"logarithmic_function.html\">The Logarithmic Function</a></li>\n                    <li><a href=\"riemann_surfaces.html\">Riemann surfaces: Examples</a></li>\n                </ul>\n\n\n                <h3>Chapter 3</h3>\n                <ul>\n                    <li><a href=\"mappings.html\">Mappings</a></li>\n                    <li><a href=\"mapping_1overz.html\">The Transformation @@math:3:1b0e8b@@</a></li>\n                    <li><a href=\"analytic_landscapes.html\">Analytic Landscapes</a> </li>\n                    <li><a href=\"domain_coloring.html\">Domain Coloring</a></li>\n                    <li><a href=\"power_function.html\">The Complex Power Function</a></li>\n\n                </ul>\n\n                <h3>Chapter 4</h3>\n                <ul>\n                    <li><a href=\"curves_in_the_complex_plane.html\">Curves in the Complex Plane</a></li>\n                    <li><a href=\"complex_integration.html\">Complex Integration</a></li>\n                    <li><a href=\"integrals_of_functions_with_branch_cuts.html\">Integrals of Functions with Branch Cuts</a></li>\n                    <li><a href=\"cauchy_goursat_theorem.html\">Cauchy-Goursat Theorem</a></li>\n                    <li><a href=\"cauchy_integral_formula.html\">Cauchy Integral Formula</a></li>\n                    <li><a href=\"fundamental_theorem_of_algebra.html\">The Fundamental Theorem of Algebra</a></li>\n                </ul>\n\n                <h3>Chapter 5</h3>\n                <ul>\n                    <li><a href=\"series.html\">Series</a></li>\n                    <li><a href=\"taylor_series.html\">Taylor Series</a></li>\n                    <li><a href=\"laurent_series.html\">Laurent Series</a></li>\n                    <li><a href=\"classification_of_singularities.html\">Classification of Singularities</a></li>\n                    <li><a href=\"mandelbrot_set.html\">The Mandelbrot Set</a></li>\n                    <li><a href=\"julia_set.html\">The Julia Set</a></li>\n                </ul>\n\n                <h3>Chapter 6</h3>\n                <ul>\n                    <li><a href=\"conformal_mapping.html\">Conformal Mapping</a></li>\n                    <li><a href=\"linear_fractional_transformations.html\">Linear Fractional Transformations</a></li>\n                    <li><a href=\"applications_conformal.html\">Applications of Conformal Mappings</a> </li>\n                    <li><a href=\"complex_potential_basic_examples.html\">Complex Potential: Basic examples</a> </li>\n                    <li><a href=\"flow_around_circle.html\">Uniform Flow Around a Circle</a> </li>\n                    <li><a href=\"joukowsky_airfoil.html\">Joukowsky Airfoil</a> </li>\n                </ul>\n\n                <h3>Further Reading</h3>\n                <ul>\n                    <li><a href=\"bibliography.html\">Bibliography</a></li>\n                </ul>\n\n                <br/>\n\n\n            </div>\n\n        </article>\n    </main>\n\n    <a href=\"license.html\" style=\"text-decoration: none;\">\n        <p class=\"nextPage\">License <i class=\"fa-solid fa-angles-right\"></i></p>\n    </a>\n    @@verbatim:2:840b66@@\n\n</section>"
+}

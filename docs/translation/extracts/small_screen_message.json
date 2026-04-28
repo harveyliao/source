@@ -1,0 +1,20 @@
+{
+  "file": "small_screen_message.html",
+  "original_length": 298,
+  "num_text_blocks": 1,
+  "num_verbatim": 0,
+  "verbatim_map": {},
+  "text_blocks": [
+    {
+      "id": "block_0",
+      "tag": "p",
+      "text": "[[strong]]⚠️ Warning![[/strong]]\n    If you can see this message is because your screen is too small.\n    Hence, some applets won't be displayed correctly.\n    You can rotate your device to landscape.\n    Or resize your window so it's more wide than tall.\n",
+      "raw_len": 252,
+      "placeholder": "@@text:0:9796ed@@",
+      "byte_start": 42,
+      "byte_end": 294
+    }
+  ],
+  "reassembly_template": "<p class=\"callout hide-large hide-medium\">@@text:0:9796ed@@</p>",
+  "_protected_html": "<p class=\"callout hide-large hide-medium\"><strong>⚠️ Warning!</strong>\n    If you can see this message is because your screen is too small.\n    Hence, some applets won't be displayed correctly.\n    You can rotate your device to landscape.\n    Or resize your window so it's more wide than tall.\n</p>"
+}

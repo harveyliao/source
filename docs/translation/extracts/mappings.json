@@ -1,0 +1,136 @@
+{
+  "file": "mappings.html",
+  "original_length": 4506,
+  "num_text_blocks": 11,
+  "num_verbatim": 6,
+  "verbatim_map": {
+    "@@verbatim:0:a58cbc@@": "<!-- Starts main content -->",
+    "@@verbatim:1:c8aded@@": "<!--GeoGebra embedding-->",
+    "@@verbatim:2:278ba4@@": "<!--GeoGebra embedding ends-->",
+    "@@verbatim:3:b9af5d@@": "<!-- Ends main content -->",
+    "@@verbatim:4:3eab6a@@": "<script src=\"https://www.geogebra.org/apps/deployggb.js\"></script>",
+    "@@verbatim:5:a1a3a0@@": "<script>\n        let params1 = {\n            \"width\": 800,\n            \"height\": 445,\n            \"material_id\": \"jj4sef6w\",\n            \"borderColor\": \"888888\",\n            \"playButton\": false,\n            \"showFullscreenButton\": true,\n            \"enableShiftDragZoom\": true,\n            \"showResetIcon\": true\n        };\n        let params2 = {\n            \"width\": 794,\n            \"height\": 448,\n            \"material_id\": \"qCSzkRsP\",\n            \"borderColor\": \"888888\",\n            \"playButton\": false,\n            \"showFullscreenButton\": true,\n            \"enableShiftDragZoom\": true,\n            \"showResetIcon\": true\n        };\n        let ggbApplet1 = new GGBApplet(params1, true);\n        let ggbApplet2 = new GGBApplet(params2, true);\n        window.addEventListener(\"load\", () => {\n            ggbApplet1.inject('ggb-element1');\n            ggbApplet2.inject('ggb-element2');\n        });\n    </script>",
+    "@@math:6:13e6f4@@": "$w = f (z)$",
+    "@@math:7:db8fd6@@": "$z = x + iy $",
+    "@@math:8:192017@@": "$w = u + iv$",
+    "@@math:9:f1d0fa@@": "$y = f (x),$",
+    "@@math:10:549db2@@": "$x$",
+    "@@math:11:adefc3@@": "$y = f (x).$",
+    "@@math:12:825404@@": "$z$",
+    "@@math:13:aa17d6@@": "$w,$",
+    "@@math:14:4764c1@@": "$z$",
+    "@@math:15:0112da@@": "$w$",
+    "@@math:16:3aad44@@": "$z$",
+    "@@math:17:44041c@@": "$w$",
+    "@@math:18:2b1c07@@": "$z$",
+    "@@math:19:595bab@@": "$f(z)=w$",
+    "@@math:20:4c46b3@@": "$z$",
+    "@@math:21:2c0b5b@@": "$w$",
+    "@@math:22:784497@@": "$xy$",
+    "@@math:23:f5d1c9@@": "$uv$",
+    "@@math:24:dcc09f@@": "$1/z$"
+  },
+  "text_blocks": [
+    {
+      "id": "block_0",
+      "tag": "h1",
+      "text": "Mappings",
+      "raw_len": 8,
+      "placeholder": "@@text:35:e9e6f8@@",
+      "byte_start": 193,
+      "byte_end": 201
+    },
+    {
+      "id": "block_1",
+      "tag": "p",
+      "text": "\n                A complex function @@math:6:13e6f4@@ can be regarded as a [[em]]mapping[[/em]] or [[em]]transformation[[/em]] of the\n                points in the @@math:7:db8fd6@@ plane to the points of the @@math:8:192017@@ plane. In real variables in one\n                dimension, this notion amounts to understanding the graph @@math:9:f1d0fa@@ that is, the mapping of the\n                points @@math:10:549db2@@ to @@math:11:adefc3@@\n            ",
+      "raw_len": 447,
+      "placeholder": "@@text:34:59f8eb@@",
+      "byte_start": 240,
+      "byte_end": 687
+    },
+    {
+      "id": "block_2",
+      "tag": "p",
+      "text": "\n                In complex variables the situation is more difficult due to the fact that we have four dimensions. Thus\n                a graphical depiction such as in the real one-dimensional case is not feasible. Rather, one considers\n                the two complex planes, @@math:12:825404@@ and @@math:13:aa17d6@@ separately and asks how a region in the @@math:14:4764c1@@ plane transforms or\n                maps to a corresponding region or image in the @@math:15:0112da@@ plane.\n\n            ",
+      "raw_len": 502,
+      "placeholder": "@@text:33:e42a82@@",
+      "byte_start": 708,
+      "byte_end": 1210
+    },
+    {
+      "id": "block_3",
+      "tag": "p",
+      "text": "The applet below visualizes the action of a complex function as\n                a mapping from a subset of the @@math:16:3aad44@@-plane to the @@math:17:44041c@@-plane. For example, the light purple regions are the\n                domain set and the range of the function, respectively. Any point @@math:18:2b1c07@@ of\n                the domain set is mapped to the corresponding point @@math:19:595bab@@ in the range. Of course, we can also choose\n                a different domain (i.e. a triangle or square) to apply the mapping. In this manner the function maps\n                (transforms) the colored objects from the domain to\n                the range. Drag the triangle and square (or points) defined on the @@math:20:4c46b3@@-plane to observe the effect of\n                the transformation in the @@math:21:2c0b5b@@-plane.\n            ",
+      "raw_len": 849,
+      "placeholder": "@@text:32:36c9c9@@",
+      "byte_start": 1231,
+      "byte_end": 2080
+    },
+    {
+      "id": "block_4",
+      "tag": "p",
+      "text": "[[strong]]Remark:[[/strong]] In complex analysis the notion of domain has two different meanings. The first\n                one alludes to the domain set of a function, while the second pertains to any open and connected subset\n                of the complex plane or the Riemann sphere. Most domain sets of complex functions we shall encounter in\n                this book will indeed be domains in the topological sense.\n            ",
+      "raw_len": 431,
+      "placeholder": "@@text:31:a2b5f2@@",
+      "byte_start": 2162,
+      "byte_end": 2593
+    },
+    {
+      "id": "block_5",
+      "tag": "h2",
+      "text": "Dynamic Exploration",
+      "raw_len": 19,
+      "placeholder": "@@text:30:9e5e6d@@",
+      "byte_start": 2635,
+      "byte_end": 2654
+    },
+    {
+      "id": "block_6",
+      "tag": "p",
+      "text": "\n                In the following applet you can explore how different complex functions\n                considered as mappings.\n                When you drag the square around on the @@math:22:784497@@-plane (left-side graphics view)\n                you can appreciate the changes on the @@math:23:f5d1c9@@-plane (right-side graphics view).\n            ",
+      "raw_len": 354,
+      "placeholder": "@@text:29:81955f@@",
+      "byte_start": 2676,
+      "byte_end": 3030
+    },
+    {
+      "id": "block_7",
+      "tag": "p",
+      "text": "[[strong]]More things to try:[[/strong]]",
+      "raw_len": 36,
+      "placeholder": "@@text:28:1e9a63@@",
+      "byte_start": 3113,
+      "byte_end": 3149
+    },
+    {
+      "id": "block_8",
+      "tag": "li",
+      "text": "Change the complex function.",
+      "raw_len": 28,
+      "placeholder": "@@text:27:d3bce2@@",
+      "byte_start": 3218,
+      "byte_end": 3246
+    },
+    {
+      "id": "block_9",
+      "tag": "li",
+      "text": "Change the region by dragging the sides of the square or activate the box [[code]]More[[/code]].",
+      "raw_len": 92,
+      "placeholder": "@@text:26:866b44@@",
+      "byte_start": 3272,
+      "byte_end": 3364
+    },
+    {
+      "id": "block_10",
+      "tag": "p",
+      "text": "The Transformation @@math:24:dcc09f@@ [[i class=\"fa-solid fa-angles-right\"]][[/i]]",
+      "raw_len": 78,
+      "placeholder": "@@text:25:c6b3ee@@",
+      "byte_start": 3640,
+      "byte_end": 3718
+    }
+  ],
+  "reassembly_template": "<section data-type=\"chapter\" id=\"mappings\">\n\n    @@verbatim:0:a58cbc@@\n\n    <div w3-include-html=\"small_screen_message.html\"></div>\n\n    <br><br>\n\n    <main>\n        <article>\n\n            <h1>@@text:35:e9e6f8@@</h1>\n            <hr>\n\n            <p>@@text:34:59f8eb@@</p>\n\n            <p>@@text:33:e42a82@@</p>\n\n            <p>@@text:32:36c9c9@@</p>\n\n            <div class=\"ggbElement\" id=\"ggb-element\"></div>\n\n            <p>@@text:31:a2b5f2@@</p>\n\n            <hr />\n\n            <h2>@@text:30:9e5e6d@@</h2>\n\n            <p>@@text:29:81955f@@</p>\n\n            <div class=\"ggbElement\" id=\"ggb-element2\"></div>\n\n            <p>@@text:28:1e9a63@@</p>\n\n            <ul style=\"margin-top: -2px;\">\n                <li>@@text:27:d3bce2@@</li>\n                <li>@@text:26:866b44@@</li>\n            </ul>\n\n\n            <br>\n\n\n        </article>\n    </main>\n\n    @@verbatim:1:c8aded@@\n    @@verbatim:4:3eab6a@@\n    @@verbatim:5:a1a3a0@@\n    @@verbatim:2:278ba4@@\n\n    <a href=\"mapping_1overz.html\" style=\"text-decoration: none;\">\n        <p class=\"nextPage\">@@text:25:c6b3ee@@</p>\n    </a>\n    @@verbatim:3:b9af5d@@\n\n</section>",
+  "_protected_html": "<section data-type=\"chapter\" id=\"mappings\">\n\n    @@verbatim:0:a58cbc@@\n\n    <div w3-include-html=\"small_screen_message.html\"></div>\n\n    <br><br>\n\n    <main>\n        <article>\n\n            <h1>Mappings</h1>\n            <hr>\n\n            <p>\n                A complex function @@math:6:13e6f4@@ can be regarded as a <em>mapping</em> or <em>transformation</em> of the\n                points in the @@math:7:db8fd6@@ plane to the points of the @@math:8:192017@@ plane. In real variables in one\n                dimension, this notion amounts to understanding the graph @@math:9:f1d0fa@@ that is, the mapping of the\n                points @@math:10:549db2@@ to @@math:11:adefc3@@\n            </p>\n\n            <p>\n                In complex variables the situation is more difficult due to the fact that we have four dimensions. Thus\n                a graphical depiction such as in the real one-dimensional case is not feasible. Rather, one considers\n                the two complex planes, @@math:12:825404@@ and @@math:13:aa17d6@@ separately and asks how a region in the @@math:14:4764c1@@ plane transforms or\n                maps to a corresponding region or image in the @@math:15:0112da@@ plane.\n\n            </p>\n\n            <p>The applet below visualizes the action of a complex function as\n                a mapping from a subset of the @@math:16:3aad44@@-plane to the @@math:17:44041c@@-plane. For example, the light purple regions are the\n                domain set and the range of the function, respectively. Any point @@math:18:2b1c07@@ of\n                the domain set is mapped to the corresponding point @@math:19:595bab@@ in the range. Of course, we can also choose\n                a different domain (i.e. a triangle or square) to apply the mapping. In this manner the function maps\n                (transforms) the colored objects from the domain to\n                the range. Drag the triangle and square (or points) defined on the @@math:20:4c46b3@@-plane to observe the effect of\n                the transformation in the @@math:21:2c0b5b@@-plane.\n            </p>\n\n            <div class=\"ggbElement\" id=\"ggb-element\"></div>\n\n            <p><strong>Remark:</strong> In complex analysis the notion of domain has two different meanings. The first\n                one alludes to the domain set of a function, while the second pertains to any open and connected subset\n                of the complex plane or the Riemann sphere. Most domain sets of complex functions we shall encounter in\n                this book will indeed be domains in the topological sense.\n            </p>\n\n            <hr />\n\n            <h2>Dynamic Exploration</h2>\n\n            <p>\n                In the following applet you can explore how different complex functions\n                considered as mappings.\n                When you drag the square around on the @@math:22:784497@@-plane (left-side graphics view)\n                you can appreciate the changes on the @@math:23:f5d1c9@@-plane (right-side graphics view).\n            </p>\n\n            <div class=\"ggbElement\" id=\"ggb-element2\"></div>\n\n            <p><strong>More things to try:</strong></p>\n\n            <ul style=\"margin-top: -2px;\">\n                <li>Change the complex function.</li>\n                <li>Change the region by dragging the sides of the square or activate the box <code>More</code>.</li>\n            </ul>\n\n\n            <br>\n\n\n        </article>\n    </main>\n\n    @@verbatim:1:c8aded@@\n    @@verbatim:4:3eab6a@@\n    @@verbatim:5:a1a3a0@@\n    @@verbatim:2:278ba4@@\n\n    <a href=\"mapping_1overz.html\" style=\"text-decoration: none;\">\n        <p class=\"nextPage\">The Transformation @@math:24:dcc09f@@ <i class=\"fa-solid fa-angles-right\"></i></p>\n    </a>\n    @@verbatim:3:b9af5d@@\n\n</section>"
+}

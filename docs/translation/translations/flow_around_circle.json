@@ -1,0 +1,22 @@
+[
+  "[[i class=\"fa-solid fa-list\"]][[/i]]目录",
+  "[[a href=\"#section1\"]]绕圆柱的均匀流动[[/a]]",
+  "[[a href=\"#section2\"]]带环量的均匀流动[[/a]]",
+  "绕圆柱的均匀流动",
+  "考虑速度为 @@math:20:4c590f@@、沿 @@math:21:8d048b@@ 方向的均匀流动，其复势为 @@math:22:cfa708@@。\n                    如果我们在 @@math:23:1f937f@@ 处插入一个不可渗透的圆形障碍物，\n                    那么流动将受到扰动，如下图所示。这里的挑战是计算扰动后的流动。\n                ",
+  "这里我们可以使用英国数学家 [[a href=\"http://mathshistory.st-andrews.ac.uk/Biographies/Milne-Thomson.html\" target=\"_blank\"]]L. M. Milne-Thompson[[/a]] 确立的流体力学中一个众所周知的结果：\n                ",
+  "\n                        现在我们想知道在圆形边界 @@math:41:7d4acc@@ 上会发生什么。\n                    在这种情况下，我们有 @@math:42:aa2c56@@。即\n                    @@math:14:bd507f@@\n                    因此\n                    @@math:15:83fc59@@\n                    这完全是实的。因此在边界 @@math:43:4ca9bf@@ 上\n                    @@math:16:b9551b@@\n                    这表明圆 @@math:44:a78ad8@@ 是一条流线。\n                    \n                    ",
+  "\n                    注意复势 @@math:45:7b2ffb@@ 满足圆定理的假设。因此我们可以通过将 @@math:46:339f4c@@ 代入方程 (\\ref{circle-theorem}) 来得到绕圆柱均匀流动的复势：\n                    @@math:8:d927d1@@\n                ",
+  "因此，流函数就是 (\\ref{potential}) 的虚部，即\n                    @@math:9:f12e0d@@\n                    我们可以看到圆 @@math:47:6b7e1a@@ 确实是一条流线，其中 @@math:48:15af3e@@。\n                    当 @@math:49:abb691@@ 时得到的流动如图 1 所示。\n                ",
+  "\n                         绕圆柱的均匀流动（右）。\n                    ",
+  "您可能已经注意到，(\\ref{potential}) 在 @@math:50:b59de5@@ 处有一个奇点。这种奇点称为[[em]]偶极子[[/em]]，对应于函数 @@math:51:e28985@@。\n                    原点处的奇点在障碍物内部，因此不影响外部流动。完整的流线图样，\n                    包括圆柱内的偶极子，如图 2 所示。\n                ",
+  "\n                        均匀流中由偶极子引起的流线。\n                    ",
+  "[[strong]]练习：[[/strong]] 证明绕圆柱均匀流动的速度场 @@math:52:7ddb97@@ 的分量由下式给出\n                        <div class=\"scroll-wrapper\">\n                            @@math:10:f76e0d@@\n                        </div>\n                        \n                        其中 @@math:53:ee6216@@ 是速度，@@math:54:b7f980@@ 是半径。\n                    ",
+  "绕圆柱带环量的均匀流动",
+  "如果我们在 (\\ref{potential}) 中定义的复势上添加一个涡旋，我们得到绕圆柱带环量的均匀流动：\n                    @@math:11:13f2c9@@\n                    其中 @@math:55:0668a7@@ 表示绕圆柱的[[em]]环量[[/em]]。\n                ",
+  "在这种情况下，流函数为\n                    <div class=\"scroll-wrapper\">\n                        @@math:12:5bd8e3@@\n                    </div>\n                        \n                        注意圆 @@math:56:aa32d2@@ 仍然是一条流线，其中 @@math:57:d92909@@。\n                        流动中的任何驻点满足方程\n                        @@math:17:0fd1cb@@\n                        它可以重排为二次方程\n                        @@math:18:79c7ff@@\n                        该方程的根为\n                        @@math:19:1335ea@@\n                 ",
+  "\n                    因此当 @@math:58:eb00cb@@ 时，没有环量，驻点在 @@math:59:308e0a@@ 处。\n                    随着 @@math:60:7fc634@@ 增加，逆时针方向的环量导致驻点沿圆向上移动。\n                    当它达到值 1 时，两个驻点在圆柱顶部 @@math:61:cdc717@@ 合并。\n                    如果 @@math:62:95aa5b@@，则一个驻点移入流动中；另一个在圆柱内部。\n",
+  "在下面显示半径为 1 的圆及流动的小程序中探索所有情况。\n                    拖动滑块 @@math:63:03086f@@ 和 @@math:64:aac86d@@ 分别改变速度和环量。\n                ",
+  "[[strong]]练习：[[/strong]] 证明绕圆柱带环量均匀流动的速度场 @@math:65:f60923@@ 的分量由下式给出\n                        <div class=\"scroll-wrapper\">\n                          @@math:13:1ac3e5@@  \n                        </div>\n                        \n                        其中 @@math:66:31e5ff@@ 是速度，@@math:67:4b01e6@@ 是半径，@@math:68:a94676@@ 是环量。\n                    ",
+  "茹科夫斯基翼型 [[i class=\"fa-solid fa-angles-right\"]][[/i]]"
+]

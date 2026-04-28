@@ -1,0 +1,308 @@
+[
+  {
+    "id": "block_0",
+    "placeholder": "@@text:54:ca2122@@",
+    "text": "\n                [[em]]You can get back to this page any time by clicking on the[[/em]] [[strong]]Complex Analysis[[/strong]] [[em]]text\n                    at the top![[/em]]\n            ",
+    "tag": "p"
+  },
+  {
+    "id": "block_1",
+    "placeholder": "@@text:53:7c7ed7@@",
+    "text": "Preamble",
+    "tag": "h3"
+  },
+  {
+    "id": "block_2",
+    "placeholder": "@@text:52:2e5895@@",
+    "text": "[[a href=\"../\"]]Introduction[[/a]] ",
+    "tag": "li"
+  },
+  {
+    "id": "block_3",
+    "placeholder": "@@text:51:3137b5@@",
+    "text": "[[a href=\"license.html\"]]License[[/a]] ",
+    "tag": "li"
+  },
+  {
+    "id": "block_4",
+    "placeholder": "@@text:50:a12b9d@@",
+    "text": "[[a href=\"thanks.html\"]]Acknowledgements[[/a]]",
+    "tag": "li"
+  },
+  {
+    "id": "block_5",
+    "placeholder": "@@text:49:6c52d8@@",
+    "text": "[[a href=\"comments.html\"]]Reader's Comments[[/a]]",
+    "tag": "li"
+  },
+  {
+    "id": "block_6",
+    "placeholder": "@@text:48:8990c7@@",
+    "text": "Chapter 1",
+    "tag": "h3"
+  },
+  {
+    "id": "block_7",
+    "placeholder": "@@text:47:98ebb9@@",
+    "text": "[[a href=\"brief_history.html\"]]A Brief History[[/a]]",
+    "tag": "li"
+  },
+  {
+    "id": "block_8",
+    "placeholder": "@@text:46:a9848f@@",
+    "text": "[[a href=\"terminology_notation.html\"]]Terminology and Notation[[/a]]",
+    "tag": "li"
+  },
+  {
+    "id": "block_9",
+    "placeholder": "@@text:45:99c8f8@@",
+    "text": "[[a href=\"geometric_interpretation_add_mult.html\"]]Geometric Interpretation[[/a]]",
+    "tag": "li"
+  },
+  {
+    "id": "block_10",
+    "placeholder": "@@text:44:5d9be2@@",
+    "text": "[[a href=\"principal_argument.html\"]]The Principal Argument[[/a]]",
+    "tag": "li"
+  },
+  {
+    "id": "block_11",
+    "placeholder": "@@text:43:2bcc50@@",
+    "text": "[[a href=\"roots_complex_numbers.html\"]]Roots of Complex Numbers[[/a]]",
+    "tag": "li"
+  },
+  {
+    "id": "block_12",
+    "placeholder": "@@text:42:35066a@@",
+    "text": "[[a href=\"topology_complex_plane.html\"]]Topology of the Complex Plane[[/a]]",
+    "tag": "li"
+  },
+  {
+    "id": "block_13",
+    "placeholder": "@@text:41:d4cab7@@",
+    "text": "Chapter 2",
+    "tag": "h3"
+  },
+  {
+    "id": "block_14",
+    "placeholder": "@@text:40:504360@@",
+    "text": "[[a href=\"complex_functions.html\"]]Complex Functions[[/a]]",
+    "tag": "li"
+  },
+  {
+    "id": "block_15",
+    "placeholder": "@@text:39:b49997@@",
+    "text": "[[a href=\"limits.html\"]]Limits[[/a]]",
+    "tag": "li"
+  },
+  {
+    "id": "block_16",
+    "placeholder": "@@text:38:c0bae1@@",
+    "text": "[[a href=\"riemann_sphere.html\"]]Riemann Sphere[[/a]]",
+    "tag": "li"
+  },
+  {
+    "id": "block_17",
+    "placeholder": "@@text:37:fc5528@@",
+    "text": "[[a href=\"continuity.html\"]]Continuity[[/a]]",
+    "tag": "li"
+  },
+  {
+    "id": "block_18",
+    "placeholder": "@@text:36:5dd006@@",
+    "text": "[[a href=\"complex_differentiation.html\"]]Complex Differentiation[[/a]]",
+    "tag": "li"
+  },
+  {
+    "id": "block_19",
+    "placeholder": "@@text:35:892777@@",
+    "text": "[[a href=\"logarithmic_function.html\"]]The Logarithmic Function[[/a]]",
+    "tag": "li"
+  },
+  {
+    "id": "block_20",
+    "placeholder": "@@text:34:b328ce@@",
+    "text": "[[a href=\"riemann_surfaces.html\"]]Riemann surfaces: Examples[[/a]]",
+    "tag": "li"
+  },
+  {
+    "id": "block_21",
+    "placeholder": "@@text:33:a85a4d@@",
+    "text": "Chapter 3",
+    "tag": "h3"
+  },
+  {
+    "id": "block_22",
+    "placeholder": "@@text:32:e31509@@",
+    "text": "[[a href=\"mappings.html\"]]Mappings[[/a]]",
+    "tag": "li"
+  },
+  {
+    "id": "block_23",
+    "placeholder": "@@text:31:09a725@@",
+    "text": "[[a href=\"mapping_1overz.html\"]]The Transformation @@math:3:1b0e8b@@[[/a]]",
+    "tag": "li"
+  },
+  {
+    "id": "block_24",
+    "placeholder": "@@text:30:6bda88@@",
+    "text": "[[a href=\"analytic_landscapes.html\"]]Analytic Landscapes[[/a]] ",
+    "tag": "li"
+  },
+  {
+    "id": "block_25",
+    "placeholder": "@@text:29:868dfc@@",
+    "text": "[[a href=\"domain_coloring.html\"]]Domain Coloring[[/a]]",
+    "tag": "li"
+  },
+  {
+    "id": "block_26",
+    "placeholder": "@@text:28:4be36f@@",
+    "text": "[[a href=\"power_function.html\"]]The Complex Power Function[[/a]]",
+    "tag": "li"
+  },
+  {
+    "id": "block_27",
+    "placeholder": "@@text:27:5f2559@@",
+    "text": "Chapter 4",
+    "tag": "h3"
+  },
+  {
+    "id": "block_28",
+    "placeholder": "@@text:26:e021ec@@",
+    "text": "[[a href=\"curves_in_the_complex_plane.html\"]]Curves in the Complex Plane[[/a]]",
+    "tag": "li"
+  },
+  {
+    "id": "block_29",
+    "placeholder": "@@text:25:833f03@@",
+    "text": "[[a href=\"complex_integration.html\"]]Complex Integration[[/a]]",
+    "tag": "li"
+  },
+  {
+    "id": "block_30",
+    "placeholder": "@@text:24:80426e@@",
+    "text": "[[a href=\"integrals_of_functions_with_branch_cuts.html\"]]Integrals of Functions with Branch Cuts[[/a]]",
+    "tag": "li"
+  },
+  {
+    "id": "block_31",
+    "placeholder": "@@text:23:e2b4fb@@",
+    "text": "[[a href=\"cauchy_goursat_theorem.html\"]]Cauchy-Goursat Theorem[[/a]]",
+    "tag": "li"
+  },
+  {
+    "id": "block_32",
+    "placeholder": "@@text:22:29120f@@",
+    "text": "[[a href=\"cauchy_integral_formula.html\"]]Cauchy Integral Formula[[/a]]",
+    "tag": "li"
+  },
+  {
+    "id": "block_33",
+    "placeholder": "@@text:21:250522@@",
+    "text": "[[a href=\"fundamental_theorem_of_algebra.html\"]]The Fundamental Theorem of Algebra[[/a]]",
+    "tag": "li"
+  },
+  {
+    "id": "block_34",
+    "placeholder": "@@text:20:271640@@",
+    "text": "Chapter 5",
+    "tag": "h3"
+  },
+  {
+    "id": "block_35",
+    "placeholder": "@@text:19:29259f@@",
+    "text": "[[a href=\"series.html\"]]Series[[/a]]",
+    "tag": "li"
+  },
+  {
+    "id": "block_36",
+    "placeholder": "@@text:18:102932@@",
+    "text": "[[a href=\"taylor_series.html\"]]Taylor Series[[/a]]",
+    "tag": "li"
+  },
+  {
+    "id": "block_37",
+    "placeholder": "@@text:17:6e7c90@@",
+    "text": "[[a href=\"laurent_series.html\"]]Laurent Series[[/a]]",
+    "tag": "li"
+  },
+  {
+    "id": "block_38",
+    "placeholder": "@@text:16:002e45@@",
+    "text": "[[a href=\"classification_of_singularities.html\"]]Classification of Singularities[[/a]]",
+    "tag": "li"
+  },
+  {
+    "id": "block_39",
+    "placeholder": "@@text:15:bdd1d4@@",
+    "text": "[[a href=\"mandelbrot_set.html\"]]The Mandelbrot Set[[/a]]",
+    "tag": "li"
+  },
+  {
+    "id": "block_40",
+    "placeholder": "@@text:14:3d8dce@@",
+    "text": "[[a href=\"julia_set.html\"]]The Julia Set[[/a]]",
+    "tag": "li"
+  },
+  {
+    "id": "block_41",
+    "placeholder": "@@text:13:835557@@",
+    "text": "Chapter 6",
+    "tag": "h3"
+  },
+  {
+    "id": "block_42",
+    "placeholder": "@@text:12:c2ea08@@",
+    "text": "[[a href=\"conformal_mapping.html\"]]Conformal Mapping[[/a]]",
+    "tag": "li"
+  },
+  {
+    "id": "block_43",
+    "placeholder": "@@text:11:eb7263@@",
+    "text": "[[a href=\"linear_fractional_transformations.html\"]]Linear Fractional Transformations[[/a]]",
+    "tag": "li"
+  },
+  {
+    "id": "block_44",
+    "placeholder": "@@text:10:4579eb@@",
+    "text": "[[a href=\"applications_conformal.html\"]]Applications of Conformal Mappings[[/a]] ",
+    "tag": "li"
+  },
+  {
+    "id": "block_45",
+    "placeholder": "@@text:9:948891@@",
+    "text": "[[a href=\"complex_potential_basic_examples.html\"]]Complex Potential: Basic examples[[/a]] ",
+    "tag": "li"
+  },
+  {
+    "id": "block_46",
+    "placeholder": "@@text:8:eeb9c3@@",
+    "text": "[[a href=\"flow_around_circle.html\"]]Uniform Flow Around a Circle[[/a]] ",
+    "tag": "li"
+  },
+  {
+    "id": "block_47",
+    "placeholder": "@@text:7:223949@@",
+    "text": "[[a href=\"joukowsky_airfoil.html\"]]Joukowsky Airfoil[[/a]] ",
+    "tag": "li"
+  },
+  {
+    "id": "block_48",
+    "placeholder": "@@text:6:9f9e6a@@",
+    "text": "Further Reading",
+    "tag": "h3"
+  },
+  {
+    "id": "block_49",
+    "placeholder": "@@text:5:827abc@@",
+    "text": "[[a href=\"bibliography.html\"]]Bibliography[[/a]]",
+    "tag": "li"
+  },
+  {
+    "id": "block_50",
+    "placeholder": "@@text:4:f6a037@@",
+    "text": "License [[i class=\"fa-solid fa-angles-right\"]][[/i]]",
+    "tag": "p"
+  }
+]

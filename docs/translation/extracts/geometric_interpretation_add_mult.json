@@ -1,0 +1,249 @@
+{
+  "file": "geometric_interpretation_add_mult.html",
+  "original_length": 9721,
+  "num_text_blocks": 21,
+  "num_verbatim": 6,
+  "verbatim_map": {
+    "@@verbatim:0:3f0c52@@": "<!-- Starts main content -->",
+    "@@verbatim:1:6ff3ce@@": "<!-- Add more sections as needed -->",
+    "@@verbatim:2:ee470e@@": "<!-- GeoGebra -->",
+    "@@verbatim:3:49f15e@@": "<!-- Ends main content -->",
+    "@@verbatim:4:c25d43@@": "<script src=\"https://www.geogebra.org/apps/deployggb.js\"></script>",
+    "@@verbatim:5:9bdac7@@": "<script>\n        let params01 = {\n            \"width\": 791,\n            \"height\": 520,\n            \"material_id\": \"yf3vghuw\",\n            \"borderColor\": \"888888\",\n            \"playButton\": false,\n            \"showFullscreenButton\": true,\n            \"enableShiftDragZoom\": true,\n            \"showResetIcon\": true\n        };\n        let params02 = {\n            \"width\": 666,\n            \"height\": 556,\n            \"material_id\": \"hqj7cumq\",\n            \"borderColor\": \"888888\",\n            \"playButton\": false,\n            \"showFullscreenButton\": true,\n            \"enableShiftDragZoom\": false,\n            \"showResetIcon\": true\n        };\n        let params03 = {\n            \"width\": 791,\n            \"height\": 469,\n            \"material_id\": \"nefcpuam\",\n            \"borderColor\": \"888888\",\n            \"playButton\": true,\n            \"showFullscreenButton\": true,\n            \"enableShiftDragZoom\": true,\n            \"showResetIcon\": true\n        };\n        let applet01 = new GGBApplet(params01, true);\n        let applet02 = new GGBApplet(params02, true);\n        let applet03 = new GGBApplet(params03, true);\n        window.addEventListener(\"load\", () => {\n            applet01.inject('ggb-element-01');\n            applet02.inject('ggb-element-02');\n            applet03.inject('ggb-element-03');\n        });\n    </script>",
+    "@@math:6:40efcc@@": "\\begin{eqnarray*}\n                        Z_1 Z_2 &amp;=&amp; \\left( x_1 + i y_1 \\right) \\left( x_2 + i y_2 \\right)\\\\\n                        &amp;=&amp; (x_1x_2-y_1y_2) + i(x_1y_2+x_2y_1).\n                        \\end{eqnarray*}",
+    "@@math:7:ea4f62@@": "\\begin{eqnarray*}\n                        Z_1 &amp;=&amp; r_1 \\left( \\cos \\phi_1 + i \\sin \\phi_1 \\right) \\\\\n                        Z_2 &amp;=&amp; r_2 \\left( \\cos \\phi_2 + i \\sin \\phi_2 \\right)\n                        \\end{eqnarray*}",
+    "@@math:8:5bb23b@@": "\\begin{eqnarray*}\n                        Z_1 Z_2 &amp;=&amp; r_1 r_2 \\big[ \\left(\\cos \\phi_1 \\cos\\phi_2 - \\sin \\phi_1 \\sin \\phi_2\\right)\n                        \\big.\\\\\n                        &amp;+&amp; \\big. i\\left(\\sin \\phi_1 \\cos\\phi_2 + \\cos \\phi_1 \\sin \\phi_2\\right)\\big].\n                        \\end{eqnarray*}",
+    "@@math:9:619f64@@": "\\begin{eqnarray*}\n                        Z_1 Z_2 &amp;=&amp; r_1 r_2 \\big[ \\cos \\left( \\phi_1 +\\phi_2 \\right) + i \\sin \\left( \\phi_1\n                        +\\phi_2 \\right)\\big].\n                        \\end{eqnarray*}",
+    "@@math:10:c50cd9@@": "\\begin{eqnarray*}\n                        Z_1 &amp;=&amp; r_1 \\left( \\cos \\phi_1 + i \\sin \\phi_1 \\right) \\\\\n                        Z_2 &amp;=&amp; r_2 \\left( \\cos \\phi_2 + i \\sin \\phi_2 \\right)\n                        \\end{eqnarray*}",
+    "@@math:11:9d0399@@": "$$z_0,\\, z \\,\\text{ and }\\, z_1 = z_0\\cdot z,$$",
+    "@@math:12:3d2d77@@": "$$z_0, \\,z \\,\\text{ and }\\, z_2 = z_0\\cdot \\frac{1}{z}.$$",
+    "@@math:13:ad758c@@": "$Z_1$",
+    "@@math:14:8e1619@@": "$Z_2$",
+    "@@math:15:7f9e50@@": "$Z_1+Z_2$",
+    "@@math:16:e0d37f@@": "$Z_1-Z_2$",
+    "@@math:17:418506@@": "$Z_1 + \\left(-Z_2\\right).$",
+    "@@math:18:52fa1c@@": "$Z_1$",
+    "@@math:19:62c247@@": "$Z_2$",
+    "@@math:20:cf2774@@": "$n$",
+    "@@math:21:f8757a@@": "$Z_1 $",
+    "@@math:22:fa19ee@@": "$Z_2$",
+    "@@math:23:d45750@@": "$Z_1 $",
+    "@@math:24:7e63d6@@": "$Z_2.$",
+    "@@math:25:d57aed@@": "$Z_1Z_2$",
+    "@@math:26:6b883a@@": "$r_1r_2$",
+    "@@math:27:2f3778@@": "$\\phi_1+\\phi_2.$",
+    "@@math:28:4358c3@@": "$Z_1$",
+    "@@math:29:07c6db@@": "$Z_2$",
+    "@@math:30:083c80@@": "$Z_2\\neq 0.$",
+    "@@math:31:17a59c@@": "$Z_1/Z_2.$",
+    "@@math:32:91d27c@@": "$z.$",
+    "@@math:33:574353@@": "$z$",
+    "@@math:34:e3e7de@@": "$z$",
+    "@@math:35:987348@@": "$z$",
+    "@@math:36:ce6faf@@": "$z$",
+    "@@math:37:d83298@@": "$1/z$",
+    "@@math:38:d985fe@@": "$z_0$",
+    "@@math:39:8869e3@@": "$z$",
+    "@@math:40:de67e6@@": "$z_1$",
+    "@@math:41:ab633d@@": "$|z_0 \\cdot z|,$",
+    "@@math:42:e35875@@": "$z_1$",
+    "@@math:43:a18052@@": "$\\text{Arg }(z_0+z).$",
+    "@@math:44:93afd5@@": "$|z| &gt; 1,$",
+    "@@math:45:94f59b@@": "$|z| &lt; 1,$",
+    "@@math:46:ef8910@@": "$1/z.$",
+    "@@math:47:bd7da6@@": "$z_2$"
+  },
+  "text_blocks": [
+    {
+      "id": "block_0",
+      "tag": "p",
+      "text": "[[i class=\"fa-solid fa-list\"]][[/i]]Contents",
+      "raw_len": 40,
+      "placeholder": "@@text:68:0dfa05@@",
+      "byte_start": 208,
+      "byte_end": 248
+    },
+    {
+      "id": "block_1",
+      "tag": "li",
+      "text": "[[a href=\"#section1\"]]Addition and Subtraction[[/a]]",
+      "raw_len": 48,
+      "placeholder": "@@text:67:91467e@@",
+      "byte_start": 282,
+      "byte_end": 330
+    },
+    {
+      "id": "block_2",
+      "tag": "li",
+      "text": "[[a href=\"#section2\"]]Multiplication[[/a]]",
+      "raw_len": 38,
+      "placeholder": "@@text:66:ffcb88@@",
+      "byte_start": 352,
+      "byte_end": 390
+    },
+    {
+      "id": "block_3",
+      "tag": "li",
+      "text": "[[a href=\"#section3\"]]Stretching and rotation[[/a]]",
+      "raw_len": 47,
+      "placeholder": "@@text:65:0e8def@@",
+      "byte_start": 412,
+      "byte_end": 459
+    },
+    {
+      "id": "block_4",
+      "tag": "h1",
+      "text": "Geometric Interpretation",
+      "raw_len": 24,
+      "placeholder": "@@text:64:1b1fad@@",
+      "byte_start": 585,
+      "byte_end": 609
+    },
+    {
+      "id": "block_5",
+      "tag": "h1",
+      "text": "[[span]]of the Arithmetic Operations[[/span]]\n            ",
+      "raw_len": 54,
+      "placeholder": "@@text:63:ff5c0d@@",
+      "byte_start": 693,
+      "byte_end": 747
+    },
+    {
+      "id": "block_6",
+      "tag": "h2",
+      "text": "Addition and Subtraction",
+      "raw_len": 24,
+      "placeholder": "@@text:62:1448e6@@",
+      "byte_start": 825,
+      "byte_end": 849
+    },
+    {
+      "id": "block_7",
+      "tag": "p",
+      "text": "Geometrically, addition of two complex numbers @@math:13:ad758c@@ and @@math:14:8e1619@@ can be visualized as\n                    addition of the vectors by using the [[em]]parallelogram law[[/em]]. The vector sum\n                    @@math:15:7f9e50@@ is represented by the diagonal of the parallelogram formed by the two\n                    original vectors.",
+      "raw_len": 356,
+      "placeholder": "@@text:61:191e78@@",
+      "byte_start": 875,
+      "byte_end": 1231
+    },
+    {
+      "id": "block_8",
+      "tag": "p",
+      "text": "The easiest way to represent the difference @@math:16:e0d37f@@ is to think in terms of\n                    adding a negative vector @@math:17:418506@@ The negative vector is the same vector\n                    as its positive counterpart, only pointing in the opposite direction.",
+      "raw_len": 279,
+      "placeholder": "@@text:60:b263be@@",
+      "byte_start": 1256,
+      "byte_end": 1535
+    },
+    {
+      "id": "block_9",
+      "tag": "p",
+      "text": "Use the following applet to explore this geometric interpretation. Activate the boxes below to\n                    show the addition or subtraction. You can also drag the points @@math:18:52fa1c@@ and @@math:19:62c247@@ around.\n                ",
+      "raw_len": 244,
+      "placeholder": "@@text:59:881755@@",
+      "byte_start": 1560,
+      "byte_end": 1804
+    },
+    {
+      "id": "block_10",
+      "tag": "p",
+      "text": "[[strong]]Exercise 1:[[/strong]] Can you think about a geometric interpretation of the addition\n                        of three complex numbers? In general, what would be a geometric interpretation of the addition\n                        of\n                        @@math:20:cf2774@@ complex numbers?",
+      "raw_len": 297,
+      "placeholder": "@@text:58:056407@@",
+      "byte_start": 1940,
+      "byte_end": 2237
+    },
+    {
+      "id": "block_11",
+      "tag": "h2",
+      "text": "Multiplication",
+      "raw_len": 14,
+      "placeholder": "@@text:57:813700@@",
+      "byte_start": 2357,
+      "byte_end": 2371
+    },
+    {
+      "id": "block_12",
+      "tag": "p",
+      "text": "In the previous section we defined the multiplication of two complex numbers @@math:21:f8757a@@ and @@math:22:fa19ee@@ as\n                    <div class=\"scroll-wrapper\">\n                        @@math:6:40efcc@@\n                    </div>\n\n                    In this case, to appreciate what happens geometrically we need to consider the polar form of\n                    @@math:23:d45750@@ and @@math:24:7e63d6@@ That is\n                    <div class=\"scroll-wrapper\">\n                        @@math:7:ea4f62@@\n                    </div>\n\n\n                    Then the product can be written in the form\n                    <div class=\"scroll-wrapper\">\n                        @@math:8:5bb23b@@\n                    </div>\n\n                    Now by means of the addition theorems of the sine and cosine this expression can be simplified\n                    to\n                    <div class=\"scroll-wrapper\">\n                        @@math:9:619f64@@\n                    </div>\n\n                    Thus the product @@math:25:d57aed@@ has the modulus @@math:26:6b883a@@ and the argument @@math:27:2f3778@@\n                    ",
+      "raw_len": 1131,
+      "placeholder": "@@text:56:53cf2b@@",
+      "byte_start": 2445,
+      "byte_end": 3576
+    },
+    {
+      "id": "block_13",
+      "tag": "p",
+      "text": "In the following applet, you can appreciate what happens to the argument of the product.\n                    Drag the points @@math:28:4358c3@@ and @@math:29:07c6db@@ around and observe the behaviour of the angles.\n                    Then drag the slider below.",
+      "raw_len": 262,
+      "placeholder": "@@text:55:e1958e@@",
+      "byte_start": 3625,
+      "byte_end": 3887
+    },
+    {
+      "id": "block_14",
+      "tag": "p",
+      "text": "[[strong]]Exercise 2:[[/strong]]\n                        Consider now\n                        @@math:10:c50cd9@@\n                        such that @@math:30:083c80@@ Find the polar representation of @@math:31:17a59c@@\n                        What is the geometric interpretation of this expression?\n                    ",
+      "raw_len": 315,
+      "placeholder": "@@text:54:e7da18@@",
+      "byte_start": 4023,
+      "byte_end": 4338
+    },
+    {
+      "id": "block_15",
+      "tag": "h3",
+      "text": "Multiplication of complex numbers as stretching (squeezing) and rotation",
+      "raw_len": 72,
+      "placeholder": "@@text:53:61c18e@@",
+      "byte_start": 4460,
+      "byte_end": 4532
+    },
+    {
+      "id": "block_16",
+      "tag": "p",
+      "text": "In the applet below a set of points are defined randomly on the complex plane.\n                    Then each point is multiplied by a given complex number @@math:32:91d27c@@\n                    On the right-side screen, drag around the point @@math:33:574353@@ and analyze the behaviour\n                    of the points (⭕) multiplied by @@math:34:e3e7de@@ and try to answer the\n                    following questions:\n                <ul>\n                    <li>What happens when @@math:35:987348@@ is inside, or outside, the unit circle?</li>\n                    <li>What happens if @@math:36:ce6faf@@ moves only around the unit circle?</li>\n                </ul>\n\n                [[strong]]Note: [[/strong]]You can also study the behaviour of the points (⚫) multiplied by @@math:37:d83298@@ by\n                activating\n                the box [[code]]Multiply by 1/z[[/code]].\n                ",
+      "raw_len": 893,
+      "placeholder": "@@text:52:a55c0c@@",
+      "byte_start": 4558,
+      "byte_end": 5451
+    },
+    {
+      "id": "block_17",
+      "tag": "p",
+      "text": "As you already have noticed, the geometric interpretation of multiplication of complex numbers is\n                    stretching\n                    (or squeezing) and rotation of vectors in the plane.",
+      "raw_len": 201,
+      "placeholder": "@@text:51:102044@@",
+      "byte_start": 5545,
+      "byte_end": 5746
+    },
+    {
+      "id": "block_18",
+      "tag": "p",
+      "text": "In the previous applet, with the option [[code]]Multiply by z[[/code]], set [[code]]n = 1[[/code]] by\n                    dragging the\n                    slider to the left side.\n                    In this case, the applet shows the three complex numbers\n                    @@math:11:9d0399@@\n                    represented as vectors.\n                    When @@math:38:d985fe@@ and @@math:39:8869e3@@ are non zero, then\n                <ul>\n                    <li>the modulus of @@math:40:de67e6@@ is equal to @@math:41:ab633d@@ and</li>\n                    <li>the argument of @@math:42:e35875@@ is equal to @@math:43:a18052@@</li>\n                </ul>\n                If @@math:44:93afd5@@ we deal with stretching. If @@math:45:94f59b@@ it is a case of squeezing.",
+      "raw_len": 765,
+      "placeholder": "@@text:50:db34bf@@",
+      "byte_start": 5771,
+      "byte_end": 6536
+    },
+    {
+      "id": "block_19",
+      "tag": "p",
+      "text": "[[strong]]Exercise 3:[[/strong]]\n                        Use the same applet, with the option [[code]]Multiply by 1/z[[/code]], to investigate\n                        what happens when we multiply by @@math:46:ef8910@@\n                        Set [[code]]n = 1[[/code]] by dragging the slider to the left side to\n                        show the three complex numbers\n                        @@math:12:3d2d77@@\n                        What happens to the modulus and argument of @@math:47:bd7da6@@?\n                    ",
+      "raw_len": 507,
+      "placeholder": "@@text:49:17968c@@",
+      "byte_start": 6604,
+      "byte_end": 7111
+    },
+    {
+      "id": "block_20",
+      "tag": "p",
+      "text": "The Principal Argument [[i class=\"fa-solid fa-angles-right\"]][[/i]]",
+      "raw_len": 63,
+      "placeholder": "@@text:48:72d323@@",
+      "byte_start": 7375,
+      "byte_end": 7438
+    }
+  ],
+  "reassembly_template": "<section data-type=\"chapter\" id=\"geometric-interpretation\">\n\n    @@verbatim:0:3f0c52@@\n\n    <div w3-include-html=\"small_screen_message.html\"></div>\n\n\n    <div class=\"toc-chapter\" id=\"toc-chapter\">\n        <p>@@text:68:0dfa05@@</p>\n        <ul>\n            <li>@@text:67:91467e@@</li>\n            <li>@@text:66:ffcb88@@</li>\n            <li>@@text:65:0e8def@@</li>\n            @@verbatim:1:6ff3ce@@\n        </ul>\n    </div>\n\n    <br><br>\n\n    <main>\n        <article>\n\n            <h1>@@text:64:1b1fad@@</h1>\n            <h1 style=\"font-size:1.8em;text-align: center;margin-top: -20px;\">@@text:63:ff5c0d@@</h1>\n\n            <hr>\n\n            <div id=\"section1\">\n\n                <h2>@@text:62:1448e6@@</h2>\n\n                <p>@@text:61:191e78@@</p>\n\n                <p>@@text:60:b263be@@</p>\n\n                <p>@@text:59:881755@@</p>\n\n                <div class=\"ggbElement\" id=\"ggb-element-01\"></div>\n\n                <div class=\"practice\">\n                    <p>@@text:58:056407@@</p>\n                </div>\n\n            </div>\n\n            <hr>\n\n            <div id=\"section2\">\n\n                <h2>@@text:57:813700@@</h2>\n\n\n                <div class=\"w3-resposive\">\n                    <p>@@text:56:53cf2b@@</p>\n                </div>\n\n\n                <p>@@text:55:e1958e@@</p>\n\n                <div class=\"ggbElement\" id=\"ggb-element-02\"></div>\n\n                <div class=\"practice\">\n                    <p>@@text:54:e7da18@@</p>\n                </div>\n\n\n            </div>\n\n            <hr>\n\n            <div id=\"section3\">\n\n\n                <h3>@@text:53:61c18e@@</h3>\n\n                <p>@@text:52:a55c0c@@</p>\n\n                <div class=\"ggbElement\" id=\"ggb-element-03\"></div>\n\n\n                <p>@@text:51:102044@@</p>\n\n                <p>@@text:50:db34bf@@</p>\n\n                <div class=\"practice\">\n                    <p>@@text:49:17968c@@</p>\n                </div>\n\n            </div>\n\n\n\n\n\n\n        </article>\n    </main>\n\n\n    @@verbatim:2:ee470e@@\n    @@verbatim:4:c25d43@@\n    @@verbatim:5:9bdac7@@\n\n    <a href=\"principal_argument.html\" style=\"text-decoration: none;\">\n        <p class=\"nextPage\">@@text:48:72d323@@</p>\n    </a>\n    @@verbatim:3:49f15e@@\n\n</section>",
+  "_protected_html": "<section data-type=\"chapter\" id=\"geometric-interpretation\">\n\n    @@verbatim:0:3f0c52@@\n\n    <div w3-include-html=\"small_screen_message.html\"></div>\n\n\n    <div class=\"toc-chapter\" id=\"toc-chapter\">\n        <p><i class=\"fa-solid fa-list\"></i>Contents</p>\n        <ul>\n            <li><a href=\"#section1\">Addition and Subtraction</a></li>\n            <li><a href=\"#section2\">Multiplication</a></li>\n            <li><a href=\"#section3\">Stretching and rotation</a></li>\n            @@verbatim:1:6ff3ce@@\n        </ul>\n    </div>\n\n    <br><br>\n\n    <main>\n        <article>\n\n            <h1>Geometric Interpretation</h1>\n            <h1 style=\"font-size:1.8em;text-align: center;margin-top: -20px;\"><span>of the Arithmetic Operations</span>\n            </h1>\n\n            <hr>\n\n            <div id=\"section1\">\n\n                <h2>Addition and Subtraction</h2>\n\n                <p>Geometrically, addition of two complex numbers @@math:13:ad758c@@ and @@math:14:8e1619@@ can be visualized as\n                    addition of the vectors by using the <em>parallelogram law</em>. The vector sum\n                    @@math:15:7f9e50@@ is represented by the diagonal of the parallelogram formed by the two\n                    original vectors.</p>\n\n                <p>The easiest way to represent the difference @@math:16:e0d37f@@ is to think in terms of\n                    adding a negative vector @@math:17:418506@@ The negative vector is the same vector\n                    as its positive counterpart, only pointing in the opposite direction.</p>\n\n                <p>Use the following applet to explore this geometric interpretation. Activate the boxes below to\n                    show the addition or subtraction. You can also drag the points @@math:18:52fa1c@@ and @@math:19:62c247@@ around.\n                </p>\n\n                <div class=\"ggbElement\" id=\"ggb-element-01\"></div>\n\n                <div class=\"practice\">\n                    <p><strong>Exercise 1:</strong> Can you think about a geometric interpretation of the addition\n                        of three complex numbers? In general, what would be a geometric interpretation of the addition\n                        of\n                        @@math:20:cf2774@@ complex numbers?</p>\n                </div>\n\n            </div>\n\n            <hr>\n\n            <div id=\"section2\">\n\n                <h2>Multiplication</h2>\n\n\n                <div class=\"w3-resposive\">\n                    <p>In the previous section we defined the multiplication of two complex numbers @@math:21:f8757a@@ and @@math:22:fa19ee@@ as\n                    <div class=\"scroll-wrapper\">\n                        @@math:6:40efcc@@\n                    </div>\n\n                    In this case, to appreciate what happens geometrically we need to consider the polar form of\n                    @@math:23:d45750@@ and @@math:24:7e63d6@@ That is\n                    <div class=\"scroll-wrapper\">\n                        @@math:7:ea4f62@@\n                    </div>\n\n\n                    Then the product can be written in the form\n                    <div class=\"scroll-wrapper\">\n                        @@math:8:5bb23b@@\n                    </div>\n\n                    Now by means of the addition theorems of the sine and cosine this expression can be simplified\n                    to\n                    <div class=\"scroll-wrapper\">\n                        @@math:9:619f64@@\n                    </div>\n\n                    Thus the product @@math:25:d57aed@@ has the modulus @@math:26:6b883a@@ and the argument @@math:27:2f3778@@\n                    </p>\n                </div>\n\n\n                <p>In the following applet, you can appreciate what happens to the argument of the product.\n                    Drag the points @@math:28:4358c3@@ and @@math:29:07c6db@@ around and observe the behaviour of the angles.\n                    Then drag the slider below.</p>\n\n                <div class=\"ggbElement\" id=\"ggb-element-02\"></div>\n\n                <div class=\"practice\">\n                    <p><strong>Exercise 2:</strong>\n                        Consider now\n                        @@math:10:c50cd9@@\n                        such that @@math:30:083c80@@ Find the polar representation of @@math:31:17a59c@@\n                        What is the geometric interpretation of this expression?\n                    </p>\n                </div>\n\n\n            </div>\n\n            <hr>\n\n            <div id=\"section3\">\n\n\n                <h3>Multiplication of complex numbers as stretching (squeezing) and rotation</h3>\n\n                <p>In the applet below a set of points are defined randomly on the complex plane.\n                    Then each point is multiplied by a given complex number @@math:32:91d27c@@\n                    On the right-side screen, drag around the point @@math:33:574353@@ and analyze the behaviour\n                    of the points (⭕) multiplied by @@math:34:e3e7de@@ and try to answer the\n                    following questions:\n                <ul>\n                    <li>What happens when @@math:35:987348@@ is inside, or outside, the unit circle?</li>\n                    <li>What happens if @@math:36:ce6faf@@ moves only around the unit circle?</li>\n                </ul>\n\n                <strong>Note: </strong>You can also study the behaviour of the points (⚫) multiplied by @@math:37:d83298@@ by\n                activating\n                the box <code>Multiply by 1/z</code>.\n                </p>\n\n                <div class=\"ggbElement\" id=\"ggb-element-03\"></div>\n\n\n                <p>As you already have noticed, the geometric interpretation of multiplication of complex numbers is\n                    stretching\n                    (or squeezing) and rotation of vectors in the plane.</p>\n\n                <p>In the previous applet, with the option <code>Multiply by z</code>, set <code>n = 1</code> by\n                    dragging the\n                    slider to the left side.\n                    In this case, the applet shows the three complex numbers\n                    @@math:11:9d0399@@\n                    represented as vectors.\n                    When @@math:38:d985fe@@ and @@math:39:8869e3@@ are non zero, then\n                <ul>\n                    <li>the modulus of @@math:40:de67e6@@ is equal to @@math:41:ab633d@@ and</li>\n                    <li>the argument of @@math:42:e35875@@ is equal to @@math:43:a18052@@</li>\n                </ul>\n                If @@math:44:93afd5@@ we deal with stretching. If @@math:45:94f59b@@ it is a case of squeezing.</p>\n\n                <div class=\"practice\">\n                    <p><strong>Exercise 3:</strong>\n                        Use the same applet, with the option <code>Multiply by 1/z</code>, to investigate\n                        what happens when we multiply by @@math:46:ef8910@@\n                        Set <code>n = 1</code> by dragging the slider to the left side to\n                        show the three complex numbers\n                        @@math:12:3d2d77@@\n                        What happens to the modulus and argument of @@math:47:bd7da6@@?\n                    </p>\n                </div>\n\n            </div>\n\n\n\n\n\n\n        </article>\n    </main>\n\n\n    @@verbatim:2:ee470e@@\n    @@verbatim:4:c25d43@@\n    @@verbatim:5:9bdac7@@\n\n    <a href=\"principal_argument.html\" style=\"text-decoration: none;\">\n        <p class=\"nextPage\">The Principal Argument <i class=\"fa-solid fa-angles-right\"></i></p>\n    </a>\n    @@verbatim:3:49f15e@@\n\n</section>"
+}

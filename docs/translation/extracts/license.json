@@ -1,0 +1,96 @@
+{
+  "file": "license.html",
+  "original_length": 2107,
+  "num_text_blocks": 9,
+  "num_verbatim": 3,
+  "verbatim_map": {
+    "@@verbatim:0:10904f@@": "<!-- Starts main content -->",
+    "@@verbatim:1:a3a4f8@@": "<!--https://editor.p5js.org/jcponce/sketches/BkVxzBxTm-->",
+    "@@verbatim:2:649c0a@@": "<!-- Ends main content -->"
+  },
+  "text_blocks": [
+    {
+      "id": "block_0",
+      "tag": "p",
+      "text": "<img src=\"../images/license.png\" alt=\"f(z)=log((z-1)/(z+1))\" title=\"f(z)=log((z-1)/(z+1))\">",
+      "raw_len": 91,
+      "placeholder": "@@text:11:fefefb@@",
+      "byte_start": 117,
+      "byte_end": 208
+    },
+    {
+      "id": "block_1",
+      "tag": "p",
+      "text": "[[strong]]ISBN: <span class=\"hide-medium hide-large\"> [[br]] </span> 978-0-6485736-0-9[[/strong]]  [[br]] \n                [[strong]]Published Online 2019[[/strong]]\n            ",
+      "raw_len": 163,
+      "placeholder": "@@text:10:ca3940@@",
+      "byte_start": 305,
+      "byte_end": 468
+    },
+    {
+      "id": "block_2",
+      "tag": "h1",
+      "text": "License",
+      "raw_len": 7,
+      "placeholder": "@@text:9:17d968@@",
+      "byte_start": 490,
+      "byte_end": 497
+    },
+    {
+      "id": "block_3",
+      "tag": "p",
+      "text": "This book's entire contents, including the examples, problems and applets, is released under a [[a\n                    href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\" target=\"_blank\"]]Creative Commons\n                    Attribution, Non-Commercial, Share-Alike license[[/a]]. This means:",
+      "raw_len": 293,
+      "placeholder": "@@text:8:48f243@@",
+      "byte_start": 519,
+      "byte_end": 812
+    },
+    {
+      "id": "block_4",
+      "tag": "li",
+      "text": "You're welcome to use the examples, problems and applets for your personal studies or research. If\n                    you are using this book for a project (homework or research), please cite it somewhere in your\n                    project.",
+      "raw_len": 242,
+      "placeholder": "@@text:7:beb40d@@",
+      "byte_start": 855,
+      "byte_end": 1097
+    },
+    {
+      "id": "block_5",
+      "tag": "li",
+      "text": "You can only use the book's text, examples, problems and applets for non-commercial projects. That\n                    means you can remix or make your own version of the book, and you can fork and create new applets,\n                    so long as they are not commercial projects (i.e. publishing a book with a publisher).",
+      "raw_len": 324,
+      "placeholder": "@@text:6:950cc9@@",
+      "byte_start": 1123,
+      "byte_end": 1447
+    },
+    {
+      "id": "block_6",
+      "tag": "li",
+      "text": "If you do make a project that forks or remixes this book, it must be released under this same\n                    license or a looser one.",
+      "raw_len": 138,
+      "placeholder": "@@text:5:3fdfe4@@",
+      "byte_start": 1473,
+      "byte_end": 1611
+    },
+    {
+      "id": "block_7",
+      "tag": "p",
+      "text": "If you have any questions about what you can and can't do with these examples or applets, please [[a\n                    href=\"mailto:jcponcemath@gmail.com\"]]get in touch[[/a]].",
+      "raw_len": 173,
+      "placeholder": "@@text:4:0017a9@@",
+      "byte_start": 1651,
+      "byte_end": 1824
+    },
+    {
+      "id": "block_8",
+      "tag": "p",
+      "text": "Acknowledgements [[i class=\"fa-solid fa-angles-right\"]][[/i]]",
+      "raw_len": 57,
+      "placeholder": "@@text:3:018631@@",
+      "byte_start": 1951,
+      "byte_end": 2008
+    }
+  ],
+  "reassembly_template": "<section data-type=\"chapter\" id=\"license\">\n\n    @@verbatim:0:10904f@@\n\n\n    <main>\n        <article>\n\n            <p>@@text:11:fefefb@@</p>\n            @@verbatim:1:a3a4f8@@\n            <p style=\"font-size:30px;text-align: center;\">@@text:10:ca3940@@</p>\n\n            <h1>@@text:9:17d968@@</h1>\n\n            <p>@@text:8:48f243@@</p>\n\n            <ol>\n                <li>@@text:7:beb40d@@</li>\n                <li>@@text:6:950cc9@@</li>\n                <li>@@text:5:3fdfe4@@</li>\n            </ol>\n\n            <p>@@text:4:0017a9@@</p>\n\n\n\n\n        </article>\n    </main>\n\n    <a href=\"thanks.html\" style=\"text-decoration: none;\">\n        <p class=\"nextPage\">@@text:3:018631@@</p>\n    </a>\n    @@verbatim:2:649c0a@@\n\n</section>",
+  "_protected_html": "<section data-type=\"chapter\" id=\"license\">\n\n    @@verbatim:0:10904f@@\n\n\n    <main>\n        <article>\n\n            <p><img src=\"../images/license.png\" alt=\"f(z)=log((z-1)/(z+1))\" title=\"f(z)=log((z-1)/(z+1))\"></p>\n            @@verbatim:1:a3a4f8@@\n            <p style=\"font-size:30px;text-align: center;\"><strong>ISBN: <span class=\"hide-medium hide-large\"><br/></span> 978-0-6485736-0-9</strong> <br>\n                <strong>Published Online 2019</strong>\n            </p>\n\n            <h1>License</h1>\n\n            <p>This book's entire contents, including the examples, problems and applets, is released under a <a\n                    href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\" target=\"_blank\">Creative Commons\n                    Attribution, Non-Commercial, Share-Alike license</a>. This means:</p>\n\n            <ol>\n                <li>You're welcome to use the examples, problems and applets for your personal studies or research. If\n                    you are using this book for a project (homework or research), please cite it somewhere in your\n                    project.</li>\n                <li>You can only use the book's text, examples, problems and applets for non-commercial projects. That\n                    means you can remix or make your own version of the book, and you can fork and create new applets,\n                    so long as they are not commercial projects (i.e. publishing a book with a publisher).</li>\n                <li>If you do make a project that forks or remixes this book, it must be released under this same\n                    license or a looser one.</li>\n            </ol>\n\n            <p>If you have any questions about what you can and can't do with these examples or applets, please <a\n                    href=\"mailto:jcponcemath@gmail.com\">get in touch</a>.</p>\n\n\n\n\n        </article>\n    </main>\n\n    <a href=\"thanks.html\" style=\"text-decoration: none;\">\n        <p class=\"nextPage\">Acknowledgements <i class=\"fa-solid fa-angles-right\"></i></p>\n    </a>\n    @@verbatim:2:649c0a@@\n\n</section>"
+}

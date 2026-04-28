@@ -1,0 +1,278 @@
+{
+  "file": "index.html",
+  "original_length": 13992,
+  "num_text_blocks": 29,
+  "num_verbatim": 5,
+  "verbatim_map": {
+    "@@verbatim:0:e030ab@@": "<!-- Starts main content -->",
+    "@@verbatim:1:cdd260@@": "<!-- Ends main content -->",
+    "@@verbatim:2:fd73a9@@": "<script>document.write(new Date().getFullYear());</script>",
+    "@@verbatim:3:23e2e4@@": "<script>document.write(new Date().getFullYear());</script>",
+    "@@verbatim:4:439e4f@@": "<iframe frameborder=\"0\" width=\"800px\" height=\"400px\" scrolling=\"no\"\n                    src=\"applets/p5js/joukowsky/intro.html\" style=\"border: 1px solid black; overflow: hidden;\">\n                </iframe>"
+  },
+  "text_blocks": [
+    {
+      "id": "block_0",
+      "tag": "h1",
+      "text": "[[b]]Complex Analysis[[/b]]\n                ",
+      "raw_len": 40,
+      "placeholder": "@@text:33:ff6bf3@@",
+      "byte_start": 441,
+      "byte_end": 481
+    },
+    {
+      "id": "block_1",
+      "tag": "h1",
+      "text": "\n                    [[span style=\"font-size: 0.5em;\"]]A Visual and Interactive Introduction[[/span]]\n                ",
+      "raw_len": 114,
+      "placeholder": "@@text:32:93083c@@",
+      "byte_start": 534,
+      "byte_end": 648
+    },
+    {
+      "id": "block_2",
+      "tag": "p",
+      "text": "Juan Carlos Ponce Campuzano  [[br]] \n                    2019 -\n                    @@verbatim:2:fd73a9@@\n                     [[br]] \n                    [[span class=\"dark-mode-button\" id=\"dark-mode-toggle\"]]\n                        <i class=\"fa-solid fa-moon\"></i>\n                    [[/span]]\n                ",
+      "raw_len": 302,
+      "placeholder": "@@text:31:b10d60@@",
+      "byte_start": 727,
+      "byte_end": 1029
+    },
+    {
+      "id": "block_3",
+      "tag": "p",
+      "text": "Juan Carlos  [[br]]  Ponce Campuzano\n                     [[br]] \n                    2019 -\n                    @@verbatim:3:23e2e4@@\n                     [[br]] \n                    [[span class=\"dark-mode-button\" id=\"dark-mode-toggle\"]]\n                        <i class=\"fa-solid fa-moon\"></i>\n                    [[/span]]\n                ",
+      "raw_len": 327,
+      "placeholder": "@@text:30:48ed3d@@",
+      "byte_start": 1115,
+      "byte_end": 1442
+    },
+    {
+      "id": "block_4",
+      "tag": "p",
+      "text": "The study of complex analysis is important for students in engineering and the\n                physical sciences and is a central subject in mathematics. In addition to being\n                mathematically elegant, complex analysis provides powerful tools for solving\n                problems that are either very difficult or virtually impossible to solve in any\n                other way.",
+      "raw_len": 390,
+      "placeholder": "@@text:29:7024a8@@",
+      "byte_start": 1724,
+      "byte_end": 2114
+    },
+    {
+      "id": "block_5",
+      "tag": "p",
+      "text": "In this book you will find examples, problems and applets that allow you to explore complex analysis by\n                using\n                the visual interactive power of the computer (or tablet).",
+      "raw_len": 199,
+      "placeholder": "@@text:28:8377f6@@",
+      "byte_start": 2135,
+      "byte_end": 2334
+    },
+    {
+      "id": "block_6",
+      "tag": "p",
+      "text": "[[strong]]UPDATES![[/strong]]\n                There is a new design in celebration to the 5th anniversary of this site.\n                I have also updated many of the JavaScript applets for better performance.\n                Don't forget to join me in\n                [[a href=\"https://www.patreon.com/posts/celebrating-5-of-99495115?utm_medium=clipboard_copy&amp;utm_source=copyLink&amp;utm_campaign=postshare_creator&amp;utm_content=join_link\"\n                    target=\"_blank\"]]Patreon[[/a]]\n                to get your complex functions gallery.\n                 [[br]] \n                A few of sections were added and updated:\n                [[a href=\"content/cauchy_goursat_theorem.html\"]]Cauchy-Goursat Theorem[[/a]],\n                [[a href=\"content/cauchy_integral_formula.html\"]]Cauchy Integral Formula[[/a]],\n                [[a href=\"content/fundamental_theorem_of_algebra.html\"]]The Fundamental Theorem of Algebra[[/a]],\n                [[a href=\"content/conformal_mapping.html\"]]Conformal mapping[[/a]], and\n                [[a href=\"content/linear_fractional_transformations.html\"]]Linear fractional transformations[[/a]].\n                 [[br]] \n                 [[br]] \n                Recently, I started working on the [[a href=\"it.html\"]]Italian version[[/a]] of this book, \n                and other projects to create more online\n                interactive books. I already have a preview for Real Analysis.\n                You can learn more about it in my \n                [[a href=\"https://www.patreon.com/posts/real-analysis-98129332?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link\"\n                    target=\"_blank\"]]☞ Patreon[[/a]].\n            ",
+      "raw_len": 1689,
+      "placeholder": "@@text:27:49a659@@",
+      "byte_start": 2396,
+      "byte_end": 4085
+    },
+    {
+      "id": "block_7",
+      "tag": "p",
+      "text": "Ready to get started? Skip ahead to the [[a href=\"content/table_of_contents.html\"]]Table of Contents.[[/a]]\n            ",
+      "raw_len": 116,
+      "placeholder": "@@text:26:38d521@@",
+      "byte_start": 4106,
+      "byte_end": 4222
+    },
+    {
+      "id": "block_8",
+      "tag": "h2",
+      "text": "WHAT IT IS ABOUT",
+      "raw_len": 16,
+      "placeholder": "@@text:25:69b830@@",
+      "byte_start": 4291,
+      "byte_end": 4307
+    },
+    {
+      "id": "block_9",
+      "tag": "p",
+      "text": "This book is an interactive introduction to the theory and applications of complex functions\n                from a visual point of view. However, it [[em]]does not[[/em]] cover all the topics of a\n                standard course. In fact, it is a collection of selected topics and interactive applets\n                that can be used as a supplementary learning resource by anyone interested in learning\n                this fascinating branch of mathematics.",
+      "raw_len": 456,
+      "placeholder": "@@text:24:c1a9c3@@",
+      "byte_start": 4329,
+      "byte_end": 4785
+    },
+    {
+      "id": "block_10",
+      "tag": "p",
+      "text": "Some of the topics covered here are basic arithmetic of complex numbers, complex functions,\n                Riemann surfaces, limits, derivatives, domain coloring, analytic landscapes and\n                some applications of conformal mappings.",
+      "raw_len": 244,
+      "placeholder": "@@text:23:f38d5f@@",
+      "byte_start": 4806,
+      "byte_end": 5050
+    },
+    {
+      "id": "block_11",
+      "tag": "p",
+      "text": "What distinguishes this online book from other traditional texts in the first instance is the\n                use of interactive applets that allow you to explore properties of complex numbers\n                geometrically and analyze complex functions by using different techniques to visualize\n                them. For the design of applets I used the following open-source software:",
+      "raw_len": 386,
+      "placeholder": "@@text:22:19b7dc@@",
+      "byte_start": 5072,
+      "byte_end": 5458
+    },
+    {
+      "id": "block_12",
+      "tag": "p",
+      "text": "Although I advocate for the use of computers as an aid to geometric reasoning,\n                I highly encourage you to practice your problem solving skills by solving\n                the suggested exercises, or filling the missing details, that you will\n                encounter throughout the sections.",
+      "raw_len": 306,
+      "placeholder": "@@text:21:0237f1@@",
+      "byte_start": 6252,
+      "byte_end": 6558
+    },
+    {
+      "id": "block_13",
+      "tag": "p",
+      "text": "Think of the computer as a physicist would his laboratory. It may be used\n                to check existing ideas about our world, or as a tool to discover new phenomena\n                which then poses new ideas or challenges for their explanation.\n                Throughout the sections I have provided detailed instructions (in some cases)\n                to explore concepts and relationships about complex numbers using specific software,\n                nevertheless you must still keep in mind that computer hardware and software\n                are ephemeral things in comparison with mathematical ideas, which are timeless.",
+      "raw_len": 633,
+      "placeholder": "@@text:20:1fbf2b@@",
+      "byte_start": 6579,
+      "byte_end": 7212
+    },
+    {
+      "id": "block_14",
+      "tag": "p",
+      "text": "[[strong]]NOTE![[/strong]] If you're on a mobile device, some of the applets might not work\n                super well for you.\n                They are designed for mouse input, so if you're getting frustrated or your finger is in the way, try the\n                site on a computer.",
+      "raw_len": 280,
+      "placeholder": "@@text:19:267919@@",
+      "byte_start": 7249,
+      "byte_end": 7529
+    },
+    {
+      "id": "block_15",
+      "tag": "p",
+      "text": "\n                This book was included in the\n                [[a href=\"https://www.acds.edu.au/resource/complex-analysis-a-visual-and-interactive-introduction/\"\n                    target=\"_blank\"]]Australian Council\n                    of Deans of Science's repository[[/a]]\n                as a teaching and assessment resource\n                to support online learning.\n            ",
+      "raw_len": 384,
+      "placeholder": "@@text:18:5d7ce9@@",
+      "byte_start": 7873,
+      "byte_end": 8257
+    },
+    {
+      "id": "block_16",
+      "tag": "h2",
+      "text": "ISSUES?",
+      "raw_len": 7,
+      "placeholder": "@@text:17:981bd8@@",
+      "byte_start": 8325,
+      "byte_end": 8332
+    },
+    {
+      "id": "block_17",
+      "tag": "p",
+      "text": "Of course, no project such as this can be free from errors and incompleteness.\n                If you find applets that don't run correctly, or the examples that aren't explained\n                quite right, or a typo, please\n                [[a href=\"https://github.com/complex-analysis/complex-analysis.github.io/issues\"]]report them at this\n                    project's GitHub repository[[/a]].\n                Thanks for your help!\n            ",
+      "raw_len": 445,
+      "placeholder": "@@text:16:861412@@",
+      "byte_start": 8353,
+      "byte_end": 8798
+    },
+    {
+      "id": "block_18",
+      "tag": "h2",
+      "text": "DESIGN CREDITS",
+      "raw_len": 14,
+      "placeholder": "@@text:15:a82135@@",
+      "byte_start": 8866,
+      "byte_end": 8880
+    },
+    {
+      "id": "block_19",
+      "tag": "p",
+      "text": "\n                The initial design of this site was inpired by the fantastic book\n                [[a href=\"https://www.jeffreythompson.org/collision-detection/index.php\" target=\"_blank\"]]Collision\n                    Detection[[/a]]\n                written by [[a href=\"https://www.jeffreythompson.org/\" target=\"_blank\"]]Jeffrey Thompson[[/a]].\n                The current version, released in 2024, was built thanks to the following projects:\n            ",
+      "raw_len": 450,
+      "placeholder": "@@text:14:6cec6d@@",
+      "byte_start": 8901,
+      "byte_end": 9351
+    },
+    {
+      "id": "block_20",
+      "tag": "li",
+      "text": "\n                    [[a href=\"https://github.com/vincentdoerig/latex-css\" target=\"_blank\"]]LaTeX.CSS[[/a]] by Vincent Dörig\n                ",
+      "raw_len": 137,
+      "placeholder": "@@text:13:fa61ec@@",
+      "byte_start": 9394,
+      "byte_end": 9531
+    },
+    {
+      "id": "block_21",
+      "tag": "li",
+      "text": "\n                    [[a href=\"https://github.com/davidrzs/latexcss\" target=\"_blank\"]]LatexCSS[[/a]] by David Zollikofer\n                ",
+      "raw_len": 133,
+      "placeholder": "@@text:12:8d7288@@",
+      "byte_start": 9557,
+      "byte_end": 9690
+    },
+    {
+      "id": "block_22",
+      "tag": "li",
+      "text": "\n                    [[a href=\"https://github.com/magicbookproject\" target=\"_blank\"]]The Magic Book project[[/a]].\n                ",
+      "raw_len": 127,
+      "placeholder": "@@text:11:7bee87@@",
+      "byte_start": 9716,
+      "byte_end": 9843
+    },
+    {
+      "id": "block_23",
+      "tag": "h2",
+      "text": "SUPPORT THIS PROJECT",
+      "raw_len": 20,
+      "placeholder": "@@text:10:10bd37@@",
+      "byte_start": 9943,
+      "byte_end": 9963
+    },
+    {
+      "id": "block_24",
+      "tag": "p",
+      "text": "If you like my work, you can support it using the links below:",
+      "raw_len": 62,
+      "placeholder": "@@text:9:59df60@@",
+      "byte_start": 9984,
+      "byte_end": 10046
+    },
+    {
+      "id": "block_25",
+      "tag": "p",
+      "text": "\n                Thank you for your support! ❤️\n            ",
+      "raw_len": 60,
+      "placeholder": "@@text:8:18de01@@",
+      "byte_start": 13021,
+      "byte_end": 13081
+    },
+    {
+      "id": "block_26",
+      "tag": "h2",
+      "text": "NAVIGATION",
+      "raw_len": 10,
+      "placeholder": "@@text:7:6bae6b@@",
+      "byte_start": 13150,
+      "byte_end": 13160
+    },
+    {
+      "id": "block_27",
+      "tag": "p",
+      "text": "OK, let's begin! Click the link at the bottom the page, or the arrows at the top, to\n                move to the next chapter. The [[strong]]Complex Analysis[[/strong]] link at the top will\n                take you back to the [[a href=\"content/table_of_contents.html\"]]Table of Contents[[/a]].",
+      "raw_len": 286,
+      "placeholder": "@@text:6:76476c@@",
+      "byte_start": 13181,
+      "byte_end": 13467
+    },
+    {
+      "id": "block_28",
+      "tag": "p",
+      "text": "Table of Contents [[i class=\"fa-solid fa-angles-right\"]][[/i]]",
+      "raw_len": 58,
+      "placeholder": "@@text:5:ba9ddc@@",
+      "byte_start": 13612,
+      "byte_end": 13670
+    }
+  ],
+  "reassembly_template": "<section data-type=\"chapter\" id=\"index\">\n\n    @@verbatim:0:e030ab@@\n\n    <header>\n\n        <div>\n\n            <div class=\"hide-small hide-medium\">\n                <br />\n                @@verbatim:4:439e4f@@\n            </div>\n\n            <div class=\"hide-large \">\n                <br /><br />\n                <img width=\"100%\"\n                    src=\"images/intro.jpg\">\n            </div>\n            <div class=\"\">\n\n\n                <h1>@@text:33:ff6bf3@@</h1>\n                <h1 style=\"margin-top: -40px;\">@@text:32:93083c@@</h1>\n\n                <p class=\"hide-small author\" style=\"margin-top: -30px;\">@@text:31:b10d60@@</p>\n\n                <p class=\"hide-large hide-medium author\" style=\"font-size:16px\">@@text:30:48ed3d@@</p>\n                <br />\n\n            </div>\n\n        </div>\n\n\n    </header>\n\n\n    <hr>\n\n\n\n    <main>\n        <article>\n\n            <div class=\"language-link\">\n                <a href=\"es.html\">- Español</a>, <a href=\"it.html\">Italiano -</a>\n            </div>\n\n\n            <p>@@text:29:7024a8@@</p>\n\n            <p>@@text:28:8377f6@@</p>\n \n            <p class=\"callout\" style=\"text-align:left\">@@text:27:49a659@@</p>\n\n            <p>@@text:26:38d521@@</p>\n\n            <hr>\n\n\n            <h2 style=\"text-align: center;\">@@text:25:69b830@@</h2>\n\n            <p>@@text:24:c1a9c3@@</p>\n\n            <p>@@text:23:f38d5f@@</p>\n\n\n            <p>@@text:22:19b7dc@@</p>\n\n            <div style=\" text-wrap: wrap; display: flex; justify-content: center;\">\n                <div style=\"padding: 0 5px;\">\n                    <a target=\"_blank\" href=\"https://www.geogebra.org\">\n                        <strong>GeoGebra</strong></a>\n                    -\n                    <a target=\"_blank\" href=\"https://p5js.org/\">\n                        <strong>p5.js</strong></a>\n                    - \n                    <a target=\"_blank\" href=\"https://cindyjs.org/\">\n                        <strong>Cindy.js</strong>\n                    </a>\n                    - \n                    <a target=\"_blank\" href=\"https://mathcell.org/\">\n                        <strong>MathCell.js</strong>\n                    </a>\n                </div>\n            </div>\n\n            <p>@@text:21:0237f1@@</p>\n\n            <p>@@text:20:1fbf2b@@</p>\n\n            <p class=\"callout\">@@text:19:267919@@</p>\n\n\n            <a href=\"https://www.acds.edu.au/resource/complex-analysis-a-visual-and-interactive-introduction/\"\n                target=\"_blank\">\n                <img src=\"images/acds-logo.png\"\n                    style=\"width: 40%;float:right; padding-top: 20px; padding-left: 20px;padding-bottom: 20px;\">\n            </a>\n            <p>@@text:18:5d7ce9@@</p>\n\n            <hr>\n\n            <h2 style=\"text-align: center;\">@@text:17:981bd8@@</h2>\n            <p>@@text:16:861412@@</p>\n\n            <hr>\n\n            <h2 style=\"text-align: center;\">@@text:15:a82135@@</h2>\n            <p>@@text:14:6cec6d@@</p>\n\n            <ul>\n                <li>@@text:13:fa61ec@@</li>\n                <li>@@text:12:8d7288@@</li>\n                <li>@@text:11:7bee87@@</li>\n            </ul>\n\n            <hr>\n\n            <h2 style=\"text-align: center;\" id=\"support\">@@text:10:10bd37@@</h2>\n            <p>@@text:9:59df60@@</p>\n\n            <div class=\"hide-small hide-medium\" style=\"text-wrap: wrap; display: flex; justify-content: center;\">\n                <div style=\"padding: 0 15px;\">\n                    <i class=\"fa-brands fa-patreon\"></i> <a href=\"https://www.patreon.com/jcponce\">\n                        <strong>Patreon</strong></a>\n                </div>\n\n                <div style=\"padding: 0 15px;\">\n                    <i class=\"fa-brands fa-paypal\"></i> <a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=WTMTR7D8RYZ26&amp;item_name=Your+support+will+help+me+to+improve+and+keep+up+to+date+the+applets+of+this+book.+Sincerely+appreciate+it%21&amp;currency_code=AUD&amp;source=url\">\n                        <strong>PayPal</strong></a>\n                </div>\n                <div style=\"padding: 0 15px;\">\n                    <i class=\"fa-solid fa-shop\"></i> <a target=\"_blank\" href=\"https://jcponcemath.secure-decoration.com/\">\n                        <strong>Shop</strong>\n                    </a>\n                </div>\n\n                <div style=\"padding: 0 15px;\">\n                    <i class=\"fa-brands fa-github\"></i> <a target=\"_blank\" href=\"https://github.com/sponsors/complex-analysis\">\n                        <strong>Sponsor</strong>\n                    </a>\n                </div>\n            </div>\n\n            <div class=\"hide-large\">\n                <div style=\"text-wrap: wrap; display: flex; justify-content: center;\">\n                    <div style=\"padding: 0 15px;\">\n                        <i class=\"fa-brands fa-patreon\"></i> <a href=\"https://www.patreon.com/jcponce\">\n                            <strong>Patreon</strong></a>\n                    </div>\n    \n                    <div style=\"padding: 0 15px;\">\n                        <i class=\"fa-brands fa-paypal\"></i> <a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=WTMTR7D8RYZ26&amp;item_name=Your+support+will+help+me+to+improve+and+keep+up+to+date+the+applets+of+this+book.+Sincerely+appreciate+it%21&amp;currency_code=AUD&amp;source=url\">\n                            <strong>PayPal</strong></a>\n                    </div>\n    \n    \n                </div>\n                <div style=\"text-wrap: wrap; display: flex; justify-content: center;\">\n                    \n                    <div style=\"padding: 0 15px;\">\n                        <i class=\"fa-solid fa-shop\"></i> <a target=\"_blank\" href=\"https://jcponcemath.secure-decoration.com/\">\n                            <strong>Shop</strong>\n                        </a>\n                    </div>\n    \n                    <div style=\"padding: 0 15px;\">\n                        <i class=\"fa-brands fa-github\"></i> <a target=\"_blank\" href=\"https://github.com/sponsors/complex-analysis\">\n                            <strong>Sponsor</strong>\n                        </a>\n                    </div>\n    \n    \n                </div>\n            </div>\n            \n            <p style=\"text-align: center;\">@@text:8:18de01@@</p>\n\n\n            <hr>\n\n            <h2 style=\"text-align: center;\">@@text:7:6bae6b@@</h2>\n            <p>@@text:6:76476c@@</p>\n\n\n\n        </article>\n    </main>\n\n    <a href=\"content/table_of_contents.html\" style=\"text-decoration: none;\">\n        <p class=\"nextPage\">@@text:5:ba9ddc@@</p>\n    </a>\n\n    @@verbatim:1:cdd260@@\n\n</section>",
+  "_protected_html": "<section data-type=\"chapter\" id=\"index\">\n\n    @@verbatim:0:e030ab@@\n\n    <header>\n\n        <div>\n\n            <div class=\"hide-small hide-medium\">\n                <br />\n                @@verbatim:4:439e4f@@\n            </div>\n\n            <div class=\"hide-large \">\n                <br /><br />\n                <img width=\"100%\"\n                    src=\"images/intro.jpg\">\n            </div>\n            <div class=\"\">\n\n\n                <h1><b>Complex Analysis</b>\n                </h1>\n                <h1 style=\"margin-top: -40px;\">\n                    <span style=\"font-size: 0.5em;\">A Visual and Interactive Introduction</span>\n                </h1>\n\n                <p class=\"hide-small author\" style=\"margin-top: -30px;\">Juan Carlos Ponce Campuzano <br>\n                    2019 -\n                    @@verbatim:2:fd73a9@@\n                    <br>\n                    <span class=\"dark-mode-button\" id=\"dark-mode-toggle\">\n                        <i class=\"fa-solid fa-moon\"></i>\n                    </span>\n                </p>\n\n                <p class=\"hide-large hide-medium author\" style=\"font-size:16px\">Juan Carlos <br> Ponce Campuzano\n                    <br>\n                    2019 -\n                    @@verbatim:3:23e2e4@@\n                    <br>\n                    <span class=\"dark-mode-button\" id=\"dark-mode-toggle\">\n                        <i class=\"fa-solid fa-moon\"></i>\n                    </span>\n                </p>\n                <br />\n\n            </div>\n\n        </div>\n\n\n    </header>\n\n\n    <hr>\n\n\n\n    <main>\n        <article>\n\n            <div class=\"language-link\">\n                <a href=\"es.html\">- Español</a>, <a href=\"it.html\">Italiano -</a>\n            </div>\n\n\n            <p>The study of complex analysis is important for students in engineering and the\n                physical sciences and is a central subject in mathematics. In addition to being\n                mathematically elegant, complex analysis provides powerful tools for solving\n                problems that are either very difficult or virtually impossible to solve in any\n                other way.</p>\n\n            <p>In this book you will find examples, problems and applets that allow you to explore complex analysis by\n                using\n                the visual interactive power of the computer (or tablet).</p>\n \n            <p class=\"callout\" style=\"text-align:left\"><strong>UPDATES!</strong>\n                There is a new design in celebration to the 5th anniversary of this site.\n                I have also updated many of the JavaScript applets for better performance.\n                Don't forget to join me in\n                <a href=\"https://www.patreon.com/posts/celebrating-5-of-99495115?utm_medium=clipboard_copy&amp;utm_source=copyLink&amp;utm_campaign=postshare_creator&amp;utm_content=join_link\"\n                    target=\"_blank\">Patreon</a>\n                to get your complex functions gallery.\n                <br>\n                A few of sections were added and updated:\n                <a href=\"content/cauchy_goursat_theorem.html\">Cauchy-Goursat Theorem</a>,\n                <a href=\"content/cauchy_integral_formula.html\">Cauchy Integral Formula</a>,\n                <a href=\"content/fundamental_theorem_of_algebra.html\">The Fundamental Theorem of Algebra</a>,\n                <a href=\"content/conformal_mapping.html\">Conformal mapping</a>, and\n                <a href=\"content/linear_fractional_transformations.html\">Linear fractional transformations</a>.\n                <br>\n                <br />\n                Recently, I started working on the <a href=\"it.html\">Italian version</a> of this book, \n                and other projects to create more online\n                interactive books. I already have a preview for Real Analysis.\n                You can learn more about it in my \n                <a href=\"https://www.patreon.com/posts/real-analysis-98129332?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link\"\n                    target=\"_blank\">☞ Patreon</a>.\n            </p>\n\n            <p>Ready to get started? Skip ahead to the <a href=\"content/table_of_contents.html\">Table of Contents.</a>\n            </p>\n\n            <hr>\n\n\n            <h2 style=\"text-align: center;\">WHAT IT IS ABOUT</h2>\n\n            <p>This book is an interactive introduction to the theory and applications of complex functions\n                from a visual point of view. However, it <em>does not</em> cover all the topics of a\n                standard course. In fact, it is a collection of selected topics and interactive applets\n                that can be used as a supplementary learning resource by anyone interested in learning\n                this fascinating branch of mathematics.</p>\n\n            <p>Some of the topics covered here are basic arithmetic of complex numbers, complex functions,\n                Riemann surfaces, limits, derivatives, domain coloring, analytic landscapes and\n                some applications of conformal mappings.</p>\n\n\n            <p>What distinguishes this online book from other traditional texts in the first instance is the\n                use of interactive applets that allow you to explore properties of complex numbers\n                geometrically and analyze complex functions by using different techniques to visualize\n                them. For the design of applets I used the following open-source software:</p>\n\n            <div style=\" text-wrap: wrap; display: flex; justify-content: center;\">\n                <div style=\"padding: 0 5px;\">\n                    <a target=\"_blank\" href=\"https://www.geogebra.org\">\n                        <strong>GeoGebra</strong></a>\n                    -\n                    <a target=\"_blank\" href=\"https://p5js.org/\">\n                        <strong>p5.js</strong></a>\n                    - \n                    <a target=\"_blank\" href=\"https://cindyjs.org/\">\n                        <strong>Cindy.js</strong>\n                    </a>\n                    - \n                    <a target=\"_blank\" href=\"https://mathcell.org/\">\n                        <strong>MathCell.js</strong>\n                    </a>\n                </div>\n            </div>\n\n            <p>Although I advocate for the use of computers as an aid to geometric reasoning,\n                I highly encourage you to practice your problem solving skills by solving\n                the suggested exercises, or filling the missing details, that you will\n                encounter throughout the sections.</p>\n\n            <p>Think of the computer as a physicist would his laboratory. It may be used\n                to check existing ideas about our world, or as a tool to discover new phenomena\n                which then poses new ideas or challenges for their explanation.\n                Throughout the sections I have provided detailed instructions (in some cases)\n                to explore concepts and relationships about complex numbers using specific software,\n                nevertheless you must still keep in mind that computer hardware and software\n                are ephemeral things in comparison with mathematical ideas, which are timeless.</p>\n\n            <p class=\"callout\"><strong>NOTE!</strong> If you're on a mobile device, some of the applets might not work\n                super well for you.\n                They are designed for mouse input, so if you're getting frustrated or your finger is in the way, try the\n                site on a computer.</p>\n\n\n            <a href=\"https://www.acds.edu.au/resource/complex-analysis-a-visual-and-interactive-introduction/\"\n                target=\"_blank\">\n                <img src=\"images/acds-logo.png\"\n                    style=\"width: 40%;float:right; padding-top: 20px; padding-left: 20px;padding-bottom: 20px;\">\n            </a>\n            <p>\n                This book was included in the\n                <a href=\"https://www.acds.edu.au/resource/complex-analysis-a-visual-and-interactive-introduction/\"\n                    target=\"_blank\">Australian Council\n                    of Deans of Science's repository</a>\n                as a teaching and assessment resource\n                to support online learning.\n            </p>\n\n            <hr>\n\n            <h2 style=\"text-align: center;\">ISSUES?</h2>\n            <p>Of course, no project such as this can be free from errors and incompleteness.\n                If you find applets that don't run correctly, or the examples that aren't explained\n                quite right, or a typo, please\n                <a href=\"https://github.com/complex-analysis/complex-analysis.github.io/issues\">report them at this\n                    project's GitHub repository</a>.\n                Thanks for your help!\n            </p>\n\n            <hr>\n\n            <h2 style=\"text-align: center;\">DESIGN CREDITS</h2>\n            <p>\n                The initial design of this site was inpired by the fantastic book\n                <a href=\"https://www.jeffreythompson.org/collision-detection/index.php\" target=\"_blank\">Collision\n                    Detection</a>\n                written by <a href=\"https://www.jeffreythompson.org/\" target=\"_blank\">Jeffrey Thompson</a>.\n                The current version, released in 2024, was built thanks to the following projects:\n            </p>\n\n            <ul>\n                <li>\n                    <a href=\"https://github.com/vincentdoerig/latex-css\" target=\"_blank\">LaTeX.CSS</a> by Vincent Dörig\n                </li>\n                <li>\n                    <a href=\"https://github.com/davidrzs/latexcss\" target=\"_blank\">LatexCSS</a> by David Zollikofer\n                </li>\n                <li>\n                    <a href=\"https://github.com/magicbookproject\" target=\"_blank\">The Magic Book project</a>.\n                </li>\n            </ul>\n\n            <hr>\n\n            <h2 style=\"text-align: center;\" id=\"support\">SUPPORT THIS PROJECT</h2>\n            <p>If you like my work, you can support it using the links below:</p>\n\n            <div class=\"hide-small hide-medium\" style=\"text-wrap: wrap; display: flex; justify-content: center;\">\n                <div style=\"padding: 0 15px;\">\n                    <i class=\"fa-brands fa-patreon\"></i> <a href=\"https://www.patreon.com/jcponce\">\n                        <strong>Patreon</strong></a>\n                </div>\n\n                <div style=\"padding: 0 15px;\">\n                    <i class=\"fa-brands fa-paypal\"></i> <a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=WTMTR7D8RYZ26&amp;item_name=Your+support+will+help+me+to+improve+and+keep+up+to+date+the+applets+of+this+book.+Sincerely+appreciate+it%21&amp;currency_code=AUD&amp;source=url\">\n                        <strong>PayPal</strong></a>\n                </div>\n                <div style=\"padding: 0 15px;\">\n                    <i class=\"fa-solid fa-shop\"></i> <a target=\"_blank\" href=\"https://jcponcemath.secure-decoration.com/\">\n                        <strong>Shop</strong>\n                    </a>\n                </div>\n\n                <div style=\"padding: 0 15px;\">\n                    <i class=\"fa-brands fa-github\"></i> <a target=\"_blank\" href=\"https://github.com/sponsors/complex-analysis\">\n                        <strong>Sponsor</strong>\n                    </a>\n                </div>\n            </div>\n\n            <div class=\"hide-large\">\n                <div style=\"text-wrap: wrap; display: flex; justify-content: center;\">\n                    <div style=\"padding: 0 15px;\">\n                        <i class=\"fa-brands fa-patreon\"></i> <a href=\"https://www.patreon.com/jcponce\">\n                            <strong>Patreon</strong></a>\n                    </div>\n    \n                    <div style=\"padding: 0 15px;\">\n                        <i class=\"fa-brands fa-paypal\"></i> <a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=WTMTR7D8RYZ26&amp;item_name=Your+support+will+help+me+to+improve+and+keep+up+to+date+the+applets+of+this+book.+Sincerely+appreciate+it%21&amp;currency_code=AUD&amp;source=url\">\n                            <strong>PayPal</strong></a>\n                    </div>\n    \n    \n                </div>\n                <div style=\"text-wrap: wrap; display: flex; justify-content: center;\">\n                    \n                    <div style=\"padding: 0 15px;\">\n                        <i class=\"fa-solid fa-shop\"></i> <a target=\"_blank\" href=\"https://jcponcemath.secure-decoration.com/\">\n                            <strong>Shop</strong>\n                        </a>\n                    </div>\n    \n                    <div style=\"padding: 0 15px;\">\n                        <i class=\"fa-brands fa-github\"></i> <a target=\"_blank\" href=\"https://github.com/sponsors/complex-analysis\">\n                            <strong>Sponsor</strong>\n                        </a>\n                    </div>\n    \n    \n                </div>\n            </div>\n            \n            <p style=\"text-align: center;\">\n                Thank you for your support! ❤️\n            </p>\n\n\n            <hr>\n\n            <h2 style=\"text-align: center;\">NAVIGATION</h2>\n            <p>OK, let's begin! Click the link at the bottom the page, or the arrows at the top, to\n                move to the next chapter. The <strong>Complex Analysis</strong> link at the top will\n                take you back to the <a href=\"content/table_of_contents.html\">Table of Contents</a>.</p>\n\n\n\n        </article>\n    </main>\n\n    <a href=\"content/table_of_contents.html\" style=\"text-decoration: none;\">\n        <p class=\"nextPage\">Table of Contents <i class=\"fa-solid fa-angles-right\"></i></p>\n    </a>\n\n    @@verbatim:1:cdd260@@\n\n</section>"
+}

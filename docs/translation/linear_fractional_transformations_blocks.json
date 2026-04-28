@@ -1,0 +1,308 @@
+[
+  {
+    "id": "block_0",
+    "placeholder": "@@text:188:18960e@@",
+    "text": "[[i class=\"fa-solid fa-list\"]][[/i]]Contents",
+    "tag": "p"
+  },
+  {
+    "id": "block_1",
+    "placeholder": "@@text:187:22cfd8@@",
+    "text": "[[a href=\"#section1\"]]Linear fractional...[[/a]]",
+    "tag": "li"
+  },
+  {
+    "id": "block_2",
+    "placeholder": "@@text:186:7f98fe@@",
+    "text": "[[a href=\"#section2\"]]Cross Ratios[[/a]]",
+    "tag": "li"
+  },
+  {
+    "id": "block_3",
+    "placeholder": "@@text:185:3bc01c@@",
+    "text": "[[a href=\"#section3\"]]Mappings of the upper...[[/a]]",
+    "tag": "li"
+  },
+  {
+    "id": "block_4",
+    "placeholder": "@@text:184:b23c16@@",
+    "text": "Linear Fractional Transformations",
+    "tag": "h1"
+  },
+  {
+    "id": "block_5",
+    "placeholder": "@@text:183:19f036@@",
+    "text": "\n          If @@math:20:bc67d4@@ and @@math:21:a875cd@@ are complex constants with @@math:22:72b4f2@@ then the transformation\n          @@math:8:3e4520@@\n          is called [[em]]linear fractional transformation[[/em]], or [[em]]Möbius transformation[[/em]].\n          Observe that we can also write (\\ref{mobius}) in the form\n        <div class=\"scroll-wrapper\">\n          @@math:9:7ec510@@\n        </div>\n        with @@math:23:3675e0@@ Since this alternative form is linear in @@math:24:7f58cf@@ and linear in @@math:25:1289c0@@\n        another name for linear fractional transformation is\n        [[em]]bilinear transformation[[/em]].\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_6",
+    "placeholder": "@@text:182:af5440@@",
+    "text": "\n          If @@math:26:bde3e0@@ then the condition @@math:27:1b229e@@ with equation (\\ref{mobius})\n          becomes @@math:28:8d60d0@@ So the transformation @@math:29:bbdd5e@@ reduces to a nonconstant linear function\n          @@math:30:287bc6@@ When @@math:31:381e19@@ then we can write equation (\\ref{mobius}) as\n        <div class=\"scroll-wrapper\">\n          @@math:10:a39f2b@@\n        </div>\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_7",
+    "placeholder": "@@text:181:5e1f29@@",
+    "text": "Again, the condition @@math:32:fa7027@@ ensures that we do not have a constant function.\n          The transformation @@math:33:0a0e1f@@ is obviously a special case of (\\ref{mobius})\n          when @@math:34:b59ce2@@ (We already covered this function in\n          [[a href=\"mapping_1overz.html\" target=\"_blank\"]]Chapter 3[[/a]])\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_8",
+    "placeholder": "@@text:180:72e6e0@@",
+    "text": "\n          Equation (\\ref{mobius-composition}) reveals that a linear transformation\n          is a composition of the mappings:\n        <div class=\"scroll-wrapper\">\n          @@math:35:fa4d7e@@\n        </div>\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_9",
+    "placeholder": "@@text:179:203e11@@",
+    "text": "That is, @@math:36:1081e9@@\n          Thus it follows that, regardless of whether @@math:37:37b6a3@@ is zero or nonzero,\n          any linear fractional transformation\n          [[em]]maps circles and lines into circles and lines[[/em]].\n          You can easily verify this for the functions @@math:38:726ece@@ and @@math:39:1dc382@@\n          The function @@math:40:ad5430@@ was already explored in\n          the section: [[a href=\"mapping_1overz.html\" target=\"_blank\"]]The Transformation @@math:41:403192@@[[/a]].\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_10",
+    "placeholder": "@@text:178:386094@@",
+    "text": "\n          The domain of a linear fractional transformation @@math:42:57eab2@@ given in (\\ref{mobius})\n          is the set of all complex @@math:43:e6bd85@@ such that @@math:44:e83a3a@@ Moreover, since\n          @@math:45:1fb943@@\n          with @@math:46:8be1ee@@ then\n          [[em]]linear fractional transformations are conformal on their domains[[/em]].\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_11",
+    "placeholder": "@@text:177:29aa97@@",
+    "text": "\n          When @@math:47:20eb38@@ that is, when @@math:48:846ebb@@ is not a linear function, it is often\n          useful to view @@math:49:b6ba12@@ as a mapping of the extended complex plane:\n        <div class=\"scroll-wrapper\">\n          @@math:11:289dcb@@\n        </div>\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_12",
+    "placeholder": "@@text:176:293231@@",
+    "text": "\n          In this case, @@math:50:26f05b@@ is a one-to-one mapping of the extended\n          complex plane. So there exists @@math:51:ffb3bb@@ such that\n          @@math:52:5e3efd@@ In this case\n          @@math:53:b6fd69@@ is also a linear fractional transformation and is defined as\n          @@math:54:906927@@\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_13",
+    "placeholder": "@@text:175:107fa9@@",
+    "text": "\n          In applications we often need to find a conformal mapping from a domain @@math:55:2d88a1@@\n          that is bounded by circles onto a domain @@math:56:2014dc@@ that is bounded by lines.\n          Linear fractional transformations are, in particular, well-suited for\n          such applications.\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_14",
+    "placeholder": "@@text:174:f698a0@@",
+    "text": "Cross Ratios",
+    "tag": "h2"
+  },
+  {
+    "id": "block_15",
+    "placeholder": "@@text:173:d91c53@@",
+    "text": "\n          Consider the following equation\n        <div class=\"scroll-wrapper\">\n          @@math:12:04a7de@@\n        </div>\n        The two sides of this equation are known as [[em]]cross ratios[[/em]].\n\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_16",
+    "placeholder": "@@text:172:0111d4@@",
+    "text": "\n          Equation (\\ref{cross}) defines (implicitly) a linear fractional transformation that maps\n          distinct three points @@math:57:52583f@@ @@math:58:1e08a0@@ and @@math:59:89d59a@@ in the finite @@math:60:1483b6@@ plane\n          onto three distinct points @@math:61:e30c68@@ @@math:62:3ed3bc@@ and @@math:63:da54b8@@ respectively, in the finite @@math:64:c9bb19@@ plane.\n          We can easily verify this by writing equation (\\ref{cross}) as\n        <div class=\"scroll-wrapper\">\n          @@math:13:bbf871@@\n        </div>\n        <ul>\n          <li>\n            If @@math:65:6b0492@@ then the right-hand side of (\\ref{cross-02}) is zero. So @@math:66:383b09@@\n          </li>\n          <li>\n            If @@math:67:cfd932@@ then we have the linear equation\n            <div class=\"scroll-wrapper\">\n              @@math:68:aa62de@@\n            </div>\n            whose unique solution is @@math:69:276b0b@@\n          </li>\n          <li>\n            If @@math:70:e3b67c@@ then the left-hand side of (\\ref{cross-02}) is zero; and consequently,\n            @@math:71:5be1af@@\n          </li>\n        </ul>\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_17",
+    "placeholder": "@@text:171:535a6f@@",
+    "text": "\n          It can be proved that equation (\\ref{cross}) defines linear fractional transformation\n          by expanding the products of (\\ref{cross-02}) and writing the result in the form\n          @@math:72:23506e@@\n          As an exercise, prove that equation (\\ref{cross}) actually defines the [[em]]only[[/em]]\n          linear mapping the points @@math:73:ad831c@@ @@math:74:e507a6@@ and @@math:75:d1d7c4@@\n          onto @@math:76:685b78@@ @@math:77:117a6c@@ and @@math:78:b89c77@@ respectively.\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_18",
+    "placeholder": "@@text:170:1ffde6@@",
+    "text": "\n            [[strong]]\n              Example 1:\n            [[/strong]]\n            To find a linear fractional transformation that maps\n            @@math:79:d5338e@@ @@math:80:2906b1@@ and @@math:81:d7587e@@ onto @@math:82:8b5d10@@ @@math:83:119085@@ and @@math:84:49a264@@\n            we use equation (\\ref{cross}) to write\n          <div class=\"scroll-wrapper\">\n            @@math:14:b65316@@\n          </div>\n          Solving for @@math:85:3b6089@@ in terms of @@math:86:67be89@@ we obtain\n          @@math:87:b926a4@@\n          ",
+    "tag": "p"
+  },
+  {
+    "id": "block_19",
+    "placeholder": "@@text:169:9d2f3c@@",
+    "text": "\n          If equation (\\ref{cross}) is modified properly, it can also be used when the point\n          at infinity is one of the prescribed points in either the (extended) @@math:88:1bf9bb@@ or\n          @@math:89:446cf5@@ plane. Suppose, for example, that @@math:90:3dd454@@ Since any linear fractional\n          transformation is continuous on the extended plane, we need only replace\n          @@math:91:bd0fee@@ on the right-hand side of equation (\\ref{cross})\n          by @@math:92:8e4656@@ clear fractions, and\n          let @@math:93:c53574@@ tend to zero. That is\n        <div class=\"scroll-wrapper\">\n          @@math:15:c434b8@@\n        </div>\n        Thus we obtain the desired modification of equation (\\ref{cross})\n        <div class=\"scroll-wrapper\">\n          @@math:16:6213a3@@\n        </div>\n        This modification is obtained by simply deleting the factors involving\n        @@math:94:1797d6@@ in equation (\\ref{cross}). It is easy to check that the same approach\n        applies when any of the other prescribed points is @@math:95:53b2a5@@\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_20",
+    "placeholder": "@@text:168:15af97@@",
+    "text": "\n            [[strong]]\n              Example 2:\n            [[/strong]]\n            To find a linear fractional transformation that maps\n            @@math:96:5f31fb@@ @@math:97:915b9b@@ and @@math:98:c7b938@@ onto @@math:99:f0e0a0@@ @@math:100:e66570@@ and @@math:101:ef8ff8@@\n            we use the modification\n          <div class=\"scroll-wrapper\">\n            @@math:17:3f38d4@@\n          </div>\n          of equation (\\ref{cross}).\n          Thus\n          <div class=\"scroll-wrapper\">\n            @@math:18:ef4736@@\n          </div>\n          ",
+    "tag": "p"
+  },
+  {
+    "id": "block_21",
+    "placeholder": "@@text:167:83a379@@",
+    "text": "\n            Solving for @@math:102:c85380@@ we obtain\n            @@math:103:32a176@@\n          ",
+    "tag": "p"
+  },
+  {
+    "id": "block_22",
+    "placeholder": "@@text:166:45bf1f@@",
+    "text": "Mappings of the upper half plane",
+    "tag": "h2"
+  },
+  {
+    "id": "block_23",
+    "placeholder": "@@text:165:5bc59d@@",
+    "text": "\n          The following transformation\n          @@math:19:435732@@\n          with @@math:104:2ca0c9@@ and @@math:105:633372@@ defines all\n          linear fractional transformations that map\n          the upper half plane @@math:106:748f74@@ onto the open disk @@math:107:c0ef80@@\n          and the boundary @@math:108:1e0368@@ of the half plane onto the boundary\n          @@math:109:dbe9a2@@ of the disk.\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_24",
+    "placeholder": "@@text:164:b4603e@@",
+    "text": "\n          Use the applet below to explore the transformation defined in (\\ref{upper}).\n          Here we start in the disk @@math:110:0870e7@@ Drag the slider to apply the\n          transformation. Then\n          drag around the point @@math:111:008ea2@@ and observe what happens.\n          You can also modify the value of @@math:112:175bf2@@\n          What do you notice? What do you wonder?\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_25",
+    "placeholder": "@@text:163:577b79@@",
+    "text": "\n            [[strong]]Exercise 1:[[/strong]]\n            Based on your observations from the previous applet,\n            what can you say about the transformation when\n            @@math:113:0c5c60@@ or @@math:114:929144@@?\n            What happens when you modify the value of @@math:115:e357e4@@?\n          ",
+    "tag": "p"
+  },
+  {
+    "id": "block_26",
+    "placeholder": "@@text:162:bc17c4@@",
+    "text": "\n            [[strong]]Exercise 2:[[/strong]]\n            Prove that the transformation defined in (\\ref{upper})\n            maps the half plane @@math:116:8a111c@@ onto the disk\n            @@math:117:d63915@@ and the boundary of the half\n            plane onto the boundary of the disk.\n          ",
+    "tag": "p"
+  },
+  {
+    "id": "block_27",
+    "placeholder": "@@text:161:1b0b4a@@",
+    "text": "Classification of Möbius Transformations",
+    "tag": "h2"
+  },
+  {
+    "id": "block_28",
+    "placeholder": "@@text:160:cd44f5@@",
+    "text": "\n          A fundamental way to understand linear fractional (Möbius) transformations\n          is through their fixed points. A point @@math:118:1c5ddf@@ is called a [[em]]fixed point[[/em]]\n          of a transformation @@math:119:e42f64@@ if\n          @@math:120:306011@@\n          For a transformation\n          @@math:121:09de4e@@\n          the fixed points are obtained by solving\n          @@math:122:d4a359@@\n          which leads to the quadratic equation\n          @@math:123:a556cb@@\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_29",
+    "placeholder": "@@text:159:4c7f14@@",
+    "text": "\n          Thus, a Möbius transformation has either one or two fixed points\n          in the extended complex plane. This observation leads to a natural classification.\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_30",
+    "placeholder": "@@text:158:1b6424@@",
+    "text": "1. Transformations with two distinct fixed points",
+    "tag": "h3"
+  },
+  {
+    "id": "block_31",
+    "placeholder": "@@text:157:9d529c@@",
+    "text": "\n          If the quadratic equation has two distinct solutions, then the transformation\n          has two distinct fixed points. In this case, the transformation is conjugate\n          to a simple dilation or rotation of the form\n          @@math:124:e54486@@\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_32",
+    "placeholder": "@@text:156:d42591@@",
+    "text": "\n            If @@math:125:d1078e@@, the transformation is called a [[em]]hyperbolic transformation[[/em]].\n          ",
+    "tag": "li"
+  },
+  {
+    "id": "block_33",
+    "placeholder": "@@text:155:722f07@@",
+    "text": "\n            If @@math:126:1311b4@@ (but @@math:127:23705c@@ to avoid the identity), the transformation is called an [[em]]elliptic\n              transformation[[/em]].\n          ",
+    "tag": "li"
+  },
+  {
+    "id": "block_34",
+    "placeholder": "@@text:154:ea55d6@@",
+    "text": "\n          Geometrically, these transformations preserve the set of circles and lines\n          and act as scalings or rotations after a suitable change of coordinates.\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_35",
+    "placeholder": "@@text:153:4eece8@@",
+    "text": "2. Transformations with one (double) fixed point",
+    "tag": "h3"
+  },
+  {
+    "id": "block_36",
+    "placeholder": "@@text:152:ff5dfe@@",
+    "text": "\n          If the quadratic equation has a repeated root, then the transformation has\n          exactly one fixed point in the extended complex plane. In this case, the\n          transformation is conjugate to a translation\n          @@math:128:df5518@@\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_37",
+    "placeholder": "@@text:151:5e1690@@",
+    "text": "\n          Such transformations are called [[em]]parabolic transformations[[/em]].\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_38",
+    "placeholder": "@@text:150:008557@@",
+    "text": "3. Classification using the trace",
+    "tag": "h3"
+  },
+  {
+    "id": "block_39",
+    "placeholder": "@@text:149:a0e910@@",
+    "text": "\n          Another useful classification arises by associating the transformation\n          with the matrix\n          @@math:129:c3d2bf@@\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_40",
+    "placeholder": "@@text:148:2ff9f5@@",
+    "text": "\n          After normalizing so that @@math:130:c73dcc@@, the classification depends on the trace:\n          @@math:131:57dd52@@\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_41",
+    "placeholder": "@@text:147:23d892@@",
+    "text": "\n            [[strong]]Elliptic:[[/strong]] @@math:132:c82e8f@@ ",
+    "tag": "li"
+  },
+  {
+    "id": "block_42",
+    "placeholder": "@@text:146:a4751f@@",
+    "text": "\n            [[strong]]Parabolic:[[/strong]] @@math:133:33ca44@@\n          ",
+    "tag": "li"
+  },
+  {
+    "id": "block_43",
+    "placeholder": "@@text:145:9aa131@@",
+    "text": "\n            [[strong]]Hyperbolic:[[/strong]] @@math:134:3c7fe0@@\n          ",
+    "tag": "li"
+  },
+  {
+    "id": "block_44",
+    "placeholder": "@@text:144:eea91e@@",
+    "text": "\n          This classification is particularly important in geometry and dynamical systems,\n          where it describes the qualitative behavior of iterates of the transformation.\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_45",
+    "placeholder": "@@text:143:600322@@",
+    "text": "\n          The following animation provides a visual illustration\n          of the classification of Möbius transformations.\n          Select the graphic view with mouse\n          and then press the keys:\n\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_46",
+    "placeholder": "@@text:142:5d3220@@",
+    "text": "\n          <tt style=\"font-size: 80%;\">\n            1. Elliptic, 2. Hyperbolic, 3. Loxodromic, 4. Parabolic,\n            5. Show/Hide Sphere.\n          </tt>\n        ",
+    "tag": "p"
+  },
+  {
+    "id": "block_47",
+    "placeholder": "@@text:141:373c8b@@",
+    "text": "\n\n            [[a href=\"https://geometria-hiperbolica.github.io/sketches/mobius/showcase.html\" target=\"_blank\"]]\n              Full screen\n              [[i class=\"fa fa-external-link-alt\"]][[/i]][[/a]]\n          ",
+    "tag": "p"
+  },
+  {
+    "id": "block_48",
+    "placeholder": "@@text:140:de4dff@@",
+    "text": "\n            [[strong]]Exercise 3:[[/strong]]\n            Find and classify the fixed points of the transformation\n            @@math:135:c1cbb8@@\n            Determine whether it is elliptic, parabolic, or hyperbolic.\n          ",
+    "tag": "p"
+  },
+  {
+    "id": "block_49",
+    "placeholder": "@@text:139:493280@@",
+    "text": "\n            <ul>\n              <li>Fixed points: @@math:136:2adc9e@@</li>\n              <li>\n                Classification: [[b]]Hyperbolic[[/b]], since @@math:137:994cfc@@\n              </li>\n            </ul>\n            ",
+    "tag": "p"
+  },
+  {
+    "id": "block_50",
+    "placeholder": "@@text:138:76773f@@",
+    "text": "Applications of Conformal Mappings [[i class=\"fa-solid fa-angles-right\"]][[/i]]",
+    "tag": "p"
+  }
+]

@@ -1,0 +1,264 @@
+{
+  "file": "joukowsky_airfoil.html",
+  "original_length": 7710,
+  "num_text_blocks": 23,
+  "num_verbatim": 8,
+  "verbatim_map": {
+    "@@verbatim:0:4879c8@@": "<!-- Starts main content -->",
+    "@@verbatim:1:a8206b@@": "<!-- Add more sections as needed -->",
+    "@@verbatim:2:0e41aa@@": "<!--GeoGebra embedding-->",
+    "@@verbatim:3:034df7@@": "<!--GeoGebra embedding ends-->",
+    "@@verbatim:4:dbd533@@": "<!-- Ends main content -->",
+    "@@verbatim:5:a65006@@": "<script src=\"https://www.geogebra.org/apps/deployggb.js\"></script>",
+    "@@verbatim:6:62a14d@@": "<script>\n        let params = {\n            \"width\": 728,\n            \"height\": 531,\n            \"material_id\": \"ukwamarf\",\n            \"borderColor\": \"888888\",\n            \"playButton\": false,\n            \"showFullscreenButton\": true,\n            \"showResetIcon\": true\n        };\n        let ggbApplet = new GGBApplet(params, true);\n        window.addEventListener(\"load\", () => {\n            ggbApplet.inject('ggb-element');\n        });\n    </script>",
+    "@@verbatim:7:2a5d73@@": "<iframe name=\"JoukAirfoil\" src=\"../applets/p5js/joukowsky/index.html\" width=\"800px\" height=\"500px\"\n                        style=\"border:none;\" style=\"overflow:hidden;\"></iframe>",
+    "@@math:8:ad1e15@@": "\\begin{eqnarray}\\label{jouk}\n                    w= z+ 1/z.\n                    \\end{eqnarray}",
+    "@@math:9:5b6d78@@": "\\begin{eqnarray}\\label{eq1}\n                    F(z)=Uz+\\frac{U}{z}-\\frac{i C}{2\\pi}\\log z.\n                    \\end{eqnarray}",
+    "@@math:10:68ffb4@@": "$$\\frac{d}{dz}w=1-\\frac{1}{z^2}=0\\quad \\text{if and only if}\\quad z=\\pm 1,$$",
+    "@@math:11:e8167d@@": "$$w =e^{i\\theta}+e^{-i\\theta}=2\\cos \\theta,$$",
+    "@@math:12:1f290c@@": "$$z=\\frac{1}{2}\\left(w\\pm \\sqrt{w^2-4}\\right).$$",
+    "@@math:13:e3be5a@@": "$$T(z)=-0.15+0.23i + 0.23\\sqrt{13\\cdot 2} z$$",
+    "@@math:14:22db27@@": "$z = \\pm 1$",
+    "@@math:15:1e3367@@": "$z = 0,$",
+    "@@math:16:8f5f2d@@": "$z = e^{i\\theta}$",
+    "@@math:17:6a178d@@": "$-2\\leq w\\leq 2.$",
+    "@@math:18:ee5379@@": "$[-2, 2].$",
+    "@@math:19:d43945@@": "$w$",
+    "@@math:20:f80dfd@@": "$z,$",
+    "@@math:21:bec56c@@": "$w$",
+    "@@math:22:e46ea0@@": "$\\pm 2$",
+    "@@math:23:e33eab@@": "$z$",
+    "@@math:24:ac5f5e@@": "$w$",
+    "@@math:25:274a31@@": "$[-2, 2],$",
+    "@@math:26:742cca@@": "$-2 \\lt w \\lt 2,$",
+    "@@math:27:cea2e2@@": "$| z | > 1,$",
+    "@@math:28:c20978@@": "$[-2, 2],$",
+    "@@math:29:47944f@@": "$\\mathbb C \\setminus [-2, 2].$",
+    "@@math:30:26a9fb@@": "$|z|= r > 1$",
+    "@@math:31:bac00d@@": "$\\pm 2$",
+    "@@math:32:a9a872@@": "$w$",
+    "@@math:33:215a25@@": "$|z|=r \\geq 1.$",
+    "@@math:34:91f1b2@@": "$z=1,$",
+    "@@math:35:f31d1f@@": "$w=2$",
+    "@@math:36:b3d32f@@": "$z=-1$",
+    "@@math:37:6f9d50@@": "$w=-2.$",
+    "@@math:38:e447cf@@": "$C$",
+    "@@math:39:f2890c@@": "$U>0$",
+    "@@math:40:71f6e9@@": "$|z|=1$",
+    "@@math:41:986655@@": "$c_1$",
+    "@@math:42:9fa984@@": "$z_1=-0.15+0.23i$",
+    "@@math:43:1ceafc@@": "$r=0.23\\sqrt{13\\cdot 2}.$",
+    "@@math:44:71be87@@": "$c_1$"
+  },
+  "text_blocks": [
+    {
+      "id": "block_0",
+      "tag": "p",
+      "text": "[[i class=\"fa-solid fa-list\"]][[/i]]Contents",
+      "raw_len": 40,
+      "placeholder": "@@text:67:999ece@@",
+      "byte_start": 200,
+      "byte_end": 240
+    },
+    {
+      "id": "block_1",
+      "tag": "li",
+      "text": "[[a href=\"#section1\"]]The Joukowsky map[[/a]]",
+      "raw_len": 41,
+      "placeholder": "@@text:66:ac68dc@@",
+      "byte_start": 274,
+      "byte_end": 315
+    },
+    {
+      "id": "block_2",
+      "tag": "li",
+      "text": "[[a href=\"#section2\"]]Flow around the Joukowsky airfoil[[/a]]",
+      "raw_len": 57,
+      "placeholder": "@@text:65:3029cd@@",
+      "byte_start": 337,
+      "byte_end": 394
+    },
+    {
+      "id": "block_3",
+      "tag": "h1",
+      "text": "Joukowsky Airfoil",
+      "raw_len": 17,
+      "placeholder": "@@text:64:a4c25d@@",
+      "byte_start": 521,
+      "byte_end": 538
+    },
+    {
+      "id": "block_4",
+      "tag": "h2",
+      "text": "The Joukowsky map",
+      "raw_len": 17,
+      "placeholder": "@@text:63:e391ca@@",
+      "byte_start": 615,
+      "byte_end": 632
+    },
+    {
+      "id": "block_5",
+      "tag": "p",
+      "text": "A well known example of a conformal function is the [[em]]Joukowsky map[[/em]]\n                    @@math:8:ad1e15@@\n                    It was first used in the study of flow around airplane wings by the pioneering\n                    Russian aero and hydrodynamics researcher\n                    [[a href=\"http://mathshistory.st-andrews.ac.uk/Biographies/Zhukovsky.html\" target=\"_blank\"]]Nikolai\n                        Zhukovskii[[/a]] (Joukowsky).\n                ",
+      "raw_len": 460,
+      "placeholder": "@@text:62:e4a69b@@",
+      "byte_start": 658,
+      "byte_end": 1118
+    },
+    {
+      "id": "block_6",
+      "tag": "p",
+      "text": "Since\n                <div class=\"scroll-wrapper\">\n                    @@math:10:68ffb4@@\n                </div>\n                the function (\\ref{jouk}) is conformal except at the critical\n                points @@math:14:22db27@@ as well as the singularity @@math:15:1e3367@@ where it is\n                not defined.\n                ",
+      "raw_len": 336,
+      "placeholder": "@@text:61:44a8fc@@",
+      "byte_start": 1143,
+      "byte_end": 1479
+    },
+    {
+      "id": "block_7",
+      "tag": "p",
+      "text": "If @@math:16:8f5f2d@@\n                    lies on the unit circle, then\n                    @@math:11:e8167d@@\n                    lies on the real axis, with @@math:17:6a178d@@ Thus,\n                    the Joukowsky map squashes the unit circle\n                    down to the real line segment @@math:18:ee5379@@ The images of\n                    points outside the unit circle fill the\n                    rest of the @@math:19:d43945@@ plane, as do the images of the (nonzero) points\n                    inside the unit circle. Indeed,\n                    if we solve (\\ref{jouk}) for @@math:20:f80dfd@@ we have\n                    @@math:12:1f290c@@\n                    We see that every @@math:21:bec56c@@ except @@math:22:e46ea0@@ comes from two different\n                    points @@math:23:e33eab@@; for @@math:24:ac5f5e@@ not on the critical\n                    line segment @@math:25:274a31@@ one point (with the minus sign) lies\n                    inside and one (with the plus\n                    sign) lies outside the unit circle, whereas if @@math:26:742cca@@\n                    both points lie on the unit circle\n                    and a common vertical line.",
+      "raw_len": 1181,
+      "placeholder": "@@text:60:b92f72@@",
+      "byte_start": 1504,
+      "byte_end": 2685
+    },
+    {
+      "id": "block_8",
+      "tag": "p",
+      "text": "Therefore, the Joukowski map\n                    defines a one-to-one conformal mapping from @@math:27:cea2e2@@ the exterior of the\n                    unit circle, onto the exterior of the line segment @@math:28:c20978@@ i. e.\n                    @@math:29:47944f@@\n                ",
+      "raw_len": 283,
+      "placeholder": "@@text:59:863980@@",
+      "byte_start": 2710,
+      "byte_end": 2993
+    },
+    {
+      "id": "block_9",
+      "tag": "p",
+      "text": "In Figure 4 we can observe that the concentric circles @@math:30:26a9fb@@\n                    are mapped to ellipses with foci at @@math:31:bac00d@@ in the @@math:32:a9a872@@-plane.\n                ",
+      "raw_len": 198,
+      "placeholder": "@@text:58:ac2ac5@@",
+      "byte_start": 3018,
+      "byte_end": 3216
+    },
+    {
+      "id": "block_10",
+      "tag": "figcaption",
+      "text": "\n                        The Joukowsky map applied to @@math:33:215a25@@\n                    ",
+      "raw_len": 93,
+      "placeholder": "@@text:57:48864f@@",
+      "byte_start": 3409,
+      "byte_end": 3502
+    },
+    {
+      "id": "block_11",
+      "tag": "p",
+      "text": "The effect on circles not centered at the origin is more interesting.\n                    The image curves take in a wide variety of shapes.\n                    When the circle passes through the singular point @@math:34:91f1b2@@\n                    then its image is no longer smooth, but has a cusp at @@math:35:f31d1f@@ and when\n                    the circle passes through @@math:36:b3d32f@@ the\n                    cusp is at @@math:37:6f9d50@@\n                    Some of the image curves assume the shape of the famous\n                    cross-section through an idealized\n                    airplane wing or [[em]]airfoil[[/em]], also known as the [[em]]Joukowsky airfoil[[/em]].",
+      "raw_len": 682,
+      "placeholder": "@@text:56:2c36c2@@",
+      "byte_start": 3562,
+      "byte_end": 4244
+    },
+    {
+      "id": "block_12",
+      "tag": "p",
+      "text": "\n                    You can explore the Joukowsky map in the applet below. Drag around the center of\n                    the circle. Drag sliders to apply the mapping or change the radius. Click button\n                    to see predefined values.\n                ",
+      "raw_len": 265,
+      "placeholder": "@@text:55:972868@@",
+      "byte_start": 4269,
+      "byte_end": 4534
+    },
+    {
+      "id": "block_13",
+      "tag": "h2",
+      "text": "Flow around the Joukowsky airfoil",
+      "raw_len": 33,
+      "placeholder": "@@text:54:19debd@@",
+      "byte_start": 4696,
+      "byte_end": 4729
+    },
+    {
+      "id": "block_14",
+      "tag": "p",
+      "text": "Consider now the uniform flow around the unit circle with\n                    circulation @@math:38:e447cf@@ and speed @@math:39:f2890c@@ given by the complex potential\n                    @@math:9:5b6d78@@\n                ",
+      "raw_len": 223,
+      "placeholder": "@@text:53:a45c85@@",
+      "byte_start": 4755,
+      "byte_end": 4978
+    },
+    {
+      "id": "block_15",
+      "tag": "p",
+      "text": "We can use the linear transformation\n                    @@math:13:e3be5a@@\n                    to map this flow around @@math:40:71f6e9@@ onto the\n                    flow around the circle @@math:41:986655@@ with center @@math:42:9fa984@@ and\n                    radius @@math:43:1ceafc@@ ",
+      "raw_len": 291,
+      "placeholder": "@@text:52:517d4d@@",
+      "byte_start": 5004,
+      "byte_end": 5295
+    },
+    {
+      "id": "block_16",
+      "tag": "p",
+      "text": "Finally, by applying the Joukowsky map\n                    (\\ref{jouk}), we can obtain a uniform flow with circulation\n                    around the [[em]]Joukowsky airfoil[[/em]].\n                ",
+      "raw_len": 194,
+      "placeholder": "@@text:51:f348e0@@",
+      "byte_start": 5320,
+      "byte_end": 5514
+    },
+    {
+      "id": "block_17",
+      "tag": "p",
+      "text": "The following simulation shows the uniform flow past the circular cylinder\n                    @@math:44:71be87@@ and its transformation to the [[em]]Joukowsky airfoil[[/em]].\n                    Drag the sliders to explore:",
+      "raw_len": 220,
+      "placeholder": "@@text:50:480f17@@",
+      "byte_start": 5539,
+      "byte_end": 5759
+    },
+    {
+      "id": "block_18",
+      "tag": "li",
+      "text": "Slider U = speed.",
+      "raw_len": 17,
+      "placeholder": "@@text:49:7580d7@@",
+      "byte_start": 5809,
+      "byte_end": 5826
+    },
+    {
+      "id": "block_19",
+      "tag": "li",
+      "text": "Slider C = circulation.",
+      "raw_len": 23,
+      "placeholder": "@@text:48:6eacc5@@",
+      "byte_start": 5856,
+      "byte_end": 5879
+    },
+    {
+      "id": "block_20",
+      "tag": "li",
+      "text": "Slider T = apply transformation.",
+      "raw_len": 32,
+      "placeholder": "@@text:47:8b5760@@",
+      "byte_start": 5909,
+      "byte_end": 5941
+    },
+    {
+      "id": "block_21",
+      "tag": "p",
+      "text": "Press the [[code]]Trace[[/code]] button to show [[em]]streamlines[[/em]].",
+      "raw_len": 65,
+      "placeholder": "@@text:46:ee2504@@",
+      "byte_start": 5989,
+      "byte_end": 6054
+    },
+    {
+      "id": "block_22",
+      "tag": "p",
+      "text": "Bibliography [[i class=\"fa-solid fa-angles-right\"]][[/i]]",
+      "raw_len": 53,
+      "placeholder": "@@text:45:e9eed8@@",
+      "byte_start": 6870,
+      "byte_end": 6923
+    }
+  ],
+  "reassembly_template": "<section data-type=\"chapter\" id=\"joukowsky-airfoil\">\n\n    @@verbatim:0:4879c8@@\n\n    <div w3-include-html=\"small_screen_message.html\"></div>\n\n    <div class=\"toc-chapter\" id=\"toc-chapter\">\n        <p>@@text:67:999ece@@</p>\n        <ul>\n            <li>@@text:66:ac68dc@@</li>\n            <li>@@text:65:3029cd@@</li>\n            @@verbatim:1:a8206b@@\n        </ul>\n    </div>\n\n    <br><br>\n\n\n    <main>\n        <article>\n\n            <h1>@@text:64:a4c25d@@</h1>\n            <hr>\n\n            <div id=\"section1\">\n\n                <h2>@@text:63:e391ca@@</h2>\n\n                <p>@@text:62:e4a69b@@</p>\n\n                <p>@@text:61:44a8fc@@</p>\n\n                <p>@@text:60:b92f72@@</p>\n\n                <p>@@text:59:863980@@</p>\n\n                <p>@@text:58:ac2ac5@@</p>\n\n                <figure>\n                    <img src=\"../images/chp06/map-circle.png\" alt=\"MapJ\" title=\"JMap\"\n                        style=\"width:90%;\">\n                    <figcaption>@@text:57:48864f@@</figcaption>\n                </figure>\n\n                <p>@@text:56:2c36c2@@</p>\n\n                <p>@@text:55:972868@@</p>\n\n                <div class=\"ggbElement\" id=\"ggb-element\"></div>\n\n            </div>\n\n            <hr>\n\n            <div id=\"section2\">\n\n                <h2>@@text:54:19debd@@</h2>\n\n                <p>@@text:53:a45c85@@</p>\n\n\n                <p>@@text:52:517d4d@@</p>\n\n                <p>@@text:51:f348e0@@</p>\n\n                <p>@@text:50:480f17@@</p>\n                <ul>\n                    <li>@@text:49:7580d7@@</li>\n                    <li>@@text:48:6eacc5@@</li>\n                    <li>@@text:47:8b5760@@</li>\n                </ul>\n\n                <p>@@text:46:ee2504@@</p>\n\n                <div class=\"hide-small hide-medium\">\n                    @@verbatim:7:2a5d73@@\n                    \n                    <div style=\"text-align: center;\">\n                        <button onclick=\"var ifr=document.getElementsByName('JoukAirfoil')[0]; ifr.src=ifr.src;\"\n                        style=\"cursor: pointer;font-weight: bold;\">Reset</button>\n                    </div>\n                </div>\n\n                <div class=\"hide-large \">\n                    <div w3-include-html=\"fixed_applets_message.html\"></div>\n                </div>\n\n            </div>\n\n\n        </article>\n    </main>\n\n\n    @@verbatim:2:0e41aa@@\n    @@verbatim:5:a65006@@\n    @@verbatim:6:62a14d@@\n    @@verbatim:3:034df7@@\n\n    <a href=\"bibliography.html\" style=\"text-decoration: none;\">\n        <p class=\"nextPage\">@@text:45:e9eed8@@</p>\n    </a>\n    @@verbatim:4:dbd533@@\n\n</section>",
+  "_protected_html": "<section data-type=\"chapter\" id=\"joukowsky-airfoil\">\n\n    @@verbatim:0:4879c8@@\n\n    <div w3-include-html=\"small_screen_message.html\"></div>\n\n    <div class=\"toc-chapter\" id=\"toc-chapter\">\n        <p><i class=\"fa-solid fa-list\"></i>Contents</p>\n        <ul>\n            <li><a href=\"#section1\">The Joukowsky map</a></li>\n            <li><a href=\"#section2\">Flow around the Joukowsky airfoil</a></li>\n            @@verbatim:1:a8206b@@\n        </ul>\n    </div>\n\n    <br><br>\n\n\n    <main>\n        <article>\n\n            <h1>Joukowsky Airfoil</h1>\n            <hr>\n\n            <div id=\"section1\">\n\n                <h2>The Joukowsky map</h2>\n\n                <p>A well known example of a conformal function is the <em>Joukowsky map</em>\n                    @@math:8:ad1e15@@\n                    It was first used in the study of flow around airplane wings by the pioneering\n                    Russian aero and hydrodynamics researcher\n                    <a href=\"http://mathshistory.st-andrews.ac.uk/Biographies/Zhukovsky.html\" target=\"_blank\">Nikolai\n                        Zhukovskii</a> (Joukowsky).\n                </p>\n\n                <p>Since\n                <div class=\"scroll-wrapper\">\n                    @@math:10:68ffb4@@\n                </div>\n                the function (\\ref{jouk}) is conformal except at the critical\n                points @@math:14:22db27@@ as well as the singularity @@math:15:1e3367@@ where it is\n                not defined.\n                </p>\n\n                <p>If @@math:16:8f5f2d@@\n                    lies on the unit circle, then\n                    @@math:11:e8167d@@\n                    lies on the real axis, with @@math:17:6a178d@@ Thus,\n                    the Joukowsky map squashes the unit circle\n                    down to the real line segment @@math:18:ee5379@@ The images of\n                    points outside the unit circle fill the\n                    rest of the @@math:19:d43945@@ plane, as do the images of the (nonzero) points\n                    inside the unit circle. Indeed,\n                    if we solve (\\ref{jouk}) for @@math:20:f80dfd@@ we have\n                    @@math:12:1f290c@@\n                    We see that every @@math:21:bec56c@@ except @@math:22:e46ea0@@ comes from two different\n                    points @@math:23:e33eab@@; for @@math:24:ac5f5e@@ not on the critical\n                    line segment @@math:25:274a31@@ one point (with the minus sign) lies\n                    inside and one (with the plus\n                    sign) lies outside the unit circle, whereas if @@math:26:742cca@@\n                    both points lie on the unit circle\n                    and a common vertical line.</p>\n\n                <p>Therefore, the Joukowski map\n                    defines a one-to-one conformal mapping from @@math:27:cea2e2@@ the exterior of the\n                    unit circle, onto the exterior of the line segment @@math:28:c20978@@ i. e.\n                    @@math:29:47944f@@\n                </p>\n\n                <p>In Figure 4 we can observe that the concentric circles @@math:30:26a9fb@@\n                    are mapped to ellipses with foci at @@math:31:bac00d@@ in the @@math:32:a9a872@@-plane.\n                </p>\n\n                <figure>\n                    <img src=\"../images/chp06/map-circle.png\" alt=\"MapJ\" title=\"JMap\"\n                        style=\"width:90%;\">\n                    <figcaption>\n                        The Joukowsky map applied to @@math:33:215a25@@\n                    </figcaption>\n                </figure>\n\n                <p>The effect on circles not centered at the origin is more interesting.\n                    The image curves take in a wide variety of shapes.\n                    When the circle passes through the singular point @@math:34:91f1b2@@\n                    then its image is no longer smooth, but has a cusp at @@math:35:f31d1f@@ and when\n                    the circle passes through @@math:36:b3d32f@@ the\n                    cusp is at @@math:37:6f9d50@@\n                    Some of the image curves assume the shape of the famous\n                    cross-section through an idealized\n                    airplane wing or <em>airfoil</em>, also known as the <em>Joukowsky airfoil</em>.</p>\n\n                <p>\n                    You can explore the Joukowsky map in the applet below. Drag around the center of\n                    the circle. Drag sliders to apply the mapping or change the radius. Click button\n                    to see predefined values.\n                </p>\n\n                <div class=\"ggbElement\" id=\"ggb-element\"></div>\n\n            </div>\n\n            <hr>\n\n            <div id=\"section2\">\n\n                <h2>Flow around the Joukowsky airfoil</h2>\n\n                <p>Consider now the uniform flow around the unit circle with\n                    circulation @@math:38:e447cf@@ and speed @@math:39:f2890c@@ given by the complex potential\n                    @@math:9:5b6d78@@\n                </p>\n\n\n                <p>We can use the linear transformation\n                    @@math:13:e3be5a@@\n                    to map this flow around @@math:40:71f6e9@@ onto the\n                    flow around the circle @@math:41:986655@@ with center @@math:42:9fa984@@ and\n                    radius @@math:43:1ceafc@@ </p>\n\n                <p>Finally, by applying the Joukowsky map\n                    (\\ref{jouk}), we can obtain a uniform flow with circulation\n                    around the <em>Joukowsky airfoil</em>.\n                </p>\n\n                <p>The following simulation shows the uniform flow past the circular cylinder\n                    @@math:44:71be87@@ and its transformation to the <em>Joukowsky airfoil</em>.\n                    Drag the sliders to explore:</p>\n                <ul>\n                    <li>Slider U = speed.</li>\n                    <li>Slider C = circulation.</li>\n                    <li>Slider T = apply transformation.</li>\n                </ul>\n\n                <p>Press the <code>Trace</code> button to show <em>streamlines</em>.</p>\n\n                <div class=\"hide-small hide-medium\">\n                    @@verbatim:7:2a5d73@@\n                    \n                    <div style=\"text-align: center;\">\n                        <button onclick=\"var ifr=document.getElementsByName('JoukAirfoil')[0]; ifr.src=ifr.src;\"\n                        style=\"cursor: pointer;font-weight: bold;\">Reset</button>\n                    </div>\n                </div>\n\n                <div class=\"hide-large \">\n                    <div w3-include-html=\"fixed_applets_message.html\"></div>\n                </div>\n\n            </div>\n\n\n        </article>\n    </main>\n\n\n    @@verbatim:2:0e41aa@@\n    @@verbatim:5:a65006@@\n    @@verbatim:6:62a14d@@\n    @@verbatim:3:034df7@@\n\n    <a href=\"bibliography.html\" style=\"text-decoration: none;\">\n        <p class=\"nextPage\">Bibliography <i class=\"fa-solid fa-angles-right\"></i></p>\n    </a>\n    @@verbatim:4:dbd533@@\n\n</section>"
+}
